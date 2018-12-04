@@ -5,37 +5,28 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Windows mongo path: "C:\Program Files\MongoDB\Server\4.0\bin\mongo.exe"
 
-## TO SETUP LOCAL ENVIRONMENT VARIABLE FOR MONGODB.
 
-Create an mLab username and password.
-
-### For Mac/Linux users, you can simply type:
-
-export MONGOLAB_URI="mongodb://<dbuser>:<dbpassword>@ds129600.mlab.com:29600/startupvermont"
-
-### For Windows users:
-
-SET MONGOLAB_URI=mongodb://<dbuser>:<dbpassword>@ds129600.mlab.com:29600/startupvermont
-
-
-#### After setting the Environment variables you need to call the Environment Variable into your code. You can do it by typing this
-
-var url = process.env.MONGOLAB_URI;
-
-Now your MongoDb url is inserted into your code safely. You can now commit it and deploy it to your heroku.
 
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm run dev`
 
-Runs the app in the development mode.<br>
+Runs the app in development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
+
+## `npm start`
+
+Runs the app in production mode.<br>
+Open <http://localhost:5000> to view it in the browser.
+
+This page will not automatically reload when edits are made.<br>
+You will need to run `npm run build` after making a change.
 
 ### `npm test`
 
