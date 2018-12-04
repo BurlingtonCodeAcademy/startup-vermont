@@ -1,6 +1,8 @@
 #map {
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: 100%;
+  align-self: center;
   position: relative;
-
+  margin: 10px;
+  border-radius: 5px;
 }

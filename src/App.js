@@ -5,6 +5,7 @@ import Map from './Map.js';
 import './App.css';
 
 
+
 class App extends Component {
   render() {
     return (
@@ -14,6 +15,7 @@ class App extends Component {
         </header>
         <div id="grid-container">
           <div id="startup-list">
+          <h1>Startups in VT:</h1>
             <Startup />
             <Startup />
             <Startup />
@@ -22,11 +24,12 @@ class App extends Component {
             <Startup />
             <Startup />
             <Startup />
-
           </div>
+
           <div id="startup-map">
             <Map />
           </div>
+
         </div>
       </div>
     );
