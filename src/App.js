@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import Startup from './Startup.js';
 import './App.css';
+
 
 class App extends Component {
   render() {
@@ -10,16 +12,10 @@ class App extends Component {
         </header>
         <div id="grid-container">
           <div id="startup-list">
-            <div class="startup-info">
-            <h1>Burlington Code Academy</h1>
-            <h4>Burlington, VT</h4>
-            <p>
-            Coding Bootcamp<br /><br />
-            <i>Educating future computer scientists in Javascript</i></p>
-            
-            </div>
+            <Startup />
           </div>
-          <div id="startup-map"></div>
+          <div id="startup-map">
+          </div>
         </div>
       </div>
     );
