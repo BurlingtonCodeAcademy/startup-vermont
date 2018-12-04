@@ -7,19 +7,20 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
         </header>
+        <div id="grid-container">
+          <div id="startup-list">
+            <div class="startup-info">
+            <h1>Burlington Code Academy</h1>
+            <h4>Burlington, VT</h4>
+            <p>
+            Coding Bootcamp<br /><br />
+            <i>Educating future computer scientists in Javascript</i></p>
+            
+            </div>
+          </div>
+          <div id="startup-map"></div>
+        </div>
       </div>
     );
   }
