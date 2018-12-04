@@ -3,6 +3,7 @@ track and visualize startup activity in Vermont
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# TO SETUP LOCAL ENVIRONMENT VARIABLE FOR MONGODB.
 Create an mLab username and password.
 
 For Mac/Linux users, you can simply type:
