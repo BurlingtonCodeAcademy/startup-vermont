@@ -3,7 +3,10 @@ track and visualize startup activity in Vermont
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Windows mongo path: "C:\Program Files\MongoDB\Server\4.0\bin\mongo.exe"
+
 ## TO SETUP LOCAL ENVIRONMENT VARIABLE FOR MONGODB.
+
 Create an mLab username and password.
 
 ### For Mac/Linux users, you can simply type:
@@ -20,7 +23,6 @@ SET MONGOLAB_URI=mongodb://<dbuser>:<dbpassword>@ds129600.mlab.com:29600/startup
 var url = process.env.MONGOLAB_URI;
 
 Now your MongoDb url is inserted into your code safely. You can now commit it and deploy it to your heroku.
-
 
 
 ## Available Scripts
