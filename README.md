@@ -5,8 +5,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Windows mongo path: "C:\Program Files\MongoDB\Server\4.0\bin\mongo.exe"
 
+## Add heroku remote
 
-
+run `git remote add heroku https://git.heroku.com/serene-shelf-38593.git` <br>
+To push changes run `git push heroku master`
 
 ## Available Scripts
 
