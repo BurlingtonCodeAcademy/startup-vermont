@@ -14,13 +14,14 @@ export MONGOLAB_URI="mongodb://<dbuser>:<dbpassword>@ds129600.mlab.com:29600/sta
 
 SET MONGOLAB_URI=mongodb://<dbuser>:<dbpassword>@ds129600.mlab.com:29600/startupvermont
 
-After setting the Environment variables you need to call the Environment Variable into your code. You can do it by typing this
+
+#### After setting the Environment variables you need to call the Environment Variable into your code. You can do it by typing this
 
 var url = process.env.MONGOLAB_URI;
 
 Now your MongoDb url is inserted into your code safely. You can now commit it and deploy it to your heroku.
 
-If you need more help how to deploy into Heroku you can refer this Wiki
+
 
 ## Available Scripts
 
