@@ -3,14 +3,14 @@ track and visualize startup activity in Vermont
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# TO SETUP LOCAL ENVIRONMENT VARIABLE FOR MONGODB.
+## TO SETUP LOCAL ENVIRONMENT VARIABLE FOR MONGODB.
 Create an mLab username and password.
 
-For Mac/Linux users, you can simply type:
+### For Mac/Linux users, you can simply type:
 
 export MONGOLAB_URI="mongodb://<dbuser>:<dbpassword>@ds129600.mlab.com:29600/startupvermont"
 
-For Windows users:
+### For Windows users:
 
 SET MONGOLAB_URI=mongodb://<dbuser>:<dbpassword>@ds129600.mlab.com:29600/startupvermont
 
