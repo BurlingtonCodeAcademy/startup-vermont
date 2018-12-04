@@ -1,12 +1,17 @@
 
 .startup-info {
-  background-color: lightgray;
+  background-color: white;
   border-radius: 5px;
   padding: 10px;
   text-align: left;
   margin: 15px;
 }
+.startup-info:hover {
+  background-color: lightgray;
+}
 
-h1 {
-  font-size: 24px;
+.startup-names {
+  font-size: 18px;
+  color: green;
+  line-height: 0px;
 }
