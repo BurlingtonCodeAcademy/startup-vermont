@@ -3,6 +3,24 @@ track and visualize startup activity in Vermont
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Create an mLab username and password.
+
+For Mac/Linux users, you can simply type:
+
+export MONGOLAB_URI="mongodb://<dbuser>:<dbpassword>@ds129600.mlab.com:29600/startupvermont"
+
+For Windows users:
+
+SET MONGOLAB_URI=mongodb://<dbuser>:<dbpassword>@ds129600.mlab.com:29600/startupvermont
+
+After setting the Environment variables you need to call the Environment Variable into your code. You can do it by typing this
+
+var url = process.env.MONGOLAB_URI;
+
+Now your MongoDb url is inserted into your code safely. You can now commit it and deploy it to your heroku.
+
+If you need more help how to deploy into Heroku you can refer this Wiki
+
 ## Available Scripts
 
 In the project directory, you can run:
