@@ -10,6 +10,11 @@ Windows mongo path: "C:\Program Files\MongoDB\Server\4.0\bin\mongo.exe"
 run `git remote add heroku https://git.heroku.com/serene-shelf-38593.git` <br>
 To push changes run `git push heroku master`
 
+## MongoDB information
+
+Created mongolab-concave-94972 as MONGOLAB_MAUVE_URI
+Use heroku addons:docs mongolab to view documentation
+
 ## Available Scripts
 
 In the project directory, you can run:
