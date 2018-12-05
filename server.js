@@ -16,7 +16,7 @@ app.get('/test', async (request, response, closeConnection) => {
   const results = await printAll();
   console.log({ results });
   response.send(results);
-  next(closeConnection);
+  closeConnection();
 })
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
@@ -52,15 +52,22 @@ async function companies() {
 
 async function all() {
   let results = await companies();
-  return results.find({}).sort([['name', -1]]);
+  return results.find({}).sort([['name', 1]]);
 }
 
 async function printAll() {
   let cursor = await all();
   let results = [];
   await cursor.forEach(startup => {
-    console.log(startup.name)
-    results.push({ name: startup.name });
+    results.push({
+      name: startup.name, 
+      address: startup.address, 
+      short_description: startup.short_description, 
+      industries: startup.industries, 
+      website: startup.website, 
+      _id: startup._id
+    });
+      
   });
   return results;
 }

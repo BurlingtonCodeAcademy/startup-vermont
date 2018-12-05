@@ -5,14 +5,14 @@ class Startup extends Component {
   render() {
     return (
       <div className="startup-info">
-        <h1 className="startup-names">Burlington Code Academy</h1>
-        <p>Burlington, VT          
+        <h1 className="startup-names">{this.props.name}</h1>
+        <p>{this.props.address}          
           <br />
-          Coding Bootcamp
+          {this.props.industries}
           <br />
-          <i>Educating future computer scientists in Javascript</i>
+          <i>{this.props.short_description}</i>
           <br />
-          <a href="www.burlingtoncodeacademy.com">website</a>
+          <a href={this.props.website}>website</a>
         </p>
       </div>
     )
