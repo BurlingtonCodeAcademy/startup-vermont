@@ -1,9 +1,13 @@
+require('dotenv').config();
+
 const express = require('express')
 const app = express()
 const port = process.env.PORT || 5000
 const MongoClient = require('mongodb').MongoClient;
 const dbName = 'startup-vt';
-const MongoURL = process.env.MONGO_CONNECTION || `mongodb://localhost:27017/${dbName}`;
+
+const dbUrl = process.env.MONGO_URI || process.env.MONGOLAB_MAUVE_URI || `mongodb://localhost:27017/${dbName}`
+
 let connection = null;
 
 app.use(express.static('build'))
@@ -26,12 +30,12 @@ function closeConnection () {
 async function theClient() {
   console.log('calling client')
     // http://mongodb.github.io/node-mongodb-native/3.1/api/MongoClient.html
-    console.log(`Connecting to ${MongoURL}...`);
+    console.log(`Connecting to ${dbUrl}...`);
     if (connection) {
       return connection;
     } else {
       connection = await MongoClient.connect(
-        MongoURL,
+        dbUrl,
         { useNewUrlParser: true }
       );
       console.log("Connected to database.");

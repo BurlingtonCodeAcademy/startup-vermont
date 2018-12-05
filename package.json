@@ -7,7 +7,10 @@
     "express": "^4.16.4",
     "leaflet": "^1.3.4",
     "mongodb": "^3.1.10",
+<<<<<<< HEAD
     "nodemon": "^1.18.7",
+=======
+>>>>>>> af9fc2dace1c710a950f3a6655f55b1bad2518d2
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-scripts": "2.1.1"
