@@ -43,7 +43,7 @@ async function theClient() {
     }
 };
 
-async function collection() {
+async function companies() {
   const client = await theClient();
   const db = client.db(dbName);
   const companies = db.collection('companies');
@@ -51,7 +51,7 @@ async function collection() {
 }
 
 async function all() {
-  let results = await collection();
+  let results = await companies();
   return results.find({}).sort([['name', -1]]);
 }
 
