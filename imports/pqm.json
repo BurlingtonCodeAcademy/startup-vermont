@@ -1,0 +1,389 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "e75d4ca505d8426fbc58d7ae9b2c3592",
+    "properties": {
+      "permalink": "pqm",
+      "permalink_aliases": null,
+      "api_path": "organizations/pqm",
+      "web_path": "organization/pqm",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/pqm",
+      "name": "PQM",
+      "also_known_as": null,
+      "short_description": "PQM is an agriculture comapny.",
+      "description": "PQM is an agriculture comapny.",
+      "profile_image_url": null,
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": "2018-01-01",
+      "founded_on_trust_code": 4,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": null,
+      "num_employees_max": null,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 1400000,
+      "number_of_investments": 0,
+      "homepage_url": null,
+      "contact_email": null,
+      "phone_number": "(802) 989-0014",
+      "rank": 76558,
+      "created_at": 1542690228,
+      "updated_at": 1542690228
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/pqm/primary_image",
+          "sort_order": "not_ordered"
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/pqm/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/pqm/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": []
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/pqm/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/pqm/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/pqm/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/pqm/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/pqm/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/pqm/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/pqm/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "2a914ecc54044c9cac19f8aba97df19f",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "1822 Monkton Road",
+            "street_2": null,
+            "postal_code": "05473",
+            "city": "North Ferrisburg",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1542690228,
+            "updated_at": 1542690228
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/pqm/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "2a914ecc54044c9cac19f8aba97df19f",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "1822 Monkton Road",
+            "street_2": null,
+            "postal_code": "05473",
+            "city": "North Ferrisburg",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1542690228,
+            "updated_at": 1542690228
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/pqm/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/pqm/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "6a733ac8b79ce2d255b9cc3d66435eb6",
+            "properties": {
+              "name": "Agriculture",
+              "web_path": "category/agriculture/6a733ac8b79ce2d255b9cc3d66435eb6",
+              "category_groups": [
+                "Agriculture and Farming"
+              ],
+              "created_at": 1397980727,
+              "updated_at": 1518483550
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "e303e83952d3f2f0b87d757ee8b86b48",
+            "properties": {
+              "name": "Farming",
+              "web_path": "category/farming/e303e83952d3f2f0b87d757ee8b86b48",
+              "category_groups": [
+                "Agriculture and Farming"
+              ],
+              "created_at": 1397980728,
+              "updated_at": 1518483551
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/pqm/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/pqm/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/pqm/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/pqm/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/pqm/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": [
+          {
+            "type": "FundingRound",
+            "uuid": "36e777f14c4f4c94be28afb40f30cb79",
+            "properties": {
+              "permalink": "36e777f14c4f4c94be28afb40f30cb79",
+              "api_path": "funding-rounds/36e777f14c4f4c94be28afb40f30cb79",
+              "web_path": "funding-round/36e777f14c4f4c94be28afb40f30cb79",
+              "api_url": "https://api.crunchbase.com/v3.1/funding-rounds/36e777f14c4f4c94be28afb40f30cb79",
+              "funding_type": "venture",
+              "series": null,
+              "series_qualifier": null,
+              "announced_on": "2018-10-29",
+              "announced_on_trust_code": 7,
+              "closed_on": null,
+              "closed_on_trust_code": null,
+              "money_raised": 1400000,
+              "money_raised_currency_code": "USD",
+              "money_raised_usd": 1400000,
+              "target_money_raised": null,
+              "target_money_raised_currency_code": null,
+              "target_money_raised_usd": null,
+              "pre_money_valuation": null,
+              "pre_money_valuation_currency_code": null,
+              "pre_money_valuation_usd": null,
+              "rank": 3461,
+              "created_at": 1542690301,
+              "updated_at": 1542690301
+            }
+          }
+        ]
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/pqm/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/pqm/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/pqm/acquired_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/pqm/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/pqm/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/pqm/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/pqm/images",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/pqm/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/pqm/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}

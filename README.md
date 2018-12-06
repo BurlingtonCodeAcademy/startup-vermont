@@ -60,3 +60,7 @@ Use `heroku addons:docs mongolab` to view documentation
 ## Miscellaneous
 
 Windows mongo path: "C:\Program Files\MongoDB\Server\4.0\bin\mongo.exe"
+
+## Links
+
+* Crunchbase API: https://data.crunchbase.com/docs/using-the-api
