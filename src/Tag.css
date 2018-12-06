@@ -1,0 +1,40 @@
+.industry {
+  border: green solid 2px;
+  border-radius: 20px;
+  padding: 3px;
+  margin-right: 5px;
+  color: white;
+  background-color: green;
+  display: inline;
+  line-height: 2;
+}
+
+.technology {
+  background-color: orange;
+  border: orange solid 2px;
+}
+
+.education {
+  background-color: teal;
+  border: teal solid 2px;
+}
+.advertising {
+  background-color: fuchsia;
+  border: fuchsia solid 2px;
+}
+.food {
+  background-color: maroon;
+  border: maroon solid 2px;
+}
+.marketing {
+  background-color: cornflowerblue;
+  border: cornflowerblue solid 2px;
+}
+.restaurant {
+  background-color: purple;
+  border: purple solid 2px;
+}
+.tourism {
+  background-color: green;
+  border: green solid 2px;
+}

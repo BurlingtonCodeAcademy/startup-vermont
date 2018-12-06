@@ -5,6 +5,7 @@
   padding: 10px;
   text-align: left;
   margin: 15px;
+
 }
 .startup-info:hover {
   background-color: lightgray;
@@ -13,5 +14,26 @@
 .startup-names {
   font-size: 18px;
   color: green;
-  line-height: 0px;
+  line-height: 1;
+}
+p {
+  line-height: 1rem;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  box-sizing: border-box;
+}
+.industry {
+  border: green solid 2px;
+  border-radius: 20px;
+  padding: 3px;
+  color: white;
+  background-color: green;
+  display: inline;
+  line-height: 2;
+}
+img {
+  height: 70px;
+  float: right;
+  
 }

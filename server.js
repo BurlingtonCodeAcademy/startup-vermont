@@ -62,9 +62,11 @@ async function printAll() {
     results.push({
       name: startup.name, 
       address: startup.address, 
+      city: startup.city,
       short_description: startup.short_description, 
       industries: startup.industries, 
       website: startup.website, 
+      logo_url: startup.logo_url,
       _id: startup._id
     });
       

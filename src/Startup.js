@@ -1,18 +1,28 @@
 import React, { Component } from 'react';
 import './Startup.css';
+import Tag from './Tag.js'
+
 
 class Startup extends Component {
   render() {
+
     return (
       <div className="startup-info">
-        <h1 className="startup-names">{this.props.name}</h1>
-        <p>{this.props.address}          
+        <a href={this.props.website}><img src={this.props.logo_url}></img></a><h1 className="startup-names">{this.props.name.toUpperCase()}</h1>
+        <p>
+          <i><strong>{this.props.short_description.toLowerCase()}</strong></i>
           <br />
-          {this.props.industries}
+        </p>
+        <p>
+          {this.props.city} Burlington, Vermont
           <br />
-          <i>{this.props.short_description}</i>
+        </p>
+        <p>
+          {this.props.industries.map(tag => {
+            console.log('tag:' + tag)
+            return <Tag tag={tag} />
+          })}
           <br />
-          <a href={this.props.website}>website</a>
         </p>
       </div>
     )
