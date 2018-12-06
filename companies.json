@@ -1,73 +1,78 @@
-[{
-  "_id": {
-    "$oid": "5c07f3883c48aaee883ceb22"
+[
+  {
+    "_id": {
+      "$oid": "5c07f3883c48aaee883ceb22"
+    },
+    "name": "burlington code academy",
+    "address": "182 Main St, Burlington VT 05401",
+    "date_founded": {
+      "$numberInt": "2018"
+    },
+    "website": "www.burlingtoncodeacademy.com",
+    "industries": [
+      "technology",
+      "education"
+    ],
+    "num_employees": {
+      "$numberInt": "6"
+    },
+    "short_description": "12 week full-stack javascript bootcamp in burlington vermont",
+    "funding": "",
+    "logo_url": "http://public.crunchbase.com/t_api_images/q41bqoxqcgejljf7dalh",
+    "founders": [
+      "benny boas",
+      "alex horner"
+    ],
+    "city": "Burlington"
   },
-  "name": "burlington code academy",
-  "address": "182 Main St, Burlington VT 05401",
-  "date_founded": {
-    "$numberInt": "2018"
+  {
+    "_id": {
+      "$oid": "5c07f43e3c48aaee883ceb23"
+    },
+    "name": "localvore",
+    "address": "47 Maple St, Burlington, VT 05401",
+    "date_founded": {
+      "$numberInt": "2012"
+    },
+    "website": "localvore.co",
+    "industries": [
+      "advertising",
+      "food",
+      "marketing"
+    ],
+    "employees": {
+      "$numberInt": "30"
+    },
+    "short_description": "Localvore is a social media for food and promotional platform for local businesses.",
+    "funding": "",
+    "logo_url": "https://pbs.twimg.com/profile_images/892759108650229760/s349q7jN_400x400.jpg",
+    "founders": [
+      "Dan White",
+      "Harry Potter"
+    ],
+    "city": "Burlington"
   },
-  "website": "www.burlingtoncodeacademy.com",
-  "industries": [
-    "technology",
-    "education"
-  ],
-  "num_employees": {
-    "$numberInt": "6"
-  },
-  "short_description": "12 week full-stack javascript bootcamp in burlington vermont",
-  "funding": "",
-  "logo_url": "http://public.crunchbase.com/t_api_images/q41bqoxqcgejljf7dalh",
-  "founders": [
-    "benny boas",
-    "alex horner"
-  ]
-},
-{
-  "_id": {
-    "$oid": "5c07f43e3c48aaee883ceb23"
-  },
-  "name": "localvore",
-  "address": "47 Maple St, Burlington, VT 05401",
-  "date_founded": {
-    "$numberInt": "2012"
-  },
-  "website": "localvore.co",
-  "industries": [
-    "advertising",
-    "food",
-    "marketing"
-  ],
-  "employees": {
-    "$numberInt": "30"
-  },
-  "short_description": "Localvore is a social media for food and promotional platform for local businesses.",
-  "funding": "",
-  "logo_url": "http://public.crunchbase.com/t_api_images/q41bqoxqcgejljf7dalh",
-  "founders": [
-    "Dan White",
-    "Harry Potter"
-  ]
-},
-{
-  "_id": {
-    "$oid": "5c0828d23c48aaee883ceb24"
-  },
-  "name": "miso hungry",
-  "address": "jay peak road, jay, vt",
-  "date_founded": "2016",
-  "website": "www.misohungryramen.com",
-  "industries": [
-    "restaurant",
-    "food and beverage",
-    "tourism"
-  ],
-  "employees": "10",
-  "short_description": "serving authentic japanese ramen in the northeast kingdom",
-  "funding": "",
-  "logo_url": "http://public.crunchbase.com/t_api_images/q41bqoxqcgejljf7dalh",
-  "founders": [
-    "Jordan Antonucci",
-    "Momo SuperAwesome"
-  ]
-}]
+  {
+    "_id": {
+      "$oid": "5c0828d23c48aaee883ceb24"
+    },
+    "name": "miso hungry",
+    "address": "jay peak road, jay, vt",
+    "date_founded": "2016",
+    "website": "www.misohungryramen.com",
+    "industries": [
+      "restaurant",
+      "food and beverage",
+      "tourism"
+    ],
+    "employees": "10",
+    "short_description": "serving authentic japanese ramen in the northeast kingdom",
+    "funding": "",
+    "logo_url": "https://jaypeakresort.com/sites/default/files/styles/medium/public/media-images/2017-08/MISO.HUNGRY_SIGN_91x25.png?itok=PFAq3uUl",
+    "founders": [
+      "Jordan Antonucci",
+      "Momo SuperAwesome"
+    ],
+    "city": "Jay"
+  }
+]

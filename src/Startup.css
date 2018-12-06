@@ -33,7 +33,7 @@ p {
   line-height: 2;
 }
 img {
-  height: 70px;
+  width: 75px;
   float: right;
-  
+  overflow: hidden;
 }
