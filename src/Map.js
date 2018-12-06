@@ -20,11 +20,18 @@ class Map extends Component {
     vermont.addTo(this.map);
     vermont.setStyle({fillColor: '#048229', fillOpacity: '0.0005', color: '#048229'})
 
-
   }
   componentWillUnmount() {
     this.map = null;
   };
+
+  createMarkerLayer(){
+    let markerLayer;
+    this.props.startups.map(startup => {
+      markerLayer.push(Leaflet.marker(startup.address).bindPopup());
+    })
+    markerLayer.addTo(this.map);
+  }
 
   render (){
     return(
