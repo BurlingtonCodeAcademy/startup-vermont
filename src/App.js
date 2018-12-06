@@ -14,7 +14,7 @@ class App extends Component {
     };
   }
   componentDidMount() {
-    fetch(`/test`)
+    fetch(`/startups`)
       .then(response => response.json())
       .then(data => this.setState({ startups: data }))
       .catch(() => this.setState({ status: "Failed to fetch content" }));
