@@ -1,4 +1,4 @@
-{
+[{
   "_id": {
     "$oid": "5c07f3883c48aaee883ceb22"
   },
@@ -22,7 +22,7 @@
     "benny boas",
     "alex horner"
   ]
-}
+},
 {
   "_id": {
     "$oid": "5c07f43e3c48aaee883ceb23"
@@ -48,7 +48,7 @@
     "Dan White",
     "Harry Potter"
   ]
-}
+},
 {
   "_id": {
     "$oid": "5c0828d23c48aaee883ceb24"
@@ -70,4 +70,4 @@
     "Jordan Antonucci",
     "Momo SuperAwesome"
   ]
-}
+}]
