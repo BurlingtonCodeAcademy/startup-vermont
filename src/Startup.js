@@ -14,7 +14,7 @@ class Startup extends Component {
           <br />
         </p>
         <p>
-          {this.props.city} Burlington, Vermont
+          {this.props.city}, Vermont
           <br />
         </p>
         <p>
