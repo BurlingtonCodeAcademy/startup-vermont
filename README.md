@@ -16,7 +16,11 @@ then create a personalized `.env` file containing
 
 ```
 MONGODB_URI=mongodb://localhost:27017/startup-vermont
+CRUNCH_KEY=123456789
 ```
+
+(but using a real, secret Crunchbase API key, of course)
+
 
 ## Troubleshooting
 

@@ -1,5 +1,7 @@
 require('dotenv').config();
 
+const fetch = require('node-fetch');
+
 const MongoClient = require('mongodb').MongoClient;
 const dbName = 'startup-vt';
 
@@ -26,7 +28,8 @@ function getdata(changePage) {
     .then((data) => {
       let itemsRemoved = 0
       let objectsArray = []
-      console.log(data.data)
+      console.log("Received data:")
+      console.log(data)
       meta = data.metadata
       index = 1
       for (let company of data.data.items) {
