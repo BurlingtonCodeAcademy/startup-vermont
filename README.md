@@ -3,54 +3,66 @@ track and visualize startup activity in Vermont
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Windows mongo path: "C:\Program Files\MongoDB\Server\4.0\bin\mongo.exe"
 
-## Add heroku remote
+## Setup
 
-run `git remote add heroku https://git.heroku.com/serene-shelf-38593.git` <br>
-To push changes run `git push heroku master`
+First, get a MongoDB: either
+  * [download and install MongoDB locally](https://www.mongodb.com/download-center/community)
+  * or use [Homebrew on MacOS](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/)
+  * or get [your own personal cloud MongoDB](https://mlab.com/plans/pricing/#plan-type=sandbox) from mLab
 
-## MongoDB information
+Next, clone the project and install dependencies:
 
-Created mongolab-concave-94972 as MONGOLAB_MAUVE_URI
-Use heroku addons:docs mongolab to view documentation
+```
+git clone git@github.com:BurlingtonCodeAcademy/startup-vermont.git
+cd startup-vermont
+npm install
+```
 
-## Available Scripts
+Then create a personalized `.env` file in the project dir containing
 
-In the project directory, you can run:
+```
+MONGODB_URI=mongodb://localhost:27017/startup-vermont
+CRUNCH_KEY=123456789
+```
 
-### `npm run dev`
+(but using a real, secret Crunchbase API key, of course)
 
-Runs the app in development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Troubleshooting
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+|Symptom|Solution|
+|---|---|
+|`Could not proxy request /test from localhost:3000 to http://localhost:5000` | run your server with `npm start` in a separate terminal window |
 
-## `npm start`
+## Development
 
-Runs the app in production mode.<br>
-Open <http://localhost:5000> to view it in the browser.
+From the project directory, you can run:
 
-This page will not automatically reload when edits are made.<br>
-You will need to run `npm run build` after making a change.
+|Command|Description|
+|---|---|
+| `npm start` | Runs the app in production mode.<br> Open <http://localhost:5000> to view it in the browser. This page will **not** automatically reload when edits are made. You may need to run `npm run build` after making a change. |
+|`npm run dev` | Runs the app in development mode. <br> Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload if you make edits. <br> You will also see any lint errors in the console. <br> You must run the server too! Launch `npm start` in a separate terminal. |
+| `npm test` | Launches the test runner in the interactive watch mode.<br> See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information. |
+| `npm run build` | Builds the app for production to the `build` folder.<br> It correctly bundles React in production mode and optimizes the build for the best performance. See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information. |
+|`npm run eject` | don't run this! [read here](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#npm-run-eject) for more info |
+|`npm run import` | import data from Crunchbase... work in progress |
+|`npm run seed` | import data from local seed JSON file... work in progress |
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Deployment
 
-### `npm run build`
+### Add heroku remote
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* run `git remote add heroku https://git.heroku.com/serene-shelf-38593.git`
+* to push changes run `git push heroku master`
+* our mLab MongoDB URL is in the MONGOLAB_MAUVE_URI environment var
+* Use `heroku addons:docs mongolab` to view documentation
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+## Miscellaneous
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Windows mongo path: "C:\Program Files\MongoDB\Server\4.0\bin\mongo.exe"
 
-### `npm run eject`
+## Links
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
@@ -70,3 +82,6 @@ imports the data from seed/companies.js
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+* Crunchbase API: https://data.crunchbase.com/docs/using-the-api
+* [MongoDB Docs](https://docs.mongodb.com/manual)
+* MongoDB NodeJS [Driver Docs](http://mongodb.github.io/node-mongodb-native/3.1/) and [Driver API Docs](http://mongodb.github.io/node-mongodb-native/3.1/api/)

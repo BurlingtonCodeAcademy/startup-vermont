@@ -1,0 +1,532 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "e120191323004ab48858ffa471db093a",
+    "properties": {
+      "permalink": "vetriscience",
+      "permalink_aliases": null,
+      "api_path": "organizations/vetriscience",
+      "web_path": "organization/vetriscience",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/vetriscience",
+      "name": "VetriScience",
+      "also_known_as": null,
+      "short_description": "VetriScience aims to provide veterinarians with products backed by science to complement traditional therapies.",
+      "description": "VetriScience® Laboratories aims is to provide veterinarians with powerful products backed by science to complement traditional therapies. They are committed to using pure and highly researched ingredients in products that are safe, effective, and developed by vets for vets.\n\nVetriScience® Laboratories, a division of FoodScience® Corporation (FSC), has led the way in the animal health industry with the formulation of nutritional supplements for companion animals since our company was founded. For over 40 years, VetriScience® has been setting new standards of quality and safety in products for companion animals.",
+      "profile_image_url": "http://public.crunchbase.com/t_api_images/q41bqoxqcgejljf7dalh",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": "1973-01-01",
+      "founded_on_trust_code": 4,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": 251,
+      "num_employees_max": 500,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": "https://www.vetriscience.com/",
+      "contact_email": "international@foodsciencecorp.com",
+      "phone_number": "1.800.882.9993",
+      "rank": 422019,
+      "created_at": 1542643011,
+      "updated_at": 1542643011
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vetriscience/primary_image",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Image",
+          "uuid": "e120191323004ab48858ffa471db093a",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/q41bqoxqcgejljf7dalh",
+            "asset_url": "http://public.crunchbase.com/t_api_images/q41bqoxqcgejljf7dalh",
+            "content_type": "q41bqoxqcgejljf7dalh",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1542643011,
+            "updated_at": 1542643011
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vetriscience/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vetriscience/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "a8f7c5d8a5784a5fb2eacc5e12be9893",
+            "properties": {
+              "title": "Sales Manager",
+              "started_on": "2018-10-01",
+              "started_on_trust_code": 6,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1542643109,
+              "updated_at": 1542643109
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "2725c8ba09904deab64c991d16df7826",
+                "properties": {
+                  "permalink": "kelley-lucarell",
+                  "permalink_aliases": null,
+                  "api_path": "people/kelley-lucarell",
+                  "web_path": "person/kelley-lucarell",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/kelley-lucarell",
+                  "first_name": "Kelley",
+                  "last_name": "Lucarell",
+                  "gender": null,
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/z7si5hnc0buyxh6kp4ym",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 411675,
+                  "created_at": 1542643109,
+                  "updated_at": 1542643109
+                }
+              }
+            }
+          }
+        ]
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vetriscience/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "a8f7c5d8a5784a5fb2eacc5e12be9893",
+            "properties": {
+              "title": "Sales Manager",
+              "started_on": "2018-10-01",
+              "started_on_trust_code": 6,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1542643109,
+              "updated_at": 1542643109
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "2725c8ba09904deab64c991d16df7826",
+                "properties": {
+                  "permalink": "kelley-lucarell",
+                  "permalink_aliases": null,
+                  "api_path": "people/kelley-lucarell",
+                  "web_path": "person/kelley-lucarell",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/kelley-lucarell",
+                  "first_name": "Kelley",
+                  "last_name": "Lucarell",
+                  "gender": null,
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/z7si5hnc0buyxh6kp4ym",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 411675,
+                  "created_at": 1542643109,
+                  "updated_at": 1542643109
+                }
+              }
+            }
+          }
+        ]
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vetriscience/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vetriscience/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vetriscience/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vetriscience/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vetriscience/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vetriscience/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "c3bf43ce9cb3467f877df31bd4c59a9b",
+          "properties": {
+            "name": "HQ",
+            "street_1": null,
+            "street_2": null,
+            "postal_code": null,
+            "city": "Williston",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1542643011,
+            "updated_at": 1542643011
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vetriscience/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "c3bf43ce9cb3467f877df31bd4c59a9b",
+          "properties": {
+            "name": "HQ",
+            "street_1": null,
+            "street_2": null,
+            "postal_code": null,
+            "city": "Williston",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1542643011,
+            "updated_at": 1542643011
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vetriscience/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vetriscience/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "3278dd739e1726cd11ef1d5b99a6cea4",
+            "properties": {
+              "name": "Pet",
+              "web_path": "category/pet/3278dd739e1726cd11ef1d5b99a6cea4",
+              "category_groups": [
+                "Community and Lifestyle"
+              ],
+              "created_at": 1457032202,
+              "updated_at": 1518483537
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "3f21415b57846be63722eb189190b7cd",
+            "properties": {
+              "name": "Health Care",
+              "web_path": "category/health-care/3f21415b57846be63722eb189190b7cd",
+              "category_groups": [
+                "Health Care"
+              ],
+              "created_at": 1397980726,
+              "updated_at": 1518483550
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "f0752dacb35189d6ff07a1dc47d5ffc3",
+            "properties": {
+              "name": "Veterinary",
+              "web_path": "category/veterinary/f0752dacb35189d6ff07a1dc47d5ffc3",
+              "category_groups": [
+                "Health Care"
+              ],
+              "created_at": 1397980728,
+              "updated_at": 1518483551
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vetriscience/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vetriscience/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vetriscience/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vetriscience/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vetriscience/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vetriscience/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vetriscience/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vetriscience/acquired_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vetriscience/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vetriscience/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vetriscience/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "e120191323004ab48858ffa471db093a",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "https://www.vetriscience.com/",
+              "created_at": 1542643011,
+              "updated_at": 1542643011
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "e120191323004ab48858ffa471db093a",
+            "properties": {
+              "website_type": "facebook",
+              "website_name": "facebook",
+              "url": "https://www.facebook.com/vetrisciencepro",
+              "created_at": 1542643011,
+              "updated_at": 1542643011
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "e120191323004ab48858ffa471db093a",
+            "properties": {
+              "website_type": "twitter",
+              "website_name": "twitter",
+              "url": "https://twitter.com/VetriScience",
+              "created_at": 1542643011,
+              "updated_at": 1542643011
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "e120191323004ab48858ffa471db093a",
+            "properties": {
+              "website_type": "linkedin",
+              "website_name": "linkedin",
+              "url": "https://www.linkedin.com/company/vetriscience-laboratories/",
+              "created_at": 1542643011,
+              "updated_at": 1542643011
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vetriscience/images",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Image",
+            "uuid": "e120191323004ab48858ffa471db093a",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/q41bqoxqcgejljf7dalh",
+              "asset_url": "http://public.crunchbase.com/t_api_images/q41bqoxqcgejljf7dalh",
+              "content_type": "q41bqoxqcgejljf7dalh",
+              "height": null,
+              "width": null,
+              "filesize": null,
+              "created_at": 1542643011,
+              "updated_at": 1542643011
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vetriscience/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vetriscience/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}

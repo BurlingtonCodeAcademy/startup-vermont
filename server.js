@@ -19,7 +19,7 @@ app.get('/test', async (request, response, closeConnection) => {
   closeConnection();
 })
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`));
+app.listen(port, () => console.log(`Startup-Vermont app listening on port ${port}!`));
 
 function closeConnection () {
   console.log('CLOSE CONNECTION')
