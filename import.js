@@ -1,15 +1,17 @@
 require('dotenv').config();
 
-let pageNumber = 1
+const MongoClient = require('mongodb').MongoClient;
+const dbName = 'startup-vt';
+
+const dbUrl = process.env.MONGO_URI || process.env.MONGOLAB_MAUVE_URI || `mongodb://localhost:27017/${dbName}`
+
+let connection = null;
+
+getdata();
+
 function getdata(changePage) {
-  let dataDiv = document.getElementById('data')
-  if (changePage == 'up') {
-    pageNumber++
-  } else if (changePage == 'down') {
-    if (pageNumber > 1) {
-      pageNumber--
-    }
-  }
+
+  let pageNumber = 1
 
   let crunchKey = process.env.CRUNCH_KEY // works!!
 
@@ -17,7 +19,7 @@ function getdata(changePage) {
 
   let odmUrl = `https://api.crunchbase.com/v3.1/odm-organizations?locations=vermont&page=${pageNumber}&items_per_page=200&user_key=${crunchKey}`
 
-  fetch(odmUrl)
+  fetch(crunchUrl)
     .then((response) => {
       return response.json()
     })
@@ -26,7 +28,6 @@ function getdata(changePage) {
       let objectsArray = []
       console.log(data.data)
       meta = data.metadata
-      dataDiv.innerHTML = JSON.stringify(meta) + `<br> Page ${pageNumber}: <br><br>`
       index = 1
       for (let company of data.data.items) {
         let companyObject = {
@@ -39,13 +40,6 @@ function getdata(changePage) {
         companyObject.short_description = company.properties.short_description
         companyObject.website = company.properties.homepage_url
         companyObject.logo_url = company.properties.profile_image_url
-
-
-
-        dataDiv.innerHTML += '<div>Name: ' +
-          JSON.stringify(company.properties.name) +
-          '<br>Description: ' + JSON.stringify(company.properties.short_description) +
-          '</div><br>'
         let apiPath = company.properties.api_path
         console.log(`https://api.crunchbase.com/v3.1/` + apiPath + `?user_key=${crunchKey}`)
         fetch(`https://api.crunchbase.com/v3.1/` + apiPath + `?user_key=${crunchKey}`)
@@ -80,6 +74,7 @@ function getdata(changePage) {
             companyObject.founders = companyInfo.data.relationships.founders.items
             objectsArray.push(companyObject)
 
+            console.log(companyObject)
             addCompany(companyObject)
 
             // console.log(objectsArray)
@@ -90,6 +85,38 @@ function getdata(changePage) {
 
 async function addCompany(companyObject) {
 
-  
+  let collection = await companies()
+  console.log("inserting " + companyObject.name)
+  collection.insertOne(companyObject)
+
 }
 
+
+function closeConnection () {
+  console.log('CLOSE CONNECTION')
+  connection.close();
+}
+// Open (or reuse) a connection to the database and
+// return the MongoDB Client.
+async function theClient() {
+  console.log('calling client')
+    // http://mongodb.github.io/node-mongodb-native/3.1/api/MongoClient.html
+    console.log(`Connecting to ${dbUrl}...`);
+    if (connection) {
+      return connection;
+    } else {
+      connection = await MongoClient.connect(
+        dbUrl,
+        { useNewUrlParser: true }
+      );
+      console.log("Connected to database.");
+      return connection;  
+    }
+};
+
+async function companies() {
+  const client = await theClient();
+  const db = client.db(dbName);
+  const companies = db.collection('companies');
+  return companies;
+}
