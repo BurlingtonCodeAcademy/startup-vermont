@@ -8,17 +8,20 @@ class Startup extends Component {
 
     return (
       <div className="startup-info">
-        <a href={this.props.website}><img src={this.props.logo_url}></img></a><h1 className="startup-names">{this.props.name.toUpperCase()}</h1>
+        <a href={this.props.website}><img src={this.props.logo_url}></img></a>
+        <h1 className="startup-names">{this.props.name.toUpperCase()}</h1>
         <p>
           <i><strong>{this.props.short_description.toLowerCase()}</strong></i>
           <br />
         </p>
         <p>
-          {this.props.city}, Vermont
+          {this.props.address.street_1}<br />
+          {this.props.address.street_2}<br />
+          {this.props.address.city}, Vermont
           <br />
         </p>
         <p>
-          {this.props.industries.map(tag => {
+          {this.props.categories && this.props.categories.map(tag => {
             console.log('tag:' + tag)
             return <Tag tag={tag} />
           })}

@@ -12,8 +12,8 @@ let connection = null;
 
 app.use(express.static('build'))
 
-app.get('/test', async (request, response, closeConnection) => {
-  const results = await printAll();
+app.get('/startups', async (request, response, closeConnection) => {
+  const results = await startups();
   console.log({ results });
   response.send(results);
   closeConnection();
@@ -55,9 +55,10 @@ async function all() {
   return results.find({}).sort([['name', 1]]);
 }
 
-async function printAll() {
+async function startups() {
   let cursor = await all();
   let results = [];
+  // todo: use CompanyStore and Company objects
   await cursor.forEach(startup => {
     results.push({
       name: startup.name, 
