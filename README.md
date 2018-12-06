@@ -6,13 +6,20 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Setup
 
+First, get a MongoDB: either
+  * [download and install MongoDB locally](https://www.mongodb.com/download-center/community)
+  * or use [Homebrew on MacOS](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/)
+  * or get [your own personal cloud MongoDB](https://mlab.com/plans/pricing/#plan-type=sandbox) from mLab
+
+Next, clone the project and install dependencies:
+
 ```
 git clone git@github.com:BurlingtonCodeAcademy/startup-vermont.git
 cd startup-vermont
 npm install
 ```
 
-then create a personalized `.env` file containing
+Then create a personalized `.env` file in the project dir containing
 
 ```
 MONGODB_URI=mongodb://localhost:27017/startup-vermont
@@ -20,7 +27,6 @@ CRUNCH_KEY=123456789
 ```
 
 (but using a real, secret Crunchbase API key, of course)
-
 
 ## Troubleshooting
 
@@ -47,20 +53,17 @@ From the project directory, you can run:
 
 ### Add heroku remote
 
-run `git remote add heroku https://git.heroku.com/serene-shelf-38593.git` <br>
-
-To push changes run `git push heroku master`
-
-### MongoDB information
-
-Created mongolab-concave-94972 as MONGOLAB_MAUVE_URI
-
-Use `heroku addons:docs mongolab` to view documentation
+* run `git remote add heroku https://git.heroku.com/serene-shelf-38593.git`
+* to push changes run `git push heroku master`
+* our mLab MongoDB URL is in the MONGOLAB_MAUVE_URI environment var
+* Use `heroku addons:docs mongolab` to view documentation
 
 ## Miscellaneous
 
-Windows mongo path: "C:\Program Files\MongoDB\Server\4.0\bin\mongo.exe"
+* Windows mongo path: "C:\Program Files\MongoDB\Server\4.0\bin\mongo.exe"
 
 ## Links
 
 * Crunchbase API: https://data.crunchbase.com/docs/using-the-api
+* [MongoDB Docs](https://docs.mongodb.com/manual)
+* MongoDB NodeJS [Driver Docs](http://mongodb.github.io/node-mongodb-native/3.1/) and [Driver API Docs](http://mongodb.github.io/node-mongodb-native/3.1/api/)
