@@ -37,7 +37,7 @@ class App extends Component {
           </div>
 
           <div id="startup-map">
-            <Map />
+            <Map startups={this.state.startups}/>
           </div>
 
         </div>
