@@ -65,7 +65,7 @@ async function startups() {
       address: startup.address, 
       city: startup.city,
       short_description: startup.short_description, 
-      industries: startup.industries, 
+      categories: startup.categories, 
       website: startup.website, 
       logo_url: startup.logo_url,
       _id: startup._id

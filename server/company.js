@@ -12,6 +12,7 @@ class Company {
         this.website = properties.homepage_url;
         this.logo_url = properties.profile_image_url;
         this.apiPath = properties.api_path;
+        
     }
 
     fromOrganizationDetails(organizationDetails) {
@@ -30,7 +31,8 @@ class Company {
         this.founders = organizationDetails.relationships.founders.items
 
         // TODO
-        this.categories = []
+        //this.categories = []
+        this.categories = organizationDetails.relationships.categories.items[0].properties.category_groups[0];
         // this.categories.append(organizationDetails.properties.)
 
 
