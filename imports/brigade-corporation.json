@@ -1,0 +1,812 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "a3cc189d5db4426ccaefe46eddefd0a3",
+    "properties": {
+      "permalink": "brigade-corporation",
+      "permalink_aliases": null,
+      "api_path": "organizations/brigade-corporation",
+      "web_path": "organization/brigade-corporation",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/brigade-corporation",
+      "name": "Brigade Corporation",
+      "also_known_as": null,
+      "short_description": "Brigade Corporation a global provider of business process outsourcing and customer relationship management solutions.",
+      "description": "Since its inception in 1998, Brigade has focused on providing business process outsourcing (BPO) services and knowledge process outsourcing (KPO) services for global corporations. Brigade's global service delivery model provides clients with an opportunity to capture the competitive advantage of global labor markets to dramatically improve business processes while delivering them at substantially lower costs.\r\n\r\nBy leveraging industry's best practices and methodologies such as ISO 9001:2000, ISO 27001:2005 and Six Sigma, Brigade has gained recognition as an expert at planning, implementing, operating and scaling outsourcing solutions in India. Brigade Solutions has over eight years of experience providing services to industry leaders. With a seasoned management team in place, delivery of business transaction services is distributed across multi-site delivery facilities in Hyderabad, India to improve the quality of its deliverables and reduce cost of services.",
+      "profile_image_url": "http://public.crunchbase.com/t_api_images/v1439110105/qhk9gndprmb290uemyme.png",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": "1998-01-01",
+      "founded_on_trust_code": 4,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": 11,
+      "num_employees_max": 50,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 70000000,
+      "number_of_investments": 0,
+      "homepage_url": "http://www.brigadesolutions.com/",
+      "contact_email": "hr@brigadesolutions.com",
+      "phone_number": "847-783-0400",
+      "rank": 228257,
+      "created_at": 1439110108,
+      "updated_at": 1540590597
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/brigade-corporation/primary_image",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Image",
+          "uuid": "a3cc189d5db4426ccaefe46eddefd0a3",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/v1439110105/qhk9gndprmb290uemyme.png",
+            "asset_url": "http://public.crunchbase.com/t_api_images/v1439110105/qhk9gndprmb290uemyme.png",
+            "content_type": "png",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1439110108,
+            "updated_at": 1540590597
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/brigade-corporation/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/brigade-corporation/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": []
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/brigade-corporation/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/brigade-corporation/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/brigade-corporation/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/brigade-corporation/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "uuid": "0790d0a706322d51f7a3cbef5ddc11e0",
+            "properties": {
+              "permalink": "mohr-davidow-ventures",
+              "permalink_aliases": null,
+              "api_path": "organizations/mohr-davidow-ventures",
+              "web_path": "organization/mohr-davidow-ventures",
+              "api_url": "https://api.crunchbase.com/v3.1/organizations/mohr-davidow-ventures",
+              "name": "Mohr Davidow Ventures",
+              "also_known_as": [
+                "MDV"
+              ],
+              "short_description": "The Mohr Davidow team partners with exceptional entrepreneurs and startup teams to build category-leading companies.",
+              "description": "For 30 years the _Mohr Davidow Ventures team has invested in early stage technology-based startups that redefine or create large new markets. They believe that emerging information technology innovations are enabling a decade-long opportunity to invest in the “Era of Digital Engagement,” one in which personal, commercial, and public sector interactions of all kinds will be profoundly reengineered to leverage the power of mobile devices, cloud computing, and data analytics.  The Firm seeks to identify and partner with exceptional entrepreneurs who leverage these technologies to build companies where seamless, deep engagement with customers will create billion dollar markets in a number of different verticals. These verticals include: Digital Marketing, Advertising, & Media, Collaborative Enterprise Applications, The Digitization of Education and Health, Digital Financial Services, E‐commerce & Digital Retail Innovation, Mobile/Web‐Powered “LifeTech.” The Firm also has previous investments in the innovative life sciences & genomics space.\r\n\r\nLeading companies funded by Mohr Davidow Ventures includes: Agile (Acquired by NYSE: ORCL); Aryaka Networks; Brocade; Coupa; Genomatica; HealthTap; Infusionsoft; Kabbage; nLight; ONI Systems (Acquired by NASDAQ: CIEN); Proofpoint (NASDAQ: PFPT); Rally Software (NYSE: RALY); Rocket Fuel (NASDAQ: FUEL); Rambus; Shutterfly (NASDAQ: SFLY); Ticketfly; Verinata Health (Acquired by NASDAQ: ILMN); and Visible Measures. The Firm has $1.85 billion under management.",
+              "profile_image_url": "http://public.crunchbase.com/t_api_images/v1397178549/bc5dad50d9a1d165196867d8555c6a75.png",
+              "primary_role": "investor",
+              "role_company": false,
+              "role_investor": true,
+              "role_group": false,
+              "role_school": false,
+              "investor_type": [
+                "venture_capital"
+              ],
+              "founded_on": "1983-01-01",
+              "founded_on_trust_code": 7,
+              "is_closed": false,
+              "closed_on": null,
+              "closed_on_trust_code": null,
+              "num_employees_min": 1,
+              "num_employees_max": 10,
+              "stock_exchange": null,
+              "stock_symbol": null,
+              "total_funding_usd": 0,
+              "number_of_investments": 294,
+              "homepage_url": "http://www.mdv.com",
+              "contact_email": "info@mdv.com",
+              "phone_number": "(650) 854-7236",
+              "rank": 64094,
+              "created_at": 1401801665,
+              "updated_at": 1540593770
+            }
+          },
+          {
+            "type": "Organization",
+            "uuid": "10a3b2fdb142046b7d8f3b1aa4877aca",
+            "properties": {
+              "permalink": "compaq",
+              "permalink_aliases": null,
+              "api_path": "organizations/compaq",
+              "web_path": "organization/compaq",
+              "api_url": "https://api.crunchbase.com/v3.1/organizations/compaq",
+              "name": "Compaq",
+              "also_known_as": null,
+              "short_description": "Compaq develops and sells computers and related products and services.",
+              "description": "Compaq Computer Corporation was formerly a personal computer company, but is now a brand name of [Hewlett-Packard](http://www.crunchbase.com/organization/hewlett-packard).",
+              "profile_image_url": "http://public.crunchbase.com/t_api_images/v1397191951/b2588afb1a73f3ac87ad77ef76fe4489.jpg",
+              "primary_role": "company",
+              "role_company": true,
+              "role_investor": true,
+              "role_group": false,
+              "role_school": false,
+              "investor_type": null,
+              "founded_on": "1982-02-14",
+              "founded_on_trust_code": 7,
+              "is_closed": false,
+              "closed_on": null,
+              "closed_on_trust_code": null,
+              "num_employees_min": 11,
+              "num_employees_max": 50,
+              "stock_exchange": null,
+              "stock_symbol": null,
+              "total_funding_usd": 1500000,
+              "number_of_investments": 24,
+              "homepage_url": "http://www.compaq.com",
+              "contact_email": null,
+              "phone_number": null,
+              "rank": 91353,
+              "created_at": 1219723398,
+              "updated_at": 1523956255
+            }
+          },
+          {
+            "type": "Organization",
+            "uuid": "8b8d96f89dfeb27a8f577d266a051dc9",
+            "properties": {
+              "permalink": "general-atlantic",
+              "permalink_aliases": null,
+              "api_path": "organizations/general-atlantic",
+              "web_path": "organization/general-atlantic",
+              "api_url": "https://api.crunchbase.com/v3.1/organizations/general-atlantic",
+              "name": "General Atlantic",
+              "also_known_as": null,
+              "short_description": "General Atlantic is a leading global growth equity firm providing capital and strategic support for growth companies.",
+              "description": "General Atlantic is a leading global growth equity firm providing capital and strategic support for growth companies. Established in 1980, General Atlantic combines a collaborative global approach, sector specific expertise, a long-term investment horizon and a deep understanding of growth drivers to partner with great entrepreneurs and management teams to build exceptional businesses worldwide. General Atlantic has more than 100 investment professionals based in New York, Amsterdam, Beijing, Greenwich, Hong Kong, London, Mexico City, Mumbai, Munich, Palo Alto, São Paulo and Singapore.",
+              "profile_image_url": "http://public.crunchbase.com/t_api_images/v1399968592/d5u4nbnnazj4hthmced5.png",
+              "primary_role": "investor",
+              "role_company": false,
+              "role_investor": true,
+              "role_group": false,
+              "role_school": false,
+              "investor_type": [
+                "private_equity_firm"
+              ],
+              "founded_on": "1980-01-01",
+              "founded_on_trust_code": 4,
+              "is_closed": false,
+              "closed_on": null,
+              "closed_on_trust_code": null,
+              "num_employees_min": 251,
+              "num_employees_max": 500,
+              "stock_exchange": null,
+              "stock_symbol": null,
+              "total_funding_usd": 0,
+              "number_of_investments": 175,
+              "homepage_url": "http://www.generalatlantic.com",
+              "contact_email": null,
+              "phone_number": "31206090301",
+              "rank": 531,
+              "created_at": 1253942148,
+              "updated_at": 1543566139
+            }
+          }
+        ]
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/brigade-corporation/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/brigade-corporation/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/brigade-corporation/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "4923c912eb870c9abfbcf906cc4179f6",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "16 Brooke Ln",
+            "street_2": "Suite # 220",
+            "postal_code": "60010",
+            "city": "South Burlington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1449815726,
+            "updated_at": 1518483713
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/brigade-corporation/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "4923c912eb870c9abfbcf906cc4179f6",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "16 Brooke Ln",
+            "street_2": "Suite # 220",
+            "postal_code": "60010",
+            "city": "South Burlington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1449815726,
+            "updated_at": 1518483713
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/brigade-corporation/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 5,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/brigade-corporation/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "1fe278eae44101b930db6c301c0d6fd1",
+            "properties": {
+              "name": "Business Development",
+              "web_path": "category/business-development/1fe278eae44101b930db6c301c0d6fd1",
+              "category_groups": null,
+              "created_at": 1397980726,
+              "updated_at": 1518483535
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "2df4b8215cd541f75a0e6fc0feab2664",
+            "properties": {
+              "name": "Service Industry",
+              "web_path": "category/service-industry/2df4b8215cd541f75a0e6fc0feab2664",
+              "category_groups": null,
+              "created_at": 1457032202,
+              "updated_at": 1518483537
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "59ca1fa9cc207f843c52a6cee0ffe4a8",
+            "properties": {
+              "name": "Outsourcing",
+              "web_path": "category/outsourcing/59ca1fa9cc207f843c52a6cee0ffe4a8",
+              "category_groups": [
+                "Professional Services"
+              ],
+              "created_at": 1397980726,
+              "updated_at": 1518483550
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "86985333a422db8b7d51478c132bfad7",
+            "properties": {
+              "name": "Delivery",
+              "web_path": "category/delivery/86985333a422db8b7d51478c132bfad7",
+              "category_groups": [
+                "Administrative Services"
+              ],
+              "created_at": 1421191120,
+              "updated_at": 1518483551
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "fb98376c283a7d36fd3e65d036d7ef2a",
+            "properties": {
+              "name": "Customer Service",
+              "web_path": "category/customer-service/fb98376c283a7d36fd3e65d036d7ef2a",
+              "category_groups": null,
+              "created_at": 1397980727,
+              "updated_at": 1518483551
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/brigade-corporation/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/brigade-corporation/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/brigade-corporation/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/brigade-corporation/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/brigade-corporation/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": [
+          {
+            "type": "FundingRound",
+            "uuid": "549e10ab3198dacd73443f41d8569a35",
+            "properties": {
+              "permalink": "549e10ab3198dacd73443f41d8569a35",
+              "api_path": "funding-rounds/549e10ab3198dacd73443f41d8569a35",
+              "web_path": "funding-round/549e10ab3198dacd73443f41d8569a35",
+              "api_url": "https://api.crunchbase.com/v3.1/funding-rounds/549e10ab3198dacd73443f41d8569a35",
+              "funding_type": "venture",
+              "series": null,
+              "series_qualifier": null,
+              "announced_on": "2002-02-04",
+              "announced_on_trust_code": 7,
+              "closed_on": null,
+              "closed_on_trust_code": null,
+              "money_raised": 50000000,
+              "money_raised_currency_code": "USD",
+              "money_raised_usd": 50000000,
+              "target_money_raised": null,
+              "target_money_raised_currency_code": null,
+              "target_money_raised_usd": null,
+              "pre_money_valuation": null,
+              "pre_money_valuation_currency_code": null,
+              "pre_money_valuation_usd": null,
+              "rank": 153717,
+              "created_at": 1439110191,
+              "updated_at": 1518477819
+            },
+            "relationships": {
+              "investments": [
+                {
+                  "type": "Investment",
+                  "uuid": "7ff66a3689be2e0d2681d66403ec4009",
+                  "properties": {
+                    "money_invested": null,
+                    "money_invested_currency_code": null,
+                    "money_invested_usd": null,
+                    "is_lead_investor": true,
+                    "announced_on": "2002-02-04",
+                    "announced_on_trust_code": 7,
+                    "created_at": 1439110268,
+                    "updated_at": 1518483233
+                  },
+                  "relationships": {
+                    "investors": {
+                      "type": "Organization",
+                      "uuid": "8b8d96f89dfeb27a8f577d266a051dc9",
+                      "properties": {
+                        "permalink": "general-atlantic",
+                        "permalink_aliases": null,
+                        "api_path": "organizations/general-atlantic",
+                        "web_path": "organization/general-atlantic",
+                        "api_url": "https://api.crunchbase.com/v3.1/organizations/general-atlantic",
+                        "name": "General Atlantic",
+                        "also_known_as": null,
+                        "short_description": "General Atlantic is a leading global growth equity firm providing capital and strategic support for growth companies.",
+                        "description": "General Atlantic is a leading global growth equity firm providing capital and strategic support for growth companies. Established in 1980, General Atlantic combines a collaborative global approach, sector specific expertise, a long-term investment horizon and a deep understanding of growth drivers to partner with great entrepreneurs and management teams to build exceptional businesses worldwide. General Atlantic has more than 100 investment professionals based in New York, Amsterdam, Beijing, Greenwich, Hong Kong, London, Mexico City, Mumbai, Munich, Palo Alto, São Paulo and Singapore.",
+                        "profile_image_url": "http://public.crunchbase.com/t_api_images/v1399968592/d5u4nbnnazj4hthmced5.png",
+                        "primary_role": "investor",
+                        "role_company": false,
+                        "role_investor": true,
+                        "role_group": false,
+                        "role_school": false,
+                        "investor_type": [
+                          "private_equity_firm"
+                        ],
+                        "founded_on": "1980-01-01",
+                        "founded_on_trust_code": 4,
+                        "is_closed": false,
+                        "closed_on": null,
+                        "closed_on_trust_code": null,
+                        "num_employees_min": 251,
+                        "num_employees_max": 500,
+                        "stock_exchange": null,
+                        "stock_symbol": null,
+                        "total_funding_usd": 0,
+                        "number_of_investments": 175,
+                        "homepage_url": "http://www.generalatlantic.com",
+                        "contact_email": null,
+                        "phone_number": "31206090301",
+                        "rank": 531,
+                        "created_at": 1253942148,
+                        "updated_at": 1543566139
+                      }
+                    },
+                    "partners": []
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "FundingRound",
+            "uuid": "65b23db4934c394344876bc639d4d15d",
+            "properties": {
+              "permalink": "65b23db4934c394344876bc639d4d15d",
+              "api_path": "funding-rounds/65b23db4934c394344876bc639d4d15d",
+              "web_path": "funding-round/65b23db4934c394344876bc639d4d15d",
+              "api_url": "https://api.crunchbase.com/v3.1/funding-rounds/65b23db4934c394344876bc639d4d15d",
+              "funding_type": "venture",
+              "series": null,
+              "series_qualifier": null,
+              "announced_on": "2000-02-08",
+              "announced_on_trust_code": 7,
+              "closed_on": null,
+              "closed_on_trust_code": null,
+              "money_raised": 20000000,
+              "money_raised_currency_code": "USD",
+              "money_raised_usd": 20000000,
+              "target_money_raised": null,
+              "target_money_raised_currency_code": null,
+              "target_money_raised_usd": null,
+              "pre_money_valuation": null,
+              "pre_money_valuation_currency_code": null,
+              "pre_money_valuation_usd": null,
+              "rank": 83703,
+              "created_at": 1452503762,
+              "updated_at": 1518477820
+            },
+            "relationships": {
+              "investments": [
+                {
+                  "type": "Investment",
+                  "uuid": "2d2b8318233a7fab21f18202c5a79eb1",
+                  "properties": {
+                    "money_invested": null,
+                    "money_invested_currency_code": null,
+                    "money_invested_usd": null,
+                    "is_lead_investor": true,
+                    "announced_on": "2000-02-08",
+                    "announced_on_trust_code": 7,
+                    "created_at": 1452503800,
+                    "updated_at": 1518483123
+                  },
+                  "relationships": {
+                    "investors": {
+                      "type": "Organization",
+                      "uuid": "10a3b2fdb142046b7d8f3b1aa4877aca",
+                      "properties": {
+                        "permalink": "compaq",
+                        "permalink_aliases": null,
+                        "api_path": "organizations/compaq",
+                        "web_path": "organization/compaq",
+                        "api_url": "https://api.crunchbase.com/v3.1/organizations/compaq",
+                        "name": "Compaq",
+                        "also_known_as": null,
+                        "short_description": "Compaq develops and sells computers and related products and services.",
+                        "description": "Compaq Computer Corporation was formerly a personal computer company, but is now a brand name of [Hewlett-Packard](http://www.crunchbase.com/organization/hewlett-packard).",
+                        "profile_image_url": "http://public.crunchbase.com/t_api_images/v1397191951/b2588afb1a73f3ac87ad77ef76fe4489.jpg",
+                        "primary_role": "company",
+                        "role_company": true,
+                        "role_investor": true,
+                        "role_group": false,
+                        "role_school": false,
+                        "investor_type": null,
+                        "founded_on": "1982-02-14",
+                        "founded_on_trust_code": 7,
+                        "is_closed": false,
+                        "closed_on": null,
+                        "closed_on_trust_code": null,
+                        "num_employees_min": 11,
+                        "num_employees_max": 50,
+                        "stock_exchange": null,
+                        "stock_symbol": null,
+                        "total_funding_usd": 1500000,
+                        "number_of_investments": 24,
+                        "homepage_url": "http://www.compaq.com",
+                        "contact_email": null,
+                        "phone_number": null,
+                        "rank": 91353,
+                        "created_at": 1219723398,
+                        "updated_at": 1523956255
+                      }
+                    },
+                    "partners": []
+                  }
+                },
+                {
+                  "type": "Investment",
+                  "uuid": "b1d51a657e7cac3c091431ce5545488e",
+                  "properties": {
+                    "money_invested": null,
+                    "money_invested_currency_code": null,
+                    "money_invested_usd": null,
+                    "is_lead_investor": true,
+                    "announced_on": "2000-02-08",
+                    "announced_on_trust_code": 7,
+                    "created_at": 1452503905,
+                    "updated_at": 1518483304
+                  },
+                  "relationships": {
+                    "investors": {
+                      "type": "Organization",
+                      "uuid": "0790d0a706322d51f7a3cbef5ddc11e0",
+                      "properties": {
+                        "permalink": "mohr-davidow-ventures",
+                        "permalink_aliases": null,
+                        "api_path": "organizations/mohr-davidow-ventures",
+                        "web_path": "organization/mohr-davidow-ventures",
+                        "api_url": "https://api.crunchbase.com/v3.1/organizations/mohr-davidow-ventures",
+                        "name": "Mohr Davidow Ventures",
+                        "also_known_as": [
+                          "MDV"
+                        ],
+                        "short_description": "The Mohr Davidow team partners with exceptional entrepreneurs and startup teams to build category-leading companies.",
+                        "description": "For 30 years the _Mohr Davidow Ventures team has invested in early stage technology-based startups that redefine or create large new markets. They believe that emerging information technology innovations are enabling a decade-long opportunity to invest in the “Era of Digital Engagement,” one in which personal, commercial, and public sector interactions of all kinds will be profoundly reengineered to leverage the power of mobile devices, cloud computing, and data analytics.  The Firm seeks to identify and partner with exceptional entrepreneurs who leverage these technologies to build companies where seamless, deep engagement with customers will create billion dollar markets in a number of different verticals. These verticals include: Digital Marketing, Advertising, & Media, Collaborative Enterprise Applications, The Digitization of Education and Health, Digital Financial Services, E‐commerce & Digital Retail Innovation, Mobile/Web‐Powered “LifeTech.” The Firm also has previous investments in the innovative life sciences & genomics space.\r\n\r\nLeading companies funded by Mohr Davidow Ventures includes: Agile (Acquired by NYSE: ORCL); Aryaka Networks; Brocade; Coupa; Genomatica; HealthTap; Infusionsoft; Kabbage; nLight; ONI Systems (Acquired by NASDAQ: CIEN); Proofpoint (NASDAQ: PFPT); Rally Software (NYSE: RALY); Rocket Fuel (NASDAQ: FUEL); Rambus; Shutterfly (NASDAQ: SFLY); Ticketfly; Verinata Health (Acquired by NASDAQ: ILMN); and Visible Measures. The Firm has $1.85 billion under management.",
+                        "profile_image_url": "http://public.crunchbase.com/t_api_images/v1397178549/bc5dad50d9a1d165196867d8555c6a75.png",
+                        "primary_role": "investor",
+                        "role_company": false,
+                        "role_investor": true,
+                        "role_group": false,
+                        "role_school": false,
+                        "investor_type": [
+                          "venture_capital"
+                        ],
+                        "founded_on": "1983-01-01",
+                        "founded_on_trust_code": 7,
+                        "is_closed": false,
+                        "closed_on": null,
+                        "closed_on_trust_code": null,
+                        "num_employees_min": 1,
+                        "num_employees_max": 10,
+                        "stock_exchange": null,
+                        "stock_symbol": null,
+                        "total_funding_usd": 0,
+                        "number_of_investments": 294,
+                        "homepage_url": "http://www.mdv.com",
+                        "contact_email": "info@mdv.com",
+                        "phone_number": "(650) 854-7236",
+                        "rank": 64094,
+                        "created_at": 1401801665,
+                        "updated_at": 1540593770
+                      }
+                    },
+                    "partners": []
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/brigade-corporation/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/brigade-corporation/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/brigade-corporation/acquired_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/brigade-corporation/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/brigade-corporation/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/brigade-corporation/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "a3cc189d5db4426ccaefe46eddefd0a3",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "http://www.brigadesolutions.com/",
+              "created_at": 1439110108,
+              "updated_at": 1540590597
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/brigade-corporation/images",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Image",
+            "uuid": "a3cc189d5db4426ccaefe46eddefd0a3",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/v1439110105/qhk9gndprmb290uemyme.png",
+              "asset_url": "http://public.crunchbase.com/t_api_images/v1439110105/qhk9gndprmb290uemyme.png",
+              "content_type": "png",
+              "height": null,
+              "width": null,
+              "filesize": null,
+              "created_at": 1439110108,
+              "updated_at": 1540590597
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/brigade-corporation/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/brigade-corporation/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": [
+          {
+            "type": "News",
+            "uuid": "242c93f20ecd5cb25de41416672f65dc",
+            "properties": {
+              "title": "Anurag Jain, Chairman of Access Healthcare, Named 2016 EY Entrepreneur of the Year",
+              "author": null,
+              "posted_on": "2016-06-28",
+              "posted_on_trust_code": 7,
+              "url": "http://www.prweb.com/releases/2016/06/prweb13517009.htm",
+              "created_at": 1477746710,
+              "updated_at": 1518487006
+            }
+          }
+        ]
+      }
+    }
+  }
+}

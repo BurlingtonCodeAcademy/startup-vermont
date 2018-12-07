@@ -1,0 +1,1081 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "2f4dc8736ca9598083a4f6ae8d4024e6",
+    "properties": {
+      "permalink": "nrg-systems-inc",
+      "permalink_aliases": null,
+      "api_path": "organizations/nrg-systems-inc",
+      "web_path": "organization/nrg-systems-inc",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/nrg-systems-inc",
+      "name": "NRG Systems, Inc.",
+      "also_known_as": [
+        "Renewable NRG Systems"
+      ],
+      "short_description": "NRG Systems is the designer and manufacturer of decision support tools.",
+      "description": "NRG Systems, Inc. (NRG), doing business as Renewable NRG Systems, located in Hinesburg, Vermont. NRG, founded in 1982, is the global market leader in the design and manufacture of decision support tools for the renewable energy industry, primarily wind.",
+      "profile_image_url": "http://public.crunchbase.com/t_api_images/v1494415471/qhmwaoev0nsidebyvqkn.png",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": "1982-01-01",
+      "founded_on_trust_code": 4,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": 101,
+      "num_employees_max": 250,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": "https://www.nrgsystems.com/",
+      "contact_email": "info@rnrgsystems.com",
+      "phone_number": "1(180)248-22255",
+      "rank": 163720,
+      "created_at": 1494415520,
+      "updated_at": 1540596027
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/nrg-systems-inc/primary_image",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Image",
+          "uuid": "2f4dc8736ca9598083a4f6ae8d4024e6",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/v1494415471/qhmwaoev0nsidebyvqkn.png",
+            "asset_url": "http://public.crunchbase.com/t_api_images/v1494415471/qhmwaoev0nsidebyvqkn.png",
+            "content_type": "png",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1494415520,
+            "updated_at": 1540596027
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/nrg-systems-inc/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 6,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/nrg-systems-inc/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "4175065a3db44a22bc746157648f54f9",
+            "properties": {
+              "title": "VP, Finance",
+              "started_on": "2014-02-01",
+              "started_on_trust_code": 6,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1511788761,
+              "updated_at": 1518473544
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "704391d9a1824d938b74484fdfd568cb",
+                "properties": {
+                  "permalink": "ann-greenamyre",
+                  "permalink_aliases": null,
+                  "api_path": "people/ann-greenamyre",
+                  "web_path": "person/ann-greenamyre",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/ann-greenamyre",
+                  "first_name": "Ann",
+                  "last_name": "Greenamyre",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": "Ann Greenamyre joined RNRG in 1995. She began her career at NRG as one of our very first accounting employees. Over the years, Ann has been instrumental in defining and structuring the accounting and finance department, and she has performed all the roles herself. Prior to joining NRG, Ann spent five years in the credit union industry in an administrative role. Ann holds a bachelor’s degree in business administration from Castleton State College. Ann enjoys spending time with her family, relaxing at the lake, and being a spectator at her daughter’s skating meets.\n\n",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/z0jzxm845tvffzr1kzp2",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 809703,
+                  "created_at": 1511788761,
+                  "updated_at": 1536375566
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "5dae97bdd3944d51a948964579735755",
+            "properties": {
+              "title": "VP of Operations",
+              "started_on": "2017-01-01",
+              "started_on_trust_code": 6,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1511787749,
+              "updated_at": 1518473544
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "ae115233797d4e03bcd5b66189f07bcb",
+                "properties": {
+                  "permalink": "julia-austin-7bcb",
+                  "permalink_aliases": null,
+                  "api_path": "people/julia-austin-7bcb",
+                  "web_path": "person/julia-austin-7bcb",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/julia-austin-7bcb",
+                  "first_name": "Julia",
+                  "last_name": "Austin",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": "As Vice President for Operations, Julia Austin oversees day-to-day operations in the supply chain, quality, manufacturing, service and support functions. Julia has held several key roles at NRG since starting with the company in 1991, including Sales Manager and Technical Services Manager. Through her leadership of the service and support teams, she helped establish NRG’s exceptional service standards. Julia’s career has been a mix of business and technology experience ranging from supporting rapid growth to aligning operational capabilities with product diversification. With 25+ years in the renewable energy industry and extensive knowledge of NRG’s customers and operations, she helps define and meet company strategic goals.  She holds a bachelor’s degree in Environmental Studies from the University of Vermont, and enjoys backcountry snowboarding, mountain biking, multihull sailing, and music.\n\n",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/lxk0ruvdgcamqxlp3j3b",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 733024,
+                  "created_at": 1511787749,
+                  "updated_at": 1536379074
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "65652b42ccff4e71a9b6bccbc28e0b30",
+            "properties": {
+              "title": "VP Global Marketing & Product Management",
+              "started_on": "2014-03-01",
+              "started_on_trust_code": 6,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1511788939,
+              "updated_at": 1518473544
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "0bd58d4a543a4b028f204a326eac1c22",
+                "properties": {
+                  "permalink": "dave-hurwitt",
+                  "permalink_aliases": null,
+                  "api_path": "people/dave-hurwitt",
+                  "web_path": "person/dave-hurwitt",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/dave-hurwitt",
+                  "first_name": "Dave",
+                  "last_name": "Hurwitt",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "David Hurwitt joined the NRG team in 2014 with over 20 years of experience in global brand strategy, marketing, and product development. He has held leadership roles at multinational companies including GE Energy, Whirlpool, Diamond Brands, Pillsbury, and Optiwind. As vice president of global marketing, David is responsible for driving the company’s marketing strategy and new product development, as well as leading the marketing and communications team. Before he came to NRG, David was the principal at Kenilworth Development Group, a growth consulting practice based in Canton, Connecticut. He holds an MBA from the Kellogg School of Management at Northwestern University and a bachelor’s degree in political science from Principia College.\n\n",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/mkainqf2mzphd6hy6hqj",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 792336,
+                  "created_at": 1511788939,
+                  "updated_at": 1536370949
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "8680303abcf8483a82b01ff0bde4de40",
+            "properties": {
+              "title": "VP, Human Resources",
+              "started_on": "2016-10-01",
+              "started_on_trust_code": 6,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1511788616,
+              "updated_at": 1518473544
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "aaaa39f7e6fc41d780350ce6c076b601",
+                "properties": {
+                  "permalink": "anna-grady",
+                  "permalink_aliases": null,
+                  "api_path": "people/anna-grady",
+                  "web_path": "person/anna-grady",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/anna-grady",
+                  "first_name": "Anna",
+                  "last_name": "Grady",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": "Anna Grady joined our human resources department in 2006, bringing over 20 years of diverse work experience across higher education, manufacturing, youth services, and international development. Anna previously oversaw six departments as director of administration for Northlands Job Corps, a U.S. Department of Labor program where young students receive job and life skills training. Prior to that, she served as a clinic liaison manager for Maine, New Hampshire, and Vermont for Planned Parenthood of Northern New England. She also worked for IBM Corporation as a tactical marketing manager. Anna loves to travel and credits her adventurous years as a Peace Corps volunteer as the foundation for many international experiences in Pakistan, Panama, and throughout Africa. She holds an MBA from the University of Vermont and a bachelor's degree in linguistics from the University of Chicago.\n\n",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/axnotvaxfgqxgyqdwmov",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 800058,
+                  "created_at": 1511788616,
+                  "updated_at": 1536379014
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "c3853b91799848619ea258652d1f1ad9",
+            "properties": {
+              "title": "VP, Global Sales",
+              "started_on": "2013-04-01",
+              "started_on_trust_code": 6,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1511788107,
+              "updated_at": 1518473544
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "17397a90b06143459cf3f7280f95ed62",
+                "properties": {
+                  "permalink": "gregory-erdmann",
+                  "permalink_aliases": null,
+                  "api_path": "people/gregory-erdmann",
+                  "web_path": "person/gregory-erdmann",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/gregory-erdmann",
+                  "first_name": "Gregory",
+                  "last_name": "Erdmann",
+                  "gender": "Male",
+                  "also_known_as": [
+                    "Greg"
+                  ],
+                  "bio": "Greg Erdmann has over 25 years of technology sales and marketing experience in expanding international market share, sales revenues, and profits for both established and start-up companies. Almost 15 years of Greg’s career have been spent in the renewable energy industry. He came to NRG from Southwest Windpower, where he served as vice president for commercial sales and global marketing. He also spent two years directing the sales of radar systems at Vestas Technology R&D. Greg has a long history with NRG: he established the first formal sales and marketing department in the 1990s. He recently returned in 2013 to help grow the company. He holds a bachelor's degree in economics and art history from the University of Vermont.\n\n",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/mqtosgvkpgh07nwv02xg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 794548,
+                  "created_at": 1511788107,
+                  "updated_at": 1536371247
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "d94b243524d947959b7f33a4db5eedb7",
+            "properties": {
+              "title": "President & CEO",
+              "started_on": "2009-01-01",
+              "started_on_trust_code": 4,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1511787209,
+              "updated_at": 1518473544
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "95df75e7fa564d51b2ad490da1e643df",
+                "properties": {
+                  "permalink": "justin-wheating",
+                  "permalink_aliases": null,
+                  "api_path": "people/justin-wheating",
+                  "web_path": "person/justin-wheating",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/justin-wheating",
+                  "first_name": "Justin",
+                  "last_name": "Wheating",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "As president of NRG, Justin Wheating is responsible for overseeing the company’s operations, providing strategic direction, and leading the executive management team.\n\nJustin joined NRG as chief financial officer in 2009 and became president in January 2014. With more than 30 years of finance and accounting experience in both the domestic and international arenas, he previously held executive positions at MacGregor Golf, Burton Snowboards, and Dynastar Skis. Prior to NRG, he was the chief operating officer and chief financial officer at Simon Pearce, where his leadership increased profitability and improved organizational cohesion.\n\nJustin earned his FCA (Fellow of the Institute of Chartered Accountants of England and Wales) at accounting firm Deloitte & Co.\n\n",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/hsmjd0hzcrm2g5rlfroz",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 367873,
+                  "created_at": 1511787209,
+                  "updated_at": 1536378457
+                }
+              }
+            }
+          }
+        ]
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 8,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/nrg-systems-inc/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "4175065a3db44a22bc746157648f54f9",
+            "properties": {
+              "title": "VP, Finance",
+              "started_on": "2014-02-01",
+              "started_on_trust_code": 6,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1511788761,
+              "updated_at": 1518473544
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "704391d9a1824d938b74484fdfd568cb",
+                "properties": {
+                  "permalink": "ann-greenamyre",
+                  "permalink_aliases": null,
+                  "api_path": "people/ann-greenamyre",
+                  "web_path": "person/ann-greenamyre",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/ann-greenamyre",
+                  "first_name": "Ann",
+                  "last_name": "Greenamyre",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": "Ann Greenamyre joined RNRG in 1995. She began her career at NRG as one of our very first accounting employees. Over the years, Ann has been instrumental in defining and structuring the accounting and finance department, and she has performed all the roles herself. Prior to joining NRG, Ann spent five years in the credit union industry in an administrative role. Ann holds a bachelor’s degree in business administration from Castleton State College. Ann enjoys spending time with her family, relaxing at the lake, and being a spectator at her daughter’s skating meets.\n\n",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/z0jzxm845tvffzr1kzp2",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 809703,
+                  "created_at": 1511788761,
+                  "updated_at": 1536375566
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "5dae97bdd3944d51a948964579735755",
+            "properties": {
+              "title": "VP of Operations",
+              "started_on": "2017-01-01",
+              "started_on_trust_code": 6,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1511787749,
+              "updated_at": 1518473544
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "ae115233797d4e03bcd5b66189f07bcb",
+                "properties": {
+                  "permalink": "julia-austin-7bcb",
+                  "permalink_aliases": null,
+                  "api_path": "people/julia-austin-7bcb",
+                  "web_path": "person/julia-austin-7bcb",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/julia-austin-7bcb",
+                  "first_name": "Julia",
+                  "last_name": "Austin",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": "As Vice President for Operations, Julia Austin oversees day-to-day operations in the supply chain, quality, manufacturing, service and support functions. Julia has held several key roles at NRG since starting with the company in 1991, including Sales Manager and Technical Services Manager. Through her leadership of the service and support teams, she helped establish NRG’s exceptional service standards. Julia’s career has been a mix of business and technology experience ranging from supporting rapid growth to aligning operational capabilities with product diversification. With 25+ years in the renewable energy industry and extensive knowledge of NRG’s customers and operations, she helps define and meet company strategic goals.  She holds a bachelor’s degree in Environmental Studies from the University of Vermont, and enjoys backcountry snowboarding, mountain biking, multihull sailing, and music.\n\n",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/lxk0ruvdgcamqxlp3j3b",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 733024,
+                  "created_at": 1511787749,
+                  "updated_at": 1536379074
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "65652b42ccff4e71a9b6bccbc28e0b30",
+            "properties": {
+              "title": "VP Global Marketing & Product Management",
+              "started_on": "2014-03-01",
+              "started_on_trust_code": 6,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1511788939,
+              "updated_at": 1518473544
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "0bd58d4a543a4b028f204a326eac1c22",
+                "properties": {
+                  "permalink": "dave-hurwitt",
+                  "permalink_aliases": null,
+                  "api_path": "people/dave-hurwitt",
+                  "web_path": "person/dave-hurwitt",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/dave-hurwitt",
+                  "first_name": "Dave",
+                  "last_name": "Hurwitt",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "David Hurwitt joined the NRG team in 2014 with over 20 years of experience in global brand strategy, marketing, and product development. He has held leadership roles at multinational companies including GE Energy, Whirlpool, Diamond Brands, Pillsbury, and Optiwind. As vice president of global marketing, David is responsible for driving the company’s marketing strategy and new product development, as well as leading the marketing and communications team. Before he came to NRG, David was the principal at Kenilworth Development Group, a growth consulting practice based in Canton, Connecticut. He holds an MBA from the Kellogg School of Management at Northwestern University and a bachelor’s degree in political science from Principia College.\n\n",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/mkainqf2mzphd6hy6hqj",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 792336,
+                  "created_at": 1511788939,
+                  "updated_at": 1536370949
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "8680303abcf8483a82b01ff0bde4de40",
+            "properties": {
+              "title": "VP, Human Resources",
+              "started_on": "2016-10-01",
+              "started_on_trust_code": 6,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1511788616,
+              "updated_at": 1518473544
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "aaaa39f7e6fc41d780350ce6c076b601",
+                "properties": {
+                  "permalink": "anna-grady",
+                  "permalink_aliases": null,
+                  "api_path": "people/anna-grady",
+                  "web_path": "person/anna-grady",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/anna-grady",
+                  "first_name": "Anna",
+                  "last_name": "Grady",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": "Anna Grady joined our human resources department in 2006, bringing over 20 years of diverse work experience across higher education, manufacturing, youth services, and international development. Anna previously oversaw six departments as director of administration for Northlands Job Corps, a U.S. Department of Labor program where young students receive job and life skills training. Prior to that, she served as a clinic liaison manager for Maine, New Hampshire, and Vermont for Planned Parenthood of Northern New England. She also worked for IBM Corporation as a tactical marketing manager. Anna loves to travel and credits her adventurous years as a Peace Corps volunteer as the foundation for many international experiences in Pakistan, Panama, and throughout Africa. She holds an MBA from the University of Vermont and a bachelor's degree in linguistics from the University of Chicago.\n\n",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/axnotvaxfgqxgyqdwmov",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 800058,
+                  "created_at": 1511788616,
+                  "updated_at": 1536379014
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "c3853b91799848619ea258652d1f1ad9",
+            "properties": {
+              "title": "VP, Global Sales",
+              "started_on": "2013-04-01",
+              "started_on_trust_code": 6,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1511788107,
+              "updated_at": 1518473544
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "17397a90b06143459cf3f7280f95ed62",
+                "properties": {
+                  "permalink": "gregory-erdmann",
+                  "permalink_aliases": null,
+                  "api_path": "people/gregory-erdmann",
+                  "web_path": "person/gregory-erdmann",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/gregory-erdmann",
+                  "first_name": "Gregory",
+                  "last_name": "Erdmann",
+                  "gender": "Male",
+                  "also_known_as": [
+                    "Greg"
+                  ],
+                  "bio": "Greg Erdmann has over 25 years of technology sales and marketing experience in expanding international market share, sales revenues, and profits for both established and start-up companies. Almost 15 years of Greg’s career have been spent in the renewable energy industry. He came to NRG from Southwest Windpower, where he served as vice president for commercial sales and global marketing. He also spent two years directing the sales of radar systems at Vestas Technology R&D. Greg has a long history with NRG: he established the first formal sales and marketing department in the 1990s. He recently returned in 2013 to help grow the company. He holds a bachelor's degree in economics and art history from the University of Vermont.\n\n",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/mqtosgvkpgh07nwv02xg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 794548,
+                  "created_at": 1511788107,
+                  "updated_at": 1536371247
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "d94b243524d947959b7f33a4db5eedb7",
+            "properties": {
+              "title": "President & CEO",
+              "started_on": "2009-01-01",
+              "started_on_trust_code": 4,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1511787209,
+              "updated_at": 1518473544
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "95df75e7fa564d51b2ad490da1e643df",
+                "properties": {
+                  "permalink": "justin-wheating",
+                  "permalink_aliases": null,
+                  "api_path": "people/justin-wheating",
+                  "web_path": "person/justin-wheating",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/justin-wheating",
+                  "first_name": "Justin",
+                  "last_name": "Wheating",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "As president of NRG, Justin Wheating is responsible for overseeing the company’s operations, providing strategic direction, and leading the executive management team.\n\nJustin joined NRG as chief financial officer in 2009 and became president in January 2014. With more than 30 years of finance and accounting experience in both the domestic and international arenas, he previously held executive positions at MacGregor Golf, Burton Snowboards, and Dynastar Skis. Prior to NRG, he was the chief operating officer and chief financial officer at Simon Pearce, where his leadership increased profitability and improved organizational cohesion.\n\nJustin earned his FCA (Fellow of the Institute of Chartered Accountants of England and Wales) at accounting firm Deloitte & Co.\n\n",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/hsmjd0hzcrm2g5rlfroz",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 367873,
+                  "created_at": 1511787209,
+                  "updated_at": 1536378457
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "eeb527ba5f81448c9757dbc36c936c0a",
+            "properties": {
+              "title": "EVP",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1511787606,
+              "updated_at": 1518473544
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "a306512cbf2543229156f8d65b0e1267",
+                "properties": {
+                  "permalink": "john-h-norton",
+                  "permalink_aliases": null,
+                  "api_path": "people/john-h-norton",
+                  "web_path": "person/john-h-norton",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/john-h-norton",
+                  "first_name": "John",
+                  "last_name": "H Norton",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Before joining NRG, John Norton served as senior vice president for operations and chief operating officer for BBT North American Corporation (formerly Controlled Energy Corporation). His extensive experience as a senior executive encompasses strategic and business planning; business model development; and change, crisis, and turnaround management. For seven years, he ran his own consulting business, H.J. Norton and Company. John is vice president of the board of directors for Yestermorrow Design Build School, on the board of directors for Friends of the Mad River, and he served for six years as a selectman in Warren, Vermont. He earned a bachelor’s degree in philosophy at Williams College in Massachusetts. John’s outside interests include spending time with his family, canoeing, alpine and Nordic skiing, fishing, traveling, and reading.\n\n",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/yae5cmlz9ihzykyjepod",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 654067,
+                  "created_at": 1511787606,
+                  "updated_at": 1536378874
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "f8bb13e9d44c4dfc88656fb6c1e45e19",
+            "properties": {
+              "title": "VP, Engineering",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1511789037,
+              "updated_at": 1518473545
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "8c5bddb974644bfcaf72d896461136d3",
+                "properties": {
+                  "permalink": "wallace-lafferty",
+                  "permalink_aliases": null,
+                  "api_path": "people/wallace-lafferty",
+                  "web_path": "person/wallace-lafferty",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/wallace-lafferty",
+                  "first_name": "Wallace",
+                  "last_name": "Lafferty",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "As vice president of engineering for NRG, Wallace Lafferty is responsible for overseeing the company’s engineering organization, leading the development of new products and providing technical direction throughout the company. Wallace joined NRG in 2014 with more than 30 years of combined experience in U.S. intelligence programs, aerospace, defense, and wind energy. He was the managing director of Vestas Technology R&D Americas, the vice president of global research for Vestas Technology R&D, and the head of design quality control for AREVA Multibrid in Germany. Just prior to joining us, he was the vice president of operations for Offshore Wind Power Systems of Texas, where he remains on the board of directors. Wallace holds two patents in wind energy technology, with several others in work. His undergraduate work, begun at the University of South Carolina, was completed in Broadcast Engineering at the Radio Engineering Institute. He completed additional work in mathematics at Virginia Commonwealth University, advanced configuration management at George Washington University, and offshore wind energy technology at the Technische Universiteit Delft in The Netherlands.\n\n",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/w93rvusv04jrgswkw5tz",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 477605,
+                  "created_at": 1511789037,
+                  "updated_at": 1536378134
+                }
+              }
+            }
+          }
+        ]
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/nrg-systems-inc/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/nrg-systems-inc/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/nrg-systems-inc/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/nrg-systems-inc/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/nrg-systems-inc/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/nrg-systems-inc/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "664123ecf0f22ea0752f00ed6569dc41",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "110 Riggs Road",
+            "street_2": null,
+            "postal_code": "05461",
+            "city": "Hinesburg",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1494415579,
+            "updated_at": 1518483771
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/nrg-systems-inc/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "664123ecf0f22ea0752f00ed6569dc41",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "110 Riggs Road",
+            "street_2": null,
+            "postal_code": "05461",
+            "city": "Hinesburg",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1494415579,
+            "updated_at": 1518483771
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/nrg-systems-inc/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/nrg-systems-inc/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "6f70fb36d6a318d2f09dccdd6bbf91e0",
+            "properties": {
+              "name": "Industrial Manufacturing",
+              "web_path": "category/industrial-manufacturing/6f70fb36d6a318d2f09dccdd6bbf91e0",
+              "category_groups": [
+                "Manufacturing"
+              ],
+              "created_at": 1465509043,
+              "updated_at": 1518483550
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/nrg-systems-inc/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/nrg-systems-inc/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/nrg-systems-inc/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/nrg-systems-inc/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/nrg-systems-inc/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/nrg-systems-inc/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/nrg-systems-inc/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/nrg-systems-inc/acquired_by",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Acquisition",
+          "uuid": "ce381340531853c6bdbfdbca05f74738",
+          "properties": {
+            "permalink": "ce381340531853c6bdbfdbca05f74738",
+            "api_path": "acquisitions/ce381340531853c6bdbfdbca05f74738",
+            "web_path": "acquisition/ce381340531853c6bdbfdbca05f74738",
+            "api_url": "https://api.crunchbase.com/v3.1/acquisitions/ce381340531853c6bdbfdbca05f74738",
+            "price": null,
+            "price_currency_code": null,
+            "price_usd": null,
+            "payment_type": null,
+            "acquisition_type": "acquisition",
+            "acquisition_status": "complete",
+            "disposition_of_acquired": "subsidiary",
+            "announced_on": "2017-05-08",
+            "announced_on_trust_code": 7,
+            "completed_on": null,
+            "completed_on_trust_code": null,
+            "rank": 57622,
+            "created_at": 1505202258,
+            "updated_at": 1518478814
+          },
+          "relationships": {
+            "acquirer": {
+              "type": "Organization",
+              "uuid": "6b626a30ec2488d91ba5bed4bc203bdb",
+              "properties": {
+                "permalink": "doble-engineering-company",
+                "permalink_aliases": null,
+                "api_path": "organizations/doble-engineering-company",
+                "web_path": "organization/doble-engineering-company",
+                "api_url": "https://api.crunchbase.com/v3.1/organizations/doble-engineering-company",
+                "name": "Doble Engineering Company",
+                "also_known_as": null,
+                "short_description": "Doble Engineering has been helping clients in the electric power industry improve operations and optimize system performance.",
+                "description": "Doble Engineering Company has been helping clients in the electric power industry improve operations and optimize system performance for nearly a century. Doble offers diagnostic instruments, services, and the world's premier library of statistically significant apparatus test results for the benefit of energy generation, transmission, delivery companies and industrial power users worldwide.",
+                "profile_image_url": "http://public.crunchbase.com/t_api_images/v1438327555/y9qfeks9q0hujf8p6ycz.png",
+                "primary_role": "company",
+                "role_company": true,
+                "role_investor": false,
+                "role_group": false,
+                "role_school": false,
+                "investor_type": null,
+                "founded_on": "1920-01-01",
+                "founded_on_trust_code": 4,
+                "is_closed": false,
+                "closed_on": null,
+                "closed_on_trust_code": null,
+                "num_employees_min": 251,
+                "num_employees_max": 500,
+                "stock_exchange": null,
+                "stock_symbol": null,
+                "total_funding_usd": 0,
+                "number_of_investments": 0,
+                "homepage_url": "http://www.doble.com/",
+                "contact_email": "clientservicesinfo@doble.com",
+                "phone_number": "6179260528",
+                "rank": 105784,
+                "created_at": 1438327638,
+                "updated_at": 1540591705
+              }
+            }
+          }
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/nrg-systems-inc/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/nrg-systems-inc/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/nrg-systems-inc/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "2f4dc8736ca9598083a4f6ae8d4024e6",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "https://www.nrgsystems.com/",
+              "created_at": 1494415520,
+              "updated_at": 1540596027
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "2f4dc8736ca9598083a4f6ae8d4024e6",
+            "properties": {
+              "website_type": "facebook",
+              "website_name": "facebook",
+              "url": "https://www.facebook.com/NRGSystems",
+              "created_at": 1494415520,
+              "updated_at": 1540596027
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "2f4dc8736ca9598083a4f6ae8d4024e6",
+            "properties": {
+              "website_type": "twitter",
+              "website_name": "twitter",
+              "url": "https://twitter.com/nrgsystems",
+              "created_at": 1494415520,
+              "updated_at": 1540596027
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "2f4dc8736ca9598083a4f6ae8d4024e6",
+            "properties": {
+              "website_type": "linkedin",
+              "website_name": "linkedin",
+              "url": "https://www.linkedin.com/company-beta/308377/",
+              "created_at": 1494415520,
+              "updated_at": 1540596027
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/nrg-systems-inc/images",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Image",
+            "uuid": "2f4dc8736ca9598083a4f6ae8d4024e6",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/v1494415471/qhmwaoev0nsidebyvqkn.png",
+              "asset_url": "http://public.crunchbase.com/t_api_images/v1494415471/qhmwaoev0nsidebyvqkn.png",
+              "content_type": "png",
+              "height": null,
+              "width": null,
+              "filesize": null,
+              "created_at": 1494415520,
+              "updated_at": 1540596027
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/nrg-systems-inc/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/nrg-systems-inc/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}

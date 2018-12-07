@@ -1,0 +1,502 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "d3f39f20656b42b6ba63de70d345cd9d",
+    "properties": {
+      "permalink": "fidotrack",
+      "permalink_aliases": null,
+      "api_path": "organizations/fidotrack",
+      "web_path": "organization/fidotrack",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/fidotrack",
+      "name": "FidoTrack",
+      "also_known_as": null,
+      "short_description": "FidoTrack, one of the providers of Cloud Gamification software and services for call centers.",
+      "description": "FidoTrack, one of the providers of Cloud Gamification software and services for call centers. The FidoTrack system is already deployed to call centers throughout the U.S. and has achieved amazing measurable ROI results for 100% of clients to date. The dramatic improvements in productivity combined with the huge reduction in employee turnover make the FidoTrack system the best in the marketplace.\n\n",
+      "profile_image_url": "http://public.crunchbase.com/t_api_images/v0eeo4lfz2lczkpr7lyf",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": "2013-01-01",
+      "founded_on_trust_code": 4,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": 11,
+      "num_employees_max": 50,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": "http://www.fidotrack.com/",
+      "contact_email": null,
+      "phone_number": null,
+      "rank": 231986,
+      "created_at": 1520923028,
+      "updated_at": 1520923028
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fidotrack/primary_image",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Image",
+          "uuid": "d3f39f20656b42b6ba63de70d345cd9d",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/v0eeo4lfz2lczkpr7lyf",
+            "asset_url": "http://public.crunchbase.com/t_api_images/v0eeo4lfz2lczkpr7lyf",
+            "content_type": "v0eeo4lfz2lczkpr7lyf",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1520923028,
+            "updated_at": 1520923028
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fidotrack/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fidotrack/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": []
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fidotrack/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fidotrack/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fidotrack/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fidotrack/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fidotrack/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fidotrack/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fidotrack/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "0dcf844e3a9c4b08acd98697c522a8e6",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": null,
+            "street_2": null,
+            "postal_code": null,
+            "city": "South Burlington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1520923028,
+            "updated_at": 1520923028
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fidotrack/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "0dcf844e3a9c4b08acd98697c522a8e6",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": null,
+            "street_2": null,
+            "postal_code": null,
+            "city": "South Burlington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1520923028,
+            "updated_at": 1520923028
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fidotrack/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fidotrack/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "7efa3b6d0ad33b0c153c94e566e5adfd",
+            "properties": {
+              "name": "Call Center",
+              "web_path": "category/call-center/7efa3b6d0ad33b0c153c94e566e5adfd",
+              "category_groups": [
+                "Administrative Services"
+              ],
+              "created_at": 1457032200,
+              "updated_at": 1518483551
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "c08b5441a05b9777b7a6012728caddd9",
+            "properties": {
+              "name": "Software",
+              "web_path": "category/software/c08b5441a05b9777b7a6012728caddd9",
+              "category_groups": [
+                "Software"
+              ],
+              "created_at": 1397980727,
+              "updated_at": 1518483551
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "dbca89faf0835438b4add3fdeceb78e7",
+            "properties": {
+              "name": "Information Technology",
+              "web_path": "category/information-technology/dbca89faf0835438b4add3fdeceb78e7",
+              "category_groups": [
+                "Information Technology"
+              ],
+              "created_at": 1397980726,
+              "updated_at": 1518483551
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fidotrack/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fidotrack/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fidotrack/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fidotrack/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fidotrack/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fidotrack/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fidotrack/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fidotrack/acquired_by",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Acquisition",
+          "uuid": "9885c5edae1f4145b191841eba87acd6",
+          "properties": {
+            "permalink": "9885c5edae1f4145b191841eba87acd6",
+            "api_path": "acquisitions/9885c5edae1f4145b191841eba87acd6",
+            "web_path": "acquisition/9885c5edae1f4145b191841eba87acd6",
+            "api_url": "https://api.crunchbase.com/v3.1/acquisitions/9885c5edae1f4145b191841eba87acd6",
+            "price": null,
+            "price_currency_code": null,
+            "price_usd": null,
+            "payment_type": null,
+            "acquisition_type": "acquisition",
+            "acquisition_status": "complete",
+            "disposition_of_acquired": "subsidiary",
+            "announced_on": "2018-03-12",
+            "announced_on_trust_code": 7,
+            "completed_on": null,
+            "completed_on_trust_code": null,
+            "rank": 14355,
+            "created_at": 1520923170,
+            "updated_at": 1520923170
+          },
+          "relationships": {
+            "acquirer": {
+              "type": "Organization",
+              "uuid": "52e7c0a3335346e75928009b30240931",
+              "properties": {
+                "permalink": "noble-systems",
+                "permalink_aliases": [
+                  "noble-systems-corporation"
+                ],
+                "api_path": "organizations/noble-systems",
+                "web_path": "organization/noble-systems",
+                "api_url": "https://api.crunchbase.com/v3.1/organizations/noble-systems",
+                "name": "Noble Systems",
+                "also_known_as": null,
+                "short_description": "Customer Contact Center Technology",
+                "description": "Noble Systems Corporation provides customer contact center technology and solutions.\r\n\r\nTheir solutions allow companies to communicate with their customers via multiple channels, including inbound / outbound / blended voice, email, fax and web.",
+                "profile_image_url": "http://public.crunchbase.com/t_api_images/v1397206972/a9b196350c31b48744213a61fac44b84.png",
+                "primary_role": "company",
+                "role_company": true,
+                "role_investor": false,
+                "role_group": false,
+                "role_school": false,
+                "investor_type": null,
+                "founded_on": "1989-01-01",
+                "founded_on_trust_code": 4,
+                "is_closed": false,
+                "closed_on": null,
+                "closed_on_trust_code": null,
+                "num_employees_min": 501,
+                "num_employees_max": 1000,
+                "stock_exchange": null,
+                "stock_symbol": null,
+                "total_funding_usd": 0,
+                "number_of_investments": 0,
+                "homepage_url": "http://www.noblesystems.com",
+                "contact_email": "info@noblesystems.com",
+                "phone_number": "4048511331",
+                "rank": 87212,
+                "created_at": 1240537105,
+                "updated_at": 1540594702
+              }
+            }
+          }
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fidotrack/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fidotrack/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fidotrack/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "d3f39f20656b42b6ba63de70d345cd9d",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "http://www.fidotrack.com/",
+              "created_at": 1520923028,
+              "updated_at": 1520923028
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "d3f39f20656b42b6ba63de70d345cd9d",
+            "properties": {
+              "website_type": "twitter",
+              "website_name": "twitter",
+              "url": "https://twitter.com/fidotrack",
+              "created_at": 1520923028,
+              "updated_at": 1520923028
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "d3f39f20656b42b6ba63de70d345cd9d",
+            "properties": {
+              "website_type": "linkedin",
+              "website_name": "linkedin",
+              "url": "https://in.linkedin.com/company/fidotrack",
+              "created_at": 1520923028,
+              "updated_at": 1520923028
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fidotrack/images",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Image",
+            "uuid": "d3f39f20656b42b6ba63de70d345cd9d",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/v0eeo4lfz2lczkpr7lyf",
+              "asset_url": "http://public.crunchbase.com/t_api_images/v0eeo4lfz2lczkpr7lyf",
+              "content_type": "v0eeo4lfz2lczkpr7lyf",
+              "height": null,
+              "width": null,
+              "filesize": null,
+              "created_at": 1520923028,
+              "updated_at": 1520923028
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fidotrack/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fidotrack/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}

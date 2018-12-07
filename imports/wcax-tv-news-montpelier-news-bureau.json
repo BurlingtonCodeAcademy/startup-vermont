@@ -1,0 +1,480 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "ace3beaac34a4dc092457c88f993a06e",
+    "properties": {
+      "permalink": "wcax-tv-news-montpelier-news-bureau",
+      "permalink_aliases": null,
+      "api_path": "organizations/wcax-tv-news-montpelier-news-bureau",
+      "web_path": "organization/wcax-tv-news-montpelier-news-bureau",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/wcax-tv-news-montpelier-news-bureau",
+      "name": "Wcax Tv News Montpelier News Bureau",
+      "also_known_as": null,
+      "short_description": "WCAX-TV has been the market leader, bringing their viewers the latest news, weather and local sports. ",
+      "description": "WCAX-TV has been the market leader, bringing our viewers the latest news, weather and local sports. Whether you watch us in high definition or online at wcax.com or use our mobile apps, WCAX is truly available anywhere, anytime.\nWCAX-TV is a CBS-affiliated television station licensed to Burlington, Vermont, United States, serving Northern Vermont's Champlain Valley and Upstate New York's North Country, including Plattsburgh. It broadcasts a high definition digital signal on UHF channel 22 (or virtual channel 3 via PSIP) from a transmitter on Vermont's highest peak, Mount Mansfield. Owned by Gray Television, the station has studios on Joy Drive in South Burlington",
+      "profile_image_url": "http://public.crunchbase.com/t_api_images/sklelyrz8bnkyyadyp5l",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": "1954-01-01",
+      "founded_on_trust_code": 4,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": null,
+      "num_employees_max": null,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": "http://www.wcax.com/",
+      "contact_email": null,
+      "phone_number": null,
+      "rank": 408237,
+      "created_at": 1526014461,
+      "updated_at": 1526014461
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wcax-tv-news-montpelier-news-bureau/primary_image",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Image",
+          "uuid": "ace3beaac34a4dc092457c88f993a06e",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/sklelyrz8bnkyyadyp5l",
+            "asset_url": "http://public.crunchbase.com/t_api_images/sklelyrz8bnkyyadyp5l",
+            "content_type": "sklelyrz8bnkyyadyp5l",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1526014461,
+            "updated_at": 1526014461
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wcax-tv-news-montpelier-news-bureau/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wcax-tv-news-montpelier-news-bureau/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": []
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wcax-tv-news-montpelier-news-bureau/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wcax-tv-news-montpelier-news-bureau/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wcax-tv-news-montpelier-news-bureau/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wcax-tv-news-montpelier-news-bureau/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wcax-tv-news-montpelier-news-bureau/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wcax-tv-news-montpelier-news-bureau/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wcax-tv-news-montpelier-news-bureau/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "f94f726d82e44ec292f5889667f88662",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": null,
+            "street_2": null,
+            "postal_code": null,
+            "city": "Burlington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1526014507,
+            "updated_at": 1526014507
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wcax-tv-news-montpelier-news-bureau/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "f94f726d82e44ec292f5889667f88662",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": null,
+            "street_2": null,
+            "postal_code": null,
+            "city": "Burlington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1526014507,
+            "updated_at": 1526014507
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wcax-tv-news-montpelier-news-bureau/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wcax-tv-news-montpelier-news-bureau/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "78b58810ad58a6232a802a0e3603a544",
+            "properties": {
+              "name": "Media and Entertainment",
+              "web_path": "category/media-and-entertainment/78b58810ad58a6232a802a0e3603a544",
+              "category_groups": [
+                "Media and Entertainment"
+              ],
+              "created_at": 1457029232,
+              "updated_at": 1518483551
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "db01a2011e4757b3c3cca63eb94e3878",
+            "properties": {
+              "name": "News",
+              "web_path": "category/news/db01a2011e4757b3c3cca63eb94e3878",
+              "category_groups": [
+                "Content and Publishing",
+                "Media and Entertainment"
+              ],
+              "created_at": 1397980728,
+              "updated_at": 1518483551
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wcax-tv-news-montpelier-news-bureau/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wcax-tv-news-montpelier-news-bureau/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wcax-tv-news-montpelier-news-bureau/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wcax-tv-news-montpelier-news-bureau/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wcax-tv-news-montpelier-news-bureau/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wcax-tv-news-montpelier-news-bureau/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wcax-tv-news-montpelier-news-bureau/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wcax-tv-news-montpelier-news-bureau/acquired_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wcax-tv-news-montpelier-news-bureau/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wcax-tv-news-montpelier-news-bureau/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wcax-tv-news-montpelier-news-bureau/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "ace3beaac34a4dc092457c88f993a06e",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "http://www.wcax.com/",
+              "created_at": 1526014461,
+              "updated_at": 1526014461
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wcax-tv-news-montpelier-news-bureau/images",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Image",
+            "uuid": "ace3beaac34a4dc092457c88f993a06e",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/sklelyrz8bnkyyadyp5l",
+              "asset_url": "http://public.crunchbase.com/t_api_images/sklelyrz8bnkyyadyp5l",
+              "content_type": "sklelyrz8bnkyyadyp5l",
+              "height": null,
+              "width": null,
+              "filesize": null,
+              "created_at": 1526014461,
+              "updated_at": 1526014461
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wcax-tv-news-montpelier-news-bureau/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 6,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wcax-tv-news-montpelier-news-bureau/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": [
+          {
+            "type": "News",
+            "uuid": "b0b45d3c10ba4bf6b3f97042fbaa5d81",
+            "properties": {
+              "title": "Moose crowded by onlookers on shore drowns in Vermont lake",
+              "author": null,
+              "posted_on": "2018-09-03",
+              "posted_on_trust_code": 7,
+              "url": "https://www.boston.com/news/local-news/2018/09/03/moose-crowded-by-onlookers-on-shore-drowns-in-vermont-lake",
+              "created_at": 1536110522,
+              "updated_at": 1536110522
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "19383fe165474115a646fc2428edcb51",
+            "properties": {
+              "title": "84-year-old Vermont man struck, injured by pickup truck",
+              "author": null,
+              "posted_on": "2018-08-31",
+              "posted_on_trust_code": 7,
+              "url": "https://www.boston.com/news/local-news/2018/08/31/84-year-old-vermont-man-struck-injured-by-pickup-truck",
+              "created_at": 1535735455,
+              "updated_at": 1535735455
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "1f3f163e37f449baa388571f737f7013",
+            "properties": {
+              "title": "Drone racing course opens in Vermont",
+              "author": null,
+              "posted_on": "2018-08-08",
+              "posted_on_trust_code": 7,
+              "url": "https://redef.com/item/5b6b46e0ca4ea60bc0e6a1e6",
+              "created_at": 1533810018,
+              "updated_at": 1533810018
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "32f0c96dd69e4deca21369c07794388d",
+            "properties": {
+              "title": "Conservancy will protect rare plant during trail project",
+              "author": null,
+              "posted_on": "2018-06-24",
+              "posted_on_trust_code": 7,
+              "url": "https://www.seattlepi.com/news/article/Conservancy-will-protect-rare-plant-during-trail-13021418.php",
+              "created_at": 1530112712,
+              "updated_at": 1530112712
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "d740b4bd9c7a444bb676aea7e945148d",
+            "properties": {
+              "title": "Railroad bridge fight about woman ends in fatal plunge as witnesses look on",
+              "author": "Crimesider Staff",
+              "posted_on": "2018-06-12",
+              "posted_on_trust_code": 7,
+              "url": "https://www.cbsnews.com/news/railroad-bridge-fight-about-woman-ends-in-fatal-plunge-as-witnesses-look-on/",
+              "created_at": 1528870759,
+              "updated_at": 1528870759
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "eba10a5e238947a89ffab098f2cf1b4e",
+            "properties": {
+              "title": "Officials: Over 20 cows found starved to death on farm | The Kansas City Star",
+              "author": null,
+              "posted_on": "2018-05-21",
+              "posted_on_trust_code": 7,
+              "url": "http://www.kansascity.com/news/business/national-international/article211571459.html",
+              "created_at": 1527120125,
+              "updated_at": 1527120125
+            }
+          }
+        ]
+      }
+    }
+  }
+}

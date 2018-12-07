@@ -1,0 +1,896 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "d07795e90f79f24f7dec9fb5d00175a7",
+    "properties": {
+      "permalink": "sovernet-communications",
+      "permalink_aliases": null,
+      "api_path": "organizations/sovernet-communications",
+      "web_path": "organization/sovernet-communications",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/sovernet-communications",
+      "name": "Sovernet Communications",
+      "also_known_as": null,
+      "short_description": "Sovernet is regional provider of high-capacity network transport, broadband Internet, and voice services over its 4,500 mile fiber network.",
+      "description": "Sovernet Communications, a middle mile fiber provider that serves Vermont, New York and southwest New Hampshire, creating a larger Northeast fiber provider that will be a bigger competitive threat to incumbent players Verizon and FairPoint Communications.",
+      "profile_image_url": "http://public.crunchbase.com/t_api_images/v1470811299/ozezzc02td8vg7wigjtj.jpg",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": "1995-01-01",
+      "founded_on_trust_code": 4,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": null,
+      "num_employees_max": null,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": "https://corp.sover.net/site/about-us",
+      "contact_email": "support@sover.net",
+      "phone_number": "(802)463-2111",
+      "rank": 220202,
+      "created_at": 1470811358,
+      "updated_at": 1543572396
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/sovernet-communications/primary_image",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Image",
+          "uuid": "d07795e90f79f24f7dec9fb5d00175a7",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/v1470811299/ozezzc02td8vg7wigjtj.jpg",
+            "asset_url": "http://public.crunchbase.com/t_api_images/v1470811299/ozezzc02td8vg7wigjtj.jpg",
+            "content_type": "jpg",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1470811358,
+            "updated_at": 1543572396
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/sovernet-communications/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 5,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/sovernet-communications/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "4804982df819bb68b35e2adf77060b91",
+            "properties": {
+              "title": "Chief Executive Officer & President",
+              "started_on": "2006-02-01",
+              "started_on_trust_code": 6,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1479126225,
+              "updated_at": 1518485048
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "3bb200120ea0981f5df339f823f3e08d",
+                "properties": {
+                  "permalink": "rich-kendall",
+                  "permalink_aliases": null,
+                  "api_path": "people/rich-kendall",
+                  "web_path": "person/rich-kendall",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/rich-kendall",
+                  "first_name": "Rich",
+                  "last_name": "Kendall",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Rich Kendall joined Sovernet Communications as President and CEO in February of 2006. He brings over 17 years of telecom experience in positions of successful leadership. Prior to joining Sovernet, Rich was the Executive Vice President of Sales for Lightship Telecom, a New Hampshire based competitive local exchange carrier (CLEC), where he led 190% revenue growth from 2002 until the sale of the company in 2005. Previously, Rich spent 10 years at a Massachusetts-based CLEC, Network Plus, most recently serving as the Senior Vice President of Sales where he was integral to the successful IPO and secondary public offerings of the company which helped raise over $300 million dollars. Under Rich’s leadership, the sales team expanded to a successful 500-person, 18-city organization. Additionally, Rich has also held positions at MCI and Fleet Bank. He has a BA in History and Government & Legal Studies from Bowdoin College.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1479126119/c7imtxncwd5powebtmm4.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 370808,
+                  "created_at": 1479126134,
+                  "updated_at": 1518474242
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "7b98bbf892ad9b4ccdc1c9de3298fa13",
+            "properties": {
+              "title": "Director of Marketing and Sales",
+              "started_on": "2014-10-01",
+              "started_on_trust_code": 6,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1479126883,
+              "updated_at": 1518485302
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "624f53e8097619f3e724f733634fa2db",
+                "properties": {
+                  "permalink": "sharon-combes-farr",
+                  "permalink_aliases": null,
+                  "api_path": "people/sharon-combes-farr",
+                  "web_path": "person/sharon-combes-farr",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/sharon-combes-farr",
+                  "first_name": "Sharon",
+                  "last_name": "Combes-Farr",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": "At Sovernet, Sharon is responsible for marketing, communications, and customer service. Sharon came to Sovernet after directing the 18-month federal disaster relief grant-funded Vermont Digital Economy Project, for the Vermont Council on Rural Development. Previously, she spent 11 years with Qwest Communications, in Phoenix, Arizona, where she played a key role in developing Qwest's consumer retention and customer loyalty strategy, and two years in the Vermont telecommunications industry. Sharon has a B.A. in International Affairs from George Washington University, and two Master’s degrees from the University of Michigan, Ann Arbor. She is an avid volunteer in her hometown of Ludlow, where she lives with her husband, writer Bruce Farr.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1479126816/p6a6lf7peg25ojirqlul.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 616290,
+                  "created_at": 1479126830,
+                  "updated_at": 1518479225
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "9f4ba09d530b91ab4196c770ff1bcb96",
+            "properties": {
+              "title": "Vice President of Administration & Regulatory Affairs",
+              "started_on": "2008-01-01",
+              "started_on_trust_code": 4,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1479126662,
+              "updated_at": 1518485474
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "7817ad699ae5fc0a8d9315c9e65d1781",
+                "properties": {
+                  "permalink": "lawrence-lackey",
+                  "permalink_aliases": null,
+                  "api_path": "people/lawrence-lackey",
+                  "web_path": "person/lawrence-lackey",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/lawrence-lackey",
+                  "first_name": "Lawrence",
+                  "last_name": "Lackey",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Lawrence manages Sovernet’s compliance with state and federal regulations, interaction with regulatory commissions, as well as human resources and administrative functions. Prior to joining Sovernet in 2008, he advised a number of clients, including the Vermont legislature, on financial, technical, regulatory and public policy issues relating to telecommunications and broadband services, served as a hearing officer for the Vermont Public Service Board, and Director for Telecommunications at the Vermont Department of Public Service. Lawrence holds a bachelor’s degree in Economics from Bates College in Maine and a master’s degree in business from the University of Vermont.",
+                  "profile_image_url": null,
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 386814,
+                  "created_at": 1479126620,
+                  "updated_at": 1518479748
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "bff6eab61b908d7b154a5c1e4c7a06f6",
+            "properties": {
+              "title": "Controller",
+              "started_on": "2007-10-01",
+              "started_on_trust_code": 6,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1479127076,
+              "updated_at": 1518485637
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "138b486e850d6d556becb6d27c713244",
+                "properties": {
+                  "permalink": "crista-pratt",
+                  "permalink_aliases": null,
+                  "api_path": "people/crista-pratt",
+                  "web_path": "person/crista-pratt",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/crista-pratt",
+                  "first_name": "Crista",
+                  "last_name": "Pratt",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": "Crista joined Sovernet in October 2007 as our lead staff accountant. Now, as the company controller, she supervises accounting, audit, planning and analysis both at Sovernet and its subsidiaries, including ION Communications in Albany, New York. Prior to working at Sovernet, Crista started her career in customer service at Savings Bank of Walpole. She then advanced her career at C&S Wholesale Grocers as a senior accountant on its Gross Profit team. Crista obtained her A.S. in Accounting from River Valley Community College in Claremont, New Hampshire. A native to the area, Crista enjoys the outdoors, especially kayaking and camping.",
+                  "profile_image_url": null,
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 413364,
+                  "created_at": 1479127034,
+                  "updated_at": 1518479929
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "f658fed32cac56ef22b589f06de9af1d",
+            "properties": {
+              "title": "Vice President of Network Infrastructure",
+              "started_on": "2003-03-01",
+              "started_on_trust_code": 6,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1479126494,
+              "updated_at": 1518485924
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "a69fb4cc0e8ff5ec14286fe25fec8f39",
+                "properties": {
+                  "permalink": "brandon-peyton",
+                  "permalink_aliases": null,
+                  "api_path": "people/brandon-peyton",
+                  "web_path": "person/brandon-peyton",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/brandon-peyton",
+                  "first_name": "Brandon",
+                  "last_name": "Peyton",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Brandon joined Sovernet in 2003. Prior to 2003, Brandon held senior management positions with MCI WorldCom and UUNET. Through more than 20 years working in the United States, Australia, and across the Asia Pacific region, Brandon has held senior management positions in Network Engineering and Operations, Service Delivery/Provisioning, Planning, Corporate IT&T, Carrier Management, and Vendor Relations. In these roles he has developed strong teams locally and regionally, to work with him in delivering significant structural change to the organizations, resulting in measurable financial improvements, service quality availability, and realization of company objectives. Brandon holds a degree in Computer Science.",
+                  "profile_image_url": null,
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 484595,
+                  "created_at": 1479126435,
+                  "updated_at": 1518479423
+                }
+              }
+            }
+          }
+        ]
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 5,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/sovernet-communications/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "4804982df819bb68b35e2adf77060b91",
+            "properties": {
+              "title": "Chief Executive Officer & President",
+              "started_on": "2006-02-01",
+              "started_on_trust_code": 6,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1479126225,
+              "updated_at": 1518485048
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "3bb200120ea0981f5df339f823f3e08d",
+                "properties": {
+                  "permalink": "rich-kendall",
+                  "permalink_aliases": null,
+                  "api_path": "people/rich-kendall",
+                  "web_path": "person/rich-kendall",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/rich-kendall",
+                  "first_name": "Rich",
+                  "last_name": "Kendall",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Rich Kendall joined Sovernet Communications as President and CEO in February of 2006. He brings over 17 years of telecom experience in positions of successful leadership. Prior to joining Sovernet, Rich was the Executive Vice President of Sales for Lightship Telecom, a New Hampshire based competitive local exchange carrier (CLEC), where he led 190% revenue growth from 2002 until the sale of the company in 2005. Previously, Rich spent 10 years at a Massachusetts-based CLEC, Network Plus, most recently serving as the Senior Vice President of Sales where he was integral to the successful IPO and secondary public offerings of the company which helped raise over $300 million dollars. Under Rich’s leadership, the sales team expanded to a successful 500-person, 18-city organization. Additionally, Rich has also held positions at MCI and Fleet Bank. He has a BA in History and Government & Legal Studies from Bowdoin College.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1479126119/c7imtxncwd5powebtmm4.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 370808,
+                  "created_at": 1479126134,
+                  "updated_at": 1518474242
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "7b98bbf892ad9b4ccdc1c9de3298fa13",
+            "properties": {
+              "title": "Director of Marketing and Sales",
+              "started_on": "2014-10-01",
+              "started_on_trust_code": 6,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1479126883,
+              "updated_at": 1518485302
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "624f53e8097619f3e724f733634fa2db",
+                "properties": {
+                  "permalink": "sharon-combes-farr",
+                  "permalink_aliases": null,
+                  "api_path": "people/sharon-combes-farr",
+                  "web_path": "person/sharon-combes-farr",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/sharon-combes-farr",
+                  "first_name": "Sharon",
+                  "last_name": "Combes-Farr",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": "At Sovernet, Sharon is responsible for marketing, communications, and customer service. Sharon came to Sovernet after directing the 18-month federal disaster relief grant-funded Vermont Digital Economy Project, for the Vermont Council on Rural Development. Previously, she spent 11 years with Qwest Communications, in Phoenix, Arizona, where she played a key role in developing Qwest's consumer retention and customer loyalty strategy, and two years in the Vermont telecommunications industry. Sharon has a B.A. in International Affairs from George Washington University, and two Master’s degrees from the University of Michigan, Ann Arbor. She is an avid volunteer in her hometown of Ludlow, where she lives with her husband, writer Bruce Farr.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1479126816/p6a6lf7peg25ojirqlul.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 616290,
+                  "created_at": 1479126830,
+                  "updated_at": 1518479225
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "9f4ba09d530b91ab4196c770ff1bcb96",
+            "properties": {
+              "title": "Vice President of Administration & Regulatory Affairs",
+              "started_on": "2008-01-01",
+              "started_on_trust_code": 4,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1479126662,
+              "updated_at": 1518485474
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "7817ad699ae5fc0a8d9315c9e65d1781",
+                "properties": {
+                  "permalink": "lawrence-lackey",
+                  "permalink_aliases": null,
+                  "api_path": "people/lawrence-lackey",
+                  "web_path": "person/lawrence-lackey",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/lawrence-lackey",
+                  "first_name": "Lawrence",
+                  "last_name": "Lackey",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Lawrence manages Sovernet’s compliance with state and federal regulations, interaction with regulatory commissions, as well as human resources and administrative functions. Prior to joining Sovernet in 2008, he advised a number of clients, including the Vermont legislature, on financial, technical, regulatory and public policy issues relating to telecommunications and broadband services, served as a hearing officer for the Vermont Public Service Board, and Director for Telecommunications at the Vermont Department of Public Service. Lawrence holds a bachelor’s degree in Economics from Bates College in Maine and a master’s degree in business from the University of Vermont.",
+                  "profile_image_url": null,
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 386814,
+                  "created_at": 1479126620,
+                  "updated_at": 1518479748
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "bff6eab61b908d7b154a5c1e4c7a06f6",
+            "properties": {
+              "title": "Controller",
+              "started_on": "2007-10-01",
+              "started_on_trust_code": 6,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1479127076,
+              "updated_at": 1518485637
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "138b486e850d6d556becb6d27c713244",
+                "properties": {
+                  "permalink": "crista-pratt",
+                  "permalink_aliases": null,
+                  "api_path": "people/crista-pratt",
+                  "web_path": "person/crista-pratt",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/crista-pratt",
+                  "first_name": "Crista",
+                  "last_name": "Pratt",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": "Crista joined Sovernet in October 2007 as our lead staff accountant. Now, as the company controller, she supervises accounting, audit, planning and analysis both at Sovernet and its subsidiaries, including ION Communications in Albany, New York. Prior to working at Sovernet, Crista started her career in customer service at Savings Bank of Walpole. She then advanced her career at C&S Wholesale Grocers as a senior accountant on its Gross Profit team. Crista obtained her A.S. in Accounting from River Valley Community College in Claremont, New Hampshire. A native to the area, Crista enjoys the outdoors, especially kayaking and camping.",
+                  "profile_image_url": null,
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 413364,
+                  "created_at": 1479127034,
+                  "updated_at": 1518479929
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "f658fed32cac56ef22b589f06de9af1d",
+            "properties": {
+              "title": "Vice President of Network Infrastructure",
+              "started_on": "2003-03-01",
+              "started_on_trust_code": 6,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1479126494,
+              "updated_at": 1518485924
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "a69fb4cc0e8ff5ec14286fe25fec8f39",
+                "properties": {
+                  "permalink": "brandon-peyton",
+                  "permalink_aliases": null,
+                  "api_path": "people/brandon-peyton",
+                  "web_path": "person/brandon-peyton",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/brandon-peyton",
+                  "first_name": "Brandon",
+                  "last_name": "Peyton",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Brandon joined Sovernet in 2003. Prior to 2003, Brandon held senior management positions with MCI WorldCom and UUNET. Through more than 20 years working in the United States, Australia, and across the Asia Pacific region, Brandon has held senior management positions in Network Engineering and Operations, Service Delivery/Provisioning, Planning, Corporate IT&T, Carrier Management, and Vendor Relations. In these roles he has developed strong teams locally and regionally, to work with him in delivering significant structural change to the organizations, resulting in measurable financial improvements, service quality availability, and realization of company objectives. Brandon holds a degree in Computer Science.",
+                  "profile_image_url": null,
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 484595,
+                  "created_at": 1479126435,
+                  "updated_at": 1518479423
+                }
+              }
+            }
+          }
+        ]
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/sovernet-communications/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/sovernet-communications/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/sovernet-communications/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/sovernet-communications/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/sovernet-communications/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/sovernet-communications/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "f8c716e9b736da0ad776e06b23abc70a",
+          "properties": {
+            "name": "HQ",
+            "street_1": "PO Box 495, 5 Canal Street,",
+            "street_2": null,
+            "postal_code": "05101",
+            "city": "Bellows Falls",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1470811412,
+            "updated_at": 1518484087
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/sovernet-communications/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "f8c716e9b736da0ad776e06b23abc70a",
+          "properties": {
+            "name": "HQ",
+            "street_1": "PO Box 495, 5 Canal Street,",
+            "street_2": null,
+            "postal_code": "05101",
+            "city": "Bellows Falls",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1470811412,
+            "updated_at": 1518484087
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/sovernet-communications/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/sovernet-communications/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "e12cc7ded276007e7d89bdf3f8d1ffe7",
+            "properties": {
+              "name": "Telecommunications",
+              "web_path": "category/telecommunications/e12cc7ded276007e7d89bdf3f8d1ffe7",
+              "category_groups": [
+                "Hardware"
+              ],
+              "created_at": 1397980727,
+              "updated_at": 1518483551
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/sovernet-communications/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/sovernet-communications/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/sovernet-communications/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/sovernet-communications/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/sovernet-communications/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/sovernet-communications/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/sovernet-communications/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/sovernet-communications/acquired_by",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Acquisition",
+          "uuid": "84d6e2a8122d6d2f8b0d327122a2bed4",
+          "properties": {
+            "permalink": "84d6e2a8122d6d2f8b0d327122a2bed4",
+            "api_path": "acquisitions/84d6e2a8122d6d2f8b0d327122a2bed4",
+            "web_path": "acquisition/84d6e2a8122d6d2f8b0d327122a2bed4",
+            "api_url": "https://api.crunchbase.com/v3.1/acquisitions/84d6e2a8122d6d2f8b0d327122a2bed4",
+            "price": 12700000,
+            "price_currency_code": "USD",
+            "price_usd": 12700000,
+            "payment_type": "cash",
+            "acquisition_type": "acquisition",
+            "acquisition_status": "complete",
+            "disposition_of_acquired": "subsidiary",
+            "announced_on": "2006-02-13",
+            "announced_on_trust_code": 7,
+            "completed_on": null,
+            "completed_on_trust_code": null,
+            "rank": 31858,
+            "created_at": 1505221128,
+            "updated_at": 1518478532
+          },
+          "relationships": {
+            "acquirer": {
+              "type": "Organization",
+              "uuid": "54c46062a84efc4be1b61b0fa326f6d3",
+              "properties": {
+                "permalink": "atlantic-tele-network",
+                "permalink_aliases": null,
+                "api_path": "organizations/atlantic-tele-network",
+                "web_path": "organization/atlantic-tele-network",
+                "api_url": "https://api.crunchbase.com/v3.1/organizations/atlantic-tele-network",
+                "name": "Atlantic Tele-Network",
+                "also_known_as": null,
+                "short_description": "Atlantic Tele-Network offers wireless and wireline telecommunications services in North America and the Caribbean.",
+                "description": "Atlantic Tele-Network, Inc., through its subsidiaries, provides wireless and wireline telecommunications services in North America and the Caribbean. The company offers wireless voice and data services to retail customers in Guyana and Bermuda, as well as provides wholesale wireless voice and data roaming services to national, regional, and local wireless carriers in rural markets located principally in the southwest and lower midwest United States. It also offers domestic wireline local and long distance telephone services in Guyana; facilities-based integrated voice and data communications services to residential and business customers in New England primarily in Vermont; wholesale transport services in New York; and Internet access services in the U.S. Virgin Islands. In addition, Atlantic Tele-Network provides international voice and data communications into and out of Guyana through fiber optic cables. The company was founded in 1987 and is headquartered in Salem, Massachusetts.",
+                "profile_image_url": "http://public.crunchbase.com/t_api_images/v1397198766/1f10a85e5ba506e045f16f2c79e81be3.jpg",
+                "primary_role": "company",
+                "role_company": true,
+                "role_investor": true,
+                "role_group": false,
+                "role_school": false,
+                "investor_type": null,
+                "founded_on": "1987-01-01",
+                "founded_on_trust_code": 4,
+                "is_closed": false,
+                "closed_on": null,
+                "closed_on_trust_code": null,
+                "num_employees_min": 1001,
+                "num_employees_max": 5000,
+                "stock_exchange": "nasdaq",
+                "stock_symbol": "ATNI",
+                "total_funding_usd": 0,
+                "number_of_investments": 1,
+                "homepage_url": "http://www.atni.com",
+                "contact_email": "ir@atni.com",
+                "phone_number": "978-619-1300",
+                "rank": 144239,
+                "created_at": 1261823490,
+                "updated_at": 1540589868
+              }
+            }
+          }
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/sovernet-communications/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/sovernet-communications/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/sovernet-communications/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "d07795e90f79f24f7dec9fb5d00175a7",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "https://corp.sover.net/site/about-us",
+              "created_at": 1470811358,
+              "updated_at": 1543572396
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "d07795e90f79f24f7dec9fb5d00175a7",
+            "properties": {
+              "website_type": "facebook",
+              "website_name": "facebook",
+              "url": "https://www.facebook.com/sovernetcommunications",
+              "created_at": 1470811358,
+              "updated_at": 1543572396
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "d07795e90f79f24f7dec9fb5d00175a7",
+            "properties": {
+              "website_type": "twitter",
+              "website_name": "twitter",
+              "url": "https://www.twitter.com/sovernet",
+              "created_at": 1470811358,
+              "updated_at": 1543572396
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/sovernet-communications/images",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Image",
+            "uuid": "d07795e90f79f24f7dec9fb5d00175a7",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/v1470811299/ozezzc02td8vg7wigjtj.jpg",
+              "asset_url": "http://public.crunchbase.com/t_api_images/v1470811299/ozezzc02td8vg7wigjtj.jpg",
+              "content_type": "jpg",
+              "height": null,
+              "width": null,
+              "filesize": null,
+              "created_at": 1470811358,
+              "updated_at": 1543572396
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/sovernet-communications/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/sovernet-communications/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}

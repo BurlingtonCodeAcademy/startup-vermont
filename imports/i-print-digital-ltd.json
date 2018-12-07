@@ -1,0 +1,492 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "89b8e7d163ef4a3ea3669237d8581c7b",
+    "properties": {
+      "permalink": "i-print-digital-ltd",
+      "permalink_aliases": null,
+      "api_path": "organizations/i-print-digital-ltd",
+      "web_path": "organization/i-print-digital-ltd",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/i-print-digital-ltd",
+      "name": "I Print Digital Ltd",
+      "also_known_as": null,
+      "short_description": "I Print Digital provides innovation, creativity and expertise in the service areas of digital printing and signage.",
+      "description": "iPrint Digital started with five friends seizing an opportunity with a vision and a burning desire to do something creative, to make an impact on Jamaica, and move Jamaica forward.\nSince 2006 we have provided innovation, creativity and expertise in the service areas of digital printing and signage, mass audience engagement and customer creation and retention. Our team continues to deliver excellent service using cutting edge techniques as the Leading Creative Branding Company in market.\n",
+      "profile_image_url": "http://public.crunchbase.com/t_api_images/v8jicdrik4tdoqeyuxdc",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": "2006-01-01",
+      "founded_on_trust_code": 4,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": null,
+      "num_employees_max": null,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": "http://www.iprintjamaica.com/",
+      "contact_email": null,
+      "phone_number": "876.908.0266 ",
+      "rank": 322736,
+      "created_at": 1524133208,
+      "updated_at": 1533928598
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/i-print-digital-ltd/primary_image",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Image",
+          "uuid": "89b8e7d163ef4a3ea3669237d8581c7b",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/v8jicdrik4tdoqeyuxdc",
+            "asset_url": "http://public.crunchbase.com/t_api_images/v8jicdrik4tdoqeyuxdc",
+            "content_type": "v8jicdrik4tdoqeyuxdc",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1524133208,
+            "updated_at": 1533928598
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/i-print-digital-ltd/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/i-print-digital-ltd/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": []
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/i-print-digital-ltd/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/i-print-digital-ltd/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/i-print-digital-ltd/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/i-print-digital-ltd/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/i-print-digital-ltd/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/i-print-digital-ltd/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/i-print-digital-ltd/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "e7b4972b7253466f818d86a37911078b",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "24 Westminster Road",
+            "street_2": "Kingston 10",
+            "postal_code": null,
+            "city": "Jamaica",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1524133208,
+            "updated_at": 1524133208
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/i-print-digital-ltd/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "e7b4972b7253466f818d86a37911078b",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "24 Westminster Road",
+            "street_2": "Kingston 10",
+            "postal_code": null,
+            "city": "Jamaica",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1524133208,
+            "updated_at": 1524133208
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/i-print-digital-ltd/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/i-print-digital-ltd/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "58284e684cf7e34fae3bdd68f25e9b99",
+            "properties": {
+              "name": "Printing",
+              "web_path": "category/printing/58284e684cf7e34fae3bdd68f25e9b99",
+              "category_groups": [
+                "Content and Publishing",
+                "Media and Entertainment"
+              ],
+              "created_at": 1397980728,
+              "updated_at": 1518483550
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "6cccdcbd26dd4d3aa278568f9ae5ed8c",
+            "properties": {
+              "name": "Creative Agency",
+              "web_path": "category/creative-agency/6cccdcbd26dd4d3aa278568f9ae5ed8c",
+              "category_groups": [
+                "Content and Publishing",
+                "Media and Entertainment"
+              ],
+              "created_at": 1457032184,
+              "updated_at": 1518483550
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "be24ff10a0407d8fd7a71169cc22497b",
+            "properties": {
+              "name": "Digital Signage",
+              "web_path": "category/digital-signage/be24ff10a0407d8fd7a71169cc22497b",
+              "category_groups": [
+                "Sales and Marketing"
+              ],
+              "created_at": 1397980727,
+              "updated_at": 1518483551
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/i-print-digital-ltd/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/i-print-digital-ltd/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/i-print-digital-ltd/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/i-print-digital-ltd/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/i-print-digital-ltd/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/i-print-digital-ltd/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/i-print-digital-ltd/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": [
+          {
+            "type": "Acquisition",
+            "uuid": "8692fc1f563841fe8dcff7e16536012c",
+            "properties": {
+              "permalink": "8692fc1f563841fe8dcff7e16536012c",
+              "api_path": "acquisitions/8692fc1f563841fe8dcff7e16536012c",
+              "web_path": "acquisition/8692fc1f563841fe8dcff7e16536012c",
+              "api_url": "https://api.crunchbase.com/v3.1/acquisitions/8692fc1f563841fe8dcff7e16536012c",
+              "price": null,
+              "price_currency_code": null,
+              "price_usd": null,
+              "payment_type": null,
+              "acquisition_type": "acquisition",
+              "acquisition_status": "complete",
+              "disposition_of_acquired": "subsidiary",
+              "announced_on": "2018-04-13",
+              "announced_on_trust_code": 7,
+              "completed_on": null,
+              "completed_on_trust_code": null,
+              "rank": 6240,
+              "created_at": 1524133521,
+              "updated_at": 1524133521
+            },
+            "relationships": {
+              "acquiree": {
+                "type": "Organization",
+                "uuid": "8eb12739d166470dac79a4c181e3fab4",
+                "properties": {
+                  "permalink": "national-outdoor-advertising-ltd",
+                  "permalink_aliases": null,
+                  "api_path": "organizations/national-outdoor-advertising-ltd",
+                  "web_path": "organization/national-outdoor-advertising-ltd",
+                  "api_url": "https://api.crunchbase.com/v3.1/organizations/national-outdoor-advertising-ltd",
+                  "name": "National Outdoor Advertising Ltd.",
+                  "also_known_as": null,
+                  "short_description": "NOA is the Jamaica's Outdoor Advertising company, operating for over 45 years.",
+                  "description": "NOA is the Jamaica's Outdoor Advertising company, operating for over 45 years. Apart from our superior infrastructure, National Outdoor Advertising Limited has established an impressive bank of skills in all areas of the business.\nWe are able to provide advice and information, as well as comprehensive service in the areas of sales, printing, fabrication and installation.\n\nCustomised applications form a large part of the services that we currently provide. This shows that clients rely, and draw on our years of experience, our innovation and our connection with other international sign organisations, which facilitates our knowledge and growth.\n\nNational Outdoor Advertising has an extensive client list, which includes every major advertising agency on the Island as well as a number of overseas clients, including exports to CARICOM, with whom we have established direct relationships. This means that our reach is not just local, but international.\n\n\n",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/kt5ji471sfkecynvd3cj",
+                  "primary_role": "company",
+                  "role_company": true,
+                  "role_investor": false,
+                  "role_group": false,
+                  "role_school": false,
+                  "investor_type": null,
+                  "founded_on": null,
+                  "founded_on_trust_code": null,
+                  "is_closed": false,
+                  "closed_on": null,
+                  "closed_on_trust_code": null,
+                  "num_employees_min": null,
+                  "num_employees_max": null,
+                  "stock_exchange": null,
+                  "stock_symbol": null,
+                  "total_funding_usd": 0,
+                  "number_of_investments": 0,
+                  "homepage_url": "http://noajamaica.com/",
+                  "contact_email": null,
+                  "phone_number": "+1 876-929-9403",
+                  "rank": 325486,
+                  "created_at": 1524133377,
+                  "updated_at": 1524133377
+                }
+              }
+            }
+          }
+        ]
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/i-print-digital-ltd/acquired_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/i-print-digital-ltd/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/i-print-digital-ltd/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/i-print-digital-ltd/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "89b8e7d163ef4a3ea3669237d8581c7b",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "http://www.iprintjamaica.com/",
+              "created_at": 1524133208,
+              "updated_at": 1533928598
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "89b8e7d163ef4a3ea3669237d8581c7b",
+            "properties": {
+              "website_type": "facebook",
+              "website_name": "facebook",
+              "url": "https://www.facebook.com/IPrintJA/",
+              "created_at": 1524133208,
+              "updated_at": 1533928598
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/i-print-digital-ltd/images",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Image",
+            "uuid": "89b8e7d163ef4a3ea3669237d8581c7b",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/v8jicdrik4tdoqeyuxdc",
+              "asset_url": "http://public.crunchbase.com/t_api_images/v8jicdrik4tdoqeyuxdc",
+              "content_type": "v8jicdrik4tdoqeyuxdc",
+              "height": null,
+              "width": null,
+              "filesize": null,
+              "created_at": 1524133208,
+              "updated_at": 1533928598
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/i-print-digital-ltd/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/i-print-digital-ltd/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}

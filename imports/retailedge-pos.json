@@ -1,0 +1,435 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "d5682cc213e14be6993f2dde0ebd9ca9",
+    "properties": {
+      "permalink": "retailedge-pos",
+      "permalink_aliases": null,
+      "api_path": "organizations/retailedge-pos",
+      "web_path": "organization/retailedge-pos",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/retailedge-pos",
+      "name": "RetailEdge POS",
+      "also_known_as": null,
+      "short_description": "RetailEdge POS is a Retail Point of Sale & Inventory Management Software.",
+      "description": "RetailEdge is developed by High Meadow Business Solutions – a software development company based in Rutland, Vermont. High Meadow develops retail point-of-sale (POS) software and specializes in point of sale hardware and services.\n\nHigh Meadow Business Solutions was established in June of 1989 to provide powerful, flexible, full-featured POS software and hardware solutions at a reasonable price that are not only easy to install, use, and configure, but are also affordable to maintain and run.\n\nThey strongly believe that a good POS solution, in addition to providing great features for a low price, must be supported well. So they have developed a strong support system that provides a backbone of local resellers and quick access to US-based Tier 3 (highest) level support if you ever need it.\n\nThey have customers in all 50 states, Puerto Rico, the Caribbean, Central America, Mexico,  Europe, Singapore, Indonesia, Japan, the Philippines, Australia, and Africa.",
+      "profile_image_url": "http://public.crunchbase.com/t_api_images/ziljauukdfcozwlv1wc3",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": "1989-06-01",
+      "founded_on_trust_code": 6,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": null,
+      "num_employees_max": null,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": "https://retailedge.com",
+      "contact_email": "info@retailedge.com",
+      "phone_number": "802-549-4617",
+      "rank": 270431,
+      "created_at": 1538805550,
+      "updated_at": 1540595772
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/retailedge-pos/primary_image",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Image",
+          "uuid": "d5682cc213e14be6993f2dde0ebd9ca9",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/ziljauukdfcozwlv1wc3",
+            "asset_url": "http://public.crunchbase.com/t_api_images/ziljauukdfcozwlv1wc3",
+            "content_type": "ziljauukdfcozwlv1wc3",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1538805550,
+            "updated_at": 1540595772
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/retailedge-pos/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/retailedge-pos/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": []
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/retailedge-pos/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/retailedge-pos/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/retailedge-pos/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/retailedge-pos/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/retailedge-pos/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/retailedge-pos/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/retailedge-pos/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "c2e660fa7ef348caabe08bfe0a7c5bea",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "67 Merchants Row",
+            "street_2": "Suite 301",
+            "postal_code": "05701",
+            "city": "Rutland",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1538805550,
+            "updated_at": 1538805666
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/retailedge-pos/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "c2e660fa7ef348caabe08bfe0a7c5bea",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "67 Merchants Row",
+            "street_2": "Suite 301",
+            "postal_code": "05701",
+            "city": "Rutland",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1538805550,
+            "updated_at": 1538805666
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/retailedge-pos/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/retailedge-pos/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "37d687ed5ad9d434d1fc09accbb96667",
+            "properties": {
+              "name": "Point of Sale",
+              "web_path": "category/point-of-sale/37d687ed5ad9d434d1fc09accbb96667",
+              "category_groups": [
+                "Commerce and Shopping"
+              ],
+              "created_at": 1397980727,
+              "updated_at": 1518483538
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "b65acba5b299399063908be3e3833a07",
+            "properties": {
+              "name": "Retail",
+              "web_path": "category/retail/b65acba5b299399063908be3e3833a07",
+              "category_groups": [
+                "Commerce and Shopping"
+              ],
+              "created_at": 1397980726,
+              "updated_at": 1518483551
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "c08b5441a05b9777b7a6012728caddd9",
+            "properties": {
+              "name": "Software",
+              "web_path": "category/software/c08b5441a05b9777b7a6012728caddd9",
+              "category_groups": [
+                "Software"
+              ],
+              "created_at": 1397980727,
+              "updated_at": 1518483551
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/retailedge-pos/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/retailedge-pos/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/retailedge-pos/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/retailedge-pos/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/retailedge-pos/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/retailedge-pos/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/retailedge-pos/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/retailedge-pos/acquired_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/retailedge-pos/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/retailedge-pos/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/retailedge-pos/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "d5682cc213e14be6993f2dde0ebd9ca9",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "https://retailedge.com",
+              "created_at": 1538805550,
+              "updated_at": 1540595772
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "d5682cc213e14be6993f2dde0ebd9ca9",
+            "properties": {
+              "website_type": "facebook",
+              "website_name": "facebook",
+              "url": "https://www.facebook.com/pg/retailedge",
+              "created_at": 1538805550,
+              "updated_at": 1540595772
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "d5682cc213e14be6993f2dde0ebd9ca9",
+            "properties": {
+              "website_type": "twitter",
+              "website_name": "twitter",
+              "url": "https://twitter.com/retailedge",
+              "created_at": 1538805550,
+              "updated_at": 1540595772
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/retailedge-pos/images",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Image",
+            "uuid": "d5682cc213e14be6993f2dde0ebd9ca9",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/ziljauukdfcozwlv1wc3",
+              "asset_url": "http://public.crunchbase.com/t_api_images/ziljauukdfcozwlv1wc3",
+              "content_type": "ziljauukdfcozwlv1wc3",
+              "height": null,
+              "width": null,
+              "filesize": null,
+              "created_at": 1538805550,
+              "updated_at": 1540595772
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/retailedge-pos/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/retailedge-pos/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}

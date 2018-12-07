@@ -1,0 +1,437 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "d61b9650dd7194e01ce1a3c8d251d029",
+    "properties": {
+      "permalink": "tansitor-electronics",
+      "permalink_aliases": null,
+      "api_path": "organizations/tansitor-electronics",
+      "web_path": "organization/tansitor-electronics",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/tansitor-electronics",
+      "name": "Tansitor Electronics",
+      "also_known_as": null,
+      "short_description": "Tansitor Electronics is involved in the development and manufacture of tantalum electrolytic capacitors.",
+      "description": "Tansitor Electronics, Inc. is involved in the development and manufacture of tantalum electrolytic capacitors. Its product line includes tantalum chip capacitators, solid tantalum capacitators, and wet tantalum capacitators.",
+      "profile_image_url": null,
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": null,
+      "founded_on_trust_code": null,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": null,
+      "num_employees_max": null,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": "http://www.tansitor.com/",
+      "contact_email": null,
+      "phone_number": "(802)442-5473",
+      "rank": 403096,
+      "created_at": 1494938529,
+      "updated_at": 1518478019
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tansitor-electronics/primary_image",
+          "sort_order": "not_ordered"
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tansitor-electronics/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tansitor-electronics/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": []
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tansitor-electronics/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tansitor-electronics/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tansitor-electronics/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tansitor-electronics/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tansitor-electronics/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tansitor-electronics/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tansitor-electronics/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "6cda0dfddbdd6f2b04cd0e4d738d4554",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "West Road",
+            "street_2": null,
+            "postal_code": "05201",
+            "city": "Bennington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1494938601,
+            "updated_at": 1518483794
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tansitor-electronics/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "6cda0dfddbdd6f2b04cd0e4d738d4554",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "West Road",
+            "street_2": null,
+            "postal_code": "05201",
+            "city": "Bennington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1494938601,
+            "updated_at": 1518483794
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tansitor-electronics/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tansitor-electronics/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "e173f2553db19d0274cbf58a1f45b483",
+            "properties": {
+              "name": "Electronics",
+              "web_path": "category/electronics/e173f2553db19d0274cbf58a1f45b483",
+              "category_groups": [
+                "Consumer Electronics",
+                "Hardware"
+              ],
+              "created_at": 1397980727,
+              "updated_at": 1518483551
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "e811671c168d1fd236e5df4e08a09f7c",
+            "properties": {
+              "name": "Manufacturing",
+              "web_path": "category/manufacturing/e811671c168d1fd236e5df4e08a09f7c",
+              "category_groups": [
+                "Manufacturing"
+              ],
+              "created_at": 1397980727,
+              "updated_at": 1518483551
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tansitor-electronics/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tansitor-electronics/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tansitor-electronics/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tansitor-electronics/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tansitor-electronics/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tansitor-electronics/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tansitor-electronics/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tansitor-electronics/acquired_by",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Acquisition",
+          "uuid": "91bb3018a4083fadc7cf1309fcf1a31f",
+          "properties": {
+            "permalink": "91bb3018a4083fadc7cf1309fcf1a31f",
+            "api_path": "acquisitions/91bb3018a4083fadc7cf1309fcf1a31f",
+            "web_path": "acquisition/91bb3018a4083fadc7cf1309fcf1a31f",
+            "api_url": "https://api.crunchbase.com/v3.1/acquisitions/91bb3018a4083fadc7cf1309fcf1a31f",
+            "price": null,
+            "price_currency_code": null,
+            "price_usd": null,
+            "payment_type": null,
+            "acquisition_type": "acquisition",
+            "acquisition_status": "complete",
+            "disposition_of_acquired": "combined",
+            "announced_on": "2001-01-30",
+            "announced_on_trust_code": 7,
+            "completed_on": null,
+            "completed_on_trust_code": null,
+            "rank": 32606,
+            "created_at": 1494938782,
+            "updated_at": 1518478599
+          },
+          "relationships": {
+            "acquirer": {
+              "type": "Organization",
+              "uuid": "a4ec4e8fb55363cb8f89fe8def880018",
+              "properties": {
+                "permalink": "vishay",
+                "permalink_aliases": null,
+                "api_path": "organizations/vishay",
+                "web_path": "organization/vishay",
+                "api_url": "https://api.crunchbase.com/v3.1/organizations/vishay",
+                "name": "Vishay",
+                "also_known_as": null,
+                "short_description": "Vishay Intertechnology, Inc., a Fortune 1000 Company listed on the NYSE (VSH), is one of the world's largest manufacturers semiconductors.",
+                "description": "Vishay Intertechnology was founded in 1962 by Dr. Felix Zandman, with a loan from his cousin Alfred P. Slaner. The Company was named after Dr. Zandman’s ancestral village in Lithuania, in memory of family members who perished in the Holocaust. The Company’s initial product portfolio consisted of foil resistors and foil resistance strain gages. In 1985, having grown from a start-up into the world’s leading manufacturer of foil resistors and strain gages, the Company began an ongoing series of strategic acquisitions to become a broad-line manufacturer of electronic components. Today, Vishay Intertechnology is one of the world’s largest manufacturers of discrete semiconductors and passive electronic components.\r\n\r\nAs Vishay Intertechnology grew through innovations and acquisitions, its resistive foil technology products became non-core businesses. In 2010, Vishay Intertechnology spun off these non-core businesses into an independent company listed on the New York Stock Exchange: Vishay Precision Group (NYSE: VPG).",
+                "profile_image_url": "http://public.crunchbase.com/t_api_images/v1476184398/gavjhvlgpylfi7wlnfok.png",
+                "primary_role": "company",
+                "role_company": true,
+                "role_investor": false,
+                "role_group": false,
+                "role_school": false,
+                "investor_type": null,
+                "founded_on": "1962-01-01",
+                "founded_on_trust_code": 4,
+                "is_closed": false,
+                "closed_on": null,
+                "closed_on_trust_code": null,
+                "num_employees_min": 10001,
+                "num_employees_max": 1000000,
+                "stock_exchange": "nyse",
+                "stock_symbol": "VSH",
+                "total_funding_usd": 0,
+                "number_of_investments": 0,
+                "homepage_url": "http://www.vishay.com/",
+                "contact_email": null,
+                "phone_number": "(610)644-1300",
+                "rank": 101793,
+                "created_at": 1407834443,
+                "updated_at": 1523959337
+              }
+            }
+          }
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tansitor-electronics/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tansitor-electronics/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tansitor-electronics/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "d61b9650dd7194e01ce1a3c8d251d029",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "http://www.tansitor.com/",
+              "created_at": 1494938529,
+              "updated_at": 1518478019
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tansitor-electronics/images",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tansitor-electronics/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tansitor-electronics/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}

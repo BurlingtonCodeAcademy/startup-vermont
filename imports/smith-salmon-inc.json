@@ -1,0 +1,529 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "10efa66824064186a01a18fba59800b4",
+    "properties": {
+      "permalink": "smith-salmon-inc",
+      "permalink_aliases": null,
+      "api_path": "organizations/smith-salmon-inc",
+      "web_path": "organization/smith-salmon-inc",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/smith-salmon-inc",
+      "name": "Smith & Salmon, Inc.",
+      "also_known_as": [
+        "Sap! Beverages, Four Quarters Brewing "
+      ],
+      "short_description": "Smith & Salmon is a Vermont-based company that owns investments in food & beverages brands",
+      "description": null,
+      "profile_image_url": "http://public.crunchbase.com/t_api_images/wsdq75egs6fssx76b675",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": "2015-01-01",
+      "founded_on_trust_code": 4,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": 1,
+      "num_employees_max": 10,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": "http://www.smithandsalmon.com",
+      "contact_email": "info@smithandsalmon.com",
+      "phone_number": null,
+      "rank": 547267,
+      "created_at": 1535987861,
+      "updated_at": 1540596286
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/smith-salmon-inc/primary_image",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Image",
+          "uuid": "10efa66824064186a01a18fba59800b4",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/wsdq75egs6fssx76b675",
+            "asset_url": "http://public.crunchbase.com/t_api_images/wsdq75egs6fssx76b675",
+            "content_type": "wsdq75egs6fssx76b675",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1535987861,
+            "updated_at": 1540596286
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/smith-salmon-inc/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Person",
+            "uuid": "8c5acf8eafb34b9cb0bd40456e1ed6fe",
+            "properties": {
+              "permalink": "charles-smith-d6fe",
+              "permalink_aliases": null,
+              "api_path": "people/charles-smith-d6fe",
+              "web_path": "person/charles-smith-d6fe",
+              "api_url": "https://api.crunchbase.com/v3.1/people/charles-smith-d6fe",
+              "first_name": "Charles P.",
+              "last_name": "Smith",
+              "gender": "Male",
+              "also_known_as": [
+                "Chas"
+              ],
+              "bio": "Chas Smith is a native of Burlington, Vermont. He attended Elon University in North Carolina, graduating with a double major in economics and political science and a minor in international relations. While in college he focused on the intersection between business and the environment, writing his senior thesis on international fresh water security in relation to economic growth. He also spent time in Sri Lanka investigating the impacts on growth in relation to climate change. \n\nHe moved to Washington, D.C. after college to work for Senator Leahy on the staff of the United States Senate Judiciary Committee where he worked on issue areas including immigration reform, gun violence, domestic violence, voting rights, environmental policy, and global fresh water policy. \n\nChas moved back to Vermont in 2014 to enroll in the first class of the new Sustainable Entrepreneurship MBA (SEMBA) Program at the University of Vermont. Chas strongly believes in the power of business to change the world for the better, and this is a driving motivation in co-founding Sap! where he is able to merge his lifelong passion for environmental conservation and protection with a business that can positively impact both his local community, and eventually, set an example to show that businesses can do both well and good.",
+              "profile_image_url": "http://public.crunchbase.com/t_api_images/jihpz5gtjjlroceg0pkt",
+              "role_investor": false,
+              "born_on": null,
+              "born_on_trust_code": null,
+              "died_on": null,
+              "died_on_trust_code": null,
+              "rank": 330327,
+              "created_at": 1535987861,
+              "updated_at": 1536078826
+            }
+          },
+          {
+            "type": "Person",
+            "uuid": "a3b43cea54ac47b08e252ecdc779bd64",
+            "properties": {
+              "permalink": "nikita-salmon",
+              "permalink_aliases": null,
+              "api_path": "people/nikita-salmon",
+              "web_path": "person/nikita-salmon",
+              "api_url": "https://api.crunchbase.com/v3.1/people/nikita-salmon",
+              "first_name": "Nikita",
+              "last_name": "Salmon",
+              "gender": "Male",
+              "also_known_as": null,
+              "bio": null,
+              "profile_image_url": null,
+              "role_investor": false,
+              "born_on": null,
+              "born_on_trust_code": null,
+              "died_on": null,
+              "died_on_trust_code": null,
+              "rank": 639751,
+              "created_at": 1536076708,
+              "updated_at": 1536076708
+            }
+          }
+        ]
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/smith-salmon-inc/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "ec8eb5e7c5774f93bd34fe649978cad3",
+            "properties": {
+              "title": "President",
+              "started_on": "2015-01-01",
+              "started_on_trust_code": 4,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1536078826,
+              "updated_at": 1536078826
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "8c5acf8eafb34b9cb0bd40456e1ed6fe",
+                "properties": {
+                  "permalink": "charles-smith-d6fe",
+                  "permalink_aliases": null,
+                  "api_path": "people/charles-smith-d6fe",
+                  "web_path": "person/charles-smith-d6fe",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/charles-smith-d6fe",
+                  "first_name": "Charles P.",
+                  "last_name": "Smith",
+                  "gender": "Male",
+                  "also_known_as": [
+                    "Chas"
+                  ],
+                  "bio": "Chas Smith is a native of Burlington, Vermont. He attended Elon University in North Carolina, graduating with a double major in economics and political science and a minor in international relations. While in college he focused on the intersection between business and the environment, writing his senior thesis on international fresh water security in relation to economic growth. He also spent time in Sri Lanka investigating the impacts on growth in relation to climate change. \n\nHe moved to Washington, D.C. after college to work for Senator Leahy on the staff of the United States Senate Judiciary Committee where he worked on issue areas including immigration reform, gun violence, domestic violence, voting rights, environmental policy, and global fresh water policy. \n\nChas moved back to Vermont in 2014 to enroll in the first class of the new Sustainable Entrepreneurship MBA (SEMBA) Program at the University of Vermont. Chas strongly believes in the power of business to change the world for the better, and this is a driving motivation in co-founding Sap! where he is able to merge his lifelong passion for environmental conservation and protection with a business that can positively impact both his local community, and eventually, set an example to show that businesses can do both well and good.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/jihpz5gtjjlroceg0pkt",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 330327,
+                  "created_at": 1535987861,
+                  "updated_at": 1536078826
+                }
+              }
+            }
+          }
+        ]
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/smith-salmon-inc/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "ec8eb5e7c5774f93bd34fe649978cad3",
+            "properties": {
+              "title": "President",
+              "started_on": "2015-01-01",
+              "started_on_trust_code": 4,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1536078826,
+              "updated_at": 1536078826
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "8c5acf8eafb34b9cb0bd40456e1ed6fe",
+                "properties": {
+                  "permalink": "charles-smith-d6fe",
+                  "permalink_aliases": null,
+                  "api_path": "people/charles-smith-d6fe",
+                  "web_path": "person/charles-smith-d6fe",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/charles-smith-d6fe",
+                  "first_name": "Charles P.",
+                  "last_name": "Smith",
+                  "gender": "Male",
+                  "also_known_as": [
+                    "Chas"
+                  ],
+                  "bio": "Chas Smith is a native of Burlington, Vermont. He attended Elon University in North Carolina, graduating with a double major in economics and political science and a minor in international relations. While in college he focused on the intersection between business and the environment, writing his senior thesis on international fresh water security in relation to economic growth. He also spent time in Sri Lanka investigating the impacts on growth in relation to climate change. \n\nHe moved to Washington, D.C. after college to work for Senator Leahy on the staff of the United States Senate Judiciary Committee where he worked on issue areas including immigration reform, gun violence, domestic violence, voting rights, environmental policy, and global fresh water policy. \n\nChas moved back to Vermont in 2014 to enroll in the first class of the new Sustainable Entrepreneurship MBA (SEMBA) Program at the University of Vermont. Chas strongly believes in the power of business to change the world for the better, and this is a driving motivation in co-founding Sap! where he is able to merge his lifelong passion for environmental conservation and protection with a business that can positively impact both his local community, and eventually, set an example to show that businesses can do both well and good.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/jihpz5gtjjlroceg0pkt",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 330327,
+                  "created_at": 1535987861,
+                  "updated_at": 1536078826
+                }
+              }
+            }
+          }
+        ]
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/smith-salmon-inc/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/smith-salmon-inc/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/smith-salmon-inc/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/smith-salmon-inc/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/smith-salmon-inc/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/smith-salmon-inc/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "a5b82fa1caba4f819e9211d78f9f17e6",
+          "properties": {
+            "name": "266 Main Street",
+            "street_1": null,
+            "street_2": null,
+            "postal_code": "05401",
+            "city": "Burlington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1535987861,
+            "updated_at": 1535987861
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/smith-salmon-inc/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "a5b82fa1caba4f819e9211d78f9f17e6",
+          "properties": {
+            "name": "266 Main Street",
+            "street_1": null,
+            "street_2": null,
+            "postal_code": "05401",
+            "city": "Burlington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1535987861,
+            "updated_at": 1535987861
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/smith-salmon-inc/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/smith-salmon-inc/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/smith-salmon-inc/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/smith-salmon-inc/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/smith-salmon-inc/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/smith-salmon-inc/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/smith-salmon-inc/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/smith-salmon-inc/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/smith-salmon-inc/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/smith-salmon-inc/acquired_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/smith-salmon-inc/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/smith-salmon-inc/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/smith-salmon-inc/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "10efa66824064186a01a18fba59800b4",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "http://www.smithandsalmon.com",
+              "created_at": 1535987861,
+              "updated_at": 1540596286
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "10efa66824064186a01a18fba59800b4",
+            "properties": {
+              "website_type": "linkedin",
+              "website_name": "linkedin",
+              "url": "https://www.linkedin.com/company/smith-&-salmon-inc./",
+              "created_at": 1535987861,
+              "updated_at": 1540596286
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/smith-salmon-inc/images",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Image",
+            "uuid": "10efa66824064186a01a18fba59800b4",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/wsdq75egs6fssx76b675",
+              "asset_url": "http://public.crunchbase.com/t_api_images/wsdq75egs6fssx76b675",
+              "content_type": "wsdq75egs6fssx76b675",
+              "height": null,
+              "width": null,
+              "filesize": null,
+              "created_at": 1535987861,
+              "updated_at": 1540596286
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/smith-salmon-inc/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/smith-salmon-inc/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}

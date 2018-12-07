@@ -1,0 +1,809 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "3cc6b2274d940541512323f5a1c671e9",
+    "properties": {
+      "permalink": "schoolhack-solutions",
+      "permalink_aliases": null,
+      "api_path": "organizations/schoolhack-solutions",
+      "web_path": "organization/schoolhack-solutions",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/schoolhack-solutions",
+      "name": "SchoolHack Solutions",
+      "also_known_as": null,
+      "short_description": "SchoolHack Solutions is a Vermont-based company",
+      "description": "SchoolHack Solutions is a Vermont-based company founded by pioneering educators with extensive experience delivering authentic personalized learning.  As teachers, mental health counselors and policymakers, we know what it takes to create school cultures where all learning - both in and out of the classroom - counts.",
+      "profile_image_url": "http://public.crunchbase.com/t_api_images/v1498727986/trluow3ymtpoyqtz5r7m.png",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": "2014-01-01",
+      "founded_on_trust_code": 4,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": 1,
+      "num_employees_max": 10,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": "http://www.schoolhack.io/",
+      "contact_email": "info@schoolhack.io",
+      "phone_number": "+88850288850",
+      "rank": 189116,
+      "created_at": 1498728001,
+      "updated_at": 1540596151
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/schoolhack-solutions/primary_image",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Image",
+          "uuid": "3cc6b2274d940541512323f5a1c671e9",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/v1498727986/trluow3ymtpoyqtz5r7m.png",
+            "asset_url": "http://public.crunchbase.com/t_api_images/v1498727986/trluow3ymtpoyqtz5r7m.png",
+            "content_type": "png",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1498728001,
+            "updated_at": 1540596151
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/schoolhack-solutions/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Person",
+            "uuid": "697a0aaee2afafb7ab69d477459cb22b",
+            "properties": {
+              "permalink": "josie-jordan",
+              "permalink_aliases": null,
+              "api_path": "people/josie-jordan",
+              "web_path": "person/josie-jordan",
+              "api_url": "https://api.crunchbase.com/v3.1/people/josie-jordan",
+              "first_name": "Josie",
+              "last_name": "Jordan",
+              "gender": "Female",
+              "also_known_as": null,
+              "bio": "Josie has helped to design two nationally recognized, competency-based, personalized learning programs.  The majority of Josie's 25 year teaching experience has been spent designing student-centered curriculum and competency-based learning systems.  Based on this experience, she has a unique understanding of what teachers need as they shift to a more personalized approach.  Ever since she taught in the public schools of Kobe, Japan, Josie has understood the value of connecting with students around their needs and interests in order to foster engagement and establish a basis for quality instruction.  Through her pioneering work with graduate, middle and high school students, Josie is one of the few educators with the practical experience needed to guide others through the process of educational redesign.",
+              "profile_image_url": "http://public.crunchbase.com/t_api_images/v1498728870/sgplwwxoolrzpvhkcjtg.png",
+              "role_investor": false,
+              "born_on": null,
+              "born_on_trust_code": null,
+              "died_on": null,
+              "died_on_trust_code": null,
+              "rank": 164249,
+              "created_at": 1498728925,
+              "updated_at": 1518480055
+            }
+          },
+          {
+            "type": "Person",
+            "uuid": "f0cc594bee21d1fdc33f3935c0bd7eaf",
+            "properties": {
+              "permalink": "david-lipkin-2",
+              "permalink_aliases": null,
+              "api_path": "people/david-lipkin-2",
+              "web_path": "person/david-lipkin-2",
+              "api_url": "https://api.crunchbase.com/v3.1/people/david-lipkin-2",
+              "first_name": "David",
+              "last_name": "Lipkin",
+              "gender": "Male",
+              "also_known_as": null,
+              "bio": "David brings skills in systems thinking and a background in mental health to his role as SchooHack's CEO.  In his clinical mental health work with children and families, David specialized in engaging with particularly challenging populations by building trusting relationships that enabled meaningful learning and growth.  He is knowledgeable about behavioral intervention, self-regulation skills, social-emotional development, and trauma-informed systems of care, especially as they relate to the design of optimal learning environments.  He has worked as a school-based clinician, a musician, and an educator at the college and middle school levels. He is the proud father of three wonderful children.",
+              "profile_image_url": "http://public.crunchbase.com/t_api_images/v1498728544/comhizn7huxwlx3eu0ya.png",
+              "role_investor": false,
+              "born_on": null,
+              "born_on_trust_code": null,
+              "died_on": null,
+              "died_on_trust_code": null,
+              "rank": 419945,
+              "created_at": 1498728601,
+              "updated_at": 1518479386
+            }
+          }
+        ]
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/schoolhack-solutions/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "0db440a116cf3ea1a9e942f6cdea1fc4",
+            "properties": {
+              "title": "President & Co-Founder",
+              "started_on": "2014-01-01",
+              "started_on_trust_code": 4,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1498728925,
+              "updated_at": 1518484771
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "697a0aaee2afafb7ab69d477459cb22b",
+                "properties": {
+                  "permalink": "josie-jordan",
+                  "permalink_aliases": null,
+                  "api_path": "people/josie-jordan",
+                  "web_path": "person/josie-jordan",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/josie-jordan",
+                  "first_name": "Josie",
+                  "last_name": "Jordan",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": "Josie has helped to design two nationally recognized, competency-based, personalized learning programs.  The majority of Josie's 25 year teaching experience has been spent designing student-centered curriculum and competency-based learning systems.  Based on this experience, she has a unique understanding of what teachers need as they shift to a more personalized approach.  Ever since she taught in the public schools of Kobe, Japan, Josie has understood the value of connecting with students around their needs and interests in order to foster engagement and establish a basis for quality instruction.  Through her pioneering work with graduate, middle and high school students, Josie is one of the few educators with the practical experience needed to guide others through the process of educational redesign.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1498728870/sgplwwxoolrzpvhkcjtg.png",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 164249,
+                  "created_at": 1498728925,
+                  "updated_at": 1518480055
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "43cf160387c2baecb0f6830938d7fd63",
+            "properties": {
+              "title": "Product Director",
+              "started_on": "2017-01-01",
+              "started_on_trust_code": 4,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1498729631,
+              "updated_at": 1518485030
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "c7edb2432e516351dcda9200390ffed9",
+                "properties": {
+                  "permalink": "thierry-uwilingiyimana",
+                  "permalink_aliases": null,
+                  "api_path": "people/thierry-uwilingiyimana",
+                  "web_path": "person/thierry-uwilingiyimana",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/thierry-uwilingiyimana",
+                  "first_name": "Thierry",
+                  "last_name": "Uwilingiyimana",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Thierry comes to SchoolHack as a former-founder and leader of two education startups. He co-founded ClassTracks, Inc. and worked with founders of Acton Academy to introduce to the area a progressive lower and upper elementary school built on Montessori principles.  Born in Rwanda, Thierry and his family came to the United States seeking asylum from the war-torn country.  Thierry studied at Stanford University with an undergraduate degree in Engineering. He spent several years in software development then received his MBA in Entrepreneurship at the Acton School of Business in Austin, TX. Since business school, Thierry’s work has entirely been and remains on meaningful integration and use of technology to realize the vision of student-centered and learner-driven environments.  At SchoolHack, Thierry's focus is on product development and integration and he works closely with the SchoolHack management team in market and channel development.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1498729603/zxpgs0rwpzgyyoeh0afu.png",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 445382,
+                  "created_at": 1498729631,
+                  "updated_at": 1518480071
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "611c0981aa683484dc3cf304ca357a49",
+            "properties": {
+              "title": "CEO and Co-Founder",
+              "started_on": "2014-01-01",
+              "started_on_trust_code": 4,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1498728601,
+              "updated_at": 1518485167
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "f0cc594bee21d1fdc33f3935c0bd7eaf",
+                "properties": {
+                  "permalink": "david-lipkin-2",
+                  "permalink_aliases": null,
+                  "api_path": "people/david-lipkin-2",
+                  "web_path": "person/david-lipkin-2",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/david-lipkin-2",
+                  "first_name": "David",
+                  "last_name": "Lipkin",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "David brings skills in systems thinking and a background in mental health to his role as SchooHack's CEO.  In his clinical mental health work with children and families, David specialized in engaging with particularly challenging populations by building trusting relationships that enabled meaningful learning and growth.  He is knowledgeable about behavioral intervention, self-regulation skills, social-emotional development, and trauma-informed systems of care, especially as they relate to the design of optimal learning environments.  He has worked as a school-based clinician, a musician, and an educator at the college and middle school levels. He is the proud father of three wonderful children.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1498728544/comhizn7huxwlx3eu0ya.png",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 419945,
+                  "created_at": 1498728601,
+                  "updated_at": 1518479386
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "9360b0ef297428f4455d0754e7b5f923",
+            "properties": {
+              "title": "Chief Operations Officer",
+              "started_on": "2016-01-01",
+              "started_on_trust_code": 4,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1498729300,
+              "updated_at": 1518485418
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "186afe6fa03543863d5fb50ee3e7e8aa",
+                "properties": {
+                  "permalink": "kevin-hytten",
+                  "permalink_aliases": null,
+                  "api_path": "people/kevin-hytten",
+                  "web_path": "person/kevin-hytten",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/kevin-hytten",
+                  "first_name": "Kevin",
+                  "last_name": "Hytten",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Kevin brings a unique and diverse educational and professional background holding several advanced degrees in leadership, education, information technology and managing innovation.  Kevin has served as an administrator and educator in higher education working over the years at Syracuse University, The University of Vermont and Champlain College. More recently Kevin was the Chief Information Officer for a national virtual photography company.  Kevin is a trained team building facilitator and has over 20 years experience supervising and managing complex human resource and technology issues.  As Chief Operations Officer, Kevin will oversee a wide-range of SchoolHack initiatives on both the client and technology facing sides of the business.  He enjoys time with family, running, hiking, skiing, kayaking, Taekwon-Do, photography, movies, a house full of pets, driving with the top down, exploring innovative technologies, and tackling home improvement projects.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1498729194/uqjoqishafuy0vctkfbg.png",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 819660,
+                  "created_at": 1498729301,
+                  "updated_at": 1518479672
+                }
+              }
+            }
+          }
+        ]
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/schoolhack-solutions/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "0db440a116cf3ea1a9e942f6cdea1fc4",
+            "properties": {
+              "title": "President & Co-Founder",
+              "started_on": "2014-01-01",
+              "started_on_trust_code": 4,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1498728925,
+              "updated_at": 1518484771
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "697a0aaee2afafb7ab69d477459cb22b",
+                "properties": {
+                  "permalink": "josie-jordan",
+                  "permalink_aliases": null,
+                  "api_path": "people/josie-jordan",
+                  "web_path": "person/josie-jordan",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/josie-jordan",
+                  "first_name": "Josie",
+                  "last_name": "Jordan",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": "Josie has helped to design two nationally recognized, competency-based, personalized learning programs.  The majority of Josie's 25 year teaching experience has been spent designing student-centered curriculum and competency-based learning systems.  Based on this experience, she has a unique understanding of what teachers need as they shift to a more personalized approach.  Ever since she taught in the public schools of Kobe, Japan, Josie has understood the value of connecting with students around their needs and interests in order to foster engagement and establish a basis for quality instruction.  Through her pioneering work with graduate, middle and high school students, Josie is one of the few educators with the practical experience needed to guide others through the process of educational redesign.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1498728870/sgplwwxoolrzpvhkcjtg.png",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 164249,
+                  "created_at": 1498728925,
+                  "updated_at": 1518480055
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "43cf160387c2baecb0f6830938d7fd63",
+            "properties": {
+              "title": "Product Director",
+              "started_on": "2017-01-01",
+              "started_on_trust_code": 4,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1498729631,
+              "updated_at": 1518485030
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "c7edb2432e516351dcda9200390ffed9",
+                "properties": {
+                  "permalink": "thierry-uwilingiyimana",
+                  "permalink_aliases": null,
+                  "api_path": "people/thierry-uwilingiyimana",
+                  "web_path": "person/thierry-uwilingiyimana",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/thierry-uwilingiyimana",
+                  "first_name": "Thierry",
+                  "last_name": "Uwilingiyimana",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Thierry comes to SchoolHack as a former-founder and leader of two education startups. He co-founded ClassTracks, Inc. and worked with founders of Acton Academy to introduce to the area a progressive lower and upper elementary school built on Montessori principles.  Born in Rwanda, Thierry and his family came to the United States seeking asylum from the war-torn country.  Thierry studied at Stanford University with an undergraduate degree in Engineering. He spent several years in software development then received his MBA in Entrepreneurship at the Acton School of Business in Austin, TX. Since business school, Thierry’s work has entirely been and remains on meaningful integration and use of technology to realize the vision of student-centered and learner-driven environments.  At SchoolHack, Thierry's focus is on product development and integration and he works closely with the SchoolHack management team in market and channel development.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1498729603/zxpgs0rwpzgyyoeh0afu.png",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 445382,
+                  "created_at": 1498729631,
+                  "updated_at": 1518480071
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "611c0981aa683484dc3cf304ca357a49",
+            "properties": {
+              "title": "CEO and Co-Founder",
+              "started_on": "2014-01-01",
+              "started_on_trust_code": 4,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1498728601,
+              "updated_at": 1518485167
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "f0cc594bee21d1fdc33f3935c0bd7eaf",
+                "properties": {
+                  "permalink": "david-lipkin-2",
+                  "permalink_aliases": null,
+                  "api_path": "people/david-lipkin-2",
+                  "web_path": "person/david-lipkin-2",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/david-lipkin-2",
+                  "first_name": "David",
+                  "last_name": "Lipkin",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "David brings skills in systems thinking and a background in mental health to his role as SchooHack's CEO.  In his clinical mental health work with children and families, David specialized in engaging with particularly challenging populations by building trusting relationships that enabled meaningful learning and growth.  He is knowledgeable about behavioral intervention, self-regulation skills, social-emotional development, and trauma-informed systems of care, especially as they relate to the design of optimal learning environments.  He has worked as a school-based clinician, a musician, and an educator at the college and middle school levels. He is the proud father of three wonderful children.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1498728544/comhizn7huxwlx3eu0ya.png",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 419945,
+                  "created_at": 1498728601,
+                  "updated_at": 1518479386
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "9360b0ef297428f4455d0754e7b5f923",
+            "properties": {
+              "title": "Chief Operations Officer",
+              "started_on": "2016-01-01",
+              "started_on_trust_code": 4,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1498729300,
+              "updated_at": 1518485418
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "186afe6fa03543863d5fb50ee3e7e8aa",
+                "properties": {
+                  "permalink": "kevin-hytten",
+                  "permalink_aliases": null,
+                  "api_path": "people/kevin-hytten",
+                  "web_path": "person/kevin-hytten",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/kevin-hytten",
+                  "first_name": "Kevin",
+                  "last_name": "Hytten",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Kevin brings a unique and diverse educational and professional background holding several advanced degrees in leadership, education, information technology and managing innovation.  Kevin has served as an administrator and educator in higher education working over the years at Syracuse University, The University of Vermont and Champlain College. More recently Kevin was the Chief Information Officer for a national virtual photography company.  Kevin is a trained team building facilitator and has over 20 years experience supervising and managing complex human resource and technology issues.  As Chief Operations Officer, Kevin will oversee a wide-range of SchoolHack initiatives on both the client and technology facing sides of the business.  He enjoys time with family, running, hiking, skiing, kayaking, Taekwon-Do, photography, movies, a house full of pets, driving with the top down, exploring innovative technologies, and tackling home improvement projects.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1498729194/uqjoqishafuy0vctkfbg.png",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 819660,
+                  "created_at": 1498729301,
+                  "updated_at": 1518479672
+                }
+              }
+            }
+          }
+        ]
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/schoolhack-solutions/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/schoolhack-solutions/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/schoolhack-solutions/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/schoolhack-solutions/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/schoolhack-solutions/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/schoolhack-solutions/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "c8d8214276162d24e4da84761cdf4110",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "Vermont Center for Emerging Technologies,",
+            "street_2": "5 Court St.,",
+            "postal_code": "05753",
+            "city": "Middlebury",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1498728315,
+            "updated_at": 1518483984
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/schoolhack-solutions/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "c8d8214276162d24e4da84761cdf4110",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "Vermont Center for Emerging Technologies,",
+            "street_2": "5 Court St.,",
+            "postal_code": "05753",
+            "city": "Middlebury",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1498728315,
+            "updated_at": 1518483984
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/schoolhack-solutions/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/schoolhack-solutions/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "025caab73e5498f0061c73e7af159cd1",
+            "properties": {
+              "name": "Education",
+              "web_path": "category/education/025caab73e5498f0061c73e7af159cd1",
+              "category_groups": [
+                "Education"
+              ],
+              "created_at": 1397980727,
+              "updated_at": 1518483550
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/schoolhack-solutions/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/schoolhack-solutions/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/schoolhack-solutions/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/schoolhack-solutions/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/schoolhack-solutions/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/schoolhack-solutions/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/schoolhack-solutions/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/schoolhack-solutions/acquired_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/schoolhack-solutions/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/schoolhack-solutions/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/schoolhack-solutions/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "3cc6b2274d940541512323f5a1c671e9",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "http://www.schoolhack.io/",
+              "created_at": 1498728001,
+              "updated_at": 1540596151
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "3cc6b2274d940541512323f5a1c671e9",
+            "properties": {
+              "website_type": "facebook",
+              "website_name": "facebook",
+              "url": "https://www.facebook.com/SchoolHack.LiFT/",
+              "created_at": 1498728001,
+              "updated_at": 1540596151
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "3cc6b2274d940541512323f5a1c671e9",
+            "properties": {
+              "website_type": "twitter",
+              "website_name": "twitter",
+              "url": "https://twitter.com/SchoolHackNews",
+              "created_at": 1498728001,
+              "updated_at": 1540596151
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "3cc6b2274d940541512323f5a1c671e9",
+            "properties": {
+              "website_type": "linkedin",
+              "website_name": "linkedin",
+              "url": "https://www.linkedin.com/company-beta/10658546/",
+              "created_at": 1498728001,
+              "updated_at": 1540596151
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/schoolhack-solutions/images",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Image",
+            "uuid": "3cc6b2274d940541512323f5a1c671e9",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/v1498727986/trluow3ymtpoyqtz5r7m.png",
+              "asset_url": "http://public.crunchbase.com/t_api_images/v1498727986/trluow3ymtpoyqtz5r7m.png",
+              "content_type": "png",
+              "height": null,
+              "width": null,
+              "filesize": null,
+              "created_at": 1498728001,
+              "updated_at": 1540596151
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/schoolhack-solutions/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/schoolhack-solutions/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}

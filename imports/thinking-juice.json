@@ -1,0 +1,500 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "ace71212723b856283f632249e5aa37e",
+    "properties": {
+      "permalink": "thinking-juice",
+      "permalink_aliases": null,
+      "api_path": "organizations/thinking-juice",
+      "web_path": "organization/thinking-juice",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/thinking-juice",
+      "name": "Thinking Juice",
+      "also_known_as": null,
+      "short_description": "Thinking Juice is a strategic ideas business.  An agency built for the way business is done  today.",
+      "description": "Since 2003, they have been building, reviving and growing brands in the UK and beyond. Telling their stories. Solving their problems. Driving their growth. Creating powerful and profitable connections with their customers, based on real world customer insight.\r\n\r\nThey have done this with the perfect blend of ‘strategic-thinking’and ‘free-thinking’–creating work that is impossible to ignore, across their four pillar services – Brand Story and Strategy, Integrated Campaigns, Digital Transformation and Content Marketing.\r\n\r\nToday, they are one of the UK’s highest rated and most recommended Integrated Agencies. They are currently ranked in the UK’s Top Ten Independent Agencies and were named, UK’s Most Effective Agency 2014 and Best in Digital Strategy 2015 by the Recommended Agency Register. They operate from offices in Bournemouth and London, and they help brands grow at home in the UK and across the world.",
+      "profile_image_url": "http://public.crunchbase.com/t_api_images/v1442834858/kdjwcftx6pcems6ugale.png",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": "2003-01-01",
+      "founded_on_trust_code": 4,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": 51,
+      "num_employees_max": 100,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": "http://www.thinkingjuice.co.uk/",
+      "contact_email": "ideas@thinkingjuice.co.uk",
+      "phone_number": "+4401202985985",
+      "rank": 240961,
+      "created_at": 1442834866,
+      "updated_at": 1540599249
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/thinking-juice/primary_image",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Image",
+          "uuid": "ace71212723b856283f632249e5aa37e",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/v1442834858/kdjwcftx6pcems6ugale.png",
+            "asset_url": "http://public.crunchbase.com/t_api_images/v1442834858/kdjwcftx6pcems6ugale.png",
+            "content_type": "png",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1442834866,
+            "updated_at": 1540599249
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/thinking-juice/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/thinking-juice/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": []
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/thinking-juice/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/thinking-juice/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/thinking-juice/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/thinking-juice/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/thinking-juice/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/thinking-juice/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/thinking-juice/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "5f32ac8901fd1c72c62786a398726af9",
+          "properties": {
+            "name": "Main office",
+            "street_1": "Avalon 26 - 32 Oxford Road Bournemouth",
+            "street_2": null,
+            "postal_code": "BH8 8EZ",
+            "city": "Dorset",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1442835043,
+            "updated_at": 1518483757
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/thinking-juice/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "5f32ac8901fd1c72c62786a398726af9",
+          "properties": {
+            "name": "Main office",
+            "street_1": "Avalon 26 - 32 Oxford Road Bournemouth",
+            "street_2": null,
+            "postal_code": "BH8 8EZ",
+            "city": "Dorset",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1442835043,
+            "updated_at": 1518483757
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/thinking-juice/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/thinking-juice/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "6cb685372de1b0412ee5451ff81bccab",
+            "properties": {
+              "name": "Advertising",
+              "web_path": "category/advertising/6cb685372de1b0412ee5451ff81bccab",
+              "category_groups": [
+                "Advertising",
+                "Sales and Marketing"
+              ],
+              "created_at": 1397980727,
+              "updated_at": 1518483550
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/thinking-juice/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/thinking-juice/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/thinking-juice/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/thinking-juice/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/thinking-juice/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/thinking-juice/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/thinking-juice/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/thinking-juice/acquired_by",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Acquisition",
+          "uuid": "0db3519914b393d65e08c87dd42a5965",
+          "properties": {
+            "permalink": "0db3519914b393d65e08c87dd42a5965",
+            "api_path": "acquisitions/0db3519914b393d65e08c87dd42a5965",
+            "web_path": "acquisition/0db3519914b393d65e08c87dd42a5965",
+            "api_url": "https://api.crunchbase.com/v3.1/acquisitions/0db3519914b393d65e08c87dd42a5965",
+            "price": null,
+            "price_currency_code": null,
+            "price_usd": null,
+            "payment_type": null,
+            "acquisition_type": "acquisition",
+            "acquisition_status": "complete",
+            "disposition_of_acquired": "subsidiary",
+            "announced_on": "2017-05-09",
+            "announced_on_trust_code": 7,
+            "completed_on": null,
+            "completed_on_trust_code": null,
+            "rank": 66469,
+            "created_at": 1494418849,
+            "updated_at": 1518479589
+          },
+          "relationships": {
+            "acquirer": {
+              "type": "Organization",
+              "uuid": "eb3bfd45404f954786ffe555ec6db54f",
+              "properties": {
+                "permalink": "sideshow-ltd",
+                "permalink_aliases": null,
+                "api_path": "organizations/sideshow-ltd",
+                "web_path": "organization/sideshow-ltd",
+                "api_url": "https://api.crunchbase.com/v3.1/organizations/sideshow-ltd",
+                "name": "Sideshow Ltd.",
+                "also_known_as": null,
+                "short_description": "Sideshow is a marketing and advertising company.",
+                "description": "Sideshow is a marketing and advertising company. Sideshow is ambitious companies to improve the effectiveness of their communications through meaningful interactions and engaging digital experiences.",
+                "profile_image_url": "http://public.crunchbase.com/t_api_images/v1494418484/okcqkyuecsexthtp18wz.jpg",
+                "primary_role": "company",
+                "role_company": true,
+                "role_investor": false,
+                "role_group": false,
+                "role_school": false,
+                "investor_type": null,
+                "founded_on": "2010-01-01",
+                "founded_on_trust_code": 4,
+                "is_closed": false,
+                "closed_on": null,
+                "closed_on_trust_code": null,
+                "num_employees_min": 101,
+                "num_employees_max": 250,
+                "stock_exchange": null,
+                "stock_symbol": null,
+                "total_funding_usd": 0,
+                "number_of_investments": 0,
+                "homepage_url": "https://www.sideshowagency.com/",
+                "contact_email": "hello@sideshowagency.com",
+                "phone_number": "+4402071938768",
+                "rank": 404877,
+                "created_at": 1494418430,
+                "updated_at": 1540596337
+              }
+            }
+          }
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/thinking-juice/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/thinking-juice/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/thinking-juice/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "ace71212723b856283f632249e5aa37e",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "http://www.thinkingjuice.co.uk/",
+              "created_at": 1442834866,
+              "updated_at": 1540599249
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "ace71212723b856283f632249e5aa37e",
+            "properties": {
+              "website_type": "facebook",
+              "website_name": "facebook",
+              "url": "https://www.facebook.com/ThinkingJuice",
+              "created_at": 1442834866,
+              "updated_at": 1540599249
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "ace71212723b856283f632249e5aa37e",
+            "properties": {
+              "website_type": "twitter",
+              "website_name": "twitter",
+              "url": "https://twitter.com/ThinkingJuice",
+              "created_at": 1442834866,
+              "updated_at": 1540599249
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "ace71212723b856283f632249e5aa37e",
+            "properties": {
+              "website_type": "linkedin",
+              "website_name": "linkedin",
+              "url": "https://www.linkedin.com/company/451987",
+              "created_at": 1442834866,
+              "updated_at": 1540599249
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/thinking-juice/images",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Image",
+            "uuid": "ace71212723b856283f632249e5aa37e",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/v1442834858/kdjwcftx6pcems6ugale.png",
+              "asset_url": "http://public.crunchbase.com/t_api_images/v1442834858/kdjwcftx6pcems6ugale.png",
+              "content_type": "png",
+              "height": null,
+              "width": null,
+              "filesize": null,
+              "created_at": 1442834866,
+              "updated_at": 1540599249
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/thinking-juice/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/thinking-juice/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": [
+          {
+            "type": "News",
+            "uuid": "2c4051bb0e45481b816a4b2fe9980910",
+            "properties": {
+              "title": "American Apparel plans 'sexy but not sexualised' UK relaunch",
+              "author": null,
+              "posted_on": "2018-04-10",
+              "posted_on_trust_code": 7,
+              "url": "https://www.campaignlive.co.uk/article/american-apparel-plans-sexy-not-sexualised-uk-relaunch/1461675",
+              "created_at": 1523498411,
+              "updated_at": 1523498411
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,634 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "dcda3fe2d03d763ff769fb72d52336a5",
+    "properties": {
+      "permalink": "putney-pasta",
+      "permalink_aliases": null,
+      "api_path": "organizations/putney-pasta",
+      "web_path": "organization/putney-pasta",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/putney-pasta",
+      "name": "Putney Pasta",
+      "also_known_as": null,
+      "short_description": "A Brattleboro, Vt.-based natural pasta maker",
+      "description": "Putney Pasta has been making all-natural, premium frozen pasta and all-natural pasta-based meal solutions with fresh ingredients and bold, adventurous flavors. Putney Pasta’s frozen products are not only easy and convenient for consumers on the run, but rich in quality ingredients so home cooks can feel good about what they serve.",
+      "profile_image_url": "http://public.crunchbase.com/t_api_images/v1502260837/g1zjvqmvk6ur2d5ml5tg.jpg",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": "1993-01-01",
+      "founded_on_trust_code": 4,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": null,
+      "num_employees_max": null,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 2350000,
+      "number_of_investments": 0,
+      "homepage_url": null,
+      "contact_email": null,
+      "phone_number": null,
+      "rank": 362533,
+      "created_at": 1444556525,
+      "updated_at": 1518474366
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/putney-pasta/primary_image",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Image",
+          "uuid": "dcda3fe2d03d763ff769fb72d52336a5",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/v1502260837/g1zjvqmvk6ur2d5ml5tg.jpg",
+            "asset_url": "http://public.crunchbase.com/t_api_images/v1502260837/g1zjvqmvk6ur2d5ml5tg.jpg",
+            "content_type": "jpg",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1444556525,
+            "updated_at": 1518474366
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/putney-pasta/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/putney-pasta/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": []
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/putney-pasta/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/putney-pasta/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/putney-pasta/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/putney-pasta/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "uuid": "0e0fb98077df13237f3b7de2ce1d8ad3",
+            "properties": {
+              "permalink": "sea-change",
+              "permalink_aliases": null,
+              "api_path": "organizations/sea-change",
+              "web_path": "organization/sea-change",
+              "api_url": "https://api.crunchbase.com/v3.1/organizations/sea-change",
+              "name": "SEA Change",
+              "also_known_as": null,
+              "short_description": "SEA Change is Northeast Ohio’s new Social Enterprise Accelerator.",
+              "description": "SEA Change (social enterprise accelerator) is a collaborative initiative that provides coaching, connections and capital to people who have big ideas to improve their community and self-sustaining ways of doing so by selling goods and/or services. SEA Change is operated collaboratively by a mix of existing organizations who bring expertise in launching, supporting and financing start-ups, advancing non-profits and engaging the community. Funding is provided by the foundations listed below.",
+              "profile_image_url": "http://public.crunchbase.com/t_api_images/v1407325852/w32iht9x1sro5kn1luv1.png",
+              "primary_role": "investor",
+              "role_company": false,
+              "role_investor": true,
+              "role_group": false,
+              "role_school": false,
+              "investor_type": [
+                "accelerator"
+              ],
+              "founded_on": "2010-01-01",
+              "founded_on_trust_code": 4,
+              "is_closed": false,
+              "closed_on": null,
+              "closed_on_trust_code": null,
+              "num_employees_min": null,
+              "num_employees_max": null,
+              "stock_exchange": null,
+              "stock_symbol": null,
+              "total_funding_usd": 0,
+              "number_of_investments": 1,
+              "homepage_url": "http://seachng.org/",
+              "contact_email": "neo@seachangeohio.org",
+              "phone_number": null,
+              "rank": 474109,
+              "created_at": 1407325869,
+              "updated_at": 1540595700
+            }
+          },
+          {
+            "type": "Organization",
+            "uuid": "c1650add1427a5a05d02e7d3c988d587",
+            "properties": {
+              "permalink": "cei-community-ventures",
+              "permalink_aliases": null,
+              "api_path": "organizations/cei-community-ventures",
+              "web_path": "organization/cei-community-ventures",
+              "api_url": "https://api.crunchbase.com/v3.1/organizations/cei-community-ventures",
+              "name": "CEI Community Ventures",
+              "also_known_as": null,
+              "short_description": "CEI Community Ventures is a venture capital firm that finances growth-oriented businesses in targeted communities in Maine, New Hampshire",
+              "description": "[CEI Community Ventures](http://www.ceicommunityventures.com/) is a venture capital firm that finances growth-oriented businesses in targeted communities in  Maine, New Hampshire and Vermont.",
+              "profile_image_url": "http://public.crunchbase.com/t_api_images/v1397179051/c8187c210dfd6de0de50d331c89c0b31.jpg",
+              "primary_role": "investor",
+              "role_company": false,
+              "role_investor": true,
+              "role_group": false,
+              "role_school": false,
+              "investor_type": [
+                "venture_capital"
+              ],
+              "founded_on": null,
+              "founded_on_trust_code": null,
+              "is_closed": false,
+              "closed_on": null,
+              "closed_on_trust_code": null,
+              "num_employees_min": null,
+              "num_employees_max": null,
+              "stock_exchange": null,
+              "stock_symbol": null,
+              "total_funding_usd": 0,
+              "number_of_investments": 3,
+              "homepage_url": "http://www.ceicommunityventures.com",
+              "contact_email": "info@ceicommunityventures.com",
+              "phone_number": null,
+              "rank": 318958,
+              "created_at": 1203410495,
+              "updated_at": 1540590405
+            }
+          }
+        ]
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/putney-pasta/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/putney-pasta/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/putney-pasta/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "e831ed5cb740b765aac9497599ffa597",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "28 Vernon Street",
+            "street_2": "Suite 434",
+            "postal_code": "05301",
+            "city": "Brattleboro",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1444556564,
+            "updated_at": 1518484054
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/putney-pasta/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "e831ed5cb740b765aac9497599ffa597",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "28 Vernon Street",
+            "street_2": "Suite 434",
+            "postal_code": "05301",
+            "city": "Brattleboro",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1444556564,
+            "updated_at": 1518484054
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/putney-pasta/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/putney-pasta/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "14364faa63f90d457b6a7378113364a2",
+            "properties": {
+              "name": "Food and Beverage",
+              "web_path": "category/food-and-beverage/14364faa63f90d457b6a7378113364a2",
+              "category_groups": [
+                "Food and Beverage"
+              ],
+              "created_at": 1457032196,
+              "updated_at": 1518483533
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "5e863b2028f6a76089c7005249ab4a70",
+            "properties": {
+              "name": "Organic Food",
+              "web_path": "category/organic-food/5e863b2028f6a76089c7005249ab4a70",
+              "category_groups": [
+                "Food and Beverage"
+              ],
+              "created_at": 1397980727,
+              "updated_at": 1518483550
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "97e0bac27d87173a47b3366f201da451",
+            "properties": {
+              "name": "Food Processing",
+              "web_path": "category/food-processing/97e0bac27d87173a47b3366f201da451",
+              "category_groups": [
+                "Food and Beverage"
+              ],
+              "created_at": 1397980728,
+              "updated_at": 1518483551
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/putney-pasta/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/putney-pasta/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/putney-pasta/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/putney-pasta/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/putney-pasta/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": [
+          {
+            "type": "FundingRound",
+            "uuid": "fcd1441a0bb8320151473b6e3c2619e0",
+            "properties": {
+              "permalink": "fcd1441a0bb8320151473b6e3c2619e0",
+              "api_path": "funding-rounds/fcd1441a0bb8320151473b6e3c2619e0",
+              "web_path": "funding-round/fcd1441a0bb8320151473b6e3c2619e0",
+              "api_url": "https://api.crunchbase.com/v3.1/funding-rounds/fcd1441a0bb8320151473b6e3c2619e0",
+              "funding_type": "venture",
+              "series": null,
+              "series_qualifier": null,
+              "announced_on": "2008-07-01",
+              "announced_on_trust_code": 7,
+              "closed_on": null,
+              "closed_on_trust_code": null,
+              "money_raised": 2350000,
+              "money_raised_currency_code": "USD",
+              "money_raised_usd": 2350000,
+              "target_money_raised": null,
+              "target_money_raised_currency_code": null,
+              "target_money_raised_usd": null,
+              "pre_money_valuation": null,
+              "pre_money_valuation_currency_code": null,
+              "pre_money_valuation_usd": null,
+              "rank": 164375,
+              "created_at": 1444556610,
+              "updated_at": 1518477248
+            },
+            "relationships": {
+              "investments": [
+                {
+                  "type": "Investment",
+                  "uuid": "c3dfd87fa66fd2a826864797d60bce8d",
+                  "properties": {
+                    "money_invested": null,
+                    "money_invested_currency_code": null,
+                    "money_invested_usd": null,
+                    "is_lead_investor": false,
+                    "announced_on": "2008-07-01",
+                    "announced_on_trust_code": 7,
+                    "created_at": 1444556869,
+                    "updated_at": 1518483328
+                  },
+                  "relationships": {
+                    "investors": {
+                      "type": "Organization",
+                      "uuid": "c1650add1427a5a05d02e7d3c988d587",
+                      "properties": {
+                        "permalink": "cei-community-ventures",
+                        "permalink_aliases": null,
+                        "api_path": "organizations/cei-community-ventures",
+                        "web_path": "organization/cei-community-ventures",
+                        "api_url": "https://api.crunchbase.com/v3.1/organizations/cei-community-ventures",
+                        "name": "CEI Community Ventures",
+                        "also_known_as": null,
+                        "short_description": "CEI Community Ventures is a venture capital firm that finances growth-oriented businesses in targeted communities in Maine, New Hampshire",
+                        "description": "[CEI Community Ventures](http://www.ceicommunityventures.com/) is a venture capital firm that finances growth-oriented businesses in targeted communities in  Maine, New Hampshire and Vermont.",
+                        "profile_image_url": "http://public.crunchbase.com/t_api_images/v1397179051/c8187c210dfd6de0de50d331c89c0b31.jpg",
+                        "primary_role": "investor",
+                        "role_company": false,
+                        "role_investor": true,
+                        "role_group": false,
+                        "role_school": false,
+                        "investor_type": [
+                          "venture_capital"
+                        ],
+                        "founded_on": null,
+                        "founded_on_trust_code": null,
+                        "is_closed": false,
+                        "closed_on": null,
+                        "closed_on_trust_code": null,
+                        "num_employees_min": null,
+                        "num_employees_max": null,
+                        "stock_exchange": null,
+                        "stock_symbol": null,
+                        "total_funding_usd": 0,
+                        "number_of_investments": 3,
+                        "homepage_url": "http://www.ceicommunityventures.com",
+                        "contact_email": "info@ceicommunityventures.com",
+                        "phone_number": null,
+                        "rank": 318958,
+                        "created_at": 1203410495,
+                        "updated_at": 1540590405
+                      }
+                    },
+                    "partners": []
+                  }
+                },
+                {
+                  "type": "Investment",
+                  "uuid": "93a6c08868b0ce21eb7b50179d3a0893",
+                  "properties": {
+                    "money_invested": null,
+                    "money_invested_currency_code": null,
+                    "money_invested_usd": null,
+                    "is_lead_investor": true,
+                    "announced_on": "2008-07-01",
+                    "announced_on_trust_code": 7,
+                    "created_at": 1444556835,
+                    "updated_at": 1518483257
+                  },
+                  "relationships": {
+                    "investors": {
+                      "type": "Organization",
+                      "uuid": "0e0fb98077df13237f3b7de2ce1d8ad3",
+                      "properties": {
+                        "permalink": "sea-change",
+                        "permalink_aliases": null,
+                        "api_path": "organizations/sea-change",
+                        "web_path": "organization/sea-change",
+                        "api_url": "https://api.crunchbase.com/v3.1/organizations/sea-change",
+                        "name": "SEA Change",
+                        "also_known_as": null,
+                        "short_description": "SEA Change is Northeast Ohio’s new Social Enterprise Accelerator.",
+                        "description": "SEA Change (social enterprise accelerator) is a collaborative initiative that provides coaching, connections and capital to people who have big ideas to improve their community and self-sustaining ways of doing so by selling goods and/or services. SEA Change is operated collaboratively by a mix of existing organizations who bring expertise in launching, supporting and financing start-ups, advancing non-profits and engaging the community. Funding is provided by the foundations listed below.",
+                        "profile_image_url": "http://public.crunchbase.com/t_api_images/v1407325852/w32iht9x1sro5kn1luv1.png",
+                        "primary_role": "investor",
+                        "role_company": false,
+                        "role_investor": true,
+                        "role_group": false,
+                        "role_school": false,
+                        "investor_type": [
+                          "accelerator"
+                        ],
+                        "founded_on": "2010-01-01",
+                        "founded_on_trust_code": 4,
+                        "is_closed": false,
+                        "closed_on": null,
+                        "closed_on_trust_code": null,
+                        "num_employees_min": null,
+                        "num_employees_max": null,
+                        "stock_exchange": null,
+                        "stock_symbol": null,
+                        "total_funding_usd": 0,
+                        "number_of_investments": 1,
+                        "homepage_url": "http://seachng.org/",
+                        "contact_email": "neo@seachangeohio.org",
+                        "phone_number": null,
+                        "rank": 474109,
+                        "created_at": 1407325869,
+                        "updated_at": 1540595700
+                      }
+                    },
+                    "partners": []
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/putney-pasta/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/putney-pasta/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/putney-pasta/acquired_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/putney-pasta/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/putney-pasta/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/putney-pasta/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/putney-pasta/images",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Image",
+            "uuid": "dcda3fe2d03d763ff769fb72d52336a5",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/v1502260837/g1zjvqmvk6ur2d5ml5tg.jpg",
+              "asset_url": "http://public.crunchbase.com/t_api_images/v1502260837/g1zjvqmvk6ur2d5ml5tg.jpg",
+              "content_type": "jpg",
+              "height": null,
+              "width": null,
+              "filesize": null,
+              "created_at": 1444556525,
+              "updated_at": 1518474366
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/putney-pasta/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/putney-pasta/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}
