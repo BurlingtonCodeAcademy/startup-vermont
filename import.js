@@ -15,7 +15,7 @@ const fetch = require('node-fetch');
 const fs = require('fs');
 const path = require('path');
 
-const dbUrl = process.env.MONGO_URI || process.env.MONGOLAB_MAUVE_URI || `mongodb://localhost:27017/`
+const dbUrl = process.env.MONGO_URI || process.env.MONGOLAB_MAUVE_URI || `mongodb://localhost:27017/startup-vt`
 
 let store = new CompanyStore(dbUrl);
 
