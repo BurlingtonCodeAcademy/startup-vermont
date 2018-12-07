@@ -1,0 +1,415 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "e10f37389be5420499143f6bfe3b6b19",
+    "properties": {
+      "permalink": "poulin-grain-whitman-s-feed-store",
+      "permalink_aliases": null,
+      "api_path": "organizations/poulin-grain-whitman-s-feed-store",
+      "web_path": "organization/poulin-grain-whitman-s-feed-store",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/poulin-grain-whitman-s-feed-store",
+      "name": "Poulin Grain (Whitman's Feed Store)",
+      "also_known_as": [
+        "Whitman's Feed Store"
+      ],
+      "short_description": "It offer a great selection of food, treats, toys and supplies for dogs, cats, domestic birds and other small animals.",
+      "description": "Poulin Grain, a 4th generation feed company based in Newport, VT purchases Whitman's Feed Store and the mill",
+      "profile_image_url": "http://public.crunchbase.com/t_api_images/so3ythwnq2v0m0a4iovg",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": "1945-01-01",
+      "founded_on_trust_code": 4,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": null,
+      "num_employees_max": null,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": "https://www.whitmansfeed.com/departments",
+      "contact_email": "whitmans@poulingrain.com",
+      "phone_number": "802.442.2851",
+      "rank": 473211,
+      "created_at": 1528696300,
+      "updated_at": 1540595378
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/poulin-grain-whitman-s-feed-store/primary_image",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Image",
+          "uuid": "e10f37389be5420499143f6bfe3b6b19",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/so3ythwnq2v0m0a4iovg",
+            "asset_url": "http://public.crunchbase.com/t_api_images/so3ythwnq2v0m0a4iovg",
+            "content_type": "so3ythwnq2v0m0a4iovg",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1528696300,
+            "updated_at": 1540595378
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/poulin-grain-whitman-s-feed-store/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Person",
+            "uuid": "f3e26e3c86a7434993cd8cad7963f618",
+            "properties": {
+              "permalink": "bernard-whitman",
+              "permalink_aliases": null,
+              "api_path": "people/bernard-whitman",
+              "web_path": "person/bernard-whitman",
+              "api_url": "https://api.crunchbase.com/v3.1/people/bernard-whitman",
+              "first_name": "Bernard",
+              "last_name": "Whitman",
+              "gender": "Male",
+              "also_known_as": null,
+              "bio": null,
+              "profile_image_url": null,
+              "role_investor": false,
+              "born_on": null,
+              "born_on_trust_code": null,
+              "died_on": null,
+              "died_on_trust_code": null,
+              "rank": 731531,
+              "created_at": 1528696300,
+              "updated_at": 1536360814
+            }
+          }
+        ]
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/poulin-grain-whitman-s-feed-store/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": []
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/poulin-grain-whitman-s-feed-store/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/poulin-grain-whitman-s-feed-store/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/poulin-grain-whitman-s-feed-store/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/poulin-grain-whitman-s-feed-store/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/poulin-grain-whitman-s-feed-store/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/poulin-grain-whitman-s-feed-store/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/poulin-grain-whitman-s-feed-store/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "f2b6c5c98f574da5ba01f583ebe4cbce",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "1873 Vermont Rte 67 E, N. ",
+            "street_2": null,
+            "postal_code": "05257 ",
+            "city": "Bennington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1528696300,
+            "updated_at": 1528696300
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/poulin-grain-whitman-s-feed-store/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "f2b6c5c98f574da5ba01f583ebe4cbce",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "1873 Vermont Rte 67 E, N. ",
+            "street_2": null,
+            "postal_code": "05257 ",
+            "city": "Bennington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1528696300,
+            "updated_at": 1528696300
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/poulin-grain-whitman-s-feed-store/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/poulin-grain-whitman-s-feed-store/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "3278dd739e1726cd11ef1d5b99a6cea4",
+            "properties": {
+              "name": "Pet",
+              "web_path": "category/pet/3278dd739e1726cd11ef1d5b99a6cea4",
+              "category_groups": [
+                "Community and Lifestyle"
+              ],
+              "created_at": 1457032202,
+              "updated_at": 1518483537
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/poulin-grain-whitman-s-feed-store/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/poulin-grain-whitman-s-feed-store/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/poulin-grain-whitman-s-feed-store/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/poulin-grain-whitman-s-feed-store/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/poulin-grain-whitman-s-feed-store/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/poulin-grain-whitman-s-feed-store/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/poulin-grain-whitman-s-feed-store/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/poulin-grain-whitman-s-feed-store/acquired_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/poulin-grain-whitman-s-feed-store/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/poulin-grain-whitman-s-feed-store/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/poulin-grain-whitman-s-feed-store/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "e10f37389be5420499143f6bfe3b6b19",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "https://www.whitmansfeed.com/departments",
+              "created_at": 1528696300,
+              "updated_at": 1540595378
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/poulin-grain-whitman-s-feed-store/images",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Image",
+            "uuid": "e10f37389be5420499143f6bfe3b6b19",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/so3ythwnq2v0m0a4iovg",
+              "asset_url": "http://public.crunchbase.com/t_api_images/so3ythwnq2v0m0a4iovg",
+              "content_type": "so3ythwnq2v0m0a4iovg",
+              "height": null,
+              "width": null,
+              "filesize": null,
+              "created_at": 1528696300,
+              "updated_at": 1540595378
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/poulin-grain-whitman-s-feed-store/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/poulin-grain-whitman-s-feed-store/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}

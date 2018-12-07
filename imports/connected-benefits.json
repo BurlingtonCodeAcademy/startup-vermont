@@ -1,0 +1,774 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "ac83131271e50449bd4140bec2625f5c",
+    "properties": {
+      "permalink": "connected-benefits",
+      "permalink_aliases": null,
+      "api_path": "organizations/connected-benefits",
+      "web_path": "organization/connected-benefits",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/connected-benefits",
+      "name": "Connected Benefits",
+      "also_known_as": null,
+      "short_description": "Cloud-based employee benefits, HR, & payroll",
+      "description": "Connected Benefits is a national insurance agency built entirely on the cloud, providing individuals, families and small businesses with the tools and support they need when it comes to selecting the right insurance and employee benefit products. Connected Benefits has access to health insurance carriers across the country, and has partnered with key ancillary carriers to bring even more benefit options and services to its clients. With the use of modern systems and technology, Connected Benefits offers consumers a unique, full-service benefit buying experience and year-round administrative support, including real-time access to licensed agents and experienced benefit professionals.",
+      "profile_image_url": "http://public.crunchbase.com/t_api_images/v1443384784/u6iky13ydxtsebvdb5ic.png",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": "2013-12-01",
+      "founded_on_trust_code": 7,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": 11,
+      "num_employees_max": 50,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 1500000,
+      "number_of_investments": 0,
+      "homepage_url": "http://connectedbenefits.com",
+      "contact_email": null,
+      "phone_number": "(800) 853-1488",
+      "rank": 37747,
+      "created_at": 1443384864,
+      "updated_at": 1523954119
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/connected-benefits/primary_image",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Image",
+          "uuid": "ac83131271e50449bd4140bec2625f5c",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/v1443384784/u6iky13ydxtsebvdb5ic.png",
+            "asset_url": "http://public.crunchbase.com/t_api_images/v1443384784/u6iky13ydxtsebvdb5ic.png",
+            "content_type": "png",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1443384864,
+            "updated_at": 1523954119
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/connected-benefits/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Person",
+            "uuid": "dcf6b3f8be638ca983dc5fc32b08d3e7",
+            "properties": {
+              "permalink": "robert-gaydos",
+              "permalink_aliases": null,
+              "api_path": "people/robert-gaydos",
+              "web_path": "person/robert-gaydos",
+              "api_url": "https://api.crunchbase.com/v3.1/people/robert-gaydos",
+              "first_name": "Robert",
+              "last_name": "Gaydos",
+              "gender": "Male",
+              "also_known_as": null,
+              "bio": "Bob is an entrepreneur and a nationally recognized expert in the employee benefit industry.  Over the last 25 years, Bob has founded, invested, advised, and operated innovative companies in the benefit & insurance industry. Currently, Bob is involved in several ventures including Maxwell Health, Connected Benefits, Limelight Health, Kashable, PlanCompass, and more.  At Maxwell Health, Bob serves as their VP of Strategic Partnerships, developing relationships with health & life insurance carriers, as well as important employee benefit service vendors.  As the Founder of Connected Benefits, he advises the team as they grow into a national benefits provider for small employers, making their lives simple and convenient.",
+              "profile_image_url": "http://public.crunchbase.com/t_api_images/v1397187387/7d61b8da8cc60e5c0e79bf37d933ede3.png",
+              "role_investor": true,
+              "born_on": "1962-02-02",
+              "born_on_trust_code": 7,
+              "died_on": null,
+              "died_on_trust_code": null,
+              "rank": 33058,
+              "created_at": 1390487824,
+              "updated_at": 1518478822
+            }
+          }
+        ]
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/connected-benefits/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "fed010f8c40ed532511ec9330e8f639a",
+            "properties": {
+              "title": "Founder",
+              "started_on": "2013-12-01",
+              "started_on_trust_code": 7,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1443384864,
+              "updated_at": 1518485964
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "dcf6b3f8be638ca983dc5fc32b08d3e7",
+                "properties": {
+                  "permalink": "robert-gaydos",
+                  "permalink_aliases": null,
+                  "api_path": "people/robert-gaydos",
+                  "web_path": "person/robert-gaydos",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/robert-gaydos",
+                  "first_name": "Robert",
+                  "last_name": "Gaydos",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Bob is an entrepreneur and a nationally recognized expert in the employee benefit industry.  Over the last 25 years, Bob has founded, invested, advised, and operated innovative companies in the benefit & insurance industry. Currently, Bob is involved in several ventures including Maxwell Health, Connected Benefits, Limelight Health, Kashable, PlanCompass, and more.  At Maxwell Health, Bob serves as their VP of Strategic Partnerships, developing relationships with health & life insurance carriers, as well as important employee benefit service vendors.  As the Founder of Connected Benefits, he advises the team as they grow into a national benefits provider for small employers, making their lives simple and convenient.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1397187387/7d61b8da8cc60e5c0e79bf37d933ede3.png",
+                  "role_investor": true,
+                  "born_on": "1962-02-02",
+                  "born_on_trust_code": 7,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 33058,
+                  "created_at": 1390487824,
+                  "updated_at": 1518478822
+                }
+              }
+            }
+          }
+        ]
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/connected-benefits/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "fed010f8c40ed532511ec9330e8f639a",
+            "properties": {
+              "title": "Founder",
+              "started_on": "2013-12-01",
+              "started_on_trust_code": 7,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1443384864,
+              "updated_at": 1518485964
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "dcf6b3f8be638ca983dc5fc32b08d3e7",
+                "properties": {
+                  "permalink": "robert-gaydos",
+                  "permalink_aliases": null,
+                  "api_path": "people/robert-gaydos",
+                  "web_path": "person/robert-gaydos",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/robert-gaydos",
+                  "first_name": "Robert",
+                  "last_name": "Gaydos",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Bob is an entrepreneur and a nationally recognized expert in the employee benefit industry.  Over the last 25 years, Bob has founded, invested, advised, and operated innovative companies in the benefit & insurance industry. Currently, Bob is involved in several ventures including Maxwell Health, Connected Benefits, Limelight Health, Kashable, PlanCompass, and more.  At Maxwell Health, Bob serves as their VP of Strategic Partnerships, developing relationships with health & life insurance carriers, as well as important employee benefit service vendors.  As the Founder of Connected Benefits, he advises the team as they grow into a national benefits provider for small employers, making their lives simple and convenient.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1397187387/7d61b8da8cc60e5c0e79bf37d933ede3.png",
+                  "role_investor": true,
+                  "born_on": "1962-02-02",
+                  "born_on_trust_code": 7,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 33058,
+                  "created_at": 1390487824,
+                  "updated_at": 1518478822
+                }
+              }
+            }
+          }
+        ]
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/connected-benefits/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/connected-benefits/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "e3f52ac2a505aabf7034c86d72c6bbbc",
+            "properties": {
+              "title": "Investor",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "board_member",
+              "created_at": 1443386347,
+              "updated_at": 1518485830
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "631c1ca338196d3d80d2198b41c49de0",
+                "properties": {
+                  "permalink": "randall-raner",
+                  "permalink_aliases": null,
+                  "api_path": "people/randall-raner",
+                  "web_path": "person/randall-raner",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/randall-raner",
+                  "first_name": "Randall",
+                  "last_name": "Raner",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": null,
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 462580,
+                  "created_at": 1443386347,
+                  "updated_at": 1518478970
+                }
+              }
+            }
+          }
+        ]
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/connected-benefits/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Person",
+            "uuid": "dcf6b3f8be638ca983dc5fc32b08d3e7",
+            "properties": {
+              "permalink": "robert-gaydos",
+              "permalink_aliases": null,
+              "api_path": "people/robert-gaydos",
+              "web_path": "person/robert-gaydos",
+              "api_url": "https://api.crunchbase.com/v3.1/people/robert-gaydos",
+              "first_name": "Robert",
+              "last_name": "Gaydos",
+              "gender": "Male",
+              "also_known_as": null,
+              "bio": "Bob is an entrepreneur and a nationally recognized expert in the employee benefit industry.  Over the last 25 years, Bob has founded, invested, advised, and operated innovative companies in the benefit & insurance industry. Currently, Bob is involved in several ventures including Maxwell Health, Connected Benefits, Limelight Health, Kashable, PlanCompass, and more.  At Maxwell Health, Bob serves as their VP of Strategic Partnerships, developing relationships with health & life insurance carriers, as well as important employee benefit service vendors.  As the Founder of Connected Benefits, he advises the team as they grow into a national benefits provider for small employers, making their lives simple and convenient.",
+              "profile_image_url": "http://public.crunchbase.com/t_api_images/v1397187387/7d61b8da8cc60e5c0e79bf37d933ede3.png",
+              "role_investor": true,
+              "born_on": "1962-02-02",
+              "born_on_trust_code": 7,
+              "died_on": null,
+              "died_on_trust_code": null,
+              "rank": 33058,
+              "created_at": 1390487824,
+              "updated_at": 1518478822
+            }
+          }
+        ]
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/connected-benefits/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/connected-benefits/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/connected-benefits/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "25504720dbdab1be81e5e6cd5190aa7c",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "354 Mountain View Dr",
+            "street_2": "Ste 230",
+            "postal_code": "05446",
+            "city": "Colchester",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1451273783,
+            "updated_at": 1518483630
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/connected-benefits/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "25504720dbdab1be81e5e6cd5190aa7c",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "354 Mountain View Dr",
+            "street_2": "Ste 230",
+            "postal_code": "05446",
+            "city": "Colchester",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1451273783,
+            "updated_at": 1518483630
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/connected-benefits/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/connected-benefits/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "7866a1c021ec241cc2a6d263a6ef49dd",
+            "properties": {
+              "name": "Cloud Computing",
+              "web_path": "category/cloud-computing/7866a1c021ec241cc2a6d263a6ef49dd",
+              "category_groups": [
+                "Internet Services",
+                "Software"
+              ],
+              "created_at": 1397980727,
+              "updated_at": 1518483551
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "92deb86bde0553d4e1f939658c12d2da",
+            "properties": {
+              "name": "Human Resources",
+              "web_path": "category/human-resources/92deb86bde0553d4e1f939658c12d2da",
+              "category_groups": null,
+              "created_at": 1397980727,
+              "updated_at": 1523738063
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/connected-benefits/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/connected-benefits/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/connected-benefits/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/connected-benefits/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/connected-benefits/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": [
+          {
+            "type": "FundingRound",
+            "uuid": "c73ff689cd104ad201b1569018fad484",
+            "properties": {
+              "permalink": "c73ff689cd104ad201b1569018fad484",
+              "api_path": "funding-rounds/c73ff689cd104ad201b1569018fad484",
+              "web_path": "funding-round/c73ff689cd104ad201b1569018fad484",
+              "api_url": "https://api.crunchbase.com/v3.1/funding-rounds/c73ff689cd104ad201b1569018fad484",
+              "funding_type": "convertible_note",
+              "series": null,
+              "series_qualifier": null,
+              "announced_on": "2015-07-01",
+              "announced_on_trust_code": 7,
+              "closed_on": null,
+              "closed_on_trust_code": null,
+              "money_raised": 750000,
+              "money_raised_currency_code": "USD",
+              "money_raised_usd": 750000,
+              "target_money_raised": 1250000,
+              "target_money_raised_currency_code": "USD",
+              "target_money_raised_usd": 1250000,
+              "pre_money_valuation": null,
+              "pre_money_valuation_currency_code": null,
+              "pre_money_valuation_usd": null,
+              "rank": 184406,
+              "created_at": 1443386239,
+              "updated_at": 1518478104
+            }
+          },
+          {
+            "type": "FundingRound",
+            "uuid": "96dbfc0e1bd3c442b71109bcafbae962",
+            "properties": {
+              "permalink": "96dbfc0e1bd3c442b71109bcafbae962",
+              "api_path": "funding-rounds/96dbfc0e1bd3c442b71109bcafbae962",
+              "web_path": "funding-round/96dbfc0e1bd3c442b71109bcafbae962",
+              "api_url": "https://api.crunchbase.com/v3.1/funding-rounds/96dbfc0e1bd3c442b71109bcafbae962",
+              "funding_type": "seed",
+              "series": null,
+              "series_qualifier": null,
+              "announced_on": "2013-12-01",
+              "announced_on_trust_code": 7,
+              "closed_on": null,
+              "closed_on_trust_code": null,
+              "money_raised": 750000,
+              "money_raised_currency_code": "USD",
+              "money_raised_usd": 750000,
+              "target_money_raised": null,
+              "target_money_raised_currency_code": null,
+              "target_money_raised_usd": null,
+              "pre_money_valuation": null,
+              "pre_money_valuation_currency_code": null,
+              "pre_money_valuation_usd": null,
+              "rank": 136959,
+              "created_at": 1443386132,
+              "updated_at": 1518474576
+            },
+            "relationships": {
+              "investments": [
+                {
+                  "type": "Investment",
+                  "uuid": "d7072fcef08e90f58eeb5b8696310648",
+                  "properties": {
+                    "money_invested": 750000,
+                    "money_invested_currency_code": "USD",
+                    "money_invested_usd": 750000,
+                    "is_lead_investor": null,
+                    "announced_on": "2013-12-01",
+                    "announced_on_trust_code": 7,
+                    "created_at": 1443398026,
+                    "updated_at": 1518483352
+                  },
+                  "relationships": {
+                    "investors": {
+                      "type": "Person",
+                      "uuid": "dcf6b3f8be638ca983dc5fc32b08d3e7",
+                      "properties": {
+                        "permalink": "robert-gaydos",
+                        "permalink_aliases": null,
+                        "api_path": "people/robert-gaydos",
+                        "web_path": "person/robert-gaydos",
+                        "api_url": "https://api.crunchbase.com/v3.1/people/robert-gaydos",
+                        "first_name": "Robert",
+                        "last_name": "Gaydos",
+                        "gender": "Male",
+                        "also_known_as": null,
+                        "bio": "Bob is an entrepreneur and a nationally recognized expert in the employee benefit industry.  Over the last 25 years, Bob has founded, invested, advised, and operated innovative companies in the benefit & insurance industry. Currently, Bob is involved in several ventures including Maxwell Health, Connected Benefits, Limelight Health, Kashable, PlanCompass, and more.  At Maxwell Health, Bob serves as their VP of Strategic Partnerships, developing relationships with health & life insurance carriers, as well as important employee benefit service vendors.  As the Founder of Connected Benefits, he advises the team as they grow into a national benefits provider for small employers, making their lives simple and convenient.",
+                        "profile_image_url": "http://public.crunchbase.com/t_api_images/v1397187387/7d61b8da8cc60e5c0e79bf37d933ede3.png",
+                        "role_investor": true,
+                        "born_on": "1962-02-02",
+                        "born_on_trust_code": 7,
+                        "died_on": null,
+                        "died_on_trust_code": null,
+                        "rank": 33058,
+                        "created_at": 1390487824,
+                        "updated_at": 1518478822
+                      }
+                    },
+                    "partners": []
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/connected-benefits/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/connected-benefits/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/connected-benefits/acquired_by",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Acquisition",
+          "uuid": "af141d4112791496567563c519c7327b",
+          "properties": {
+            "permalink": "af141d4112791496567563c519c7327b",
+            "api_path": "acquisitions/af141d4112791496567563c519c7327b",
+            "web_path": "acquisition/af141d4112791496567563c519c7327b",
+            "api_url": "https://api.crunchbase.com/v3.1/acquisitions/af141d4112791496567563c519c7327b",
+            "price": null,
+            "price_currency_code": null,
+            "price_usd": null,
+            "payment_type": null,
+            "acquisition_type": "acquisition",
+            "acquisition_status": "complete",
+            "disposition_of_acquired": null,
+            "announced_on": "2016-07-21",
+            "announced_on_trust_code": 7,
+            "completed_on": null,
+            "completed_on_trust_code": null,
+            "rank": 78189,
+            "created_at": 1469255638,
+            "updated_at": 1518479626
+          },
+          "relationships": {
+            "acquirer": {
+              "type": "Organization",
+              "uuid": "19c954c6634a391e2cf2d0a922eea691",
+              "properties": {
+                "permalink": "gohealth",
+                "permalink_aliases": null,
+                "api_path": "organizations/gohealth",
+                "web_path": "organization/gohealth",
+                "api_url": "https://api.crunchbase.com/v3.1/organizations/gohealth",
+                "name": "GoHealth",
+                "also_known_as": [
+                  "Gohealthinsurance"
+                ],
+                "short_description": "GoHealth is an online portal for finding health insurance coverage, allowing users to compare health insurance quotes and purchase online.",
+                "description": "GoHealth is the nation’s most complete online portal for finding health insurance coverage. They’ve helped more than 2 million consumers compare health insurance quotes and purchase individual coverage online, through their agent network, or directly through a major health insurance company.\r\n\r\nAt GoHealth, they pioneered the health insurance technology industry. They started out as innovators with big ideas who transformed into industry leaders. Similar to health care, their technological approach is constantly evolving, but their main goal has and always will be the same: to provide families and individuals with affordable health insurance.",
+                "profile_image_url": "http://public.crunchbase.com/t_api_images/v1397198252/9c9d5741212e41a944d7aa73aed311f5.jpg",
+                "primary_role": "company",
+                "role_company": true,
+                "role_investor": true,
+                "role_group": false,
+                "role_school": false,
+                "investor_type": null,
+                "founded_on": "2001-01-01",
+                "founded_on_trust_code": 4,
+                "is_closed": false,
+                "closed_on": null,
+                "closed_on_trust_code": null,
+                "num_employees_min": 501,
+                "num_employees_max": 1000,
+                "stock_exchange": null,
+                "stock_symbol": null,
+                "total_funding_usd": 75375733,
+                "number_of_investments": 2,
+                "homepage_url": "http://www.gohealthinsurance.com",
+                "contact_email": "customerservice@gohealth.com",
+                "phone_number": "(888)250-3409",
+                "rank": 5821,
+                "created_at": 1339582456,
+                "updated_at": 1544182075
+              }
+            }
+          }
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/connected-benefits/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/connected-benefits/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/connected-benefits/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "ac83131271e50449bd4140bec2625f5c",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "http://connectedbenefits.com",
+              "created_at": 1443384864,
+              "updated_at": 1523954119
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "ac83131271e50449bd4140bec2625f5c",
+            "properties": {
+              "website_type": "facebook",
+              "website_name": "facebook",
+              "url": "https://www.facebook.com/894016680678023",
+              "created_at": 1443384864,
+              "updated_at": 1523954119
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "ac83131271e50449bd4140bec2625f5c",
+            "properties": {
+              "website_type": "twitter",
+              "website_name": "twitter",
+              "url": "https://www.twitter.com/getcb",
+              "created_at": 1443384864,
+              "updated_at": 1523954119
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/connected-benefits/images",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Image",
+            "uuid": "ac83131271e50449bd4140bec2625f5c",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/v1443384784/u6iky13ydxtsebvdb5ic.png",
+              "asset_url": "http://public.crunchbase.com/t_api_images/v1443384784/u6iky13ydxtsebvdb5ic.png",
+              "content_type": "png",
+              "height": null,
+              "width": null,
+              "filesize": null,
+              "created_at": 1443384864,
+              "updated_at": 1523954119
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/connected-benefits/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/connected-benefits/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}

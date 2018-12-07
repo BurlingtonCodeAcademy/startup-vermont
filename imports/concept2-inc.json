@@ -1,0 +1,502 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "42b4e9ef712c0ce9995f659bceb024c6",
+    "properties": {
+      "permalink": "concept2-inc",
+      "permalink_aliases": null,
+      "api_path": "organizations/concept2-inc",
+      "web_path": "organization/concept2-inc",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/concept2-inc",
+      "name": "Concept2 inc",
+      "also_known_as": [
+        "Concept2"
+      ],
+      "short_description": "Concept2 is a manufacturer of rowing equipment.",
+      "description": "Concept2 began in 1976 in the back of a bread truck when Dick and Pete Dreissigacker, fresh from Olympic training, started making composite racing oars. Concept2 oars have since gone on to become the oar of choice among the world's rowers, and innovations continue right to the present-day. \r\n\r\nIn 1981, Dick and Pete created the Concept2 Indoor Rower, which swiftly became the best-selling rowing machine in the world. Now several models later, it’s used every day by Olympic athletes, cardiac rehab patients, individuals at home and every caliber of rower in-between. \r\n\r\nSince those early days they've grown to over 80 employees and their product line includes oars, the indoor rower and the SkiErg. Though we’re much larger now, they remain dedicated to their philosophy of providing the most innovative products and programs to their customers. By selling factory direct, Concept2 eliminates the middleman so that they can provide their customers with the best value. You buy direct from our manufacturing facility in Morrisville, Vermont. \r\n\r\nRowing is their reason for being and every machine and oar they produce comes from a background of over thirty-five years of excellence. Their primary goal is to promote and encourage the growth of rowing, both indoors and outdoors. They believe that rowing is a lifelong activity, accessible to all.",
+      "profile_image_url": "http://public.crunchbase.com/t_api_images/v1426671776/hoguznelg7hulawhpypg.png",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": "1976-01-01",
+      "founded_on_trust_code": 4,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": 101,
+      "num_employees_max": 250,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": "http://www.concept2.com",
+      "contact_email": "rowing@concept2.com",
+      "phone_number": "(800) 245-5676",
+      "rank": 156918,
+      "created_at": 1426671805,
+      "updated_at": 1540591033
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/concept2-inc/primary_image",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Image",
+          "uuid": "42b4e9ef712c0ce9995f659bceb024c6",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/v1426671776/hoguznelg7hulawhpypg.png",
+            "asset_url": "http://public.crunchbase.com/t_api_images/v1426671776/hoguznelg7hulawhpypg.png",
+            "content_type": "png",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1426671805,
+            "updated_at": 1540591033
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/concept2-inc/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/concept2-inc/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": []
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/concept2-inc/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/concept2-inc/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/concept2-inc/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/concept2-inc/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/concept2-inc/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/concept2-inc/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/concept2-inc/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "d60959cf028e5c735b0891cdf99f37e1",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "105 Industrial Park Drive",
+            "street_2": null,
+            "postal_code": "05661",
+            "city": "Morrisville",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1426672633,
+            "updated_at": 1518484009
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/concept2-inc/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "d60959cf028e5c735b0891cdf99f37e1",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "105 Industrial Park Drive",
+            "street_2": null,
+            "postal_code": "05661",
+            "city": "Morrisville",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1426672633,
+            "updated_at": 1518484009
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/concept2-inc/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/concept2-inc/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "a0144815bd8f9a1b42ae74c91617a77c",
+            "properties": {
+              "name": "Sports",
+              "web_path": "category/sports/a0144815bd8f9a1b42ae74c91617a77c",
+              "category_groups": [
+                "Sports"
+              ],
+              "created_at": 1397980727,
+              "updated_at": 1518483551
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "b05bd17d1df98addae1414e07dc37c9c",
+            "properties": {
+              "name": "Sporting Goods",
+              "web_path": "category/sporting-goods/b05bd17d1df98addae1414e07dc37c9c",
+              "category_groups": [
+                "Commerce and Shopping",
+                "Sports"
+              ],
+              "created_at": 1397980727,
+              "updated_at": 1518483551
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "e811671c168d1fd236e5df4e08a09f7c",
+            "properties": {
+              "name": "Manufacturing",
+              "web_path": "category/manufacturing/e811671c168d1fd236e5df4e08a09f7c",
+              "category_groups": [
+                "Manufacturing"
+              ],
+              "created_at": 1397980727,
+              "updated_at": 1518483551
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/concept2-inc/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/concept2-inc/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/concept2-inc/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/concept2-inc/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/concept2-inc/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/concept2-inc/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/concept2-inc/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/concept2-inc/acquired_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/concept2-inc/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/concept2-inc/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/concept2-inc/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "42b4e9ef712c0ce9995f659bceb024c6",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "http://www.concept2.com",
+              "created_at": 1426671805,
+              "updated_at": 1540591033
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "42b4e9ef712c0ce9995f659bceb024c6",
+            "properties": {
+              "website_type": "facebook",
+              "website_name": "facebook",
+              "url": "https://www.facebook.com/Concept2.Rowing",
+              "created_at": 1426671805,
+              "updated_at": 1540591033
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "42b4e9ef712c0ce9995f659bceb024c6",
+            "properties": {
+              "website_type": "twitter",
+              "website_name": "twitter",
+              "url": "https://twitter.com/concept2",
+              "created_at": 1426671805,
+              "updated_at": 1540591033
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "42b4e9ef712c0ce9995f659bceb024c6",
+            "properties": {
+              "website_type": "linkedin",
+              "website_name": "linkedin",
+              "url": "https://www.linkedin.com/company/concept2-inc-",
+              "created_at": 1426671805,
+              "updated_at": 1540591033
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/concept2-inc/images",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Image",
+            "uuid": "42b4e9ef712c0ce9995f659bceb024c6",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/v1426671776/hoguznelg7hulawhpypg.png",
+              "asset_url": "http://public.crunchbase.com/t_api_images/v1426671776/hoguznelg7hulawhpypg.png",
+              "content_type": "png",
+              "height": null,
+              "width": null,
+              "filesize": null,
+              "created_at": 1426671805,
+              "updated_at": 1540591033
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/concept2-inc/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/concept2-inc/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": [
+          {
+            "type": "News",
+            "uuid": "44b0709817c68d00c00f70582049ca01",
+            "properties": {
+              "title": "500m Split. What does it mean? | Concept2",
+              "author": null,
+              "posted_on": "2015-03-18",
+              "posted_on_trust_code": 7,
+              "url": "http://www.concept2.com/news/500m-split-what-does-it-mean",
+              "created_at": 1426674973,
+              "updated_at": 1518487636
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "8e08c8f7e6651f067c227f7d314208dd",
+            "properties": {
+              "title": "CRASH-B 2015 | Concept2",
+              "author": null,
+              "posted_on": "2015-03-18",
+              "posted_on_trust_code": 7,
+              "url": "http://www.concept2.com/news/crash-b-2015",
+              "created_at": 1426674993,
+              "updated_at": 1518470544
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "cf395bb26f71a636b0a5994350963417",
+            "properties": {
+              "title": "Skiing through Winter | Concept2",
+              "author": null,
+              "posted_on": "2015-03-18",
+              "posted_on_trust_code": 7,
+              "url": "http://www.concept2.com/news/skiing-through-winter",
+              "created_at": 1426675014,
+              "updated_at": 1518472129
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "d8cece82502782b4c0f9d6ed3b104f18",
+            "properties": {
+              "title": "Employee Profile: Sandro Wehrli | Concept2",
+              "author": null,
+              "posted_on": "2015-03-18",
+              "posted_on_trust_code": 7,
+              "url": "http://www.concept2.com/news/employee-profile-sandro-wehrli",
+              "created_at": 1426675067,
+              "updated_at": 1518472356
+            }
+          }
+        ]
+      }
+    }
+  }
+}

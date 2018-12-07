@@ -1,0 +1,645 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "7e5fb28168a24d8797de3284ea0ab40c",
+    "properties": {
+      "permalink": "wake-robin",
+      "permalink_aliases": null,
+      "api_path": "organizations/wake-robin",
+      "web_path": "organization/wake-robin",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/wake-robin",
+      "name": "Wake Robin",
+      "also_known_as": null,
+      "short_description": "Wake Robin is a vibrant non-profit Life Care community located on 136 acres just south of Burlington in Shelburne, Vermont. ",
+      "description": "Wake Robin is a vibrant non-profit Life Care community located on 136 acres just south of Burlington in Shelburne, Vermont. Residents enjoy independent living in cottages and apartments and comprehensive, on-site health care for life.",
+      "profile_image_url": "http://public.crunchbase.com/t_api_images/w5yrsc7kyh9b1qkkmina",
+      "primary_role": "investor",
+      "role_company": true,
+      "role_investor": true,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": null,
+      "founded_on_trust_code": null,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": null,
+      "num_employees_max": null,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 1,
+      "homepage_url": "https://www.wakerobin.com",
+      "contact_email": "info@wakerobin.com",
+      "phone_number": "1 802-264-5100",
+      "rank": 421221,
+      "created_at": 1521447614,
+      "updated_at": 1540599978
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wake-robin/primary_image",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Image",
+          "uuid": "7e5fb28168a24d8797de3284ea0ab40c",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/w5yrsc7kyh9b1qkkmina",
+            "asset_url": "http://public.crunchbase.com/t_api_images/w5yrsc7kyh9b1qkkmina",
+            "content_type": "w5yrsc7kyh9b1qkkmina",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1521447614,
+            "updated_at": 1540599978
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wake-robin/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wake-robin/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "cbd0f74e505547418c06cde6c721fec6",
+            "properties": {
+              "title": "CEO",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1521447669,
+              "updated_at": 1521447669
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "0c942213a70245ee9abe348fc4a53b2f",
+                "properties": {
+                  "permalink": "fred-erdman",
+                  "permalink_aliases": null,
+                  "api_path": "people/fred-erdman",
+                  "web_path": "person/fred-erdman",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/fred-erdman",
+                  "first_name": "Fred",
+                  "last_name": "Erdman",
+                  "gender": null,
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": null,
+                  "role_investor": true,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 430284,
+                  "created_at": 1521447669,
+                  "updated_at": 1536370965
+                }
+              }
+            }
+          }
+        ]
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wake-robin/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "cbd0f74e505547418c06cde6c721fec6",
+            "properties": {
+              "title": "CEO",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1521447669,
+              "updated_at": 1521447669
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "0c942213a70245ee9abe348fc4a53b2f",
+                "properties": {
+                  "permalink": "fred-erdman",
+                  "permalink_aliases": null,
+                  "api_path": "people/fred-erdman",
+                  "web_path": "person/fred-erdman",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/fred-erdman",
+                  "first_name": "Fred",
+                  "last_name": "Erdman",
+                  "gender": null,
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": null,
+                  "role_investor": true,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 430284,
+                  "created_at": 1521447669,
+                  "updated_at": 1536370965
+                }
+              }
+            }
+          }
+        ]
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wake-robin/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wake-robin/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wake-robin/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wake-robin/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wake-robin/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wake-robin/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "cff1141b6f65460a946631572fd94bc9",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "200 Wake Robin Dr\n",
+            "street_2": null,
+            "postal_code": null,
+            "city": "Shelburne",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1521447614,
+            "updated_at": 1521447614
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wake-robin/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "cff1141b6f65460a946631572fd94bc9",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "200 Wake Robin Dr\n",
+            "street_2": null,
+            "postal_code": null,
+            "city": "Shelburne",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1521447614,
+            "updated_at": 1521447614
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wake-robin/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wake-robin/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wake-robin/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wake-robin/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wake-robin/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wake-robin/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wake-robin/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wake-robin/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": [
+          {
+            "type": "Investment",
+            "uuid": "5893d6e6bf764278921dd031b0c01354",
+            "properties": {
+              "money_invested": null,
+              "money_invested_currency_code": null,
+              "money_invested_usd": null,
+              "is_lead_investor": null,
+              "announced_on": "2017-09-20",
+              "announced_on_trust_code": 7,
+              "created_at": 1521447758,
+              "updated_at": 1521447758
+            },
+            "relationships": {
+              "funding_round": {
+                "type": "FundingRound",
+                "uuid": "061c1cee5a74eff73001ecee3d8abbd7",
+                "properties": {
+                  "permalink": "061c1cee5a74eff73001ecee3d8abbd7",
+                  "api_path": "funding-rounds/061c1cee5a74eff73001ecee3d8abbd7",
+                  "web_path": "funding-round/061c1cee5a74eff73001ecee3d8abbd7",
+                  "api_url": "https://api.crunchbase.com/v3.1/funding-rounds/061c1cee5a74eff73001ecee3d8abbd7",
+                  "funding_type": "post_ipo_equity",
+                  "series": null,
+                  "series_qualifier": null,
+                  "announced_on": "2017-09-20",
+                  "announced_on_trust_code": 7,
+                  "closed_on": null,
+                  "closed_on_trust_code": null,
+                  "money_raised": 67090000,
+                  "money_raised_currency_code": "USD",
+                  "money_raised_usd": 67090000,
+                  "target_money_raised": null,
+                  "target_money_raised_currency_code": null,
+                  "target_money_raised_usd": null,
+                  "pre_money_valuation": null,
+                  "pre_money_valuation_currency_code": null,
+                  "pre_money_valuation_usd": null,
+                  "rank": 62203,
+                  "created_at": 1506579162,
+                  "updated_at": 1518478690
+                },
+                "relationships": {
+                  "funded_organization": {
+                    "type": "Organization",
+                    "uuid": "6b2e06ae33d6b7fc054926d45ce5c792",
+                    "properties": {
+                      "permalink": "ziegler",
+                      "permalink_aliases": null,
+                      "api_path": "organizations/ziegler",
+                      "web_path": "organization/ziegler",
+                      "api_url": "https://api.crunchbase.com/v3.1/organizations/ziegler",
+                      "name": "Ziegler",
+                      "also_known_as": null,
+                      "short_description": "Ziegler is a full-service, specialty investment firm and broker-dealer. We provide investment banking, sales & trading.",
+                      "description": "Ziegler is a full-service, specialty investment firm and broker-dealer. We provide investment banking, sales & trading, and wealth management services, along with alternative investment opportunities to institutional and individual investors nationwide.\r\n\r\nIn 1902, B.C. “Ben” Ziegler started an insurance business, loaning money to farmers in West Bend, Wisconsin. Over a century later, we are still committed to the people and organizations we serve. Ziegler’s rich heritage is grounded in integrity, teamwork and innovation. Specializing in the healthcare, senior living, religion and education sectors, Ziegler’s deep knowledge and commitment to these specialty sectors enable our teams to customize creative tailored solutions that meet our clients’ strategic and financial goals.\r\n\r\nWith over $24 billion of new issue debt since 2000, Ziegler is a recognized leader in not-for-profit underwritings. Our ability to distribute creative fixed-income offerings to both institutional and retail clients makes Ziegler a well-rounded and innovative financial services firm.\r\n\r\nNo matter what the future holds, one thing is certain…Ziegler will remain committed to advancing the health, wealth, and well-being for our clients, our colleagues and our communities.",
+                      "profile_image_url": "http://public.crunchbase.com/t_api_images/v1401766442/gw3yvhzmconhhoq1zoh3.png",
+                      "primary_role": "company",
+                      "role_company": true,
+                      "role_investor": true,
+                      "role_group": false,
+                      "role_school": false,
+                      "investor_type": null,
+                      "founded_on": "1902-01-01",
+                      "founded_on_trust_code": 4,
+                      "is_closed": false,
+                      "closed_on": null,
+                      "closed_on_trust_code": null,
+                      "num_employees_min": 251,
+                      "num_employees_max": 500,
+                      "stock_exchange": "otcpink",
+                      "stock_symbol": "ZGCO",
+                      "total_funding_usd": 158455000,
+                      "number_of_investments": 6,
+                      "homepage_url": "http://www.ziegler.com/",
+                      "contact_email": null,
+                      "phone_number": "(800) 366-8899",
+                      "rank": 14379,
+                      "created_at": 1367571760,
+                      "updated_at": 1544006986
+                    }
+                  }
+                }
+              },
+              "partners": [
+                {
+                  "type": "Person",
+                  "uuid": "0c942213a70245ee9abe348fc4a53b2f",
+                  "properties": {
+                    "permalink": "fred-erdman",
+                    "permalink_aliases": null,
+                    "api_path": "people/fred-erdman",
+                    "web_path": "person/fred-erdman",
+                    "api_url": "https://api.crunchbase.com/v3.1/people/fred-erdman",
+                    "first_name": "Fred",
+                    "last_name": "Erdman",
+                    "gender": null,
+                    "also_known_as": null,
+                    "bio": null,
+                    "profile_image_url": null,
+                    "role_investor": true,
+                    "born_on": null,
+                    "born_on_trust_code": null,
+                    "died_on": null,
+                    "died_on_trust_code": null,
+                    "rank": 430284,
+                    "created_at": 1521447669,
+                    "updated_at": 1536370965
+                  }
+                }
+              ],
+              "invested_in": {
+                "type": "Organization",
+                "uuid": "6b2e06ae33d6b7fc054926d45ce5c792",
+                "properties": {
+                  "permalink": "ziegler",
+                  "permalink_aliases": null,
+                  "api_path": "organizations/ziegler",
+                  "web_path": "organization/ziegler",
+                  "api_url": "https://api.crunchbase.com/v3.1/organizations/ziegler",
+                  "name": "Ziegler",
+                  "also_known_as": null,
+                  "short_description": "Ziegler is a full-service, specialty investment firm and broker-dealer. We provide investment banking, sales & trading.",
+                  "description": "Ziegler is a full-service, specialty investment firm and broker-dealer. We provide investment banking, sales & trading, and wealth management services, along with alternative investment opportunities to institutional and individual investors nationwide.\r\n\r\nIn 1902, B.C. “Ben” Ziegler started an insurance business, loaning money to farmers in West Bend, Wisconsin. Over a century later, we are still committed to the people and organizations we serve. Ziegler’s rich heritage is grounded in integrity, teamwork and innovation. Specializing in the healthcare, senior living, religion and education sectors, Ziegler’s deep knowledge and commitment to these specialty sectors enable our teams to customize creative tailored solutions that meet our clients’ strategic and financial goals.\r\n\r\nWith over $24 billion of new issue debt since 2000, Ziegler is a recognized leader in not-for-profit underwritings. Our ability to distribute creative fixed-income offerings to both institutional and retail clients makes Ziegler a well-rounded and innovative financial services firm.\r\n\r\nNo matter what the future holds, one thing is certain…Ziegler will remain committed to advancing the health, wealth, and well-being for our clients, our colleagues and our communities.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1401766442/gw3yvhzmconhhoq1zoh3.png",
+                  "primary_role": "company",
+                  "role_company": true,
+                  "role_investor": true,
+                  "role_group": false,
+                  "role_school": false,
+                  "investor_type": null,
+                  "founded_on": "1902-01-01",
+                  "founded_on_trust_code": 4,
+                  "is_closed": false,
+                  "closed_on": null,
+                  "closed_on_trust_code": null,
+                  "num_employees_min": 251,
+                  "num_employees_max": 500,
+                  "stock_exchange": "otcpink",
+                  "stock_symbol": "ZGCO",
+                  "total_funding_usd": 158455000,
+                  "number_of_investments": 6,
+                  "homepage_url": "http://www.ziegler.com/",
+                  "contact_email": null,
+                  "phone_number": "(800) 366-8899",
+                  "rank": 14379,
+                  "created_at": 1367571760,
+                  "updated_at": 1544006986
+                }
+              }
+            }
+          }
+        ]
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wake-robin/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wake-robin/acquired_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wake-robin/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wake-robin/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wake-robin/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "7e5fb28168a24d8797de3284ea0ab40c",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "https://www.wakerobin.com",
+              "created_at": 1521447614,
+              "updated_at": 1540599978
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "7e5fb28168a24d8797de3284ea0ab40c",
+            "properties": {
+              "website_type": "facebook",
+              "website_name": "facebook",
+              "url": "https://www.facebook.com/pg/wakerobincommunity",
+              "created_at": 1521447614,
+              "updated_at": 1540599978
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "7e5fb28168a24d8797de3284ea0ab40c",
+            "properties": {
+              "website_type": "twitter",
+              "website_name": "twitter",
+              "url": "https://twitter.com/WakeRobin1",
+              "created_at": 1521447614,
+              "updated_at": 1540599978
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "7e5fb28168a24d8797de3284ea0ab40c",
+            "properties": {
+              "website_type": "linkedin",
+              "website_name": "linkedin",
+              "url": "https://www.linkedin.com/company/wake-robin/",
+              "created_at": 1521447614,
+              "updated_at": 1540599978
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wake-robin/images",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Image",
+            "uuid": "7e5fb28168a24d8797de3284ea0ab40c",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/w5yrsc7kyh9b1qkkmina",
+              "asset_url": "http://public.crunchbase.com/t_api_images/w5yrsc7kyh9b1qkkmina",
+              "content_type": "w5yrsc7kyh9b1qkkmina",
+              "height": null,
+              "width": null,
+              "filesize": null,
+              "created_at": 1521447614,
+              "updated_at": 1540599978
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wake-robin/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wake-robin/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}

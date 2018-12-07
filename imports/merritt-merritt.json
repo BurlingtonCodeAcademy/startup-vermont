@@ -1,0 +1,506 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "063d4a442a16dd0cf4d869e3c56b883e",
+    "properties": {
+      "permalink": "merritt-merritt",
+      "permalink_aliases": null,
+      "api_path": "organizations/merritt-merritt",
+      "web_path": "organization/merritt-merritt",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/merritt-merritt",
+      "name": "Merritt & Merritt",
+      "also_known_as": null,
+      "short_description": "Provide growth companies with focused business and legal advice from incorporation through Seed financing Venture financing Later-stage.",
+      "description": "Merritt & Merritt is a boutique law firm that collaborates with publicly- and privately-held growth companies throughout New England, as well as the angel, venture capital and private equity investors that support them, to build and guide their businesses.",
+      "profile_image_url": "http://public.crunchbase.com/t_api_images/v1488680540/bkvse5fs4379gjnvvihs.png",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": "1989-01-01",
+      "founded_on_trust_code": 4,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": 1,
+      "num_employees_max": 10,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": "http://merritt-merritt.com/",
+      "contact_email": "mail@merritt-merritt.com",
+      "phone_number": "(802)658-7830",
+      "rank": 549899,
+      "created_at": 1488448385,
+      "updated_at": 1540594064
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merritt-merritt/primary_image",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Image",
+          "uuid": "063d4a442a16dd0cf4d869e3c56b883e",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/v1488680540/bkvse5fs4379gjnvvihs.png",
+            "asset_url": "http://public.crunchbase.com/t_api_images/v1488680540/bkvse5fs4379gjnvvihs.png",
+            "content_type": "png",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1488448385,
+            "updated_at": 1540594064
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merritt-merritt/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merritt-merritt/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "61ba875d78b644879217617a719423d8",
+            "properties": {
+              "title": "Associate",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1513095825,
+              "updated_at": 1518476101
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "e3839626fd3248caa4ba92f0ffe08d28",
+                "properties": {
+                  "permalink": "andrew-grosvenor",
+                  "permalink_aliases": null,
+                  "api_path": "people/andrew-grosvenor",
+                  "web_path": "person/andrew-grosvenor",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/andrew-grosvenor",
+                  "first_name": "Andrew",
+                  "last_name": "Grosvenor",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Business Attorney for Entrepreneurs, Creatives, Mission-Driven Companies, and BCorps",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/alj7j74ef7t69esm6npb",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 725103,
+                  "created_at": 1513095825,
+                  "updated_at": 1518477822
+                }
+              }
+            }
+          }
+        ]
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merritt-merritt/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "61ba875d78b644879217617a719423d8",
+            "properties": {
+              "title": "Associate",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1513095825,
+              "updated_at": 1518476101
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "e3839626fd3248caa4ba92f0ffe08d28",
+                "properties": {
+                  "permalink": "andrew-grosvenor",
+                  "permalink_aliases": null,
+                  "api_path": "people/andrew-grosvenor",
+                  "web_path": "person/andrew-grosvenor",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/andrew-grosvenor",
+                  "first_name": "Andrew",
+                  "last_name": "Grosvenor",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Business Attorney for Entrepreneurs, Creatives, Mission-Driven Companies, and BCorps",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/alj7j74ef7t69esm6npb",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 725103,
+                  "created_at": 1513095825,
+                  "updated_at": 1518477822
+                }
+              }
+            }
+          }
+        ]
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merritt-merritt/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merritt-merritt/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merritt-merritt/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merritt-merritt/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merritt-merritt/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merritt-merritt/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "b1e0c8299822f377ce56481763940bda",
+          "properties": {
+            "name": "Burlington Office",
+            "street_1": null,
+            "street_2": null,
+            "postal_code": "05402",
+            "city": "Burlington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1488471074,
+            "updated_at": 1518483938
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merritt-merritt/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "b1e0c8299822f377ce56481763940bda",
+          "properties": {
+            "name": "Burlington Office",
+            "street_1": null,
+            "street_2": null,
+            "postal_code": "05402",
+            "city": "Burlington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1488471074,
+            "updated_at": 1518483938
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merritt-merritt/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merritt-merritt/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "b1234a830ad1c131b78881f8eb48c35e",
+            "properties": {
+              "name": "Legal",
+              "web_path": "category/legal/b1234a830ad1c131b78881f8eb48c35e",
+              "category_groups": [
+                "Professional Services"
+              ],
+              "created_at": 1397980727,
+              "updated_at": 1518483551
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merritt-merritt/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merritt-merritt/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merritt-merritt/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merritt-merritt/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merritt-merritt/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merritt-merritt/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merritt-merritt/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merritt-merritt/acquired_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merritt-merritt/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merritt-merritt/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merritt-merritt/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "063d4a442a16dd0cf4d869e3c56b883e",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "http://merritt-merritt.com/",
+              "created_at": 1488448385,
+              "updated_at": 1540594064
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "063d4a442a16dd0cf4d869e3c56b883e",
+            "properties": {
+              "website_type": "facebook",
+              "website_name": "facebook",
+              "url": "https://www.facebook.com/Merritt-Merritt-63438301759/",
+              "created_at": 1488448385,
+              "updated_at": 1540594064
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "063d4a442a16dd0cf4d869e3c56b883e",
+            "properties": {
+              "website_type": "twitter",
+              "website_name": "twitter",
+              "url": "https://twitter.com/hkmerrittjr",
+              "created_at": 1488448385,
+              "updated_at": 1540594064
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "063d4a442a16dd0cf4d869e3c56b883e",
+            "properties": {
+              "website_type": "linkedin",
+              "website_name": "linkedin",
+              "url": "https://www.linkedin.com/company/merritt-&-merritt-&-moulton",
+              "created_at": 1488448385,
+              "updated_at": 1540594064
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merritt-merritt/images",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Image",
+            "uuid": "063d4a442a16dd0cf4d869e3c56b883e",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/v1488680540/bkvse5fs4379gjnvvihs.png",
+              "asset_url": "http://public.crunchbase.com/t_api_images/v1488680540/bkvse5fs4379gjnvvihs.png",
+              "content_type": "png",
+              "height": null,
+              "width": null,
+              "filesize": null,
+              "created_at": 1488448385,
+              "updated_at": 1540594064
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merritt-merritt/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merritt-merritt/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}

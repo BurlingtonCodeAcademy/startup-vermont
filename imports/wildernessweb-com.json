@@ -1,0 +1,452 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "e6bbb2905ed0199153d15d1a3d90c53a",
+    "properties": {
+      "permalink": "wildernessweb-com",
+      "permalink_aliases": null,
+      "api_path": "organizations/wildernessweb-com",
+      "web_path": "organization/wildernessweb-com",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/wildernessweb-com",
+      "name": "WildernessWeb.com",
+      "also_known_as": null,
+      "short_description": "WildernessWeb.com, an ecotravel services provider on the Internet.",
+      "description": "Wilderness Web is founded on a great love for the outdoors and traveling to appreciate it. Our purpose is to connect the active traveler to the appropriate local guide, outfitter, and accommodations. The Wilderness Web is a way for us to share these experiences as well as expose people to the beauty and thrill available in wild places.",
+      "profile_image_url": "http://public.crunchbase.com/t_api_images/v1458629905/ivyjnaslrfwxcosjepzb.png",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": "1999-01-01",
+      "founded_on_trust_code": 4,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": null,
+      "num_employees_max": null,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": "http://www.wildernessweb.com",
+      "contact_email": null,
+      "phone_number": "(888)277-7622",
+      "rank": 663897,
+      "created_at": 1458629930,
+      "updated_at": 1518479449
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wildernessweb-com/primary_image",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Image",
+          "uuid": "e6bbb2905ed0199153d15d1a3d90c53a",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/v1458629905/ivyjnaslrfwxcosjepzb.png",
+            "asset_url": "http://public.crunchbase.com/t_api_images/v1458629905/ivyjnaslrfwxcosjepzb.png",
+            "content_type": "png",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1458629930,
+            "updated_at": 1518479449
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wildernessweb-com/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wildernessweb-com/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": []
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wildernessweb-com/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wildernessweb-com/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wildernessweb-com/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wildernessweb-com/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wildernessweb-com/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wildernessweb-com/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wildernessweb-com/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "fd1389ee387a53939c5c837db539f82d",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "P.O. Box 65175",
+            "street_2": null,
+            "postal_code": null,
+            "city": "Burlington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1458630038,
+            "updated_at": 1518484095
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wildernessweb-com/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "fd1389ee387a53939c5c837db539f82d",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "P.O. Box 65175",
+            "street_2": null,
+            "postal_code": null,
+            "city": "Burlington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1458630038,
+            "updated_at": 1518484095
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wildernessweb-com/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wildernessweb-com/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "2772a539e63609dc30dcb1a7deb98d0e",
+            "properties": {
+              "name": "Internet",
+              "web_path": "category/internet/2772a539e63609dc30dcb1a7deb98d0e",
+              "category_groups": [
+                "Internet Services"
+              ],
+              "created_at": 1397980726,
+              "updated_at": 1518483536
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wildernessweb-com/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wildernessweb-com/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wildernessweb-com/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wildernessweb-com/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wildernessweb-com/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wildernessweb-com/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wildernessweb-com/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wildernessweb-com/acquired_by",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Acquisition",
+          "uuid": "065c6ce22ca6c69598869f2b543aa2a0",
+          "properties": {
+            "permalink": "065c6ce22ca6c69598869f2b543aa2a0",
+            "api_path": "acquisitions/065c6ce22ca6c69598869f2b543aa2a0",
+            "web_path": "acquisition/065c6ce22ca6c69598869f2b543aa2a0",
+            "api_url": "https://api.crunchbase.com/v3.1/acquisitions/065c6ce22ca6c69598869f2b543aa2a0",
+            "price": null,
+            "price_currency_code": null,
+            "price_usd": null,
+            "payment_type": null,
+            "acquisition_type": "acquisition",
+            "acquisition_status": "complete",
+            "disposition_of_acquired": null,
+            "announced_on": "2000-06-23",
+            "announced_on_trust_code": 7,
+            "completed_on": null,
+            "completed_on_trust_code": null,
+            "rank": 37792,
+            "created_at": 1458632906,
+            "updated_at": 1518473839
+          },
+          "relationships": {
+            "acquirer": {
+              "type": "Organization",
+              "uuid": "10ac4f361bbb276add3cb205181f7ba1",
+              "properties": {
+                "permalink": "naturalist-com",
+                "permalink_aliases": null,
+                "api_path": "organizations/naturalist-com",
+                "web_path": "organization/naturalist-com",
+                "api_url": "https://api.crunchbase.com/v3.1/organizations/naturalist-com",
+                "name": "Naturalist.com",
+                "also_known_as": null,
+                "short_description": "Naturalist.com is a lifestyle portal aggregating \"best of\" products and services into one place.",
+                "description": "Naturalist.com offers a portal that enables its customers to search and find information about products and services.\n\nNaturalist.com was founded in 1996 and is based in New York.",
+                "profile_image_url": null,
+                "primary_role": "company",
+                "role_company": true,
+                "role_investor": false,
+                "role_group": false,
+                "role_school": false,
+                "investor_type": null,
+                "founded_on": "1996-01-01",
+                "founded_on_trust_code": 4,
+                "is_closed": true,
+                "closed_on": null,
+                "closed_on_trust_code": 0,
+                "num_employees_min": 1,
+                "num_employees_max": 10,
+                "stock_exchange": null,
+                "stock_symbol": null,
+                "total_funding_usd": 0,
+                "number_of_investments": 0,
+                "homepage_url": "http://www.naturalist.com/",
+                "contact_email": null,
+                "phone_number": "212-279-4350",
+                "rank": 226281,
+                "created_at": 1450087085,
+                "updated_at": 1518477224
+              }
+            }
+          }
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wildernessweb-com/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wildernessweb-com/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wildernessweb-com/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "e6bbb2905ed0199153d15d1a3d90c53a",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "http://www.wildernessweb.com",
+              "created_at": 1458629930,
+              "updated_at": 1518479449
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wildernessweb-com/images",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Image",
+            "uuid": "e6bbb2905ed0199153d15d1a3d90c53a",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/v1458629905/ivyjnaslrfwxcosjepzb.png",
+              "asset_url": "http://public.crunchbase.com/t_api_images/v1458629905/ivyjnaslrfwxcosjepzb.png",
+              "content_type": "png",
+              "height": null,
+              "width": null,
+              "filesize": null,
+              "created_at": 1458629930,
+              "updated_at": 1518479449
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wildernessweb-com/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/wildernessweb-com/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}

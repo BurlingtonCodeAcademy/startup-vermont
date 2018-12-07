@@ -1,0 +1,779 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "5f90c93be4242935fcaf7ad406cff134",
+    "properties": {
+      "permalink": "casey-research",
+      "permalink_aliases": null,
+      "api_path": "organizations/casey-research",
+      "web_path": "organization/casey-research",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/casey-research",
+      "name": "Casey Research",
+      "also_known_as": null,
+      "short_description": "Casey Research offers in-class investment research services to investors in a range of sectors.",
+      "description": "Casey Research offers in-class investment research services to investors in a range of sectors. It offers vertical-focused stock research and economic-forecast-driven trend investments across various sectors, along with overall portfolio management and wealth protection services.\n\nThe company’s portfolio of products includes The Casey Report: a flagship publication on economics and investing around the globe; International Speculator: a research service focused on mining stocks around the world; Investment Alert: an alert service that offers updates on fast-moving, early-stage investments and private placements in mining stocks; and Casey Resource Investor: a monthly research service that covers worldwide resource investment opportunities. It also offers free newsletters; summits and conferences; and club memberships.\n\nCasey Research was founded by [Doug Casey](https://www.crunchbase.com/person/doug-casey) and is based in Vermont, Illinois.",
+      "profile_image_url": "http://public.crunchbase.com/t_api_images/v1425896713/agdvxaixvwshhwscfkdn.png",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": "2003-01-01",
+      "founded_on_trust_code": 4,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": 11,
+      "num_employees_max": 50,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": "http://www.caseyresearch.com/",
+      "contact_email": "info@caseyresearch.com",
+      "phone_number": "(602) 445-2736",
+      "rank": 222668,
+      "created_at": 1425896748,
+      "updated_at": 1540590243
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/casey-research/primary_image",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Image",
+          "uuid": "5f90c93be4242935fcaf7ad406cff134",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/v1425896713/agdvxaixvwshhwscfkdn.png",
+            "asset_url": "http://public.crunchbase.com/t_api_images/v1425896713/agdvxaixvwshhwscfkdn.png",
+            "content_type": "png",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1425896748,
+            "updated_at": 1540590243
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/casey-research/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/casey-research/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "34d14f8d1d7df162a2dba58574872d9d",
+            "properties": {
+              "title": "Chairman",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1425897180,
+              "updated_at": 1518484964
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "13dc5cc7671bf1682eac1653b64eedbe",
+                "properties": {
+                  "permalink": "doug-casey",
+                  "permalink_aliases": null,
+                  "api_path": "people/doug-casey",
+                  "web_path": "person/doug-casey",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/doug-casey",
+                  "first_name": "Doug",
+                  "last_name": "Casey",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Best-selling author, world-renowned speculator, and libertarian philosopher Doug Casey has garnered a well-earned reputation for his erudite (and often controversial) insights into politics, economics, and investment markets.\r\n\r\nDoug is widely respected as one of the preeminent authorities on “rational speculation,” especially in the high-potential natural resource sector.\r\n\r\nDoug literally wrote the book on profiting from periods of economic turmoil: his book Crisis Investing spent multiple weeks as #1 on the New York Times bestseller list and became the best-selling financial book of 1980 with 438,640 copies sold; surpassing big-caliber names, like Free to Choose by Milton Friedman, The Real War by Richard Nixon, and Cosmos by Carl Sagan.\r\n\r\nThen Doug broke the record with his next book, Strategic Investing, by receiving the largest advance ever paid for a financial book at the time. Interestingly enough, Doug’s book The International Man was the most sold book in the history of Rhodesia. and his most recent releases Totally Incorrect (2012) and Right on the Money (2013) continue the tradition of challenging statism and advocating liberty and free markets.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1425897161/qwjfdmdblvbapjsjz1m9.png",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 454552,
+                  "created_at": 1425897180,
+                  "updated_at": 1518477729
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "797104d735306c69b3471a728129e69c",
+            "properties": {
+              "title": "Chief Executive Officer",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1425897473,
+              "updated_at": 1518485284
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "d5ddb0897a0f513811292707bc6baec7",
+                "properties": {
+                  "permalink": "olivier-garret",
+                  "permalink_aliases": null,
+                  "api_path": "people/olivier-garret",
+                  "web_path": "person/olivier-garret",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/olivier-garret",
+                  "first_name": "Olivier",
+                  "last_name": "Garret",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Olivier is a Partner and CEO of Casey Research, LLC.\r\n\r\nPrior to joining Casey Research in January 2007, Olivier Garret was a principal in Kemp Management, a management consulting firm focused on merger & acquisition due diligence, restructuring, and turnaround activities for a variety of private equity firms and financial institutions. In this capacity, he led and participated in dozens of merger & acquisition and restructuring deals in a variety of industries.\r\n\r\nIn the 1990’s, Olivier was CEO and general manager of a number of industrial businesses ranging from entrepreneurial start-ups to divisions of a Fortune 500 company.\r\n\r\nHe earned an MBA from the Amos Tuck School of Business Administration at Dartmouth College and a Master’s in Business from the Université de Paris IX-Dauphine.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1425897460/d0cklvuturr0jsxuqwal.png",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 159044,
+                  "created_at": 1425897473,
+                  "updated_at": 1518482976
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "f08640f025a5f60e42f6ed6456ed41e7",
+            "properties": {
+              "title": "Partner",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1425897383,
+              "updated_at": 1518485887
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "3054990a806c26ae7024d91b1934c78b",
+                "properties": {
+                  "permalink": "david-galland",
+                  "permalink_aliases": null,
+                  "api_path": "people/david-galland",
+                  "web_path": "person/david-galland",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/david-galland",
+                  "first_name": "David",
+                  "last_name": "Galland",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Over the course of his varied career, David Galland has worked as a miner, as the conference director for the world’s largest investment conference (National Committee for Monetary Reform, 1979 to 1987), financial newsletter editor and publisher (Gold Newsletter, Aden Analysis, among many others), a founding partner and director of a successful mutual fund group (Blanchard Group of Funds), and as a founding partner and executive vice-president for EverBank, one of the earliest and most successful online banks.\r\n\r\nSince 2004 David has been a partner with Doug Casey and Olivier Garret in Casey Research, LLC, an international research firm providing insights on macro-economics, metals and mining, energy and technology investing for self-directed individuals and investment professionals in over 150 countries.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1425897342/yaubqjjxbgqo9f2ruela.png",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 438002,
+                  "created_at": 1425897383,
+                  "updated_at": 1518479209
+                }
+              }
+            }
+          }
+        ]
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/casey-research/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "34d14f8d1d7df162a2dba58574872d9d",
+            "properties": {
+              "title": "Chairman",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1425897180,
+              "updated_at": 1518484964
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "13dc5cc7671bf1682eac1653b64eedbe",
+                "properties": {
+                  "permalink": "doug-casey",
+                  "permalink_aliases": null,
+                  "api_path": "people/doug-casey",
+                  "web_path": "person/doug-casey",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/doug-casey",
+                  "first_name": "Doug",
+                  "last_name": "Casey",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Best-selling author, world-renowned speculator, and libertarian philosopher Doug Casey has garnered a well-earned reputation for his erudite (and often controversial) insights into politics, economics, and investment markets.\r\n\r\nDoug is widely respected as one of the preeminent authorities on “rational speculation,” especially in the high-potential natural resource sector.\r\n\r\nDoug literally wrote the book on profiting from periods of economic turmoil: his book Crisis Investing spent multiple weeks as #1 on the New York Times bestseller list and became the best-selling financial book of 1980 with 438,640 copies sold; surpassing big-caliber names, like Free to Choose by Milton Friedman, The Real War by Richard Nixon, and Cosmos by Carl Sagan.\r\n\r\nThen Doug broke the record with his next book, Strategic Investing, by receiving the largest advance ever paid for a financial book at the time. Interestingly enough, Doug’s book The International Man was the most sold book in the history of Rhodesia. and his most recent releases Totally Incorrect (2012) and Right on the Money (2013) continue the tradition of challenging statism and advocating liberty and free markets.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1425897161/qwjfdmdblvbapjsjz1m9.png",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 454552,
+                  "created_at": 1425897180,
+                  "updated_at": 1518477729
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "797104d735306c69b3471a728129e69c",
+            "properties": {
+              "title": "Chief Executive Officer",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1425897473,
+              "updated_at": 1518485284
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "d5ddb0897a0f513811292707bc6baec7",
+                "properties": {
+                  "permalink": "olivier-garret",
+                  "permalink_aliases": null,
+                  "api_path": "people/olivier-garret",
+                  "web_path": "person/olivier-garret",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/olivier-garret",
+                  "first_name": "Olivier",
+                  "last_name": "Garret",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Olivier is a Partner and CEO of Casey Research, LLC.\r\n\r\nPrior to joining Casey Research in January 2007, Olivier Garret was a principal in Kemp Management, a management consulting firm focused on merger & acquisition due diligence, restructuring, and turnaround activities for a variety of private equity firms and financial institutions. In this capacity, he led and participated in dozens of merger & acquisition and restructuring deals in a variety of industries.\r\n\r\nIn the 1990’s, Olivier was CEO and general manager of a number of industrial businesses ranging from entrepreneurial start-ups to divisions of a Fortune 500 company.\r\n\r\nHe earned an MBA from the Amos Tuck School of Business Administration at Dartmouth College and a Master’s in Business from the Université de Paris IX-Dauphine.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1425897460/d0cklvuturr0jsxuqwal.png",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 159044,
+                  "created_at": 1425897473,
+                  "updated_at": 1518482976
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "f08640f025a5f60e42f6ed6456ed41e7",
+            "properties": {
+              "title": "Partner",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1425897383,
+              "updated_at": 1518485887
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "3054990a806c26ae7024d91b1934c78b",
+                "properties": {
+                  "permalink": "david-galland",
+                  "permalink_aliases": null,
+                  "api_path": "people/david-galland",
+                  "web_path": "person/david-galland",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/david-galland",
+                  "first_name": "David",
+                  "last_name": "Galland",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Over the course of his varied career, David Galland has worked as a miner, as the conference director for the world’s largest investment conference (National Committee for Monetary Reform, 1979 to 1987), financial newsletter editor and publisher (Gold Newsletter, Aden Analysis, among many others), a founding partner and director of a successful mutual fund group (Blanchard Group of Funds), and as a founding partner and executive vice-president for EverBank, one of the earliest and most successful online banks.\r\n\r\nSince 2004 David has been a partner with Doug Casey and Olivier Garret in Casey Research, LLC, an international research firm providing insights on macro-economics, metals and mining, energy and technology investing for self-directed individuals and investment professionals in over 150 countries.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1425897342/yaubqjjxbgqo9f2ruela.png",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 438002,
+                  "created_at": 1425897383,
+                  "updated_at": 1518479209
+                }
+              }
+            }
+          }
+        ]
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/casey-research/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/casey-research/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/casey-research/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/casey-research/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/casey-research/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/casey-research/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "ed9490b303a55d574d28b3562497ea7f",
+          "properties": {
+            "name": "Office",
+            "street_1": null,
+            "street_2": null,
+            "postal_code": null,
+            "city": "Vermont",
+            "region": "Illinois",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1425896891,
+            "updated_at": 1518484065
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/casey-research/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "ed9490b303a55d574d28b3562497ea7f",
+          "properties": {
+            "name": "Office",
+            "street_1": null,
+            "street_2": null,
+            "postal_code": null,
+            "city": "Vermont",
+            "region": "Illinois",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1425896891,
+            "updated_at": 1518484065
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/casey-research/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/casey-research/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "90b4194f1d4fff5cd7a66b6f32ae4892",
+            "properties": {
+              "name": "Financial Services",
+              "web_path": "category/financial-services/90b4194f1d4fff5cd7a66b6f32ae4892",
+              "category_groups": [
+                "Financial Services"
+              ],
+              "created_at": 1397980726,
+              "updated_at": 1518483551
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/casey-research/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/casey-research/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/casey-research/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/casey-research/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/casey-research/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/casey-research/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/casey-research/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/casey-research/acquired_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/casey-research/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/casey-research/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/casey-research/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "5f90c93be4242935fcaf7ad406cff134",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "http://www.caseyresearch.com/",
+              "created_at": 1425896748,
+              "updated_at": 1540590243
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "5f90c93be4242935fcaf7ad406cff134",
+            "properties": {
+              "website_type": "facebook",
+              "website_name": "facebook",
+              "url": "https://www.facebook.com/CaseyResearch",
+              "created_at": 1425896748,
+              "updated_at": 1540590243
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "5f90c93be4242935fcaf7ad406cff134",
+            "properties": {
+              "website_type": "twitter",
+              "website_name": "twitter",
+              "url": "https://twitter.com/caseyresearch",
+              "created_at": 1425896748,
+              "updated_at": 1540590243
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "5f90c93be4242935fcaf7ad406cff134",
+            "properties": {
+              "website_type": "linkedin",
+              "website_name": "linkedin",
+              "url": "https://www.linkedin.com/company/casey-research",
+              "created_at": 1425896748,
+              "updated_at": 1540590243
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/casey-research/images",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Image",
+            "uuid": "5f90c93be4242935fcaf7ad406cff134",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/v1425896713/agdvxaixvwshhwscfkdn.png",
+              "asset_url": "http://public.crunchbase.com/t_api_images/v1425896713/agdvxaixvwshhwscfkdn.png",
+              "content_type": "png",
+              "height": null,
+              "width": null,
+              "filesize": null,
+              "created_at": 1425896748,
+              "updated_at": 1540590243
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/casey-research/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 8,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/casey-research/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": [
+          {
+            "type": "News",
+            "uuid": "af9a01a651a8432f9f75f41181f9b4d6",
+            "properties": {
+              "title": "[Podcast] The Jay Kim Show with world-renowned speculator Doug Casey",
+              "author": "Jay Kim",
+              "posted_on": "2018-02-28",
+              "posted_on_trust_code": 7,
+              "url": "http://e27.co/podcast-jay-kim-show-world-renowned-speculator-doug-casey-20180228/",
+              "created_at": 1519824378,
+              "updated_at": 1519824378
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "90a6a39bda437f13d18ad59e4a66cb01",
+            "properties": {
+              "title": "Gold Sector Rallies After a Worse than Expected Jobs Report",
+              "author": "FinancialBuzz.com",
+              "posted_on": "2016-06-09",
+              "posted_on_trust_code": 7,
+              "url": "http://www.prnewswire.co.uk/news-releases/gold-sector-rallies-after-a-worse-than-expected-jobs-report-582374241.html",
+              "created_at": 1467932601,
+              "updated_at": 1518470616
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "1862385a79387b9e486bc5f062f7ab3b",
+            "properties": {
+              "title": "BONNER: An economic depression might not be a bad thing",
+              "author": "Bill Bonner",
+              "posted_on": "2016-01-10",
+              "posted_on_trust_code": 7,
+              "url": "http://www.businessinsider.com/why-economic-depression-may-not-be-bad-2016-1",
+              "created_at": 1453023092,
+              "updated_at": 1518486769
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "d0f85b18c6ce4635afcfed217bb6592d",
+            "properties": {
+              "title": "Alex Daley of Casey Research talks Bitcoin (Podcast) | ZDNet",
+              "author": "Ken Hess",
+              "posted_on": "2015-01-15",
+              "posted_on_trust_code": 7,
+              "url": "http://www.zdnet.com/article/alex-daley-of-casey-research-talks-bitcoin-podcast/",
+              "created_at": 1432256636,
+              "updated_at": 1518472178
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "54e97011d4c84a5d86d308aca6cce394",
+            "properties": {
+              "title": "Puerto Rico: Tropical Tax Haven for America's Super-Rich",
+              "author": "Katherine Burton",
+              "posted_on": "2014-06-26",
+              "posted_on_trust_code": 7,
+              "url": "http://www.bloomberg.com/bw/articles/2014-06-26/puerto-rico-tax-haven-for-americas-super-rich",
+              "created_at": 1443563761,
+              "updated_at": 1518469201
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "f442f77045944b4fbddc63b82c670f5d",
+            "properties": {
+              "title": "How the Feds Can Take Even Legally Earned Bitcoins",
+              "author": "Peter Coy",
+              "posted_on": "2014-02-18",
+              "posted_on_trust_code": 7,
+              "url": "http://www.bloomberg.com/bw/articles/2014-02-18/how-the-feds-can-take-even-legally-earned-bitcoin",
+              "created_at": 1443563761,
+              "updated_at": 1518473020
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "0c0165ef215d4a80bee170b4bf6d63e9",
+            "properties": {
+              "title": "David Stockman on Why Austerity Isn't Discretionary",
+              "author": "Jonathan Weil",
+              "posted_on": "2013-04-02",
+              "posted_on_trust_code": 7,
+              "url": "http://www.bloombergview.com/articles/2013-04-02/david-stockman-on-why-austerity-isn-t-discretionary",
+              "created_at": 1443563761,
+              "updated_at": 1518486518
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "fb88b98a8d7549adafae57ac38702606",
+            "properties": {
+              "title": "5 Huge Green-Tech Projects in the Developing World | WIRED",
+              "author": "Alexis Madrigal",
+              "posted_on": "2009-03-03",
+              "posted_on_trust_code": 7,
+              "url": "http://www.wired.com/2009/03/devworldgreen/",
+              "created_at": 1432224915,
+              "updated_at": 1518473190
+            }
+          }
+        ]
+      }
+    }
+  }
+}

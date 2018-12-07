@@ -1,0 +1,473 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "000e1f480d3b4e468f1f74d9f606f002",
+    "properties": {
+      "permalink": "american-health-care-software",
+      "permalink_aliases": null,
+      "api_path": "organizations/american-health-care-software",
+      "web_path": "organization/american-health-care-software",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/american-health-care-software",
+      "name": "American Health Care Software",
+      "also_known_as": null,
+      "short_description": "American Health Care Software is a national software solution provider to the healthcare industry ",
+      "description": "American Health Care Software is a national software solution provider to the healthcare industry and an IBM business partner located in South Burlington, Vermont, in the heart of the Lake Champlain Valley region. They are a national company serving facilities in all U.S. states as well as the territory of Guam. Their customers encompass nursing homes, long tem care, home care, elder care, retirement homes, assisted living, apartments, outpatient clinics.\nUtilization of American's Harmony Health Care Management System in continuum of care settings allow users to quickly, easily and accurately manage every aspect of your organization's clinical and business needs.",
+      "profile_image_url": "http://public.crunchbase.com/t_api_images/y6gfz8czpnnkklpnts2f",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": null,
+      "founded_on_trust_code": null,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": null,
+      "num_employees_max": null,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": "http://www.ahconline.com/",
+      "contact_email": null,
+      "phone_number": "802-238-8459 ",
+      "rank": 382066,
+      "created_at": 1525670066,
+      "updated_at": 1536356549
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/american-health-care-software/primary_image",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Image",
+          "uuid": "000e1f480d3b4e468f1f74d9f606f002",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/y6gfz8czpnnkklpnts2f",
+            "asset_url": "http://public.crunchbase.com/t_api_images/y6gfz8czpnnkklpnts2f",
+            "content_type": "y6gfz8czpnnkklpnts2f",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1525670066,
+            "updated_at": 1536356549
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/american-health-care-software/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/american-health-care-software/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "edd2f972fbc844b69caa0cfd68c91dd9",
+            "properties": {
+              "title": "President & CEO",
+              "started_on": "1990-01-01",
+              "started_on_trust_code": 4,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1525671397,
+              "updated_at": 1525671397
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "9736086f45e94c7ea9f9707edb310d33",
+                "properties": {
+                  "permalink": "marcia-derosia",
+                  "permalink_aliases": null,
+                  "api_path": "people/marcia-derosia",
+                  "web_path": "person/marcia-derosia",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/marcia-derosia",
+                  "first_name": "Marcia",
+                  "last_name": "Derosia",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/ujgqw69xhsjce3g9f634",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 717464,
+                  "created_at": 1525671397,
+                  "updated_at": 1536378499
+                }
+              }
+            }
+          }
+        ]
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/american-health-care-software/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "edd2f972fbc844b69caa0cfd68c91dd9",
+            "properties": {
+              "title": "President & CEO",
+              "started_on": "1990-01-01",
+              "started_on_trust_code": 4,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1525671397,
+              "updated_at": 1525671397
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "9736086f45e94c7ea9f9707edb310d33",
+                "properties": {
+                  "permalink": "marcia-derosia",
+                  "permalink_aliases": null,
+                  "api_path": "people/marcia-derosia",
+                  "web_path": "person/marcia-derosia",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/marcia-derosia",
+                  "first_name": "Marcia",
+                  "last_name": "Derosia",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/ujgqw69xhsjce3g9f634",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 717464,
+                  "created_at": 1525671397,
+                  "updated_at": 1536378499
+                }
+              }
+            }
+          }
+        ]
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/american-health-care-software/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/american-health-care-software/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/american-health-care-software/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/american-health-care-software/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/american-health-care-software/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/american-health-care-software/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "7ce7ff5f623d46a889c913eebbd09705",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "20 Joy Drive",
+            "street_2": "Suite 200",
+            "postal_code": " 05403",
+            "city": "South Burlington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1525670066,
+            "updated_at": 1525670066
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/american-health-care-software/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "7ce7ff5f623d46a889c913eebbd09705",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "20 Joy Drive",
+            "street_2": "Suite 200",
+            "postal_code": " 05403",
+            "city": "South Burlington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1525670066,
+            "updated_at": 1525670066
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/american-health-care-software/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/american-health-care-software/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "3f21415b57846be63722eb189190b7cd",
+            "properties": {
+              "name": "Health Care",
+              "web_path": "category/health-care/3f21415b57846be63722eb189190b7cd",
+              "category_groups": [
+                "Health Care"
+              ],
+              "created_at": 1397980726,
+              "updated_at": 1518483550
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/american-health-care-software/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/american-health-care-software/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/american-health-care-software/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/american-health-care-software/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/american-health-care-software/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/american-health-care-software/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/american-health-care-software/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/american-health-care-software/acquired_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/american-health-care-software/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/american-health-care-software/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/american-health-care-software/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "000e1f480d3b4e468f1f74d9f606f002",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "http://www.ahconline.com/",
+              "created_at": 1525670066,
+              "updated_at": 1536356549
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/american-health-care-software/images",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Image",
+            "uuid": "000e1f480d3b4e468f1f74d9f606f002",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/y6gfz8czpnnkklpnts2f",
+              "asset_url": "http://public.crunchbase.com/t_api_images/y6gfz8czpnnkklpnts2f",
+              "content_type": "y6gfz8czpnnkklpnts2f",
+              "height": null,
+              "width": null,
+              "filesize": null,
+              "created_at": 1525670066,
+              "updated_at": 1536356549
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/american-health-care-software/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/american-health-care-software/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}

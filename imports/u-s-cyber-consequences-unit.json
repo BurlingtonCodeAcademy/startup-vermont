@@ -1,0 +1,586 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "106eac973b431df7537952abbe62e6aa",
+    "properties": {
+      "permalink": "u-s-cyber-consequences-unit",
+      "permalink_aliases": null,
+      "api_path": "organizations/u-s-cyber-consequences-unit",
+      "web_path": "organization/u-s-cyber-consequences-unit",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/u-s-cyber-consequences-unit",
+      "name": "U.S. Cyber Consequences Unit",
+      "also_known_as": null,
+      "short_description": "The U.S. Cyber Consequences Unit (US-CCU) is an independent, non-profit (501c3) research institute.",
+      "description": null,
+      "profile_image_url": "http://public.crunchbase.com/t_api_images/v1452229857/d1s9q15jc7yjfqkptzjb.jpg",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": null,
+      "founded_on_trust_code": null,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": 11,
+      "num_employees_max": 50,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": "http://www.usccu.us/",
+      "contact_email": null,
+      "phone_number": null,
+      "rank": 254498,
+      "created_at": 1452229886,
+      "updated_at": 1518479305
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/u-s-cyber-consequences-unit/primary_image",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Image",
+          "uuid": "106eac973b431df7537952abbe62e6aa",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/v1452229857/d1s9q15jc7yjfqkptzjb.jpg",
+            "asset_url": "http://public.crunchbase.com/t_api_images/v1452229857/d1s9q15jc7yjfqkptzjb.jpg",
+            "content_type": "jpg",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1452229886,
+            "updated_at": 1518479305
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/u-s-cyber-consequences-unit/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/u-s-cyber-consequences-unit/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "81df71a0fdfdd9a0214b55ba5f7cf820",
+            "properties": {
+              "title": "CEO",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1452229886,
+              "updated_at": 1518485330
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "24dbd10029603a2b539305f0f3a7d0f7",
+                "properties": {
+                  "permalink": "scott-borg",
+                  "permalink_aliases": null,
+                  "api_path": "people/scott-borg",
+                  "web_path": "person/scott-borg",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/scott-borg",
+                  "first_name": "Scott",
+                  "last_name": "Borg",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Scott Borg is the Director of the U.S. Cyber Consequences Unit, an independent, non-profit research institute that investigates the strategic and economic consequences of cyber-attacks. \r\n\r\nWidely recognized as the leading authority on the economics of cyber security, Borg is responsible for many of the concepts currently used to analyze the implications of cyber attacks in business contexts. \r\n\r\nHis record for anticipating new cyber-security developments since 2002 is probably unequaled. His technical contributions have included work on the techniques for hiding and finding malware. \r\n\r\nHe comments for NBC, CNN, the BBC, NPR, and other broadcast media, served on the Commission on Cybersecurity for the 44th Presidency, and has lectured at Harvard, Yale, Columbia, and other leading universities.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1452229515/imawcynalqgsaswnqo9i.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 426974,
+                  "created_at": 1452229554,
+                  "updated_at": 1518478693
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "fad734c2b25e2912dca5ccd8b7cfcd8b",
+            "properties": {
+              "title": "Chief Technical Officer",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1452230354,
+              "updated_at": 1518485945
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "a327593488a2e3255a6ff3c5d99d853d",
+                "properties": {
+                  "permalink": "john-bumgarner",
+                  "permalink_aliases": null,
+                  "api_path": "people/john-bumgarner",
+                  "web_path": "person/john-bumgarner",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/john-bumgarner",
+                  "first_name": "John",
+                  "last_name": "Bumgarner",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "John Bumgarner is the Chief Technical Officer of the U.S. Cyber Consequences Unit, an independent, non-profit research institute that investigates the strategic and economic consequences of cyber-attacks. \r\n\r\nRecognized as a cybersecurity expert in the industry, he has done extensive research into the kinds of damage cyber attacks could do to critical infrastructures, led US-CCU investigations of past cyber conflicts, such as the campaign against Georgia, and been one of the world's leading analysts of advanced malware, such as Stuxnet. \r\n\r\nBefore joining the US-CCU, he spent eighteen years in Special Operations and intelligence. He has extensive operational field experience in special operations and information operations.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1452230283/ilgvxajnbexbpahgj2hc.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 440670,
+                  "created_at": 1452230289,
+                  "updated_at": 1518479509
+                }
+              }
+            }
+          }
+        ]
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/u-s-cyber-consequences-unit/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "81df71a0fdfdd9a0214b55ba5f7cf820",
+            "properties": {
+              "title": "CEO",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1452229886,
+              "updated_at": 1518485330
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "24dbd10029603a2b539305f0f3a7d0f7",
+                "properties": {
+                  "permalink": "scott-borg",
+                  "permalink_aliases": null,
+                  "api_path": "people/scott-borg",
+                  "web_path": "person/scott-borg",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/scott-borg",
+                  "first_name": "Scott",
+                  "last_name": "Borg",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Scott Borg is the Director of the U.S. Cyber Consequences Unit, an independent, non-profit research institute that investigates the strategic and economic consequences of cyber-attacks. \r\n\r\nWidely recognized as the leading authority on the economics of cyber security, Borg is responsible for many of the concepts currently used to analyze the implications of cyber attacks in business contexts. \r\n\r\nHis record for anticipating new cyber-security developments since 2002 is probably unequaled. His technical contributions have included work on the techniques for hiding and finding malware. \r\n\r\nHe comments for NBC, CNN, the BBC, NPR, and other broadcast media, served on the Commission on Cybersecurity for the 44th Presidency, and has lectured at Harvard, Yale, Columbia, and other leading universities.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1452229515/imawcynalqgsaswnqo9i.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 426974,
+                  "created_at": 1452229554,
+                  "updated_at": 1518478693
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "fad734c2b25e2912dca5ccd8b7cfcd8b",
+            "properties": {
+              "title": "Chief Technical Officer",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1452230354,
+              "updated_at": 1518485945
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "a327593488a2e3255a6ff3c5d99d853d",
+                "properties": {
+                  "permalink": "john-bumgarner",
+                  "permalink_aliases": null,
+                  "api_path": "people/john-bumgarner",
+                  "web_path": "person/john-bumgarner",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/john-bumgarner",
+                  "first_name": "John",
+                  "last_name": "Bumgarner",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "John Bumgarner is the Chief Technical Officer of the U.S. Cyber Consequences Unit, an independent, non-profit research institute that investigates the strategic and economic consequences of cyber-attacks. \r\n\r\nRecognized as a cybersecurity expert in the industry, he has done extensive research into the kinds of damage cyber attacks could do to critical infrastructures, led US-CCU investigations of past cyber conflicts, such as the campaign against Georgia, and been one of the world's leading analysts of advanced malware, such as Stuxnet. \r\n\r\nBefore joining the US-CCU, he spent eighteen years in Special Operations and intelligence. He has extensive operational field experience in special operations and information operations.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1452230283/ilgvxajnbexbpahgj2hc.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 440670,
+                  "created_at": 1452230289,
+                  "updated_at": 1518479509
+                }
+              }
+            }
+          }
+        ]
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/u-s-cyber-consequences-unit/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/u-s-cyber-consequences-unit/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "66f4d94d174cba3e88a1ea1cda3b4e11",
+            "properties": {
+              "title": "Member of Board of Directors",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "board_member",
+              "created_at": 1452230118,
+              "updated_at": 1518485203
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "24dbd10029603a2b539305f0f3a7d0f7",
+                "properties": {
+                  "permalink": "scott-borg",
+                  "permalink_aliases": null,
+                  "api_path": "people/scott-borg",
+                  "web_path": "person/scott-borg",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/scott-borg",
+                  "first_name": "Scott",
+                  "last_name": "Borg",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Scott Borg is the Director of the U.S. Cyber Consequences Unit, an independent, non-profit research institute that investigates the strategic and economic consequences of cyber-attacks. \r\n\r\nWidely recognized as the leading authority on the economics of cyber security, Borg is responsible for many of the concepts currently used to analyze the implications of cyber attacks in business contexts. \r\n\r\nHis record for anticipating new cyber-security developments since 2002 is probably unequaled. His technical contributions have included work on the techniques for hiding and finding malware. \r\n\r\nHe comments for NBC, CNN, the BBC, NPR, and other broadcast media, served on the Commission on Cybersecurity for the 44th Presidency, and has lectured at Harvard, Yale, Columbia, and other leading universities.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1452229515/imawcynalqgsaswnqo9i.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 426974,
+                  "created_at": 1452229554,
+                  "updated_at": 1518478693
+                }
+              }
+            }
+          }
+        ]
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/u-s-cyber-consequences-unit/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/u-s-cyber-consequences-unit/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/u-s-cyber-consequences-unit/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/u-s-cyber-consequences-unit/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "06025626b57cf3c98fd1705a633d7642",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": null,
+            "street_2": null,
+            "postal_code": "05055",
+            "city": "Norwich",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1470683594,
+            "updated_at": 1518483567
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/u-s-cyber-consequences-unit/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "06025626b57cf3c98fd1705a633d7642",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": null,
+            "street_2": null,
+            "postal_code": "05055",
+            "city": "Norwich",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1470683594,
+            "updated_at": 1518483567
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/u-s-cyber-consequences-unit/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/u-s-cyber-consequences-unit/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/u-s-cyber-consequences-unit/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/u-s-cyber-consequences-unit/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/u-s-cyber-consequences-unit/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/u-s-cyber-consequences-unit/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/u-s-cyber-consequences-unit/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/u-s-cyber-consequences-unit/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/u-s-cyber-consequences-unit/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/u-s-cyber-consequences-unit/acquired_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/u-s-cyber-consequences-unit/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/u-s-cyber-consequences-unit/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/u-s-cyber-consequences-unit/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "106eac973b431df7537952abbe62e6aa",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "http://www.usccu.us/",
+              "created_at": 1452229886,
+              "updated_at": 1518479305
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/u-s-cyber-consequences-unit/images",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Image",
+            "uuid": "106eac973b431df7537952abbe62e6aa",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/v1452229857/d1s9q15jc7yjfqkptzjb.jpg",
+              "asset_url": "http://public.crunchbase.com/t_api_images/v1452229857/d1s9q15jc7yjfqkptzjb.jpg",
+              "content_type": "jpg",
+              "height": null,
+              "width": null,
+              "filesize": null,
+              "created_at": 1452229886,
+              "updated_at": 1518479305
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/u-s-cyber-consequences-unit/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/u-s-cyber-consequences-unit/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}

@@ -25,15 +25,45 @@ class Map extends Component {
     this.map = null;
   };
 
-  createMarkerLayer(){
-    let markerLayer;
-    this.props.startups.map(startup => {
-      markerLayer.push(Leaflet.marker(startup.address).bindPopup());
+  createMarkerLayer = async()=>{
+      let markerLayer = [];
+    await this.props.startups.forEach(startup => {
+      let address = startup.address.street_1
+      let city = startup.address.city
+      if (address == null){
+        return
+      }
+      address = address.split(' ');
+     address = address.join('%20')
+     city = city.split(' ');
+     city = city.join('%20')
+      let osmUrl = "https://nominatim.openstreetmap.org/search?q=" + address + "%20"+ city + "%20vermont&format=json"
+      console.log(osmUrl)     
+      fetch(osmUrl)
+        .then((response) => {
+          return response.json();
+        })
+        .then((myJSON) => {
+          if (!myJSON[0]){return}
+          let latitude = myJSON[0].lat
+          let longitude = myJSON[0].lon
+          let latlong = [latitude, longitude]
+          console.log(latlong)
+          let image = `<img src="${startup.logo_url}"></img>`
+          Leaflet.marker(latlong).bindPopup(startup.name + ' ' + image, {
+            minWidth:"100px"
+          }).addTo(this.map);
+        })
+   
     })
-    markerLayer.addTo(this.map);
+     //console.log(markerLayer)
+    // var markerGroup = Leaflet.layerGroup(markerLayer);
+    // console.log(markerGroup)
+    // Leaflet.layerGroup(markerGroup).addLayer(polyline).addTo(this.map);
   }
 
   render (){
+    this.createMarkerLayer();
     return(
       <div ref={this.mapRef} id="map" className="map" />
     )

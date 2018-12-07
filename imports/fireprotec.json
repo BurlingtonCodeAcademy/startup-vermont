@@ -1,0 +1,476 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "ef387b709d074883921ff1ddf888b784",
+    "properties": {
+      "permalink": "fireprotec",
+      "permalink_aliases": null,
+      "api_path": "organizations/fireprotec",
+      "web_path": "organization/fireprotec",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/fireprotec",
+      "name": "FireProTec",
+      "also_known_as": null,
+      "short_description": "FireProTec is New England's premier fire protection company, providing fire prevention equipment and safety training.",
+      "description": "FireProTec is New England's premier fire protection company, providing fire prevention equipment and safety training so that you can protect what's most important. FireProTec designs and installs fire suppression systems for restaurants, hospitality, institutions, server rooms, and special hazards of all kinds. FireProTec provide fire extinguisher sales, maintenance, and inventory to businesses as well as walk-in services for homeowners.",
+      "profile_image_url": "http://public.crunchbase.com/t_api_images/istcqa02jqb1sxrmoc20",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": "1962-01-01",
+      "founded_on_trust_code": 4,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": null,
+      "num_employees_max": null,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": "https://www.fireprotec.com/",
+      "contact_email": "service@fireprotec.com",
+      "phone_number": "(800) 322-7999",
+      "rank": 205681,
+      "created_at": 1536807465,
+      "updated_at": 1540591965
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fireprotec/primary_image",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Image",
+          "uuid": "ef387b709d074883921ff1ddf888b784",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/istcqa02jqb1sxrmoc20",
+            "asset_url": "http://public.crunchbase.com/t_api_images/istcqa02jqb1sxrmoc20",
+            "content_type": "istcqa02jqb1sxrmoc20",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1536807465,
+            "updated_at": 1540591965
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fireprotec/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fireprotec/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": []
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fireprotec/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fireprotec/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fireprotec/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fireprotec/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fireprotec/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fireprotec/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fireprotec/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "71dd1c86f98f420b8cbc13736b1ba6d9",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "552 Avenue D",
+            "street_2": "Suite 20",
+            "postal_code": "05495",
+            "city": "Williston",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1536807465,
+            "updated_at": 1536807465
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fireprotec/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "71dd1c86f98f420b8cbc13736b1ba6d9",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "552 Avenue D",
+            "street_2": "Suite 20",
+            "postal_code": "05495",
+            "city": "Williston",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1536807465,
+            "updated_at": 1536807465
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fireprotec/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fireprotec/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "e4d83fbb33f0a6f01399a68245e8f8ac",
+            "properties": {
+              "name": "Construction",
+              "web_path": "category/construction/e4d83fbb33f0a6f01399a68245e8f8ac",
+              "category_groups": [
+                "Real Estate"
+              ],
+              "created_at": 1397980727,
+              "updated_at": 1518483551
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "ef23115653f4cfa379eea04b28bc3c4a",
+            "properties": {
+              "name": "Public Safety",
+              "web_path": "category/public-safety/ef23115653f4cfa379eea04b28bc3c4a",
+              "category_groups": [
+                "Government and Military"
+              ],
+              "created_at": 1397980727,
+              "updated_at": 1518483551
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fireprotec/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fireprotec/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fireprotec/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fireprotec/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fireprotec/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fireprotec/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fireprotec/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fireprotec/acquired_by",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Acquisition",
+          "uuid": "428a1935a47945cc944800299dcdfdef",
+          "properties": {
+            "permalink": "428a1935a47945cc944800299dcdfdef",
+            "api_path": "acquisitions/428a1935a47945cc944800299dcdfdef",
+            "web_path": "acquisition/428a1935a47945cc944800299dcdfdef",
+            "api_url": "https://api.crunchbase.com/v3.1/acquisitions/428a1935a47945cc944800299dcdfdef",
+            "price": null,
+            "price_currency_code": null,
+            "price_usd": null,
+            "payment_type": null,
+            "acquisition_type": "acquisition",
+            "acquisition_status": "complete",
+            "disposition_of_acquired": "subsidiary",
+            "announced_on": "2018-09-12",
+            "announced_on_trust_code": 7,
+            "completed_on": null,
+            "completed_on_trust_code": null,
+            "rank": 2113,
+            "created_at": 1536807581,
+            "updated_at": 1536807581
+          },
+          "relationships": {
+            "acquirer": {
+              "type": "Organization",
+              "uuid": "958227ad834e42cfaf207ff5c39a3ab3",
+              "properties": {
+                "permalink": "ai-fire",
+                "permalink_aliases": null,
+                "api_path": "organizations/ai-fire",
+                "web_path": "organization/ai-fire",
+                "api_url": "https://api.crunchbase.com/v3.1/organizations/ai-fire",
+                "name": "AI Fire",
+                "also_known_as": null,
+                "short_description": "AI Fire is a provider of fire and life safety services to national, regional and local customers.",
+                "description": "AI Fire, the parent company of Academy Fire and Impact Fire Services, is a leading provider of repair, service, and inspection of fire life safety systems across the United States. The company’s hybrid model enables the company to effectively service national, regional, and local customers through our own technicians",
+                "profile_image_url": null,
+                "primary_role": "company",
+                "role_company": true,
+                "role_investor": false,
+                "role_group": false,
+                "role_school": false,
+                "investor_type": null,
+                "founded_on": "2009-01-01",
+                "founded_on_trust_code": 4,
+                "is_closed": false,
+                "closed_on": null,
+                "closed_on_trust_code": null,
+                "num_employees_min": null,
+                "num_employees_max": null,
+                "stock_exchange": null,
+                "stock_symbol": null,
+                "total_funding_usd": 0,
+                "number_of_investments": 0,
+                "homepage_url": null,
+                "contact_email": null,
+                "phone_number": null,
+                "rank": 157622,
+                "created_at": 1521009768,
+                "updated_at": 1533928612
+              }
+            }
+          }
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fireprotec/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fireprotec/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fireprotec/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "ef387b709d074883921ff1ddf888b784",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "https://www.fireprotec.com/",
+              "created_at": 1536807465,
+              "updated_at": 1540591965
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "ef387b709d074883921ff1ddf888b784",
+            "properties": {
+              "website_type": "linkedin",
+              "website_name": "linkedin",
+              "url": "https://www.linkedin.com/company/fireprotec/",
+              "created_at": 1536807465,
+              "updated_at": 1540591965
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fireprotec/images",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Image",
+            "uuid": "ef387b709d074883921ff1ddf888b784",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/istcqa02jqb1sxrmoc20",
+              "asset_url": "http://public.crunchbase.com/t_api_images/istcqa02jqb1sxrmoc20",
+              "content_type": "istcqa02jqb1sxrmoc20",
+              "height": null,
+              "width": null,
+              "filesize": null,
+              "created_at": 1536807465,
+              "updated_at": 1540591965
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fireprotec/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/fireprotec/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}
