@@ -30,7 +30,7 @@ class App extends Component {
           <div id="startup-list">
           <h1>Startups in VT:</h1>
             {this.state.startups.map(startup => {
-              console.log(startup);
+              //console.log(startup);
               let result = <Startup key={startup._id} {...startup} />
               return result;
             })}

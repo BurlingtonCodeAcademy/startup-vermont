@@ -431,7 +431,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 496754,
+                  "rank": 496756,
                   "created_at": 1493749390,
                   "updated_at": 1518478502
                 }
@@ -599,7 +599,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 446336,
+                  "rank": 446337,
                   "created_at": 1493750233,
                   "updated_at": 1518478529
                 }
@@ -725,7 +725,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 272524,
+                  "rank": 272527,
                   "created_at": 1493749160,
                   "updated_at": 1518477507
                 }
@@ -1176,7 +1176,7 @@
               "pre_money_valuation": null,
               "pre_money_valuation_currency_code": null,
               "pre_money_valuation_usd": null,
-              "rank": 22913,
+              "rank": 23042,
               "created_at": 1535625462,
               "updated_at": 1535625462
             }

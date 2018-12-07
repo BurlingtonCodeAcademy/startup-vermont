@@ -37,9 +37,11 @@ class Map extends Component {
      city = city.split(' ');
      city = city.join('%20')
       let osmUrl = "https://nominatim.openstreetmap.org/search?q=" + address + "%20"+ city + "%20vermont&format=json"
-      console.log(osmUrl)     
+      // console.log(osmUrl)     
       fetch(osmUrl)
         .then((response) => {
+          console.log(response.headers);
+          // console.log(response.body)
           return response.json();
         })
         .then((myJSON) => {
@@ -47,12 +49,13 @@ class Map extends Component {
           let latitude = myJSON[0].lat
           let longitude = myJSON[0].lon
           let latlong = [latitude, longitude]
-          console.log(latlong)
+          // console.log(latlong)
           let image = `<img src="${startup.logo_url}"></img>`
           Leaflet.marker(latlong).bindPopup(startup.name + ' ' + image, {
             minWidth:"100px"
           }).addTo(this.map);
         })
+        .catch((error) => console.log(error));
    
     })
      //console.log(markerLayer)

@@ -646,7 +646,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 539548,
+                  "rank": 539550,
                   "created_at": 1427233256,
                   "updated_at": 1518473540
                 }
@@ -1077,7 +1077,7 @@
               "pre_money_valuation": null,
               "pre_money_valuation_currency_code": null,
               "pre_money_valuation_usd": null,
-              "rank": 144770,
+              "rank": 155687,
               "created_at": 1427232247,
               "updated_at": 1518477841
             },

@@ -274,7 +274,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 276122,
+                  "rank": 276125,
                   "created_at": 1422039103,
                   "updated_at": 1518478631
                 }
@@ -411,7 +411,7 @@
               "homepage_url": "http://copleyequity.com/",
               "contact_email": "mbryson@copleyequity.com",
               "phone_number": "(617) 249-5358",
-              "rank": 118758,
+              "rank": 118763,
               "created_at": 1406695259,
               "updated_at": 1540590680
             }
@@ -653,7 +653,7 @@
                         "homepage_url": "http://copleyequity.com/",
                         "contact_email": "mbryson@copleyequity.com",
                         "phone_number": "(617) 249-5358",
-                        "rank": 118758,
+                        "rank": 118763,
                         "created_at": 1406695259,
                         "updated_at": 1540590680
                       }
@@ -704,7 +704,7 @@
                           "born_on_trust_code": null,
                           "died_on": null,
                           "died_on_trust_code": null,
-                          "rank": 276122,
+                          "rank": 276125,
                           "created_at": 1422039103,
                           "updated_at": 1518478631
                         }

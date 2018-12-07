@@ -1,4 +1,5 @@
 require('dotenv').config();
+const moment = require('moment')
 
 /*
  TODO:
@@ -86,7 +87,7 @@ function importDetails(company, crunchKey, importsDir, organizationSummary, obje
       return response.json();
     })
     .then((companyInfo) => {
-      if (!companyInfo.data || !companyInfo.data.properties || !companyInfo.data.relationships) {
+      if (!companyInfo.data || !companyInfo.data.properties || !companyInfo.data.relationships || moment(companyInfo.data.properties.founded_on) < moment('2000-01-01')) {
         itemsRemoved++;
         // return console.log(itemsRemoved + ' No properties value')
         next;
