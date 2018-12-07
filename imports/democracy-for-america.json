@@ -1,0 +1,1362 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "46e4fb19998258421e1686e5ac87c19c",
+    "properties": {
+      "permalink": "democracy-for-america",
+      "permalink_aliases": null,
+      "api_path": "organizations/democracy-for-america",
+      "web_path": "organization/democracy-for-america",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/democracy-for-america",
+      "name": "Democracy for America",
+      "also_known_as": null,
+      "short_description": "Democracy for America is a people-powered federal PAC that works to change the country and Democratic Party from the bottom-up.",
+      "description": "Democracy for America is a people-powered federal PAC that works to change the country and Democratic Party from the bottom-up. It provides campaign training, resource organization, and media exposure so that its members have the power to support progressive issues and candidates up and down the ballot. The organization’s mainly focused areas are healthcare, marriage equality, strengthening the middle class, and unity among citizens.\n\nDemocracy for America leads public awareness campaigns on a variety of public policy issues, trains activists, and provides funding directly to candidates for office. It has more than 1 million members in the United States and internationally.\n\nFounded in 2004, Democracy for America is headquartered in Burlington, Vermont.",
+      "profile_image_url": "http://public.crunchbase.com/t_api_images/v1432138951/gvckwvvhnldnxofllbwz.png",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": "2004-01-01",
+      "founded_on_trust_code": 4,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": 11,
+      "num_employees_max": 50,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": "http://democracyforamerica.com/",
+      "contact_email": null,
+      "phone_number": "(802) 651-3200",
+      "rank": 166807,
+      "created_at": 1432139182,
+      "updated_at": 1523964330
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/democracy-for-america/primary_image",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Image",
+          "uuid": "46e4fb19998258421e1686e5ac87c19c",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/v1432138951/gvckwvvhnldnxofllbwz.png",
+            "asset_url": "http://public.crunchbase.com/t_api_images/v1432138951/gvckwvvhnldnxofllbwz.png",
+            "content_type": "png",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1432139182,
+            "updated_at": 1523964330
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/democracy-for-america/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Person",
+            "uuid": "5ff7ef4ce2b6687465cabcecc8cfc3f3",
+            "properties": {
+              "permalink": "howard-dean-2",
+              "permalink_aliases": null,
+              "api_path": "people/howard-dean-2",
+              "web_path": "person/howard-dean-2",
+              "api_url": "https://api.crunchbase.com/v3.1/people/howard-dean-2",
+              "first_name": "Howard",
+              "last_name": "Dean",
+              "gender": "Male",
+              "also_known_as": null,
+              "bio": "Governor Howard Dean founded Democracy for America in 2004 to build on the grassroots momentum that his bid for the presidency sparked. The movement propelled DFA into a successful national organization committed to the \"50 State Strategy.\" \r\n\r\nIn early 2005, DFA ran a people-powered campaign to elect Governor Dean to chair the Democratic National Committee. Democrats nationwide badly wanted reform and found the answer in Governor Dean. \r\n\r\nFrom 2005 – 2009, Governor Dean spearheaded the DNC’s 50 State Strategy to support the base of the Democratic Party, setting Democrats up to take back Congress in 2006 and win the White House in 2008. Upon leaving the DNC in early 2009, Governor Dean has returned to DFA as a senior adviser.",
+              "profile_image_url": null,
+              "role_investor": false,
+              "born_on": null,
+              "born_on_trust_code": null,
+              "died_on": null,
+              "died_on_trust_code": null,
+              "rank": 303519,
+              "created_at": 1438144765,
+              "updated_at": 1518473829
+            }
+          }
+        ]
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 6,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/democracy-for-america/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "10fc718e1b576075716b39f482603ab9",
+            "properties": {
+              "title": "Director of the Office of Gov.",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1438145327,
+              "updated_at": 1518484785
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "3fa580ba6b41db791779c235c7d74afc",
+                "properties": {
+                  "permalink": "amanda-mckay",
+                  "permalink_aliases": null,
+                  "api_path": "people/amanda-mckay",
+                  "web_path": "person/amanda-mckay",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/amanda-mckay",
+                  "first_name": "Amanda",
+                  "last_name": "McKay",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": "Amanda found her way to DFA in 2011 after working in Oregon on a statewide ballot measure.  Prior to working in Oregon, she also worked with the founders of Ben & Jerry's, Business Leaders for Sensible Priorities and TrueMajority. She found her calling after first campaign experience where she worked tirelessly trying to defeat George W. Bush in 2004.  After that, she traveled the country working to elect progressive Democrats - including Dan Maffei and Ted Deutch. \r\n\r\nAmanda graduated from St. Lawrence in New York with a degree in Biology, quickly realizing she didn’t want to make a career of science.\r\n\r\nWhen not working, Amanda enjoys anything that will get her outside and moving; skiing, running, hiking, swimming and playing with her dog Jake. She also enjoys traveling around the country with her camera.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1438151097/msfnpk0wy0cbrib2hrbz.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 293387,
+                  "created_at": 1438145327,
+                  "updated_at": 1518482254
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "1e920e32d08220eeb8c1b5250ae13ad0",
+            "properties": {
+              "title": "Founder",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1438144765,
+              "updated_at": 1518484854
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "5ff7ef4ce2b6687465cabcecc8cfc3f3",
+                "properties": {
+                  "permalink": "howard-dean-2",
+                  "permalink_aliases": null,
+                  "api_path": "people/howard-dean-2",
+                  "web_path": "person/howard-dean-2",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/howard-dean-2",
+                  "first_name": "Howard",
+                  "last_name": "Dean",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Governor Howard Dean founded Democracy for America in 2004 to build on the grassroots momentum that his bid for the presidency sparked. The movement propelled DFA into a successful national organization committed to the \"50 State Strategy.\" \r\n\r\nIn early 2005, DFA ran a people-powered campaign to elect Governor Dean to chair the Democratic National Committee. Democrats nationwide badly wanted reform and found the answer in Governor Dean. \r\n\r\nFrom 2005 – 2009, Governor Dean spearheaded the DNC’s 50 State Strategy to support the base of the Democratic Party, setting Democrats up to take back Congress in 2006 and win the White House in 2008. Upon leaving the DNC in early 2009, Governor Dean has returned to DFA as a senior adviser.",
+                  "profile_image_url": null,
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 303519,
+                  "created_at": 1438144765,
+                  "updated_at": 1518473829
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "2090f833ad0c50d058111448f6e9e2c7",
+            "properties": {
+              "title": "Political Director",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1438145420,
+              "updated_at": 1518484863
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "00ea7a57afaefda23d7a52d8c8213ac2",
+                "properties": {
+                  "permalink": "eden-james",
+                  "permalink_aliases": null,
+                  "api_path": "people/eden-james",
+                  "web_path": "person/eden-james",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/eden-james",
+                  "first_name": "Eden",
+                  "last_name": "James",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Prior to joining DFA in 2013, Eden was U.S. Campaign Director at Change.org, where he was instrumental in building and leading a campaign team from 2011-2013 that fueled the world's largest petition platform, empowering more than 50 million people around the globe.  \r\n\r\nFrom 2007-2010, Eden directed digital strategy and staff as Managing Director of the Courage Campaign, including leading Courage's national LGBT rights campaigns in the aftermath of Prop 8's passage.  In 2006, Eden served as Online Communications Director for Jerry McNerney's congressional upset victory over Rep. \r\n\r\nRichard Pombo.  Prior to 2006, Eden served as Online Marketing Manager at CREDO Action and organized in support of Gov. Dean's presidential campaign in California and Iowa.  In 2003, Eden graduated from UC Berkeley with a degree in Political Science.\r\n\r\nIn his free time, Eden carries on a lifelong romance with the Bay Area, including dates with the San Francisco Giants, quality time with this wonderful partner and kid, and long walks on the beach (well, really any kind of walk on the beach).",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1438151817/cei6jj08iz3hdzg3qedy.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 152351,
+                  "created_at": 1438145420,
+                  "updated_at": 1518478530
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "2eecd5c6f34c0c506d62e658f99f9de1",
+            "properties": {
+              "title": "Finance Director",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1438145518,
+              "updated_at": 1518484928
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "8fbc9723ece3b0e8d1bd077f718c2d18",
+                "properties": {
+                  "permalink": "kristina-powell",
+                  "permalink_aliases": null,
+                  "api_path": "people/kristina-powell",
+                  "web_path": "person/kristina-powell",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/kristina-powell",
+                  "first_name": "Kristina",
+                  "last_name": "Powell",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": "Kristina started her career at DFA as Governor Dean’s Executive Assistant and helped raise over one million dollars for progressive candidates and causes. Before joining DFA, she served as the Executive Director of the Vermont Democratic Party. Kristina spent a year coordinating youth outreach for President Obama’s New Hampshire Primary campaign and went on to aid get-out-the-vote efforts in six subsequent primary states. \r\n\r\nShe comes to DFA with nearly a decade of professional experience in Democratic politics, fundraising and strategic planning. \r\n\r\nKristina graduated magna cum laude from Bradley University with a bachelor’s degree in Political Science and Women’s Studies.   Kristina resides in Rochester, New York with her husband, Jason, their new son, Braiden, and two dogs. ",
+                  "profile_image_url": null,
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 521050,
+                  "created_at": 1438145518,
+                  "updated_at": 1518479563
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "3379d8cb3b1ea6fbf4aaeec8b2f98677",
+            "properties": {
+              "title": "Communications Director",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1438145560,
+              "updated_at": 1518484958
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "07ecf3ee1e85428b212dadc385202a96",
+                "properties": {
+                  "permalink": "neil-sroka",
+                  "permalink_aliases": null,
+                  "api_path": "people/neil-sroka",
+                  "web_path": "person/neil-sroka",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/neil-sroka",
+                  "first_name": "Neil",
+                  "last_name": "Sroka",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Prior to joining DFA, Neil was the Press Secretary for the Progressive Change Campaign Committee and Communications Director for Ann McLane Kuster's 2010 campaign in New Hampshire's Second Congressional District.  \r\n\r\nHe has also served in the Obama administration as the Director of New Media at the U.S. Department of Commerce, ran social media projects for MoveOn.org, and managed new media for Barack Obama's primary campaigns in South Carolina & Ohio.  Neil graduated from George Washington University and studied politics and philosophy at Pembroke College, Oxford.  \r\n\r\nNeil currently lives in Washington, DC, enjoys climbing tall buildings many times over via his gym’s stairmill, and recalling his “good ol' days” as a teenage Mac guru.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1438152651/akjjbk1hvfrcvms8ifvt.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 99938,
+                  "created_at": 1438145560,
+                  "updated_at": 1518473311
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "4137d99814b7b28b696c5cd00ab7a586",
+            "properties": {
+              "title": "Electoral Director",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1438145470,
+              "updated_at": 1518485019
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "3d67a51d7a3fbbfe1943d0d475180093",
+                "properties": {
+                  "permalink": "annie-weinberg",
+                  "permalink_aliases": null,
+                  "api_path": "people/annie-weinberg",
+                  "web_path": "person/annie-weinberg",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/annie-weinberg",
+                  "first_name": "Annie",
+                  "last_name": "Weinberg",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": "Annie Weinberg joined Democracy for America in 2014 after serving as the Chief of Staff for Progressive Congress, the foundation of the Congressional Progressive Caucus. She has served in a senior role on a variety of Congressional races from Connecticut to Minnesota to Michigan, notably managing bold progressive Ilya Sheyman's nationally watched, highly targeted race for Illinois' Tenth Congressional District. \r\n\r\nAs the National Field Organizer for MoveOn from 2009-2011, she lead trainings, mobilizations, and grassroots organizing efforts on everything from the public option to campaign finance reform to clean energy. From 2007-2009, Annie worked at Food and Water Watch, building a campaign to protect public water infrastructure and challenge corporate abuse of water. She's a proud graduate of Green Corps, the Field School for Environmental Organizing, which trains the next generation of environmental leaders while making a critical impact on timely campaigns. \r\n\r\nShe hails from Pittsburgh, PA, by way of Chicago, Minneapolis, and DC, and has lots of hometown pride. Annie graduated Sarah Lawrence College, where she studied dance and environmental policy. Her first job after college was teaching the dance moves from Michael Jackson videos in Times Square; she still remembers almost all of it, and will be happy to teach you.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1438152233/kclkeax4dxyvaia8ihi7.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 264603,
+                  "created_at": 1438145470,
+                  "updated_at": 1518474444
+                }
+              }
+            }
+          }
+        ]
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 9,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/democracy-for-america/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "10fc718e1b576075716b39f482603ab9",
+            "properties": {
+              "title": "Director of the Office of Gov.",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1438145327,
+              "updated_at": 1518484785
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "3fa580ba6b41db791779c235c7d74afc",
+                "properties": {
+                  "permalink": "amanda-mckay",
+                  "permalink_aliases": null,
+                  "api_path": "people/amanda-mckay",
+                  "web_path": "person/amanda-mckay",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/amanda-mckay",
+                  "first_name": "Amanda",
+                  "last_name": "McKay",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": "Amanda found her way to DFA in 2011 after working in Oregon on a statewide ballot measure.  Prior to working in Oregon, she also worked with the founders of Ben & Jerry's, Business Leaders for Sensible Priorities and TrueMajority. She found her calling after first campaign experience where she worked tirelessly trying to defeat George W. Bush in 2004.  After that, she traveled the country working to elect progressive Democrats - including Dan Maffei and Ted Deutch. \r\n\r\nAmanda graduated from St. Lawrence in New York with a degree in Biology, quickly realizing she didn’t want to make a career of science.\r\n\r\nWhen not working, Amanda enjoys anything that will get her outside and moving; skiing, running, hiking, swimming and playing with her dog Jake. She also enjoys traveling around the country with her camera.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1438151097/msfnpk0wy0cbrib2hrbz.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 293387,
+                  "created_at": 1438145327,
+                  "updated_at": 1518482254
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "1e920e32d08220eeb8c1b5250ae13ad0",
+            "properties": {
+              "title": "Founder",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1438144765,
+              "updated_at": 1518484854
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "5ff7ef4ce2b6687465cabcecc8cfc3f3",
+                "properties": {
+                  "permalink": "howard-dean-2",
+                  "permalink_aliases": null,
+                  "api_path": "people/howard-dean-2",
+                  "web_path": "person/howard-dean-2",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/howard-dean-2",
+                  "first_name": "Howard",
+                  "last_name": "Dean",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Governor Howard Dean founded Democracy for America in 2004 to build on the grassroots momentum that his bid for the presidency sparked. The movement propelled DFA into a successful national organization committed to the \"50 State Strategy.\" \r\n\r\nIn early 2005, DFA ran a people-powered campaign to elect Governor Dean to chair the Democratic National Committee. Democrats nationwide badly wanted reform and found the answer in Governor Dean. \r\n\r\nFrom 2005 – 2009, Governor Dean spearheaded the DNC’s 50 State Strategy to support the base of the Democratic Party, setting Democrats up to take back Congress in 2006 and win the White House in 2008. Upon leaving the DNC in early 2009, Governor Dean has returned to DFA as a senior adviser.",
+                  "profile_image_url": null,
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 303519,
+                  "created_at": 1438144765,
+                  "updated_at": 1518473829
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "2090f833ad0c50d058111448f6e9e2c7",
+            "properties": {
+              "title": "Political Director",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1438145420,
+              "updated_at": 1518484863
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "00ea7a57afaefda23d7a52d8c8213ac2",
+                "properties": {
+                  "permalink": "eden-james",
+                  "permalink_aliases": null,
+                  "api_path": "people/eden-james",
+                  "web_path": "person/eden-james",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/eden-james",
+                  "first_name": "Eden",
+                  "last_name": "James",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Prior to joining DFA in 2013, Eden was U.S. Campaign Director at Change.org, where he was instrumental in building and leading a campaign team from 2011-2013 that fueled the world's largest petition platform, empowering more than 50 million people around the globe.  \r\n\r\nFrom 2007-2010, Eden directed digital strategy and staff as Managing Director of the Courage Campaign, including leading Courage's national LGBT rights campaigns in the aftermath of Prop 8's passage.  In 2006, Eden served as Online Communications Director for Jerry McNerney's congressional upset victory over Rep. \r\n\r\nRichard Pombo.  Prior to 2006, Eden served as Online Marketing Manager at CREDO Action and organized in support of Gov. Dean's presidential campaign in California and Iowa.  In 2003, Eden graduated from UC Berkeley with a degree in Political Science.\r\n\r\nIn his free time, Eden carries on a lifelong romance with the Bay Area, including dates with the San Francisco Giants, quality time with this wonderful partner and kid, and long walks on the beach (well, really any kind of walk on the beach).",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1438151817/cei6jj08iz3hdzg3qedy.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 152351,
+                  "created_at": 1438145420,
+                  "updated_at": 1518478530
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "2eecd5c6f34c0c506d62e658f99f9de1",
+            "properties": {
+              "title": "Finance Director",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1438145518,
+              "updated_at": 1518484928
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "8fbc9723ece3b0e8d1bd077f718c2d18",
+                "properties": {
+                  "permalink": "kristina-powell",
+                  "permalink_aliases": null,
+                  "api_path": "people/kristina-powell",
+                  "web_path": "person/kristina-powell",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/kristina-powell",
+                  "first_name": "Kristina",
+                  "last_name": "Powell",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": "Kristina started her career at DFA as Governor Dean’s Executive Assistant and helped raise over one million dollars for progressive candidates and causes. Before joining DFA, she served as the Executive Director of the Vermont Democratic Party. Kristina spent a year coordinating youth outreach for President Obama’s New Hampshire Primary campaign and went on to aid get-out-the-vote efforts in six subsequent primary states. \r\n\r\nShe comes to DFA with nearly a decade of professional experience in Democratic politics, fundraising and strategic planning. \r\n\r\nKristina graduated magna cum laude from Bradley University with a bachelor’s degree in Political Science and Women’s Studies.   Kristina resides in Rochester, New York with her husband, Jason, their new son, Braiden, and two dogs. ",
+                  "profile_image_url": null,
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 521050,
+                  "created_at": 1438145518,
+                  "updated_at": 1518479563
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "3379d8cb3b1ea6fbf4aaeec8b2f98677",
+            "properties": {
+              "title": "Communications Director",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1438145560,
+              "updated_at": 1518484958
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "07ecf3ee1e85428b212dadc385202a96",
+                "properties": {
+                  "permalink": "neil-sroka",
+                  "permalink_aliases": null,
+                  "api_path": "people/neil-sroka",
+                  "web_path": "person/neil-sroka",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/neil-sroka",
+                  "first_name": "Neil",
+                  "last_name": "Sroka",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Prior to joining DFA, Neil was the Press Secretary for the Progressive Change Campaign Committee and Communications Director for Ann McLane Kuster's 2010 campaign in New Hampshire's Second Congressional District.  \r\n\r\nHe has also served in the Obama administration as the Director of New Media at the U.S. Department of Commerce, ran social media projects for MoveOn.org, and managed new media for Barack Obama's primary campaigns in South Carolina & Ohio.  Neil graduated from George Washington University and studied politics and philosophy at Pembroke College, Oxford.  \r\n\r\nNeil currently lives in Washington, DC, enjoys climbing tall buildings many times over via his gym’s stairmill, and recalling his “good ol' days” as a teenage Mac guru.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1438152651/akjjbk1hvfrcvms8ifvt.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 99938,
+                  "created_at": 1438145560,
+                  "updated_at": 1518473311
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "4137d99814b7b28b696c5cd00ab7a586",
+            "properties": {
+              "title": "Electoral Director",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1438145470,
+              "updated_at": 1518485019
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "3d67a51d7a3fbbfe1943d0d475180093",
+                "properties": {
+                  "permalink": "annie-weinberg",
+                  "permalink_aliases": null,
+                  "api_path": "people/annie-weinberg",
+                  "web_path": "person/annie-weinberg",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/annie-weinberg",
+                  "first_name": "Annie",
+                  "last_name": "Weinberg",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": "Annie Weinberg joined Democracy for America in 2014 after serving as the Chief of Staff for Progressive Congress, the foundation of the Congressional Progressive Caucus. She has served in a senior role on a variety of Congressional races from Connecticut to Minnesota to Michigan, notably managing bold progressive Ilya Sheyman's nationally watched, highly targeted race for Illinois' Tenth Congressional District. \r\n\r\nAs the National Field Organizer for MoveOn from 2009-2011, she lead trainings, mobilizations, and grassroots organizing efforts on everything from the public option to campaign finance reform to clean energy. From 2007-2009, Annie worked at Food and Water Watch, building a campaign to protect public water infrastructure and challenge corporate abuse of water. She's a proud graduate of Green Corps, the Field School for Environmental Organizing, which trains the next generation of environmental leaders while making a critical impact on timely campaigns. \r\n\r\nShe hails from Pittsburgh, PA, by way of Chicago, Minneapolis, and DC, and has lots of hometown pride. Annie graduated Sarah Lawrence College, where she studied dance and environmental policy. Her first job after college was teaching the dance moves from Michael Jackson videos in Times Square; she still remembers almost all of it, and will be happy to teach you.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1438152233/kclkeax4dxyvaia8ihi7.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 264603,
+                  "created_at": 1438145470,
+                  "updated_at": 1518474444
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "437f2ae63237225bff0a53f52b46f831",
+            "properties": {
+              "title": "Executive Director",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1438144826,
+              "updated_at": 1518485029
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "d867f9c3001a2b7b77e9b20395832953",
+                "properties": {
+                  "permalink": "charles-chamberlain",
+                  "permalink_aliases": null,
+                  "api_path": "people/charles-chamberlain",
+                  "web_path": "person/charles-chamberlain",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/charles-chamberlain",
+                  "first_name": "Charles",
+                  "last_name": "Chamberlain",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Charles joined Democracy for America in 2006 as Political Director, where he led campaigns for the public option and against telecom immunity for spying on Americans as well as endorsements of controversial primary candidates against Sen. Joe Lieberman, Sen. Blanche Lincoln, and Rep. Al Wynn.  He also directed DFA's successful campaigns to stop the Republican War on Working Families in Wisconsin and Ohio.  In January of 2012, Charles became the Executive Director of Progressive Congress, the foundation for the Congressional Progressive Caucus.  Charles rejoined DFA as Executive Director in August of 2013 and leads the strategic direction of the DFA team.\r\n\r\nBefore DFA, Charles spent over a decade grassroots organizing and directing statewide campaigns in 17 states for direct democracy initiatives and referendums working with the AFL-CIO, SEIU, Americans for Medical Rights, and others in fights ranging from funding early childhood development and protecting civil liberties to defending collective bargaining rights and raising the minimum wage.  He's also served on staff for Assemblymember Scott Wildman in California's 43rd as the community organizer responsible for revitalizing in-district resident associations, neighborhood watches, and PTA's.\r\n\r\nOutside of the office, Charles likes to play disc golf, drink micro-brews, and eat Vermont cheese at the Farmhouse as well as watch too much T.V. with his wife, Alejandra and dog, Quazar.",
+                  "profile_image_url": null,
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 632628,
+                  "created_at": 1438144826,
+                  "updated_at": 1518479394
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "5af4de3de330d4e48d521b3420fcb4c6",
+            "properties": {
+              "title": "Chief of Staff",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1438145237,
+              "updated_at": 1518485140
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "658d38facbd827b4a7f384258585a58f",
+                "properties": {
+                  "permalink": "mia-moore",
+                  "permalink_aliases": null,
+                  "api_path": "people/mia-moore",
+                  "web_path": "person/mia-moore",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/mia-moore",
+                  "first_name": "Mia",
+                  "last_name": "Moore",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": "Mia has been at Democracy for America since 2009, starting as the Finance Director. In January 2010 she became DFA’s first Chief of Staff, focusing her efforts on hiring, supporting and getting results from great staff; long-term planning and budgeting. Mia has a diverse background in organizing and fundraising -- dating all the way back to her college years at the University of Wisconsin, where she worked on campaign finance reform with WISPIRG and served on student government. \r\n\r\nShe began her professional organizing career working with students at the University of California-Berkeley, and their high priority campaign succeeded in convincing the state of California to get 20% of its energy from renewable sources by 2017. \r\n\r\nMia has also directed telephone outreach offices to raise money and mobilize activists of groups like MASSPIRG and Environment North Carolina. Before her current work with DFA, Mia directed the major gifts program for Toxics Action Center, nearly doubling the income from this program within two years. \r\n\r\nMia lives in Vermont with her husband, James and their two sons, William and Oliver. When she's not working and parenting, she's likely reading DIY and decor blogs, watching Project Runway or trying to get outside and go running.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1438150776/w4mtepqmvpu8i4iv3oiy.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 482272,
+                  "created_at": 1438145237,
+                  "updated_at": 1518482332
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "b3db7ec864c57eb4b0cf088ed6ec5d05",
+            "properties": {
+              "title": "Chair",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1438144690,
+              "updated_at": 1518485581
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "40504de23484c8c4821265438738628d",
+                "properties": {
+                  "permalink": "jim-dean",
+                  "permalink_aliases": null,
+                  "api_path": "people/jim-dean",
+                  "web_path": "person/jim-dean",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/jim-dean",
+                  "first_name": "Jim",
+                  "last_name": "Dean",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "As the chair of Democracy for America, Jim Dean is committed to carrying on the legacy of his brother, Governor Howard Dean. As DFA's key spokesperson and fundraiser, Jim keeps DFA in the national spotlight.\r\n\r\n Jim brings DFA's mission to all 50 states. He meets with candidates, organizers, party leaders and activists, inspiring everyone to get involved and take back our country. Jim has been involved with DFA since our founding in 2004. \r\n\r\nBefore joining DFA, Jim worked on Howard Dean’s presidential campaign, beginning in early 2002. Jim has been responsible for a variety of campaign functions including fundraising, political organizing and supporting several additional DFA state organizations. \r\n\r\nJim’s background is in marketing research, business development and sales. He has worked at both Yankelovich Partners Inc. and Greenfield Online Inc.",
+                  "profile_image_url": null,
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 694904,
+                  "created_at": 1438144690,
+                  "updated_at": 1518479402
+                }
+              }
+            }
+          }
+        ]
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/democracy-for-america/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "2c32786a80f70403b1439da16b458a3a",
+            "properties": {
+              "title": "Finance Director",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": 0,
+              "is_current": false,
+              "job_type": "employee",
+              "created_at": 1438150611,
+              "updated_at": 1518484916
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "658d38facbd827b4a7f384258585a58f",
+                "properties": {
+                  "permalink": "mia-moore",
+                  "permalink_aliases": null,
+                  "api_path": "people/mia-moore",
+                  "web_path": "person/mia-moore",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/mia-moore",
+                  "first_name": "Mia",
+                  "last_name": "Moore",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": "Mia has been at Democracy for America since 2009, starting as the Finance Director. In January 2010 she became DFA’s first Chief of Staff, focusing her efforts on hiring, supporting and getting results from great staff; long-term planning and budgeting. Mia has a diverse background in organizing and fundraising -- dating all the way back to her college years at the University of Wisconsin, where she worked on campaign finance reform with WISPIRG and served on student government. \r\n\r\nShe began her professional organizing career working with students at the University of California-Berkeley, and their high priority campaign succeeded in convincing the state of California to get 20% of its energy from renewable sources by 2017. \r\n\r\nMia has also directed telephone outreach offices to raise money and mobilize activists of groups like MASSPIRG and Environment North Carolina. Before her current work with DFA, Mia directed the major gifts program for Toxics Action Center, nearly doubling the income from this program within two years. \r\n\r\nMia lives in Vermont with her husband, James and their two sons, William and Oliver. When she's not working and parenting, she's likely reading DIY and decor blogs, watching Project Runway or trying to get outside and go running.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1438150776/w4mtepqmvpu8i4iv3oiy.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 482272,
+                  "created_at": 1438145237,
+                  "updated_at": 1518482332
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "ac019fbf264ded29b049448751a68099",
+            "properties": {
+              "title": "Political Director",
+              "started_on": "2006-01-01",
+              "started_on_trust_code": 4,
+              "ended_on": null,
+              "ended_on_trust_code": 0,
+              "is_current": false,
+              "job_type": "employee",
+              "created_at": 1438150389,
+              "updated_at": 1518485544
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "d867f9c3001a2b7b77e9b20395832953",
+                "properties": {
+                  "permalink": "charles-chamberlain",
+                  "permalink_aliases": null,
+                  "api_path": "people/charles-chamberlain",
+                  "web_path": "person/charles-chamberlain",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/charles-chamberlain",
+                  "first_name": "Charles",
+                  "last_name": "Chamberlain",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Charles joined Democracy for America in 2006 as Political Director, where he led campaigns for the public option and against telecom immunity for spying on Americans as well as endorsements of controversial primary candidates against Sen. Joe Lieberman, Sen. Blanche Lincoln, and Rep. Al Wynn.  He also directed DFA's successful campaigns to stop the Republican War on Working Families in Wisconsin and Ohio.  In January of 2012, Charles became the Executive Director of Progressive Congress, the foundation for the Congressional Progressive Caucus.  Charles rejoined DFA as Executive Director in August of 2013 and leads the strategic direction of the DFA team.\r\n\r\nBefore DFA, Charles spent over a decade grassroots organizing and directing statewide campaigns in 17 states for direct democracy initiatives and referendums working with the AFL-CIO, SEIU, Americans for Medical Rights, and others in fights ranging from funding early childhood development and protecting civil liberties to defending collective bargaining rights and raising the minimum wage.  He's also served on staff for Assemblymember Scott Wildman in California's 43rd as the community organizer responsible for revitalizing in-district resident associations, neighborhood watches, and PTA's.\r\n\r\nOutside of the office, Charles likes to play disc golf, drink micro-brews, and eat Vermont cheese at the Farmhouse as well as watch too much T.V. with his wife, Alejandra and dog, Quazar.",
+                  "profile_image_url": null,
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 632628,
+                  "created_at": 1438144826,
+                  "updated_at": 1518479394
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "fd31dfddc93fb51c5392f3fce9718f53",
+            "properties": {
+              "title": "Governor Dean’s Executive Assistant",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": 0,
+              "is_current": false,
+              "job_type": "employee",
+              "created_at": 1438152343,
+              "updated_at": 1518485956
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "8fbc9723ece3b0e8d1bd077f718c2d18",
+                "properties": {
+                  "permalink": "kristina-powell",
+                  "permalink_aliases": null,
+                  "api_path": "people/kristina-powell",
+                  "web_path": "person/kristina-powell",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/kristina-powell",
+                  "first_name": "Kristina",
+                  "last_name": "Powell",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": "Kristina started her career at DFA as Governor Dean’s Executive Assistant and helped raise over one million dollars for progressive candidates and causes. Before joining DFA, she served as the Executive Director of the Vermont Democratic Party. Kristina spent a year coordinating youth outreach for President Obama’s New Hampshire Primary campaign and went on to aid get-out-the-vote efforts in six subsequent primary states. \r\n\r\nShe comes to DFA with nearly a decade of professional experience in Democratic politics, fundraising and strategic planning. \r\n\r\nKristina graduated magna cum laude from Bradley University with a bachelor’s degree in Political Science and Women’s Studies.   Kristina resides in Rochester, New York with her husband, Jason, their new son, Braiden, and two dogs. ",
+                  "profile_image_url": null,
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 521050,
+                  "created_at": 1438145518,
+                  "updated_at": 1518479563
+                }
+              }
+            }
+          }
+        ]
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/democracy-for-america/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/democracy-for-america/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/democracy-for-america/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/democracy-for-america/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/democracy-for-america/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "3ff065e98a1348aad6587e4a4516b991",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "PO Box 1717",
+            "street_2": null,
+            "postal_code": "05402",
+            "city": "Burlington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1432139439,
+            "updated_at": 1518483696
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/democracy-for-america/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "3ff065e98a1348aad6587e4a4516b991",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "PO Box 1717",
+            "street_2": null,
+            "postal_code": "05402",
+            "city": "Burlington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1432139439,
+            "updated_at": 1518483696
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/democracy-for-america/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/democracy-for-america/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "6a29209e224172fd358f77f6e99905c6",
+            "properties": {
+              "name": "Politics",
+              "web_path": "category/politics/6a29209e224172fd358f77f6e99905c6",
+              "category_groups": [
+                "Government and Military"
+              ],
+              "created_at": 1397980727,
+              "updated_at": 1518483550
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "cf573fc6139fc9fb5b5eb131fae12e51",
+            "properties": {
+              "name": "Government",
+              "web_path": "category/government/cf573fc6139fc9fb5b5eb131fae12e51",
+              "category_groups": [
+                "Government and Military"
+              ],
+              "created_at": 1457032189,
+              "updated_at": 1518483551
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "e55f09e8697b1653f86e0274d25d6db6",
+            "properties": {
+              "name": "Training",
+              "web_path": "category/training/e55f09e8697b1653f86e0274d25d6db6",
+              "category_groups": [
+                "Education"
+              ],
+              "created_at": 1397980727,
+              "updated_at": 1518483551
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/democracy-for-america/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/democracy-for-america/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/democracy-for-america/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/democracy-for-america/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/democracy-for-america/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/democracy-for-america/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/democracy-for-america/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/democracy-for-america/acquired_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/democracy-for-america/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/democracy-for-america/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/democracy-for-america/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "46e4fb19998258421e1686e5ac87c19c",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "http://democracyforamerica.com/",
+              "created_at": 1432139182,
+              "updated_at": 1523964330
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "46e4fb19998258421e1686e5ac87c19c",
+            "properties": {
+              "website_type": "facebook",
+              "website_name": "facebook",
+              "url": "https://www.facebook.com/DFAaction",
+              "created_at": 1432139182,
+              "updated_at": 1523964330
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "46e4fb19998258421e1686e5ac87c19c",
+            "properties": {
+              "website_type": "twitter",
+              "website_name": "twitter",
+              "url": "https://twitter.com/dfaaction",
+              "created_at": 1432139182,
+              "updated_at": 1523964330
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "46e4fb19998258421e1686e5ac87c19c",
+            "properties": {
+              "website_type": "linkedin",
+              "website_name": "linkedin",
+              "url": "https://www.linkedin.com/company/democracy-for-america",
+              "created_at": 1432139182,
+              "updated_at": 1523964330
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/democracy-for-america/images",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Image",
+            "uuid": "46e4fb19998258421e1686e5ac87c19c",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/v1432138951/gvckwvvhnldnxofllbwz.png",
+              "asset_url": "http://public.crunchbase.com/t_api_images/v1432138951/gvckwvvhnldnxofllbwz.png",
+              "content_type": "png",
+              "height": null,
+              "width": null,
+              "filesize": null,
+              "created_at": 1432139182,
+              "updated_at": 1523964330
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/democracy-for-america/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 32,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/democracy-for-america/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": [
+          {
+            "type": "News",
+            "uuid": "a303ac53ac9a46b59e772de233bef5fa",
+            "properties": {
+              "title": "She's everywhere: Ocasio-Cortez puts trek to Congress online",
+              "author": null,
+              "posted_on": "2018-11-21",
+              "posted_on_trust_code": 7,
+              "url": "http://video.startribune.com/she-s-everywhere-ocasio-cortez-puts-trek-to-congress-online/500982712/",
+              "created_at": 1542814502,
+              "updated_at": 1542814502
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "46c4c147e34944068b8079f65229d475",
+            "properties": {
+              "title": "Critics Urge FTC to Crack Down on Facebook",
+              "author": "Caitlin Fairchild",
+              "posted_on": "2018-11-19",
+              "posted_on_trust_code": 7,
+              "url": "https://www.nextgov.com/cybersecurity/2018/11/critics-urge-ftc-crack-down-facebook/152924/",
+              "created_at": 1542758681,
+              "updated_at": 1542758681
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "d6d973a8e513440f9ce263c00c15f9e0",
+            "properties": {
+              "title": "As More Democrats Embrace 'Progressive' Label, It May Not Mean What It Used To",
+              "author": "Asma Khalid",
+              "posted_on": "2018-10-29",
+              "posted_on_trust_code": 7,
+              "url": "https://www.npr.org/2018/10/29/659665970/as-more-democrats-embrace-progressive-label-it-may-not-mean-what-it-used-to",
+              "created_at": 1540861259,
+              "updated_at": 1540861259
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "f08f079376524c2e9da090644a1a3d9b",
+            "properties": {
+              "title": "Democratic Midterm Strategy And Kavanaugh",
+              "author": null,
+              "posted_on": "2018-10-07",
+              "posted_on_trust_code": 7,
+              "url": "https://www.npr.org/2018/10/07/655345665/democratic-midterm-strategy-and-kavanaugh",
+              "created_at": 1539094233,
+              "updated_at": 1539094233
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "e140a4e3aae24006b3eb9190a6448975",
+            "properties": {
+              "title": "Progressives Turn Their Anger On Chuck Schumer Over Brett Kavanaugh Hearing",
+              "author": "Amanda Terkel",
+              "posted_on": "2018-09-05",
+              "posted_on_trust_code": 7,
+              "url": "https://www.huffingtonpost.com/entry/schumer-kavanaugh_us_5b8f2bcde4b0162f4728089c",
+              "created_at": 1536210794,
+              "updated_at": 1536210794
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "61320dc0fac14c6d8b48c00a283e3dd6",
+            "properties": {
+              "title": "An Old-School Delaware Democrat Is Trying To Survive A Political Movement Ready For Change",
+              "author": null,
+              "posted_on": "2018-09-04",
+              "posted_on_trust_code": 7,
+              "url": "https://www.buzzfeednews.com/article/ryancbrooks/tom-carper-kerri-harris-delaware-primary-progressive",
+              "created_at": 1536204938,
+              "updated_at": 1536204938
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "95637aa6118342eba8eb18086d6bf04d",
+            "properties": {
+              "title": "Progressive Groups Launch Campaign Aimed At Uniting Democrats Against Brett Kavanaugh",
+              "author": "Igor Bobic",
+              "posted_on": "2018-08-27",
+              "posted_on_trust_code": 7,
+              "url": "https://www.huffingtonpost.com/entry/brett-kavanaugh-progressives-supreme-court_us_5b8401dbe4b072951514c047",
+              "created_at": 1535446429,
+              "updated_at": 1535446429
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "4257034b2c3a48e5bfbbb01d66572800",
+            "properties": {
+              "title": "Democratic Rep. Joe Crowley loses his New York primary to a former Bernie Sanders organizer",
+              "author": "Bridget Bowman",
+              "posted_on": "2018-06-27",
+              "posted_on_trust_code": 7,
+              "url": "http://www.post-gazette.com/news/politics-nation/2018/06/26/Democratic-Rep-Joe-Crowley-loses-his-New-York-primary-to-a-former-Bernie-Sanders-organizer/stories/201806260204",
+              "created_at": 1530109344,
+              "updated_at": 1530109344
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "abab5fa4fabb406eb6ed8307524fd0cd",
+            "properties": {
+              "title": "Left is going nowhere with this",
+              "author": null,
+              "posted_on": "2018-01-25",
+              "posted_on_trust_code": 7,
+              "url": "http://www.arkansasonline.com/news/2018/jan/25/left-is-going-nowhere-with-this-2018012/",
+              "created_at": 1516908803,
+              "updated_at": 1518481189
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "5c6eb70d86bd423fbe392f05e864bc62",
+            "properties": {
+              "title": "Wise up, liberals: Your hand is too weak right now to go all-in",
+              "author": "Danny Westneat",
+              "posted_on": "2018-01-24",
+              "posted_on_trust_code": 7,
+              "url": "https://www.seattletimes.com/seattle-news/politics/wise-up-liberals-your-hand-is-too-weak-right-now-to-go-all-in/",
+              "created_at": 1516864280,
+              "updated_at": 1518481177
+            }
+          }
+        ]
+      }
+    }
+  }
+}

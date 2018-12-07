@@ -1,7 +1,10 @@
 require('dotenv').config();
+const moment = require('moment')
 
 /*
  TODO:
+  pagination
+  use cache
   deal with duplicates in a smart way
   categories
   deal with bogus addresses
@@ -13,7 +16,7 @@ const fetch = require('node-fetch');
 const fs = require('fs');
 const path = require('path');
 
-const dbUrl = process.env.MONGO_URI || process.env.MONGOLAB_MAUVE_URI || `mongodb://localhost:27017/`
+const dbUrl = process.env.MONGO_URI || process.env.MONGOLAB_MAUVE_URI || `mongodb://localhost:27017/startup-vt`
 
 let store = new CompanyStore(dbUrl);
 
@@ -36,8 +39,6 @@ async function importAll() {
   let crunchKey = process.env.CRUNCH_KEY
   let crunchUrl = `https://api.crunchbase.com/v3.1/organizations?locations=vermont&page=${pageNumber}&items_per_page=200&user_key=${crunchKey}`
   let odmUrl = `https://api.crunchbase.com/v3.1/odm-organizations?locations=vermont&page=${pageNumber}&items_per_page=200&user_key=${crunchKey}`
-
-  let count = 0
 
   fetch(crunchUrl)
     .then((response) => {
@@ -63,7 +64,7 @@ async function importAll() {
           }
         });
 
-      for (let organizationSummary of payload.data.items.slice(0, 10)) {
+      for (let organizationSummary of payload.data.items) {
         if (!organizationSummary.properties) {
           itemsRemoved++
           return console.log(organizationSummary.name + ' No properties value')
@@ -71,38 +72,37 @@ async function importAll() {
 
         let company = new Company()
         company.fromOrganizationSummary(organizationSummary);
-        console.log(`https://api.crunchbase.com/v3.1/` + company.apiPath + `?user_key=${crunchKey}`)
 
-        fetch(`https://api.crunchbase.com/v3.1/` + company.apiPath + `?user_key=${crunchKey}`)
-          .then((response) => {
-            return response.json()
-          })
-          .then((companyInfo) => {
-            if (!companyInfo.data || !companyInfo.data.properties || !companyInfo.data.relationships) {
-              itemsRemoved++
-              // return console.log(itemsRemoved + ' No properties value')
-              next;
-            }
-            count += 1
-
-            fs.writeFile(path.join(importsDir,
-              `${organizationSummary.properties.permalink}.json`),
-              JSON.stringify(companyInfo, null, 2), err => {
-                if (err) {
-                  console.log(err);
-                }
-              });
-            
-            company.fromOrganizationDetails(companyInfo.data)
-            objectsArray.push(company)
-
-            console.log(company)
-            addCompany(company)
-
-            // console.log(objectsArray)
-          })
+        setTimeout(()=>{
+          importDetails(company, crunchKey, importsDir, organizationSummary, objectsArray);
+        }, 1000);
       }
     })
+}
+
+function importDetails(company, crunchKey, importsDir, organizationSummary, objectsArray) {
+  console.log(`https://api.crunchbase.com/v3.1/` + company.apiPath + `?user_key=${crunchKey}`);
+  fetch(`https://api.crunchbase.com/v3.1/` + company.apiPath + `?user_key=${crunchKey}`)
+    .then((response) => {
+      return response.json();
+    })
+    .then((companyInfo) => {
+      if (!companyInfo.data || !companyInfo.data.properties || !companyInfo.data.relationships || moment(companyInfo.data.properties.founded_on) < moment('2000-01-01')) {
+        itemsRemoved++;
+        // return console.log(itemsRemoved + ' No properties value')
+        next;
+      }
+      fs.writeFile(path.join(importsDir, `${organizationSummary.properties.permalink}.json`), JSON.stringify(companyInfo, null, 2), err => {
+        if (err) {
+          console.log(err);
+        }
+      });
+      company.fromOrganizationDetails(companyInfo.data);
+      objectsArray.push(company);
+      console.log(company);
+      addCompany(company);
+      // console.log(objectsArray)
+    });
 }
 
 async function addCompany(companyObject) {

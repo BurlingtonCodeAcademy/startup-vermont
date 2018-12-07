@@ -1,0 +1,452 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "71b2d5411570f03860438033e789bc93",
+    "properties": {
+      "permalink": "audet-s-blue-spruce-farm",
+      "permalink_aliases": null,
+      "api_path": "organizations/audet-s-blue-spruce-farm",
+      "web_path": "organization/audet-s-blue-spruce-farm",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/audet-s-blue-spruce-farm",
+      "name": "Audet's Blue Spruce Farm",
+      "also_known_as": null,
+      "short_description": "Audet's Blue Spruce Farm is a farm in Vermont that focuses on recycling and generation of electricity using bioenergy.",
+      "description": null,
+      "profile_image_url": null,
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": "1987-01-01",
+      "founded_on_trust_code": 4,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": 1,
+      "num_employees_max": 10,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": "http://www.bluesprucefarmvt.com/",
+      "contact_email": null,
+      "phone_number": "802.758.2179",
+      "rank": 542537,
+      "created_at": 1450419754,
+      "updated_at": 1518475776
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/audet-s-blue-spruce-farm/primary_image",
+          "sort_order": "not_ordered"
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/audet-s-blue-spruce-farm/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/audet-s-blue-spruce-farm/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "40ea17a7fbf5a2f10222b3ae6f6b7483",
+            "properties": {
+              "title": "US Dairy Farmer",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1450419754,
+              "updated_at": 1518485018
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "ed1ec5992224be2fdd7f059bd4e47200",
+                "properties": {
+                  "permalink": "marie-audet",
+                  "permalink_aliases": null,
+                  "api_path": "people/marie-audet",
+                  "web_path": "person/marie-audet",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/marie-audet",
+                  "first_name": "Marie",
+                  "last_name": "Audet",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": "Marie is a member of a large multigenerational dairy farm family, who own and operate Blue Spruce Farm and Audet's Cow Power located in Vermont's Champlain Valley. \r\n\r\nThey milk 1350 cows and crop 3,000 acres to feed them. Their milk supplies the nearby Cabot Cheese plant where they proudly boast award winning cheddar cheese.\r\n\r\nIn 2005 the dairy started generating electricity from cow manure, currently producing 2.4 million kWh of renewable electricity per year. Marie received the 2012 award for Outstanding Dairy Farm Sustainability from the Innovation Center for U.S. Dairy.\r\n\r\nMost recently, the dairy added a Wind Turbine in collaboration with Green Mountain Power as part of their renewable portfolio producing 176,000 kWh per year, a 132 ton annual carbon offset.",
+                  "profile_image_url": null,
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 482197,
+                  "created_at": 1450419491,
+                  "updated_at": 1518479100
+                }
+              }
+            }
+          }
+        ]
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/audet-s-blue-spruce-farm/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "40ea17a7fbf5a2f10222b3ae6f6b7483",
+            "properties": {
+              "title": "US Dairy Farmer",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1450419754,
+              "updated_at": 1518485018
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "ed1ec5992224be2fdd7f059bd4e47200",
+                "properties": {
+                  "permalink": "marie-audet",
+                  "permalink_aliases": null,
+                  "api_path": "people/marie-audet",
+                  "web_path": "person/marie-audet",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/marie-audet",
+                  "first_name": "Marie",
+                  "last_name": "Audet",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": "Marie is a member of a large multigenerational dairy farm family, who own and operate Blue Spruce Farm and Audet's Cow Power located in Vermont's Champlain Valley. \r\n\r\nThey milk 1350 cows and crop 3,000 acres to feed them. Their milk supplies the nearby Cabot Cheese plant where they proudly boast award winning cheddar cheese.\r\n\r\nIn 2005 the dairy started generating electricity from cow manure, currently producing 2.4 million kWh of renewable electricity per year. Marie received the 2012 award for Outstanding Dairy Farm Sustainability from the Innovation Center for U.S. Dairy.\r\n\r\nMost recently, the dairy added a Wind Turbine in collaboration with Green Mountain Power as part of their renewable portfolio producing 176,000 kWh per year, a 132 ton annual carbon offset.",
+                  "profile_image_url": null,
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 482197,
+                  "created_at": 1450419491,
+                  "updated_at": 1518479100
+                }
+              }
+            }
+          }
+        ]
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/audet-s-blue-spruce-farm/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/audet-s-blue-spruce-farm/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/audet-s-blue-spruce-farm/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/audet-s-blue-spruce-farm/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/audet-s-blue-spruce-farm/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/audet-s-blue-spruce-farm/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "58f505cd363278718b86fec2d5d0d57d",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "1796 Route 22a",
+            "street_2": null,
+            "postal_code": "05734",
+            "city": "Bridport",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1473459465,
+            "updated_at": 1518483745
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/audet-s-blue-spruce-farm/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "58f505cd363278718b86fec2d5d0d57d",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "1796 Route 22a",
+            "street_2": null,
+            "postal_code": "05734",
+            "city": "Bridport",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1473459465,
+            "updated_at": 1518483745
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/audet-s-blue-spruce-farm/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/audet-s-blue-spruce-farm/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/audet-s-blue-spruce-farm/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/audet-s-blue-spruce-farm/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/audet-s-blue-spruce-farm/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/audet-s-blue-spruce-farm/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/audet-s-blue-spruce-farm/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/audet-s-blue-spruce-farm/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/audet-s-blue-spruce-farm/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/audet-s-blue-spruce-farm/acquired_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/audet-s-blue-spruce-farm/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/audet-s-blue-spruce-farm/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/audet-s-blue-spruce-farm/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "71b2d5411570f03860438033e789bc93",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "http://www.bluesprucefarmvt.com/",
+              "created_at": 1450419754,
+              "updated_at": 1518475776
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "71b2d5411570f03860438033e789bc93",
+            "properties": {
+              "website_type": "facebook",
+              "website_name": "facebook",
+              "url": "https://www.facebook.com/bluesprucefarm",
+              "created_at": 1450419754,
+              "updated_at": 1518475776
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "71b2d5411570f03860438033e789bc93",
+            "properties": {
+              "website_type": "linkedin",
+              "website_name": "linkedin",
+              "url": "https://www.linkedin.com/company/blue-spruce-farm-inc",
+              "created_at": 1450419754,
+              "updated_at": 1518475776
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/audet-s-blue-spruce-farm/images",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/audet-s-blue-spruce-farm/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/audet-s-blue-spruce-farm/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}

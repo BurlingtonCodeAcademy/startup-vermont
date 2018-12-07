@@ -1,0 +1,515 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "d9f12437394a407a86b54687da33ce08",
+    "properties": {
+      "permalink": "symquest-group",
+      "permalink_aliases": null,
+      "api_path": "organizations/symquest-group",
+      "web_path": "organization/symquest-group",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/symquest-group",
+      "name": "SymQuest Group",
+      "also_known_as": null,
+      "short_description": "SymQuest Group designs, installs, and hosts network infrastructures and printing environments.",
+      "description": "SymQuest Group designs, installs, and hosts network infrastructures and printing environments. It offers SymPowered office, a technology solution for integrating electronic communications, network security, business continuity, network mobility, electronic document management, and physical document management solutions. The company also provides network services that include SafetyNet managed IT services, including outsourced IT, network infrastructure management, help desk support, network monitoring, network assessments, and IT for healthcare services; cloud solutions, such as hosted network management, hosted server management, data protection, managed backup, Email protection and continuity, Web filtering and security, and business continuity and disaster recovery services; data center structure and security; and infrastructure projects, which include virtualization, data storage, and LAN/WAN services. In addition, it offers document solutions that covers managed print services, including service agreements, mobile printing, rental program, print environment monitoring, and print environment assessments; printing and scanning devices, which include multi-function printers and copiers, large format printers and scanners, single function printers, and production printers; and document management solutions, such as workflow assessments, document cost accounting, electronic document management, document imaging, print and copier management, and document workflow for healthcare services. ",
+      "profile_image_url": "http://public.crunchbase.com/t_api_images/nuhxvdjzroka4atslihk",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": "1996-01-01",
+      "founded_on_trust_code": 4,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": 51,
+      "num_employees_max": 100,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": "https://www.symquest.com/",
+      "contact_email": "info@symquest.com",
+      "phone_number": "+802-658-9890",
+      "rank": 402894,
+      "created_at": 1525354407,
+      "updated_at": 1540596686
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/symquest-group/primary_image",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Image",
+          "uuid": "d9f12437394a407a86b54687da33ce08",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/nuhxvdjzroka4atslihk",
+            "asset_url": "http://public.crunchbase.com/t_api_images/nuhxvdjzroka4atslihk",
+            "content_type": "nuhxvdjzroka4atslihk",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1525354407,
+            "updated_at": 1540596686
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/symquest-group/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/symquest-group/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": []
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/symquest-group/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/symquest-group/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/symquest-group/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/symquest-group/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/symquest-group/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/symquest-group/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/symquest-group/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "f928e64574194bc0ae2b72129dbd8a65",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "30 Community Drive",
+            "street_2": "Suite 5",
+            "postal_code": "05403",
+            "city": "South Burlington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1525354407,
+            "updated_at": 1525354407
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/symquest-group/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "f928e64574194bc0ae2b72129dbd8a65",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "30 Community Drive",
+            "street_2": "Suite 5",
+            "postal_code": "05403",
+            "city": "South Burlington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1525354407,
+            "updated_at": 1525354407
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/symquest-group/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/symquest-group/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "39c6bdbfd3db5e6853c35488e7699603",
+            "properties": {
+              "name": "Data Center",
+              "web_path": "category/data-center/39c6bdbfd3db5e6853c35488e7699603",
+              "category_groups": [
+                "Hardware",
+                "Information Technology"
+              ],
+              "created_at": 1457032189,
+              "updated_at": 1518483539
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "7866a1c021ec241cc2a6d263a6ef49dd",
+            "properties": {
+              "name": "Cloud Computing",
+              "web_path": "category/cloud-computing/7866a1c021ec241cc2a6d263a6ef49dd",
+              "category_groups": [
+                "Internet Services",
+                "Software"
+              ],
+              "created_at": 1397980727,
+              "updated_at": 1518483551
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "f579213a60af8bb3309b1d80607ad2a9",
+            "properties": {
+              "name": "Information Services",
+              "web_path": "category/information-services/f579213a60af8bb3309b1d80607ad2a9",
+              "category_groups": [
+                "Information Technology"
+              ],
+              "created_at": 1397980727,
+              "updated_at": 1518483551
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/symquest-group/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/symquest-group/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/symquest-group/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/symquest-group/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/symquest-group/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/symquest-group/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/symquest-group/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/symquest-group/acquired_by",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Acquisition",
+          "uuid": "a2471ee86bb6467cb385ee579d3b1b60",
+          "properties": {
+            "permalink": "a2471ee86bb6467cb385ee579d3b1b60",
+            "api_path": "acquisitions/a2471ee86bb6467cb385ee579d3b1b60",
+            "web_path": "acquisition/a2471ee86bb6467cb385ee579d3b1b60",
+            "api_url": "https://api.crunchbase.com/v3.1/acquisitions/a2471ee86bb6467cb385ee579d3b1b60",
+            "price": null,
+            "price_currency_code": null,
+            "price_usd": null,
+            "payment_type": null,
+            "acquisition_type": "acquisition",
+            "acquisition_status": "complete",
+            "disposition_of_acquired": "subsidiary",
+            "announced_on": "2015-06-04",
+            "announced_on_trust_code": 7,
+            "completed_on": null,
+            "completed_on_trust_code": null,
+            "rank": 9969,
+            "created_at": 1525354515,
+            "updated_at": 1525354515
+          },
+          "relationships": {
+            "acquirer": {
+              "type": "Organization",
+              "uuid": "a1e9f506b72a4edab741c30c6d17d469",
+              "properties": {
+                "permalink": "konica-minolta-business-solutions-u-s-a",
+                "permalink_aliases": [
+                  "minolta"
+                ],
+                "api_path": "organizations/konica-minolta-business-solutions-u-s-a",
+                "web_path": "organization/konica-minolta-business-solutions-u-s-a",
+                "api_url": "https://api.crunchbase.com/v3.1/organizations/konica-minolta-business-solutions-u-s-a",
+                "name": "Konica Minolta Business Solutions U.S.A.",
+                "also_known_as": null,
+                "short_description": "Konica Minolta Business Solutions U.S.A.",
+                "description": "Konica Minolta Business Solutions U.S.A. is a leading provider of printing technologies and Business Intelligence Services for print environments of all sizes.",
+                "profile_image_url": "http://public.crunchbase.com/t_api_images/v1397199147/63f56ee94b8080f939288c33a5d48cf6.jpg",
+                "primary_role": "company",
+                "role_company": true,
+                "role_investor": false,
+                "role_group": false,
+                "role_school": false,
+                "investor_type": null,
+                "founded_on": "1959-01-01",
+                "founded_on_trust_code": 4,
+                "is_closed": false,
+                "closed_on": null,
+                "closed_on_trust_code": null,
+                "num_employees_min": 5001,
+                "num_employees_max": 10000,
+                "stock_exchange": null,
+                "stock_symbol": null,
+                "total_funding_usd": 0,
+                "number_of_investments": 0,
+                "homepage_url": "http://kmbs.konicaminolta.us",
+                "contact_email": "marketing@se.konicaminolta.us",
+                "phone_number": "(860) 902-7631",
+                "rank": 123702,
+                "created_at": 1230150697,
+                "updated_at": 1523956921
+              }
+            }
+          }
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/symquest-group/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/symquest-group/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/symquest-group/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "d9f12437394a407a86b54687da33ce08",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "https://www.symquest.com/",
+              "created_at": 1525354407,
+              "updated_at": 1540596686
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "d9f12437394a407a86b54687da33ce08",
+            "properties": {
+              "website_type": "facebook",
+              "website_name": "facebook",
+              "url": "https://www.facebook.com/SymQuest",
+              "created_at": 1525354407,
+              "updated_at": 1540596686
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "d9f12437394a407a86b54687da33ce08",
+            "properties": {
+              "website_type": "twitter",
+              "website_name": "twitter",
+              "url": "https://twitter.com/symquest",
+              "created_at": 1525354407,
+              "updated_at": 1540596686
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "d9f12437394a407a86b54687da33ce08",
+            "properties": {
+              "website_type": "linkedin",
+              "website_name": "linkedin",
+              "url": "https://in.linkedin.com/company/symquest-group",
+              "created_at": 1525354407,
+              "updated_at": 1540596686
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/symquest-group/images",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Image",
+            "uuid": "d9f12437394a407a86b54687da33ce08",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/nuhxvdjzroka4atslihk",
+              "asset_url": "http://public.crunchbase.com/t_api_images/nuhxvdjzroka4atslihk",
+              "content_type": "nuhxvdjzroka4atslihk",
+              "height": null,
+              "width": null,
+              "filesize": null,
+              "created_at": 1525354407,
+              "updated_at": 1540596686
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/symquest-group/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/symquest-group/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}

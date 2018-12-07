@@ -1,0 +1,498 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "1201d18b3922435c9c18bb322e78ecc3",
+    "properties": {
+      "permalink": "armistead-senior-care",
+      "permalink_aliases": null,
+      "api_path": "organizations/armistead-senior-care",
+      "web_path": "organization/armistead-senior-care",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/armistead-senior-care",
+      "name": "Armistead Senior Care",
+      "also_known_as": null,
+      "short_description": "Armistead Senior Care provides compassionate in-home care and services.",
+      "description": "Armistead Senior Care provides compassionate in-home care and services as people age in Vermont and New Hampshire.  Established in 1999 and locally owned, Armistead Senior Care supports the independence and quality of life of older adults, people with disabilities and anyone recuperating from an illness. We do this by providing an individualized plan of care, thoughtful caregiver/client matching, and superior care management.\n\n",
+      "profile_image_url": "http://public.crunchbase.com/t_api_images/oiz3hog4jmuhmr09q14g",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": "1999-01-01",
+      "founded_on_trust_code": 4,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": 251,
+      "num_employees_max": 500,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": "http://www.armisteadinc.com/",
+      "contact_email": "diane@armisteadinc.com",
+      "phone_number": "(866) 284-1912",
+      "rank": 461339,
+      "created_at": 1511170800,
+      "updated_at": 1540589542
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/armistead-senior-care/primary_image",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Image",
+          "uuid": "1201d18b3922435c9c18bb322e78ecc3",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/oiz3hog4jmuhmr09q14g",
+            "asset_url": "http://public.crunchbase.com/t_api_images/oiz3hog4jmuhmr09q14g",
+            "content_type": "oiz3hog4jmuhmr09q14g",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1511170800,
+            "updated_at": 1540589542
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/armistead-senior-care/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/armistead-senior-care/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": []
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/armistead-senior-care/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/armistead-senior-care/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/armistead-senior-care/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/armistead-senior-care/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/armistead-senior-care/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/armistead-senior-care/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/armistead-senior-care/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "94b491ae95f743ddb002eb36c06b8abd",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "1 Kennedy Drive\n",
+            "street_2": "Lower Level 1 – 2\n",
+            "postal_code": "05403",
+            "city": "South Burlington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1511170800,
+            "updated_at": 1518480412
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/armistead-senior-care/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "94b491ae95f743ddb002eb36c06b8abd",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "1 Kennedy Drive\n",
+            "street_2": "Lower Level 1 – 2\n",
+            "postal_code": "05403",
+            "city": "South Burlington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1511170800,
+            "updated_at": 1518480412
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/armistead-senior-care/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/armistead-senior-care/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "3f21415b57846be63722eb189190b7cd",
+            "properties": {
+              "name": "Health Care",
+              "web_path": "category/health-care/3f21415b57846be63722eb189190b7cd",
+              "category_groups": [
+                "Health Care"
+              ],
+              "created_at": 1397980726,
+              "updated_at": 1518483550
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "650c4c503a454725d8e848cd0e10bb05",
+            "properties": {
+              "name": "Hospital",
+              "web_path": "category/hospital/650c4c503a454725d8e848cd0e10bb05",
+              "category_groups": [
+                "Health Care"
+              ],
+              "created_at": 1457032190,
+              "updated_at": 1518483550
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/armistead-senior-care/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/armistead-senior-care/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/armistead-senior-care/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/armistead-senior-care/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/armistead-senior-care/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/armistead-senior-care/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/armistead-senior-care/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/armistead-senior-care/acquired_by",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Acquisition",
+          "uuid": "99b19d1154da43c391e827aa08b324b0",
+          "properties": {
+            "permalink": "99b19d1154da43c391e827aa08b324b0",
+            "api_path": "acquisitions/99b19d1154da43c391e827aa08b324b0",
+            "web_path": "acquisition/99b19d1154da43c391e827aa08b324b0",
+            "api_url": "https://api.crunchbase.com/v3.1/acquisitions/99b19d1154da43c391e827aa08b324b0",
+            "price": null,
+            "price_currency_code": null,
+            "price_usd": null,
+            "payment_type": null,
+            "acquisition_type": "acquisition",
+            "acquisition_status": "pending",
+            "disposition_of_acquired": null,
+            "announced_on": "2017-10-10",
+            "announced_on_trust_code": 7,
+            "completed_on": null,
+            "completed_on_trust_code": null,
+            "rank": 75754,
+            "created_at": 1511170954,
+            "updated_at": 1518479250
+          },
+          "relationships": {
+            "acquirer": {
+              "type": "Organization",
+              "uuid": "62c9240e3b764ac4805d484dabe06f94",
+              "properties": {
+                "permalink": "nova-leap-health-corp",
+                "permalink_aliases": null,
+                "api_path": "organizations/nova-leap-health-corp",
+                "web_path": "organization/nova-leap-health-corp",
+                "api_url": "https://api.crunchbase.com/v3.1/organizations/nova-leap-health-corp",
+                "name": "Nova Leap Health Corp.",
+                "also_known_as": null,
+                "short_description": "Nova Leap Health Corp. is an international provider of personal home care and support services.  ",
+                "description": "Nova Leap Health Corp. is an international provider of personal home care and support services.  They acquire, manage and build home care services companies that provide wonderful support to our clients and their families at home.\nNova Leap went public in 2016 through the TSX Venture Exchange Capital Pool Corporation (“CPC”) program.  Our Company was created to assemble a portfolio of Home and Home Health Care companies that have the potential to be leaders in their particular market.\n\n",
+                "profile_image_url": "http://public.crunchbase.com/t_api_images/ofjq6iv5dga6bzc2xn0h",
+                "primary_role": "company",
+                "role_company": true,
+                "role_investor": false,
+                "role_group": false,
+                "role_school": false,
+                "investor_type": null,
+                "founded_on": "2015-01-01",
+                "founded_on_trust_code": 4,
+                "is_closed": false,
+                "closed_on": null,
+                "closed_on_trust_code": null,
+                "num_employees_min": 1,
+                "num_employees_max": 10,
+                "stock_exchange": null,
+                "stock_symbol": null,
+                "total_funding_usd": 122536,
+                "number_of_investments": 0,
+                "homepage_url": "https://novaleaphealth.com",
+                "contact_email": "cdobbin@novaleaphealth.com",
+                "phone_number": "902.401.9480",
+                "rank": 78141,
+                "created_at": 1511170461,
+                "updated_at": 1540594836
+              }
+            }
+          }
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/armistead-senior-care/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/armistead-senior-care/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/armistead-senior-care/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "1201d18b3922435c9c18bb322e78ecc3",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "http://www.armisteadinc.com/",
+              "created_at": 1511170800,
+              "updated_at": 1540589542
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "1201d18b3922435c9c18bb322e78ecc3",
+            "properties": {
+              "website_type": "facebook",
+              "website_name": "facebook",
+              "url": "https://www.facebook.com/armisteadcare",
+              "created_at": 1511170800,
+              "updated_at": 1540589542
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "1201d18b3922435c9c18bb322e78ecc3",
+            "properties": {
+              "website_type": "twitter",
+              "website_name": "twitter",
+              "url": "https://twitter.com/armisteadcare",
+              "created_at": 1511170800,
+              "updated_at": 1540589542
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "1201d18b3922435c9c18bb322e78ecc3",
+            "properties": {
+              "website_type": "linkedin",
+              "website_name": "linkedin",
+              "url": "https://www.linkedin.com/company/1219166/?trk=tyah",
+              "created_at": 1511170800,
+              "updated_at": 1540589542
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/armistead-senior-care/images",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Image",
+            "uuid": "1201d18b3922435c9c18bb322e78ecc3",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/oiz3hog4jmuhmr09q14g",
+              "asset_url": "http://public.crunchbase.com/t_api_images/oiz3hog4jmuhmr09q14g",
+              "content_type": "oiz3hog4jmuhmr09q14g",
+              "height": null,
+              "width": null,
+              "filesize": null,
+              "created_at": 1511170800,
+              "updated_at": 1540589542
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/armistead-senior-care/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/armistead-senior-care/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}

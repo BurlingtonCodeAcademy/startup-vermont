@@ -1,0 +1,472 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "b2348f40c9d44c4c81427d424e6abb9c",
+    "properties": {
+      "permalink": "ipcapital-group",
+      "permalink_aliases": null,
+      "api_path": "organizations/ipcapital-group",
+      "web_path": "organization/ipcapital-group",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/ipcapital-group",
+      "name": "ipCapital Group",
+      "also_known_as": null,
+      "short_description": "ipCapital Group is a management consulting company providing intellectual property management services.",
+      "description": "ipCG has delivered over 800 successful innovation and IP engagements, including to over 10% of the Fortune 500, in a wide range of industries.\n\nTheir interdisciplinary team of consultants and advisors are focused on maximizing clients’ financial results. They combine our world-class human capital with their proprietary tools and methodologies around innovation, invention, and IP.",
+      "profile_image_url": "http://public.crunchbase.com/t_api_images/l1ukhzoq2psrvrfpipjl",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": null,
+      "founded_on_trust_code": null,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": 11,
+      "num_employees_max": 50,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 100825,
+      "number_of_investments": 0,
+      "homepage_url": "http://ipcg.com",
+      "contact_email": "info@ipcg.com",
+      "phone_number": "(802) 859-7800",
+      "rank": 84883,
+      "created_at": 1510342843,
+      "updated_at": 1540593494
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ipcapital-group/primary_image",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Image",
+          "uuid": "b2348f40c9d44c4c81427d424e6abb9c",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/l1ukhzoq2psrvrfpipjl",
+            "asset_url": "http://public.crunchbase.com/t_api_images/l1ukhzoq2psrvrfpipjl",
+            "content_type": "l1ukhzoq2psrvrfpipjl",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1510342843,
+            "updated_at": 1540593494
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ipcapital-group/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ipcapital-group/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": []
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ipcapital-group/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ipcapital-group/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ipcapital-group/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ipcapital-group/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ipcapital-group/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ipcapital-group/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ipcapital-group/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "48351f1411064bd3b13fffd933b7721c",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "426 Industrial Avenue, ",
+            "street_2": "Suite 150",
+            "postal_code": "05495",
+            "city": "Williston",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1535014817,
+            "updated_at": 1535014817
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ipcapital-group/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "48351f1411064bd3b13fffd933b7721c",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "426 Industrial Avenue, ",
+            "street_2": "Suite 150",
+            "postal_code": "05495",
+            "city": "Williston",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1535014817,
+            "updated_at": 1535014817
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ipcapital-group/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ipcapital-group/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "7a6d8aad7b87534a7f5dc1766c2cd33f",
+            "properties": {
+              "name": "Management Consulting",
+              "web_path": "category/management-consulting/7a6d8aad7b87534a7f5dc1766c2cd33f",
+              "category_groups": [
+                "Professional Services"
+              ],
+              "created_at": 1465509047,
+              "updated_at": 1518483551
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "dcfb5d50294335bd7ad44999a96c3480",
+            "properties": {
+              "name": "Professional Services",
+              "web_path": "category/professional-services/dcfb5d50294335bd7ad44999a96c3480",
+              "category_groups": null,
+              "created_at": 1397980727,
+              "updated_at": 1518483551
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "ed8217ffbd1126fed82eeb98a276dc2e",
+            "properties": {
+              "name": "Innovation Management",
+              "web_path": "category/innovation-management/ed8217ffbd1126fed82eeb98a276dc2e",
+              "category_groups": null,
+              "created_at": 1397980726,
+              "updated_at": 1518483551
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ipcapital-group/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ipcapital-group/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ipcapital-group/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ipcapital-group/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ipcapital-group/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": [
+          {
+            "type": "FundingRound",
+            "uuid": "f2227f2b1419487fbd3365888dde894a",
+            "properties": {
+              "permalink": "f2227f2b1419487fbd3365888dde894a",
+              "api_path": "funding-rounds/f2227f2b1419487fbd3365888dde894a",
+              "web_path": "funding-round/f2227f2b1419487fbd3365888dde894a",
+              "api_url": "https://api.crunchbase.com/v3.1/funding-rounds/f2227f2b1419487fbd3365888dde894a",
+              "funding_type": "venture",
+              "series": null,
+              "series_qualifier": null,
+              "announced_on": "2017-01-06",
+              "announced_on_trust_code": 7,
+              "closed_on": null,
+              "closed_on_trust_code": null,
+              "money_raised": 100825,
+              "money_raised_currency_code": "USD",
+              "money_raised_usd": 100825,
+              "target_money_raised": 600825,
+              "target_money_raised_currency_code": "USD",
+              "target_money_raised_usd": 600825,
+              "pre_money_valuation": null,
+              "pre_money_valuation_currency_code": null,
+              "pre_money_valuation_usd": null,
+              "rank": 64208,
+              "created_at": 1519283924,
+              "updated_at": 1519283924
+            }
+          }
+        ]
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ipcapital-group/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ipcapital-group/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ipcapital-group/acquired_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ipcapital-group/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ipcapital-group/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ipcapital-group/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "b2348f40c9d44c4c81427d424e6abb9c",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "http://ipcg.com",
+              "created_at": 1510342843,
+              "updated_at": 1540593494
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "b2348f40c9d44c4c81427d424e6abb9c",
+            "properties": {
+              "website_type": "facebook",
+              "website_name": "facebook",
+              "url": "https://www.facebook.com/ipcapital-group-317187621705151",
+              "created_at": 1510342843,
+              "updated_at": 1540593494
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "b2348f40c9d44c4c81427d424e6abb9c",
+            "properties": {
+              "website_type": "twitter",
+              "website_name": "twitter",
+              "url": "https://www.twitter.com/ipcapital_group",
+              "created_at": 1510342843,
+              "updated_at": 1540593494
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "b2348f40c9d44c4c81427d424e6abb9c",
+            "properties": {
+              "website_type": "linkedin",
+              "website_name": "linkedin",
+              "url": "https://www.linkedin.com/company/ipcapital-group",
+              "created_at": 1510342843,
+              "updated_at": 1540593494
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ipcapital-group/images",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Image",
+            "uuid": "b2348f40c9d44c4c81427d424e6abb9c",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/l1ukhzoq2psrvrfpipjl",
+              "asset_url": "http://public.crunchbase.com/t_api_images/l1ukhzoq2psrvrfpipjl",
+              "content_type": "l1ukhzoq2psrvrfpipjl",
+              "height": null,
+              "width": null,
+              "filesize": null,
+              "created_at": 1510342843,
+              "updated_at": 1540593494
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ipcapital-group/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ipcapital-group/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}

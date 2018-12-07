@@ -1,0 +1,485 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "1f77865bb3b99ceb8eb586c815b34e1a",
+    "properties": {
+      "permalink": "king-arthur-flour-company",
+      "permalink_aliases": null,
+      "api_path": "organizations/king-arthur-flour-company",
+      "web_path": "organization/king-arthur-flour-company",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/king-arthur-flour-company",
+      "name": "King Arthur Flour Company",
+      "also_known_as": null,
+      "short_description": "King Arthur Flour, founded in 1790, is a centuries-old consumer goods company with a 21st-century outlook.",
+      "description": null,
+      "profile_image_url": "http://public.crunchbase.com/t_api_images/v1454841405/lyxrtubfqoi94qswtqyx.png",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": "1790-01-01",
+      "founded_on_trust_code": 4,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": 251,
+      "num_employees_max": 500,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": "http://www.kingarthurflour.com/",
+      "contact_email": null,
+      "phone_number": "(800)827-6836",
+      "rank": 159981,
+      "created_at": 1454841409,
+      "updated_at": 1523960946
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/king-arthur-flour-company/primary_image",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Image",
+          "uuid": "1f77865bb3b99ceb8eb586c815b34e1a",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/v1454841405/lyxrtubfqoi94qswtqyx.png",
+            "asset_url": "http://public.crunchbase.com/t_api_images/v1454841405/lyxrtubfqoi94qswtqyx.png",
+            "content_type": "png",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1454841409,
+            "updated_at": 1523960946
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/king-arthur-flour-company/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/king-arthur-flour-company/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": []
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/king-arthur-flour-company/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/king-arthur-flour-company/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/king-arthur-flour-company/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/king-arthur-flour-company/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/king-arthur-flour-company/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/king-arthur-flour-company/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/king-arthur-flour-company/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "ef4fdb39799b39b29ae0efecbadd035a",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "135 US Route 5",
+            "street_2": null,
+            "postal_code": "05055",
+            "city": "Norwich",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1454841549,
+            "updated_at": 1518484069
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/king-arthur-flour-company/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "ef4fdb39799b39b29ae0efecbadd035a",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "135 US Route 5",
+            "street_2": null,
+            "postal_code": "05055",
+            "city": "Norwich",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1454841549,
+            "updated_at": 1518484069
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/king-arthur-flour-company/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/king-arthur-flour-company/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/king-arthur-flour-company/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/king-arthur-flour-company/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/king-arthur-flour-company/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/king-arthur-flour-company/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/king-arthur-flour-company/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/king-arthur-flour-company/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/king-arthur-flour-company/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/king-arthur-flour-company/acquired_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/king-arthur-flour-company/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/king-arthur-flour-company/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/king-arthur-flour-company/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "1f77865bb3b99ceb8eb586c815b34e1a",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "http://www.kingarthurflour.com/",
+              "created_at": 1454841409,
+              "updated_at": 1523960946
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "1f77865bb3b99ceb8eb586c815b34e1a",
+            "properties": {
+              "website_type": "facebook",
+              "website_name": "facebook",
+              "url": "https://www.facebook.com/kingarthurflour",
+              "created_at": 1454841409,
+              "updated_at": 1523960946
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "1f77865bb3b99ceb8eb586c815b34e1a",
+            "properties": {
+              "website_type": "twitter",
+              "website_name": "twitter",
+              "url": "https://twitter.com/KingArthurFlour",
+              "created_at": 1454841409,
+              "updated_at": 1523960946
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "1f77865bb3b99ceb8eb586c815b34e1a",
+            "properties": {
+              "website_type": "linkedin",
+              "website_name": "linkedin",
+              "url": "https://www.linkedin.com/company/575261?",
+              "created_at": 1454841409,
+              "updated_at": 1523960946
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/king-arthur-flour-company/images",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Image",
+            "uuid": "1f77865bb3b99ceb8eb586c815b34e1a",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/v1454841405/lyxrtubfqoi94qswtqyx.png",
+              "asset_url": "http://public.crunchbase.com/t_api_images/v1454841405/lyxrtubfqoi94qswtqyx.png",
+              "content_type": "png",
+              "height": null,
+              "width": null,
+              "filesize": null,
+              "created_at": 1454841409,
+              "updated_at": 1523960946
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/king-arthur-flour-company/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 6,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/king-arthur-flour-company/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": [
+          {
+            "type": "News",
+            "uuid": "1a29184d03894767abdfcdee052d82fa",
+            "properties": {
+              "title": "Juicy, rare hamburgers require a solid, hefty bun",
+              "author": "Don Mauer",
+              "posted_on": "2018-04-18",
+              "posted_on_trust_code": 7,
+              "url": "http://www.dailyherald.com/entlife/20180418/juicy-rare-hamburgers-require-a-solid-hefty-bun",
+              "created_at": 1524144841,
+              "updated_at": 1524144841
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "09a9292e44a140e69b8a88bcf5849a91",
+            "properties": {
+              "title": "King Arthur Organic Coconut Flour recalled after testing positive for salmonella",
+              "author": "Taylor Rock",
+              "posted_on": "2018-03-28",
+              "posted_on_trust_code": 7,
+              "url": "http://www.orlandosentinel.com/features/food/dailymeal-king-arthur-organic-coconut-flour-recalled-after-testing-positive-for-salmonella-20180328-story.html",
+              "created_at": 1522326231,
+              "updated_at": 1522326231
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "f2ecf5c1106546febd2f69fddd7b8b6e",
+            "properties": {
+              "title": "Salmonella recall of similar food at the root of the current salmonella outbreak. | Miami Herald",
+              "author": "David J. Neal",
+              "posted_on": "2018-03-23",
+              "posted_on_trust_code": 7,
+              "url": "http://www.miamiherald.com/living/food-drink/article206674039.html",
+              "created_at": 1521878639,
+              "updated_at": 1521878639
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "f4d670bb8376488ba879a53871a70dac",
+            "properties": {
+              "title": "Iron Harvest - Weltexklusiv angespielt, Infos zur Konsolenumsetzung",
+              "author": "Tobias Veltin",
+              "posted_on": "2018-03-12",
+              "posted_on_trust_code": 7,
+              "url": "http://www.gamepro.de/artikel/iron-harvest-weltexklusiv-angespielt-infos-zur-konsolenumsetzung,3327191.html",
+              "created_at": 1521088261,
+              "updated_at": 1521088261
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "d1e83921ecf1441d98097922c8e5a45a",
+            "properties": {
+              "title": "Clif Bar & Company and King Arthur Flour Announce $1.5 Million Organic Endowment for Washington State University’s Bread Lab",
+              "author": null,
+              "posted_on": "2018-01-31",
+              "posted_on_trust_code": 7,
+              "url": "https://www.businesswire.com/news/home/20180131005480/en/Clif-Bar-Company-King-Arthur-Flour-Announce",
+              "created_at": 1517645296,
+              "updated_at": 1518474001
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "cff332b23bcf4148a49bcc79ca7762e8",
+            "properties": {
+              "title": "Modernist Bread Slices Into the Science of the Loaf",
+              "author": "Joe Ray",
+              "posted_on": "2017-11-07",
+              "posted_on_trust_code": 7,
+              "url": "https://www.wired.com/story/review-modernist-bread/",
+              "created_at": 1510522882,
+              "updated_at": 1518480310
+            }
+          }
+        ]
+      }
+    }
+  }
+}

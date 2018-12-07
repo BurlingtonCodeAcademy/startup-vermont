@@ -1,0 +1,423 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "df614c5f2a32733bb405ceef1795c80c",
+    "properties": {
+      "permalink": "kelly-brush-foundation",
+      "permalink_aliases": null,
+      "api_path": "organizations/kelly-brush-foundation",
+      "web_path": "organization/kelly-brush-foundation",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/kelly-brush-foundation",
+      "name": "Kelly Brush Foundation",
+      "also_known_as": null,
+      "short_description": "We provide adaptive sports equipment directly to people living with paralysis and support ski clubs in their safety efforts.",
+      "description": null,
+      "profile_image_url": null,
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": "2006-01-01",
+      "founded_on_trust_code": 4,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": 1,
+      "num_employees_max": 10,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": "http://kellybrushfoundation.org/",
+      "contact_email": "elizabeth@kellybrushfoundation.org",
+      "phone_number": "+1 (802) 846-5298",
+      "rank": 512368,
+      "created_at": 1428852837,
+      "updated_at": 1540593251
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kelly-brush-foundation/primary_image",
+          "sort_order": "not_ordered"
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kelly-brush-foundation/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kelly-brush-foundation/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": []
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kelly-brush-foundation/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kelly-brush-foundation/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kelly-brush-foundation/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "bd648cc6065eda93dadd1780f2131c91",
+            "properties": {
+              "title": "Board Member",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "board_member",
+              "created_at": 1428852837,
+              "updated_at": 1518485626
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "c1bc016db7a490754bf4cdaa7e2a1917",
+                "properties": {
+                  "permalink": "william-shearer",
+                  "permalink_aliases": null,
+                  "api_path": "people/william-shearer",
+                  "web_path": "person/william-shearer",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/william-shearer",
+                  "first_name": "William",
+                  "last_name": "Shearer",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Bill Shearer is president of Shearer Automotive in South Burlington, Vt. He started in the automotive business in 1986 when he purchased Shearer Chevrolet from his father and uncle; the dealership was founded in 1928 by his grandfather. Since taking over, Bill added Honda, Pontiac, Oldsmobile, Cadillac, Buick, GMC, Acura, Audi and Volkswagen in 2009. Shearer represents Vermont's franchised new-car dealers on the board of directors of the National Automobile Dealers Association.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1428827984/rzpob0l1w6bydfhdzppq.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 758322,
+                  "created_at": 1428827993,
+                  "updated_at": 1518479947
+                }
+              }
+            }
+          }
+        ]
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kelly-brush-foundation/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kelly-brush-foundation/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kelly-brush-foundation/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kelly-brush-foundation/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "a8dc17def66b6b05af8da8efd964b92f",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "7 Aspen Drive, Suite 1",
+            "street_2": null,
+            "postal_code": "05403",
+            "city": "South Burlington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1470680822,
+            "updated_at": 1518483920
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kelly-brush-foundation/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "a8dc17def66b6b05af8da8efd964b92f",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "7 Aspen Drive, Suite 1",
+            "street_2": null,
+            "postal_code": "05403",
+            "city": "South Burlington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1470680822,
+            "updated_at": 1518483920
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kelly-brush-foundation/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kelly-brush-foundation/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kelly-brush-foundation/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kelly-brush-foundation/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kelly-brush-foundation/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kelly-brush-foundation/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kelly-brush-foundation/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kelly-brush-foundation/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kelly-brush-foundation/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kelly-brush-foundation/acquired_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kelly-brush-foundation/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kelly-brush-foundation/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kelly-brush-foundation/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "df614c5f2a32733bb405ceef1795c80c",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "http://kellybrushfoundation.org/",
+              "created_at": 1428852837,
+              "updated_at": 1540593251
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "df614c5f2a32733bb405ceef1795c80c",
+            "properties": {
+              "website_type": "facebook",
+              "website_name": "facebook",
+              "url": "https://www.facebook.com/kellybrushfoundation",
+              "created_at": 1428852837,
+              "updated_at": 1540593251
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "df614c5f2a32733bb405ceef1795c80c",
+            "properties": {
+              "website_type": "twitter",
+              "website_name": "twitter",
+              "url": "https://www.twitter.com/kellybrushfdn",
+              "created_at": 1428852837,
+              "updated_at": 1540593251
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kelly-brush-foundation/images",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kelly-brush-foundation/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kelly-brush-foundation/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": [
+          {
+            "type": "News",
+            "uuid": "e8e694dfc70f4b6fb50da7d244d75eac",
+            "properties": {
+              "title": "13th Kelly Brush Ride Set for Sept. 8- Supports Adaptive Sports and Ski Racing Safety",
+              "author": null,
+              "posted_on": "2018-06-08",
+              "posted_on_trust_code": 7,
+              "url": "https://www.prweb.com/releases/2018/06/prweb15546939.htm",
+              "created_at": 1528506404,
+              "updated_at": 1528506404
+            }
+          }
+        ]
+      }
+    }
+  }
+}

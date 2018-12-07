@@ -1,0 +1,703 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "3aeee719ef0ddef78dfc21c25805a80a",
+    "properties": {
+      "permalink": "northern-reliability",
+      "permalink_aliases": null,
+      "api_path": "organizations/northern-reliability",
+      "web_path": "organization/northern-reliability",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/northern-reliability",
+      "name": "Northern Reliability",
+      "also_known_as": null,
+      "short_description": "Northern Reliability designs, manufactures, installs, and services ultra-reliable remote power generation systems.",
+      "description": "Northern Reliability, Inc. designs, manufactures, installs, and services ultra-reliable remote power generation systems for industrial, commercial, government, and local community sites and customers worldwide. It provides solar obstruction lighting systems; solar power systems; solar power hybrid systems; genset power systems; and components, such as system controls, power conditioning and conversion systems, energy storage systems, and environmental systems and housing. The company also offers services, such as site analysis and feasibility studies; system engineering and design; equipment and parts procurement; system construction and site preparation; installation, commissioning, and staff training; monitoring and control; and maintenance, auditing, and upgrades of outdated systems. Its products are applied in telecommunications; oil and gas; isolated communities; commercial and institutional buildings, such as office buildings, hospitals, and schools; digital economy that includes data centers, Internet service providers, and call centers; distributed generation, such as solar farms, electric and gas utilities, and environmental engineering; and manufacturing, including food and beverage, pharmaceutical, plastics, and semiconductors. The company was founded in 2007 and is based in Waitsfield, Vermont.",
+      "profile_image_url": "http://public.crunchbase.com/t_api_images/v1480483189/noj9p0uotw3jbzfoml72.png",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": "2007-01-01",
+      "founded_on_trust_code": 4,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": 11,
+      "num_employees_max": 50,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": "http://northernreliability.com/",
+      "contact_email": "info@northernreliability.com",
+      "phone_number": "(802)496-2955",
+      "rank": 315415,
+      "created_at": 1480483305,
+      "updated_at": 1540594783
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/northern-reliability/primary_image",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Image",
+          "uuid": "3aeee719ef0ddef78dfc21c25805a80a",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/v1480483189/noj9p0uotw3jbzfoml72.png",
+            "asset_url": "http://public.crunchbase.com/t_api_images/v1480483189/noj9p0uotw3jbzfoml72.png",
+            "content_type": "png",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1480483305,
+            "updated_at": 1540594783
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/northern-reliability/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/northern-reliability/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "8d1b1e4aff545e5e62f4b8b8855eff79",
+            "properties": {
+              "title": "President and CEO",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1480484557,
+              "updated_at": 1518485380
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "40469d489b6de1488b6146a013d46c6e",
+                "properties": {
+                  "permalink": "jay-bellows",
+                  "permalink_aliases": null,
+                  "api_path": "people/jay-bellows",
+                  "web_path": "person/jay-bellows",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/jay-bellows",
+                  "first_name": "Jay",
+                  "last_name": "Bellows",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "President and CEO at Northern Reliability",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1480484502/wiicwnmiu7d3q5muyizn.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 568098,
+                  "created_at": 1480484557,
+                  "updated_at": 1518478813
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "938b0d0b03fae63dfc487dfe35805501",
+            "properties": {
+              "title": "COO",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1480484945,
+              "updated_at": 1518485418
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "50614f938ed11624a96d7305fd1fbca4",
+                "properties": {
+                  "permalink": "charlie-van-winkle",
+                  "permalink_aliases": null,
+                  "api_path": "people/charlie-van-winkle",
+                  "web_path": "person/charlie-van-winkle",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/charlie-van-winkle",
+                  "first_name": "Charlie Van",
+                  "last_name": "Winkle",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1480484921/ki7l8ussfg1ip04fgl2n.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 806581,
+                  "created_at": 1480484947,
+                  "updated_at": 1518479564
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "ad1cf51a4e4de3d37f90b1bba0ba4d01",
+            "properties": {
+              "title": "CFO",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1480485225,
+              "updated_at": 1518485550
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "8d53e032c9b01c2088c1508b6a6fce7b",
+                "properties": {
+                  "permalink": "spencer-newman",
+                  "permalink_aliases": null,
+                  "api_path": "people/spencer-newman",
+                  "web_path": "person/spencer-newman",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/spencer-newman",
+                  "first_name": "Spencer",
+                  "last_name": "Newman",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Spencer Newman is a seasoned executive with nearly twenty years of financial management experience working with organizations in the private and public sectors. He has managed non-existent to multi-million dollar budgets as well as grant and contract compliance between high-growth companies, local organizations and U.S. federal agencies. \r\n\r\nSpencer has served on the boards of the City of Burlington Municipal Electric Utility (Chairman), the University of Vermont’s Vtrim® Health Program, and privately-held local manufacturer, Nathaniel Group.\r\n\r\nHe is a graduate of the Kellogg School of Management and Tufts University, with an MBA and a BA in political science.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1397180921/47f6a66c525837889f4823cc0df4ebc7.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 501828,
+                  "created_at": 1376329891,
+                  "updated_at": 1518479161
+                }
+              }
+            }
+          }
+        ]
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/northern-reliability/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "8d1b1e4aff545e5e62f4b8b8855eff79",
+            "properties": {
+              "title": "President and CEO",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1480484557,
+              "updated_at": 1518485380
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "40469d489b6de1488b6146a013d46c6e",
+                "properties": {
+                  "permalink": "jay-bellows",
+                  "permalink_aliases": null,
+                  "api_path": "people/jay-bellows",
+                  "web_path": "person/jay-bellows",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/jay-bellows",
+                  "first_name": "Jay",
+                  "last_name": "Bellows",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "President and CEO at Northern Reliability",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1480484502/wiicwnmiu7d3q5muyizn.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 568098,
+                  "created_at": 1480484557,
+                  "updated_at": 1518478813
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "938b0d0b03fae63dfc487dfe35805501",
+            "properties": {
+              "title": "COO",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1480484945,
+              "updated_at": 1518485418
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "50614f938ed11624a96d7305fd1fbca4",
+                "properties": {
+                  "permalink": "charlie-van-winkle",
+                  "permalink_aliases": null,
+                  "api_path": "people/charlie-van-winkle",
+                  "web_path": "person/charlie-van-winkle",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/charlie-van-winkle",
+                  "first_name": "Charlie Van",
+                  "last_name": "Winkle",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1480484921/ki7l8ussfg1ip04fgl2n.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 806581,
+                  "created_at": 1480484947,
+                  "updated_at": 1518479564
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "ad1cf51a4e4de3d37f90b1bba0ba4d01",
+            "properties": {
+              "title": "CFO",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1480485225,
+              "updated_at": 1518485550
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "8d53e032c9b01c2088c1508b6a6fce7b",
+                "properties": {
+                  "permalink": "spencer-newman",
+                  "permalink_aliases": null,
+                  "api_path": "people/spencer-newman",
+                  "web_path": "person/spencer-newman",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/spencer-newman",
+                  "first_name": "Spencer",
+                  "last_name": "Newman",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Spencer Newman is a seasoned executive with nearly twenty years of financial management experience working with organizations in the private and public sectors. He has managed non-existent to multi-million dollar budgets as well as grant and contract compliance between high-growth companies, local organizations and U.S. federal agencies. \r\n\r\nSpencer has served on the boards of the City of Burlington Municipal Electric Utility (Chairman), the University of Vermont’s Vtrim® Health Program, and privately-held local manufacturer, Nathaniel Group.\r\n\r\nHe is a graduate of the Kellogg School of Management and Tufts University, with an MBA and a BA in political science.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1397180921/47f6a66c525837889f4823cc0df4ebc7.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 501828,
+                  "created_at": 1376329891,
+                  "updated_at": 1518479161
+                }
+              }
+            }
+          }
+        ]
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/northern-reliability/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/northern-reliability/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/northern-reliability/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/northern-reliability/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/northern-reliability/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/northern-reliability/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "a9b18c215bde6b8afa93f74060500414",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "340 Mad River Park",
+            "street_2": null,
+            "postal_code": "05673",
+            "city": "Waitsfield",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1480483742,
+            "updated_at": 1518483922
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/northern-reliability/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "a9b18c215bde6b8afa93f74060500414",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "340 Mad River Park",
+            "street_2": null,
+            "postal_code": "05673",
+            "city": "Waitsfield",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1480483742,
+            "updated_at": 1518483922
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/northern-reliability/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/northern-reliability/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "19c6890bdbf5cd2b6e5aaadd81c22076",
+            "properties": {
+              "name": "Energy Storage",
+              "web_path": "category/energy-storage/19c6890bdbf5cd2b6e5aaadd81c22076",
+              "category_groups": [
+                "Energy"
+              ],
+              "created_at": 1397980728,
+              "updated_at": 1518483534
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "281690229937f752a38cc40538cd7222",
+            "properties": {
+              "name": "Oil and Gas",
+              "web_path": "category/oil-and-gas/281690229937f752a38cc40538cd7222",
+              "category_groups": [
+                "Energy",
+                "Natural Resources"
+              ],
+              "created_at": 1397980727,
+              "updated_at": 1518483536
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "c3d5f46f0a9dcfdca44a4cc6a13fe804",
+            "properties": {
+              "name": "Solar",
+              "web_path": "category/solar/c3d5f46f0a9dcfdca44a4cc6a13fe804",
+              "category_groups": [
+                "Energy",
+                "Natural Resources",
+                "Sustainability"
+              ],
+              "created_at": 1397980727,
+              "updated_at": 1518483551
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/northern-reliability/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/northern-reliability/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/northern-reliability/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/northern-reliability/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/northern-reliability/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/northern-reliability/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/northern-reliability/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/northern-reliability/acquired_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/northern-reliability/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/northern-reliability/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/northern-reliability/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "3aeee719ef0ddef78dfc21c25805a80a",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "http://northernreliability.com/",
+              "created_at": 1480483305,
+              "updated_at": 1540594783
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "3aeee719ef0ddef78dfc21c25805a80a",
+            "properties": {
+              "website_type": "facebook",
+              "website_name": "facebook",
+              "url": "https://www.facebook.com/NorthernReliability/",
+              "created_at": 1480483305,
+              "updated_at": 1540594783
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "3aeee719ef0ddef78dfc21c25805a80a",
+            "properties": {
+              "website_type": "twitter",
+              "website_name": "twitter",
+              "url": "https://twitter.com/nreliability",
+              "created_at": 1480483305,
+              "updated_at": 1540594783
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "3aeee719ef0ddef78dfc21c25805a80a",
+            "properties": {
+              "website_type": "linkedin",
+              "website_name": "linkedin",
+              "url": "https://www.linkedin.com/company/northern-reliability",
+              "created_at": 1480483305,
+              "updated_at": 1540594783
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/northern-reliability/images",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Image",
+            "uuid": "3aeee719ef0ddef78dfc21c25805a80a",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/v1480483189/noj9p0uotw3jbzfoml72.png",
+              "asset_url": "http://public.crunchbase.com/t_api_images/v1480483189/noj9p0uotw3jbzfoml72.png",
+              "content_type": "png",
+              "height": null,
+              "width": null,
+              "filesize": null,
+              "created_at": 1480483305,
+              "updated_at": 1540594783
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/northern-reliability/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/northern-reliability/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}

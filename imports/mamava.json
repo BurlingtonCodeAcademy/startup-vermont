@@ -1,0 +1,1549 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "ed2a1cb8add959c65a25e3a45cecf97d",
+    "properties": {
+      "permalink": "mamava",
+      "permalink_aliases": null,
+      "api_path": "organizations/mamava",
+      "web_path": "organization/mamava",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/mamava",
+      "name": "Mamava",
+      "also_known_as": null,
+      "short_description": "Mamava delivers design solutions for nursing mamas on the go, making the world a friendlier place for women to pump or breastfeed.",
+      "description": "Mamava is dedicated to transforming the culture of breastfeeding, making it more optimistic, realistic, accommodating, and inviting to all mamas.",
+      "profile_image_url": "http://public.crunchbase.com/t_api_images/v1456469429/eiwjzv1cxsje28wsvara.png",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": "2008-01-01",
+      "founded_on_trust_code": 4,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": 1,
+      "num_employees_max": 10,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 1377256,
+      "number_of_investments": 0,
+      "homepage_url": "http://mamava.com/",
+      "contact_email": "sascham@mamava.com",
+      "phone_number": "1(802)347-2111",
+      "rank": 24949,
+      "created_at": 1456469444,
+      "updated_at": 1540593946
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mamava/primary_image",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Image",
+          "uuid": "ed2a1cb8add959c65a25e3a45cecf97d",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/v1456469429/eiwjzv1cxsje28wsvara.png",
+            "asset_url": "http://public.crunchbase.com/t_api_images/v1456469429/eiwjzv1cxsje28wsvara.png",
+            "content_type": "png",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1456469444,
+            "updated_at": 1540593946
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mamava/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Person",
+            "uuid": "78de13735ce521685ffa846e1939e1a1",
+            "properties": {
+              "permalink": "christine-dodson",
+              "permalink_aliases": null,
+              "api_path": "people/christine-dodson",
+              "web_path": "person/christine-dodson",
+              "api_url": "https://api.crunchbase.com/v3.1/people/christine-dodson",
+              "first_name": "Christine",
+              "last_name": "Dodson",
+              "gender": "Female",
+              "also_known_as": null,
+              "bio": null,
+              "profile_image_url": "http://public.crunchbase.com/t_api_images/v1456469872/apakqqpxieytm9ddfnza.png",
+              "role_investor": false,
+              "born_on": null,
+              "born_on_trust_code": null,
+              "died_on": null,
+              "died_on_trust_code": null,
+              "rank": 174100,
+              "created_at": 1456469893,
+              "updated_at": 1518479400
+            }
+          },
+          {
+            "type": "Person",
+            "uuid": "b81b6bad83b1ac65ca3609d628710a12",
+            "properties": {
+              "permalink": "sascha-maye",
+              "permalink_aliases": null,
+              "api_path": "people/sascha-maye",
+              "web_path": "person/sascha-maye",
+              "api_url": "https://api.crunchbase.com/v3.1/people/sascha-maye",
+              "first_name": "Sascha",
+              "last_name": "Mayer",
+              "gender": "Female",
+              "also_known_as": null,
+              "bio": "Sascha is Co-founder and CEO of Mamava, Inc.  Sascha started with Solidarity of Unbridled Labour (Mamava’s birthplace) in 1995. She helped to develop the Living Brand®, Solidarity’s philosophy on brands and brand creation. Before joining Solidarity, Sascha worked for the office of Congressman (now Senator) Bernard Sanders (I-Vt.), where she served as staff assistant and then assistant press secretary. \r\n\r\nMamava designs solutions for nursing mamas on the go. Mama founded, women owned, and B Certified, Mamava is the leading expert in lactation spaces, integrating the biological, physical, and emotional needs of nursing mamas into both our Mamava lactation suites and our mobile app. Mamava combines beautiful design with smart lock technology to serve the needs of the twenty-first century mama on the go, revolutionizing the breastfeeding experience for traveling and working mamas, making it more optimistic, realistic, and accessible. A category creator, Mamava is working to ensure breastfeeding is a right, not a privilege.",
+              "profile_image_url": "http://public.crunchbase.com/t_api_images/v1456469815/mbpdl2vollnisos6nkog.png",
+              "role_investor": false,
+              "born_on": null,
+              "born_on_trust_code": null,
+              "died_on": null,
+              "died_on_trust_code": null,
+              "rank": 169661,
+              "created_at": 1456469826,
+              "updated_at": 1518479704
+            }
+          }
+        ]
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 6,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mamava/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "746d735add7b6bd65e479da6afaa6183",
+            "properties": {
+              "title": "COO & Co-Founder",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1456469893,
+              "updated_at": 1518485262
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "78de13735ce521685ffa846e1939e1a1",
+                "properties": {
+                  "permalink": "christine-dodson",
+                  "permalink_aliases": null,
+                  "api_path": "people/christine-dodson",
+                  "web_path": "person/christine-dodson",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/christine-dodson",
+                  "first_name": "Christine",
+                  "last_name": "Dodson",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1456469872/apakqqpxieytm9ddfnza.png",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 174100,
+                  "created_at": 1456469893,
+                  "updated_at": 1518479400
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "d16ab2f71c8a06a8582e1e46e3f8acb7",
+            "properties": {
+              "title": "CEO & Co-Founder",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1456469826,
+              "updated_at": 1518485731
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "b81b6bad83b1ac65ca3609d628710a12",
+                "properties": {
+                  "permalink": "sascha-maye",
+                  "permalink_aliases": null,
+                  "api_path": "people/sascha-maye",
+                  "web_path": "person/sascha-maye",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/sascha-maye",
+                  "first_name": "Sascha",
+                  "last_name": "Mayer",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": "Sascha is Co-founder and CEO of Mamava, Inc.  Sascha started with Solidarity of Unbridled Labour (Mamava’s birthplace) in 1995. She helped to develop the Living Brand®, Solidarity’s philosophy on brands and brand creation. Before joining Solidarity, Sascha worked for the office of Congressman (now Senator) Bernard Sanders (I-Vt.), where she served as staff assistant and then assistant press secretary. \r\n\r\nMamava designs solutions for nursing mamas on the go. Mama founded, women owned, and B Certified, Mamava is the leading expert in lactation spaces, integrating the biological, physical, and emotional needs of nursing mamas into both our Mamava lactation suites and our mobile app. Mamava combines beautiful design with smart lock technology to serve the needs of the twenty-first century mama on the go, revolutionizing the breastfeeding experience for traveling and working mamas, making it more optimistic, realistic, and accessible. A category creator, Mamava is working to ensure breastfeeding is a right, not a privilege.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1456469815/mbpdl2vollnisos6nkog.png",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 169661,
+                  "created_at": 1456469826,
+                  "updated_at": 1518479704
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "367e210ab248e02d8493baa39a3110d6",
+            "properties": {
+              "title": "CFO",
+              "started_on": "2017-01-01",
+              "started_on_trust_code": 4,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1493752952,
+              "updated_at": 1518484971
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "a87d713ba41e09962ca6fb774f152830",
+                "properties": {
+                  "permalink": "brian-wannop",
+                  "permalink_aliases": null,
+                  "api_path": "people/brian-wannop",
+                  "web_path": "person/brian-wannop",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/brian-wannop",
+                  "first_name": "Brian",
+                  "last_name": "Wannop",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1493752922/z5xnxoer9cxdn6b5htsm.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 236754,
+                  "created_at": 1493752952,
+                  "updated_at": 1518479843
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "e3abdaeec5c7b734186a8c43700716a2",
+            "properties": {
+              "title": "Executive Vice President",
+              "started_on": "2016-04-01",
+              "started_on_trust_code": 6,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1493748738,
+              "updated_at": 1518485828
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "066b5ef2ecab2397ec83bfc106e4442f",
+                "properties": {
+                  "permalink": "nikkie-kent",
+                  "permalink_aliases": null,
+                  "api_path": "people/nikkie-kent",
+                  "web_path": "person/nikkie-kent",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/nikkie-kent",
+                  "first_name": "Nikkie",
+                  "last_name": "Kent",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1493748693/tujxr3tbftkta9iqye9j.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 525044,
+                  "created_at": 1493748739,
+                  "updated_at": 1518479201
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "23e0c9ae8eafccc3468e7e03f3de0b3d",
+            "properties": {
+              "title": "Sales Manager",
+              "started_on": "2016-01-01",
+              "started_on_trust_code": 4,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1493748914,
+              "updated_at": 1518484878
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "343a926043b08ebdc736d89c74e9f6ec",
+                "properties": {
+                  "permalink": "phyllis-stambolian",
+                  "permalink_aliases": null,
+                  "api_path": "people/phyllis-stambolian",
+                  "web_path": "person/phyllis-stambolian",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/phyllis-stambolian",
+                  "first_name": "Phyllis",
+                  "last_name": "Stambolian",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1493748865/mohp40mcaljjk0eempgj.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 679612,
+                  "created_at": 1493748914,
+                  "updated_at": 1518479284
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "0e301275aad95bd3d36fc98be589cb6e",
+            "properties": {
+              "title": "Sales & Marketing Project Manager",
+              "started_on": "2015-01-01",
+              "started_on_trust_code": 4,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1493749472,
+              "updated_at": 1518484772
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "a5c8745896180df1ce298352329d4fac",
+                "properties": {
+                  "permalink": "amy-pearl",
+                  "permalink_aliases": null,
+                  "api_path": "people/amy-pearl",
+                  "web_path": "person/amy-pearl",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/amy-pearl",
+                  "first_name": "Amy",
+                  "last_name": "Pearl",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1493749437/lumlquxyr5owlzgvviuk.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 669691,
+                  "created_at": 1493749472,
+                  "updated_at": 1518479145
+                }
+              }
+            }
+          }
+        ]
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 17,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mamava/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "0956718a82f2709cac42ba858684f942",
+            "properties": {
+              "title": "Sales Account Strategist",
+              "started_on": "2016-01-01",
+              "started_on_trust_code": 4,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1493749390,
+              "updated_at": 1518484751
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "03df08a060907c507855c3cf563f8b34",
+                "properties": {
+                  "permalink": "annie-ode",
+                  "permalink_aliases": null,
+                  "api_path": "people/annie-ode",
+                  "web_path": "person/annie-ode",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/annie-ode",
+                  "first_name": "Annie",
+                  "last_name": "Ode",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1493749341/grramaw5ruttoth6ezzb.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 496756,
+                  "created_at": 1493749390,
+                  "updated_at": 1518478502
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "09c0156118db7ef99a411efa93d7b178",
+            "properties": {
+              "title": "Major Accounts Executive",
+              "started_on": "2017-01-01",
+              "started_on_trust_code": 4,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1493749707,
+              "updated_at": 1518484753
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "d8f1fb1a9480293dac92091c712d7e6e",
+                "properties": {
+                  "permalink": "beth-sengle",
+                  "permalink_aliases": null,
+                  "api_path": "people/beth-sengle",
+                  "web_path": "person/beth-sengle",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/beth-sengle",
+                  "first_name": "Beth",
+                  "last_name": "Sengle",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1493749754/fnr5vzsaerix8x5mjarp.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 663041,
+                  "created_at": 1493749707,
+                  "updated_at": 1518479292
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "0e301275aad95bd3d36fc98be589cb6e",
+            "properties": {
+              "title": "Sales & Marketing Project Manager",
+              "started_on": "2015-01-01",
+              "started_on_trust_code": 4,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1493749472,
+              "updated_at": 1518484772
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "a5c8745896180df1ce298352329d4fac",
+                "properties": {
+                  "permalink": "amy-pearl",
+                  "permalink_aliases": null,
+                  "api_path": "people/amy-pearl",
+                  "web_path": "person/amy-pearl",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/amy-pearl",
+                  "first_name": "Amy",
+                  "last_name": "Pearl",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1493749437/lumlquxyr5owlzgvviuk.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 669691,
+                  "created_at": 1493749472,
+                  "updated_at": 1518479145
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "23e0c9ae8eafccc3468e7e03f3de0b3d",
+            "properties": {
+              "title": "Sales Manager",
+              "started_on": "2016-01-01",
+              "started_on_trust_code": 4,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1493748914,
+              "updated_at": 1518484878
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "343a926043b08ebdc736d89c74e9f6ec",
+                "properties": {
+                  "permalink": "phyllis-stambolian",
+                  "permalink_aliases": null,
+                  "api_path": "people/phyllis-stambolian",
+                  "web_path": "person/phyllis-stambolian",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/phyllis-stambolian",
+                  "first_name": "Phyllis",
+                  "last_name": "Stambolian",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1493748865/mohp40mcaljjk0eempgj.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 679612,
+                  "created_at": 1493748914,
+                  "updated_at": 1518479284
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "2718159f598a2994c331a25f57ba53b9",
+            "properties": {
+              "title": "Director of Marketing & Digital Products",
+              "started_on": "2016-01-01",
+              "started_on_trust_code": 4,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1493750233,
+              "updated_at": 1518484892
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "789326535477cadbcaf37d095d1274a7",
+                "properties": {
+                  "permalink": "rebecca-roose",
+                  "permalink_aliases": null,
+                  "api_path": "people/rebecca-roose",
+                  "web_path": "person/rebecca-roose",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/rebecca-roose",
+                  "first_name": "Rebecca",
+                  "last_name": "Roose",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1493750189/hvsfpbwcv1dpyexz9ibm.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 446337,
+                  "created_at": 1493750233,
+                  "updated_at": 1518478529
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "367e210ab248e02d8493baa39a3110d6",
+            "properties": {
+              "title": "CFO",
+              "started_on": "2017-01-01",
+              "started_on_trust_code": 4,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1493752952,
+              "updated_at": 1518484971
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "a87d713ba41e09962ca6fb774f152830",
+                "properties": {
+                  "permalink": "brian-wannop",
+                  "permalink_aliases": null,
+                  "api_path": "people/brian-wannop",
+                  "web_path": "person/brian-wannop",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/brian-wannop",
+                  "first_name": "Brian",
+                  "last_name": "Wannop",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1493752922/z5xnxoer9cxdn6b5htsm.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 236754,
+                  "created_at": 1493752952,
+                  "updated_at": 1518479843
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "39aba6a3fbb461080ca872bcfcc3b614",
+            "properties": {
+              "title": "Social & Content Manager",
+              "started_on": "2017-01-01",
+              "started_on_trust_code": 4,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1493750784,
+              "updated_at": 1518484985
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "e0b8aad432684d5aa82a8b6ef55b2971",
+                "properties": {
+                  "permalink": "megan-fulwiler",
+                  "permalink_aliases": null,
+                  "api_path": "people/megan-fulwiler",
+                  "web_path": "person/megan-fulwiler",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/megan-fulwiler",
+                  "first_name": "Megan",
+                  "last_name": "Fulwiler",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1493750584/s53slsatulfngoi4zru8.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 575471,
+                  "created_at": 1493750784,
+                  "updated_at": 1518478837
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "3e4ba6146e7c6823c6ee6fe370774081",
+            "properties": {
+              "title": "Major Accounts Executive - Airports",
+              "started_on": "2016-01-01",
+              "started_on_trust_code": 4,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1493749160,
+              "updated_at": 1518485006
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "66610c0dbd242799063389207e6cc018",
+                "properties": {
+                  "permalink": "sam-hart",
+                  "permalink_aliases": null,
+                  "api_path": "people/sam-hart",
+                  "web_path": "person/sam-hart",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/sam-hart",
+                  "first_name": "Sam",
+                  "last_name": "Hart",
+                  "gender": null,
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1493749129/hwb7zt5nzmmjj6mxbwjm.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 272527,
+                  "created_at": 1493749160,
+                  "updated_at": 1518477507
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "5184ce53d250a259fcfa9ed72cc7ab36",
+            "properties": {
+              "title": "Major Accounts Executive",
+              "started_on": "2017-01-01",
+              "started_on_trust_code": 4,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1493749086,
+              "updated_at": 1518485100
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "112ce71a8694e861db48b5226e33024b",
+                "properties": {
+                  "permalink": "leah-boswell",
+                  "permalink_aliases": null,
+                  "api_path": "people/leah-boswell",
+                  "web_path": "person/leah-boswell",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/leah-boswell",
+                  "first_name": "Leah",
+                  "last_name": "Boswell",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1493749061/dp8ju9dyjb5qmarc5exf.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 607431,
+                  "created_at": 1493749086,
+                  "updated_at": 1518478749
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "746d735add7b6bd65e479da6afaa6183",
+            "properties": {
+              "title": "COO & Co-Founder",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1456469893,
+              "updated_at": 1518485262
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "78de13735ce521685ffa846e1939e1a1",
+                "properties": {
+                  "permalink": "christine-dodson",
+                  "permalink_aliases": null,
+                  "api_path": "people/christine-dodson",
+                  "web_path": "person/christine-dodson",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/christine-dodson",
+                  "first_name": "Christine",
+                  "last_name": "Dodson",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1456469872/apakqqpxieytm9ddfnza.png",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 174100,
+                  "created_at": 1456469893,
+                  "updated_at": 1518479400
+                }
+              }
+            }
+          }
+        ]
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mamava/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "df2fcedb1ed4ce24d407b6a2af8f2f61",
+            "properties": {
+              "title": "Public Relations and Social Media Intern",
+              "started_on": "2014-01-01",
+              "started_on_trust_code": 6,
+              "ended_on": null,
+              "ended_on_trust_code": 0,
+              "is_current": false,
+              "job_type": "employee",
+              "created_at": 1456900068,
+              "updated_at": 1518485806
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "3a837e5e23f4d780616f6b5fd1787c51",
+                "properties": {
+                  "permalink": "chloe-elliott",
+                  "permalink_aliases": null,
+                  "api_path": "people/chloe-elliott",
+                  "web_path": "person/chloe-elliott",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/chloe-elliott",
+                  "first_name": "Chloe",
+                  "last_name": "Elliott",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1456900046/xcsfiiyyrijprhrlabfn.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 709380,
+                  "created_at": 1456900068,
+                  "updated_at": 1518479484
+                }
+              }
+            }
+          }
+        ]
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mamava/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "652aeee5581994f55b86086b43fc12cf",
+            "properties": {
+              "title": "Consulting CFO",
+              "started_on": "2014-01-01",
+              "started_on_trust_code": 4,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "board_member",
+              "created_at": 1493747979,
+              "updated_at": 1518485195
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "5e52e6f677c2e887dabec37d5057891b",
+                "properties": {
+                  "permalink": "janice-shade",
+                  "permalink_aliases": null,
+                  "api_path": "people/janice-shade",
+                  "web_path": "person/janice-shade",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/janice-shade",
+                  "first_name": "Janice",
+                  "last_name": "Shade",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1456900000/xle4k2x1s9rcelvlm8sy.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 711027,
+                  "created_at": 1456900021,
+                  "updated_at": 1518479881
+                }
+              }
+            }
+          }
+        ]
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mamava/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "uuid": "1ca29347637954e2364617c9e1c60434",
+            "properties": {
+              "permalink": "freshtracks-capital",
+              "permalink_aliases": null,
+              "api_path": "organizations/freshtracks-capital",
+              "web_path": "organization/freshtracks-capital",
+              "api_url": "https://api.crunchbase.com/v3.1/organizations/freshtracks-capital",
+              "name": "FreshTracks Capital",
+              "also_known_as": null,
+              "short_description": "FreshTracks is an early stage venture capital firm currently investing out of its 2016 vintage FreshTracks IV Fund.",
+              "description": "FreshTracks is a seed & early stage venture capital firm focused on financing businesses in Vermont and surrounding regions. The firm was founded in 2000, and is currently investing out of its 2016 vintage FreshTracks IV Fund, which is managed by co-founder Cairn Cross, T.J. Whalen & Lee Bouyea.  FreshTracks’ expertise, networks, resources and capital support innovative businesses through multiple rounds of financing and stages of growth.",
+              "profile_image_url": "http://public.crunchbase.com/t_api_images/v1397179607/b7430160e4e9bc6477644ed77bd96dd8.gif",
+              "primary_role": "investor",
+              "role_company": false,
+              "role_investor": true,
+              "role_group": false,
+              "role_school": false,
+              "investor_type": [
+                "venture_capital"
+              ],
+              "founded_on": "2000-01-01",
+              "founded_on_trust_code": 7,
+              "is_closed": false,
+              "closed_on": null,
+              "closed_on_trust_code": null,
+              "num_employees_min": null,
+              "num_employees_max": null,
+              "stock_exchange": null,
+              "stock_symbol": null,
+              "total_funding_usd": 0,
+              "number_of_investments": 52,
+              "homepage_url": "http://www.freshtrackscap.com",
+              "contact_email": "hkillary@freshtrackscap.com",
+              "phone_number": "(802)923-1500",
+              "rank": 101396,
+              "created_at": 1228252602,
+              "updated_at": 1540591983
+            }
+          }
+        ]
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mamava/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mamava/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mamava/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "5ec9f174326bc6a449d6f8d90132e745",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "47 Maple Street",
+            "street_2": "Suite 110",
+            "postal_code": "05401",
+            "city": "Burlington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1456469575,
+            "updated_at": 1518483756
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mamava/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "5ec9f174326bc6a449d6f8d90132e745",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "47 Maple Street",
+            "street_2": "Suite 110",
+            "postal_code": "05401",
+            "city": "Burlington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1456469575,
+            "updated_at": 1518483756
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mamava/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mamava/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "15c8defa8baee5471329e2365bb9bb51",
+            "properties": {
+              "name": "Parenting",
+              "web_path": "category/parenting/15c8defa8baee5471329e2365bb9bb51",
+              "category_groups": [
+                "Community and Lifestyle"
+              ],
+              "created_at": 1397980727,
+              "updated_at": 1534294628
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "2df4b8215cd541f75a0e6fc0feab2664",
+            "properties": {
+              "name": "Service Industry",
+              "web_path": "category/service-industry/2df4b8215cd541f75a0e6fc0feab2664",
+              "category_groups": null,
+              "created_at": 1457032202,
+              "updated_at": 1518483537
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "f6de03219c3ecbab7a67a018375bbb4e",
+            "properties": {
+              "name": "Child Care",
+              "web_path": "category/child-care/f6de03219c3ecbab7a67a018375bbb4e",
+              "category_groups": [
+                "Health Care"
+              ],
+              "created_at": 1397980727,
+              "updated_at": 1518483551
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mamava/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mamava/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mamava/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mamava/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mamava/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": [
+          {
+            "type": "FundingRound",
+            "uuid": "3de687cd3d1d47cfaf0a12f7c023ad25",
+            "properties": {
+              "permalink": "3de687cd3d1d47cfaf0a12f7c023ad25",
+              "api_path": "funding-rounds/3de687cd3d1d47cfaf0a12f7c023ad25",
+              "web_path": "funding-round/3de687cd3d1d47cfaf0a12f7c023ad25",
+              "api_url": "https://api.crunchbase.com/v3.1/funding-rounds/3de687cd3d1d47cfaf0a12f7c023ad25",
+              "funding_type": "venture",
+              "series": null,
+              "series_qualifier": null,
+              "announced_on": "2018-03-20",
+              "announced_on_trust_code": 7,
+              "closed_on": null,
+              "closed_on_trust_code": null,
+              "money_raised": 1377256,
+              "money_raised_currency_code": "USD",
+              "money_raised_usd": 1377256,
+              "target_money_raised": null,
+              "target_money_raised_currency_code": null,
+              "target_money_raised_usd": null,
+              "pre_money_valuation": null,
+              "pre_money_valuation_currency_code": null,
+              "pre_money_valuation_usd": null,
+              "rank": 23042,
+              "created_at": 1535625462,
+              "updated_at": 1535625462
+            }
+          },
+          {
+            "type": "FundingRound",
+            "uuid": "48cef327c391994d0c7235acaac5c326",
+            "properties": {
+              "permalink": "48cef327c391994d0c7235acaac5c326",
+              "api_path": "funding-rounds/48cef327c391994d0c7235acaac5c326",
+              "web_path": "funding-round/48cef327c391994d0c7235acaac5c326",
+              "api_url": "https://api.crunchbase.com/v3.1/funding-rounds/48cef327c391994d0c7235acaac5c326",
+              "funding_type": "debt_financing",
+              "series": null,
+              "series_qualifier": null,
+              "announced_on": "2016-10-24",
+              "announced_on_trust_code": 7,
+              "closed_on": null,
+              "closed_on_trust_code": null,
+              "money_raised": null,
+              "money_raised_currency_code": null,
+              "money_raised_usd": null,
+              "target_money_raised": null,
+              "target_money_raised_currency_code": null,
+              "target_money_raised_usd": null,
+              "pre_money_valuation": null,
+              "pre_money_valuation_currency_code": null,
+              "pre_money_valuation_usd": null,
+              "rank": 122466,
+              "created_at": 1491633238,
+              "updated_at": 1518479073
+            },
+            "relationships": {
+              "investments": [
+                {
+                  "type": "Investment",
+                  "uuid": "c0ac19be161d595898cbdd5bb587436c",
+                  "properties": {
+                    "money_invested": 350000,
+                    "money_invested_currency_code": "USD",
+                    "money_invested_usd": 350000,
+                    "is_lead_investor": false,
+                    "announced_on": "2016-10-24",
+                    "announced_on_trust_code": 7,
+                    "created_at": 1491633268,
+                    "updated_at": 1518483324
+                  },
+                  "relationships": {
+                    "investors": {
+                      "type": "Organization",
+                      "uuid": "1ca29347637954e2364617c9e1c60434",
+                      "properties": {
+                        "permalink": "freshtracks-capital",
+                        "permalink_aliases": null,
+                        "api_path": "organizations/freshtracks-capital",
+                        "web_path": "organization/freshtracks-capital",
+                        "api_url": "https://api.crunchbase.com/v3.1/organizations/freshtracks-capital",
+                        "name": "FreshTracks Capital",
+                        "also_known_as": null,
+                        "short_description": "FreshTracks is an early stage venture capital firm currently investing out of its 2016 vintage FreshTracks IV Fund.",
+                        "description": "FreshTracks is a seed & early stage venture capital firm focused on financing businesses in Vermont and surrounding regions. The firm was founded in 2000, and is currently investing out of its 2016 vintage FreshTracks IV Fund, which is managed by co-founder Cairn Cross, T.J. Whalen & Lee Bouyea.  FreshTracks’ expertise, networks, resources and capital support innovative businesses through multiple rounds of financing and stages of growth.",
+                        "profile_image_url": "http://public.crunchbase.com/t_api_images/v1397179607/b7430160e4e9bc6477644ed77bd96dd8.gif",
+                        "primary_role": "investor",
+                        "role_company": false,
+                        "role_investor": true,
+                        "role_group": false,
+                        "role_school": false,
+                        "investor_type": [
+                          "venture_capital"
+                        ],
+                        "founded_on": "2000-01-01",
+                        "founded_on_trust_code": 7,
+                        "is_closed": false,
+                        "closed_on": null,
+                        "closed_on_trust_code": null,
+                        "num_employees_min": null,
+                        "num_employees_max": null,
+                        "stock_exchange": null,
+                        "stock_symbol": null,
+                        "total_funding_usd": 0,
+                        "number_of_investments": 52,
+                        "homepage_url": "http://www.freshtrackscap.com",
+                        "contact_email": "hkillary@freshtrackscap.com",
+                        "phone_number": "(802)923-1500",
+                        "rank": 101396,
+                        "created_at": 1228252602,
+                        "updated_at": 1540591983
+                      }
+                    },
+                    "partners": []
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mamava/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mamava/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mamava/acquired_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mamava/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mamava/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mamava/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "ed2a1cb8add959c65a25e3a45cecf97d",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "http://mamava.com/",
+              "created_at": 1456469444,
+              "updated_at": 1540593946
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "ed2a1cb8add959c65a25e3a45cecf97d",
+            "properties": {
+              "website_type": "facebook",
+              "website_name": "facebook",
+              "url": "https://www.facebook.com/Mamava-139698716057442/",
+              "created_at": 1456469444,
+              "updated_at": 1540593946
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "ed2a1cb8add959c65a25e3a45cecf97d",
+            "properties": {
+              "website_type": "twitter",
+              "website_name": "twitter",
+              "url": "https://twitter.com/mamava",
+              "created_at": 1456469444,
+              "updated_at": 1540593946
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "ed2a1cb8add959c65a25e3a45cecf97d",
+            "properties": {
+              "website_type": "linkedin",
+              "website_name": "linkedin",
+              "url": "https://www.linkedin.com/company/mamava-llc",
+              "created_at": 1456469444,
+              "updated_at": 1540593946
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mamava/images",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Image",
+            "uuid": "ed2a1cb8add959c65a25e3a45cecf97d",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/v1456469429/eiwjzv1cxsje28wsvara.png",
+              "asset_url": "http://public.crunchbase.com/t_api_images/v1456469429/eiwjzv1cxsje28wsvara.png",
+              "content_type": "png",
+              "height": null,
+              "width": null,
+              "filesize": null,
+              "created_at": 1456469444,
+              "updated_at": 1540593946
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mamava/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 14,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mamava/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": [
+          {
+            "type": "News",
+            "uuid": "7700392a346d4e6995db7d92278967a2",
+            "properties": {
+              "title": "Union Station opens private lactation space for pumping, breastfeeding mothers",
+              "author": "Yvonne Kim",
+              "posted_on": "2018-06-18",
+              "posted_on_trust_code": 7,
+              "url": "https://chicago.suntimes.com/news/union-station-opens-private-lactation-space-for-pumping-breastfeeding-mothers/",
+              "created_at": 1529449698,
+              "updated_at": 1529449698
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "862574fcd6c74902b8c2dedaf97a5d47",
+            "properties": {
+              "title": "BBC Gets Huge Bump In Google News Search In UK",
+              "author": "Sarah Mahoney",
+              "posted_on": "2018-05-11",
+              "posted_on_trust_code": 7,
+              "url": "https://www.mediapost.com/publications/article/319101/bbc-gets-huge-bump-in-google-news-search-in-uk.html?edition=109018",
+              "created_at": 1526205327,
+              "updated_at": 1526205327
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "dc5fbe5136144af88aeef4976c8a1d6d",
+            "properties": {
+              "title": "For Mother's Day, Zappos Goes Comic With Breastfeeding",
+              "author": "Sarah Mahoney",
+              "posted_on": "2018-05-10",
+              "posted_on_trust_code": 7,
+              "url": "https://www.mediapost.com/publications/article/319064/for-mothers-day-zappos-goes-comic-with-breastfee.html",
+              "created_at": 1526205361,
+              "updated_at": 1526205361
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "1d9f00a4acd54ed18d5360370da92aa2",
+            "properties": {
+              "title": "Philly airport adds breastfeeding 'pod' for moms on the go",
+              "author": "Andrew Maykuth",
+              "posted_on": "2018-03-28",
+              "posted_on_trust_code": 7,
+              "url": "http://www.philly.com/philly/business/phl-philadelphia-airport-mamava-lactation-suite-breastfeeding-pumping-20180328.html",
+              "created_at": 1522374762,
+              "updated_at": 1522374762
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "7e7c4f5f28af42f18969dc9cde6fbd49",
+            "properties": {
+              "title": "Destiny USA installs privacy pods for breastfeeding mothers",
+              "author": "Sarah Moses",
+              "posted_on": "2018-01-30",
+              "posted_on_trust_code": 7,
+              "url": "http://www.syracuse.com/health/index.ssf/2018/01/destiny_usa_installs_privacy_pods_for_breastfeeding_mothers.html",
+              "created_at": 1517415771,
+              "updated_at": 1518481396
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "62480e5682664d469e1a55366c260dce",
+            "properties": {
+              "title": "Wells Fargo Center now has a breastfeeding 'pod' - and there's an app for that",
+              "author": "Anna Orso",
+              "posted_on": "2017-12-21",
+              "posted_on_trust_code": 7,
+              "url": "http://www.philly.com/philly/news/wells-fargo-center-mamava-pump-station-20171221.html",
+              "created_at": 1513899674,
+              "updated_at": 1518480427
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "0ee6aac5290f27bd81ff8c9effef1b85",
+            "properties": {
+              "title": "Breastfeeding before you board just got easier at Miami airport",
+              "author": "Chabeli Herrera",
+              "posted_on": "2016-09-01",
+              "posted_on_trust_code": 7,
+              "url": "http://www.miamiherald.com/news/business/article99343432.html",
+              "created_at": 1493751757,
+              "updated_at": 1518486573
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "222afdd4aa839aa41d3c18fcac036897",
+            "properties": {
+              "title": "Twitter Is Trying to Become TV—But So Is Everyone Else",
+              "author": "Gwen Moran",
+              "posted_on": "2016-01-08",
+              "posted_on_trust_code": 7,
+              "url": "http://fortune.com/2016/01/08/nfl-nursing-moms/",
+              "created_at": 1493751434,
+              "updated_at": 1518486958
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "83a663fedc3d4c53b0d2cdb53806dea8",
+            "properties": {
+              "title": "How 1 NFL Employee Convinced This Team to Install Breastfeeding \"Pods\" in Their Stadium",
+              "author": "Megan Friedman",
+              "posted_on": "2015-09-23",
+              "posted_on_trust_code": 7,
+              "url": "http://www.cosmopolitan.com/health-fitness/news/a46680/minnesota-vikings-mamava-lactation-pods/",
+              "created_at": 1493751805,
+              "updated_at": 1518470296
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "a70cef638e4d2503dfac41ba259cdfcd",
+            "properties": {
+              "title": "Vikings to install lactation suites for nursing mothers at stadium",
+              "author": "Ben Goessling ESPN Staff Writer",
+              "posted_on": "2015-09-22",
+              "posted_on_trust_code": 7,
+              "url": "http://www.espn.com/nfl/story/_/id/13719500/minnesota-vikings-install-lactation-suites-nursing-mothers-stadium",
+              "created_at": 1493751842,
+              "updated_at": 1518471135
+            }
+          }
+        ]
+      }
+    }
+  }
+}

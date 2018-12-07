@@ -23,18 +23,17 @@
 
 #grid-container {
   display: grid;
-  height: 1000px;
   width: 100%;
   justify-content: center;
   position: fixed;
-  grid-template-columns: 400px auto;
+  grid-template-columns: 400px 2fr;
   grid-template-areas:
     "list map";
 }
 
 #startup-list {
   grid-area: list;
-  height: 600px;
+  height: 100vh;
   border-right: solid 1px gray;
   padding: 10px;
   margin-top: 50px;
@@ -43,8 +42,9 @@
 
 #startup-map {
   grid-area: map;
-  height: 600px;
+  height: 50%;
   margin-top: 50px;
   padding: 0px;
   overflow: auto;
+  border-bottom: gray solid 10px;
 }

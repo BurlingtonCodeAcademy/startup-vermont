@@ -1,0 +1,484 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "83e92e240232a7b6ed3147f733f444ae",
+    "properties": {
+      "permalink": "heritage-protection-group",
+      "permalink_aliases": null,
+      "api_path": "organizations/heritage-protection-group",
+      "web_path": "organization/heritage-protection-group",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/heritage-protection-group",
+      "name": "Heritage Protection Group",
+      "also_known_as": null,
+      "short_description": "Heritage Protection Group is an international consortium of experienced engineers and consultants who focus on fire protection, life safety.",
+      "description": "Heritage Protection Group is an international consortium of experienced engineers and consultants who focus on fire protection, life safety and emergency planning solutions for historic buildings, archives, libraries and museums. The group has extensive experience identifying and implementing protection approaches systems-and-procedures that minimize the impact on historic fabric, aesthetics and site functions. Heritage Protection Group is a member of the Protection Alliance.",
+      "profile_image_url": "http://public.crunchbase.com/t_api_images/v1502539588/sf5whrb6a3enlwzwjijv.png",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": null,
+      "founded_on_trust_code": null,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": null,
+      "num_employees_max": null,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": "http://www.hpg-vt.com",
+      "contact_email": "nick@hpg-vt.com",
+      "phone_number": "1(802)388-1064",
+      "rank": 631690,
+      "created_at": 1502539624,
+      "updated_at": 1540592720
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/heritage-protection-group/primary_image",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Image",
+          "uuid": "83e92e240232a7b6ed3147f733f444ae",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/v1502539588/sf5whrb6a3enlwzwjijv.png",
+            "asset_url": "http://public.crunchbase.com/t_api_images/v1502539588/sf5whrb6a3enlwzwjijv.png",
+            "content_type": "png",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1502539624,
+            "updated_at": 1540592720
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/heritage-protection-group/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/heritage-protection-group/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "abd145f57d40bc2ba2c4c77358f5fda3",
+            "properties": {
+              "title": "Director",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1502539623,
+              "updated_at": 1518485544
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "574a883c015105e9d2231000c6320444",
+                "properties": {
+                  "permalink": "nick-artim",
+                  "permalink_aliases": null,
+                  "api_path": "people/nick-artim",
+                  "web_path": "person/nick-artim",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/nick-artim",
+                  "first_name": "Nick",
+                  "last_name": "Artim",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Artim currently serves as the director of the Heritage Protection Group of the Fire Safety Network, a Middlebury, Vermont-based international consulting and fire protection engineering group that specializes in heritage protection. His project experience has included sites in the United States, Canada, United Kingdom, Bermuda and Ireland. His clients have included several National Park Service National Historic sites, the National Libraries of Canada, Scotland and Ireland, the Scottish Supreme Court, the Canadian Museum of Civilization, the Bermuda Archives, Hearst San Simeon State Historic Site, California, and the Vermont State Capitol. Nick is a r egistered fire protection engineer and has a formal education consisting of an Associates Degree in Fire Protection Technology from the State U niversity of New York and a Bachelor of Sciences Degree in Fire Protection from the University of Maryland. He serves as a principal committee member on the National Fire Protection Association Committee on the Protection of Cultural Resources which produces document #909, Standard for the Protection of Cultural Resources. He is the past task group chairman on NFPA #914, Protection of Historic Buildings. He is also responsible for fire protection educational services with the International Foundation for Cultural Property Protection. He has authored a number of fire protection technical and serves as an instructor for several fire protection educational seminars. He serves as a seminar course instructor at Simmons College (Boston) School of Graduate Library Studies, and the University of Vermont Graduate Department of Historic Preservation.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1502539228/p8ylcwddxcglpvtfom1m.png",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 501620,
+                  "created_at": 1502539241,
+                  "updated_at": 1518478986
+                }
+              }
+            }
+          }
+        ]
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/heritage-protection-group/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "abd145f57d40bc2ba2c4c77358f5fda3",
+            "properties": {
+              "title": "Director",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1502539623,
+              "updated_at": 1518485544
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "574a883c015105e9d2231000c6320444",
+                "properties": {
+                  "permalink": "nick-artim",
+                  "permalink_aliases": null,
+                  "api_path": "people/nick-artim",
+                  "web_path": "person/nick-artim",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/nick-artim",
+                  "first_name": "Nick",
+                  "last_name": "Artim",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Artim currently serves as the director of the Heritage Protection Group of the Fire Safety Network, a Middlebury, Vermont-based international consulting and fire protection engineering group that specializes in heritage protection. His project experience has included sites in the United States, Canada, United Kingdom, Bermuda and Ireland. His clients have included several National Park Service National Historic sites, the National Libraries of Canada, Scotland and Ireland, the Scottish Supreme Court, the Canadian Museum of Civilization, the Bermuda Archives, Hearst San Simeon State Historic Site, California, and the Vermont State Capitol. Nick is a r egistered fire protection engineer and has a formal education consisting of an Associates Degree in Fire Protection Technology from the State U niversity of New York and a Bachelor of Sciences Degree in Fire Protection from the University of Maryland. He serves as a principal committee member on the National Fire Protection Association Committee on the Protection of Cultural Resources which produces document #909, Standard for the Protection of Cultural Resources. He is the past task group chairman on NFPA #914, Protection of Historic Buildings. He is also responsible for fire protection educational services with the International Foundation for Cultural Property Protection. He has authored a number of fire protection technical and serves as an instructor for several fire protection educational seminars. He serves as a seminar course instructor at Simmons College (Boston) School of Graduate Library Studies, and the University of Vermont Graduate Department of Historic Preservation.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1502539228/p8ylcwddxcglpvtfom1m.png",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 501620,
+                  "created_at": 1502539241,
+                  "updated_at": 1518478986
+                }
+              }
+            }
+          }
+        ]
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/heritage-protection-group/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/heritage-protection-group/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/heritage-protection-group/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/heritage-protection-group/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/heritage-protection-group/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/heritage-protection-group/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "ec049884a7ec432b8bfbfdfe49de7e04",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "PO Box 895",
+            "street_2": null,
+            "postal_code": "05753",
+            "city": "Middlebury",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1502539663,
+            "updated_at": 1518484062
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/heritage-protection-group/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "ec049884a7ec432b8bfbfdfe49de7e04",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "PO Box 895",
+            "street_2": null,
+            "postal_code": "05753",
+            "city": "Middlebury",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1502539663,
+            "updated_at": 1518484062
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/heritage-protection-group/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/heritage-protection-group/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "dbca89faf0835438b4add3fdeceb78e7",
+            "properties": {
+              "name": "Information Technology",
+              "web_path": "category/information-technology/dbca89faf0835438b4add3fdeceb78e7",
+              "category_groups": [
+                "Information Technology"
+              ],
+              "created_at": 1397980726,
+              "updated_at": 1518483551
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/heritage-protection-group/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/heritage-protection-group/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/heritage-protection-group/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/heritage-protection-group/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/heritage-protection-group/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/heritage-protection-group/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/heritage-protection-group/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/heritage-protection-group/acquired_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/heritage-protection-group/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/heritage-protection-group/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/heritage-protection-group/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "83e92e240232a7b6ed3147f733f444ae",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "http://www.hpg-vt.com",
+              "created_at": 1502539624,
+              "updated_at": 1540592720
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "83e92e240232a7b6ed3147f733f444ae",
+            "properties": {
+              "website_type": "linkedin",
+              "website_name": "linkedin",
+              "url": "https://www.linkedin.com/company-beta/4595838/",
+              "created_at": 1502539624,
+              "updated_at": 1540592720
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/heritage-protection-group/images",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Image",
+            "uuid": "83e92e240232a7b6ed3147f733f444ae",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/v1502539588/sf5whrb6a3enlwzwjijv.png",
+              "asset_url": "http://public.crunchbase.com/t_api_images/v1502539588/sf5whrb6a3enlwzwjijv.png",
+              "content_type": "png",
+              "height": null,
+              "width": null,
+              "filesize": null,
+              "created_at": 1502539624,
+              "updated_at": 1540592720
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/heritage-protection-group/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/heritage-protection-group/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}

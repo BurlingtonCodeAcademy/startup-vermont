@@ -1,0 +1,411 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "011fb8052297e4a36b6ce44a32b3f4d1",
+    "properties": {
+      "permalink": "dufresne-henry",
+      "permalink_aliases": null,
+      "api_path": "organizations/dufresne-henry",
+      "web_path": "organization/dufresne-henry",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/dufresne-henry",
+      "name": "Dufresne-Henry",
+      "also_known_as": null,
+      "short_description": "Dufresne-Henry provides consulting, engineering, planning, environmental science, and landscape architecture services.",
+      "description": "Dufresne-Henry, Inc. provides consulting, engineering, planning, environmental science, and landscape architecture services for public and private clients in North America. It plans and develops public works projects, residential and commercial developments, educational and healthcare facilities, transportation systems, resort and recreational facilities, and industrial facilities.",
+      "profile_image_url": null,
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": "1955-01-01",
+      "founded_on_trust_code": 4,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": null,
+      "num_employees_max": null,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": null,
+      "contact_email": null,
+      "phone_number": "(802)886-2261",
+      "rank": 598255,
+      "created_at": 1496299495,
+      "updated_at": 1518482173
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/dufresne-henry/primary_image",
+          "sort_order": "not_ordered"
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/dufresne-henry/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/dufresne-henry/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": []
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/dufresne-henry/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/dufresne-henry/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/dufresne-henry/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/dufresne-henry/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/dufresne-henry/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/dufresne-henry/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/dufresne-henry/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "d78fcbc5f8806906eeecc657b318cb19",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "54 Route 106",
+            "street_2": null,
+            "postal_code": "05150",
+            "city": "North Springfield",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1496299548,
+            "updated_at": 1518484011
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/dufresne-henry/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "d78fcbc5f8806906eeecc657b318cb19",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "54 Route 106",
+            "street_2": null,
+            "postal_code": "05150",
+            "city": "North Springfield",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1496299548,
+            "updated_at": 1518484011
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/dufresne-henry/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/dufresne-henry/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "e4d83fbb33f0a6f01399a68245e8f8ac",
+            "properties": {
+              "name": "Construction",
+              "web_path": "category/construction/e4d83fbb33f0a6f01399a68245e8f8ac",
+              "category_groups": [
+                "Real Estate"
+              ],
+              "created_at": 1397980727,
+              "updated_at": 1518483551
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/dufresne-henry/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/dufresne-henry/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/dufresne-henry/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/dufresne-henry/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/dufresne-henry/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/dufresne-henry/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/dufresne-henry/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/dufresne-henry/acquired_by",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Acquisition",
+          "uuid": "106313c92d3a43ac4c2c23bdef3c3e8f",
+          "properties": {
+            "permalink": "106313c92d3a43ac4c2c23bdef3c3e8f",
+            "api_path": "acquisitions/106313c92d3a43ac4c2c23bdef3c3e8f",
+            "web_path": "acquisition/106313c92d3a43ac4c2c23bdef3c3e8f",
+            "api_url": "https://api.crunchbase.com/v3.1/acquisitions/106313c92d3a43ac4c2c23bdef3c3e8f",
+            "price": null,
+            "price_currency_code": null,
+            "price_usd": null,
+            "payment_type": null,
+            "acquisition_type": "acquisition",
+            "acquisition_status": "complete",
+            "disposition_of_acquired": "combined",
+            "announced_on": "2006-02-15",
+            "announced_on_trust_code": 7,
+            "completed_on": null,
+            "completed_on_trust_code": null,
+            "rank": 67788,
+            "created_at": 1496299623,
+            "updated_at": 1518479759
+          },
+          "relationships": {
+            "acquirer": {
+              "type": "Organization",
+              "uuid": "0f837dfe9ccd29fc8bc26fe96b6ff2f6",
+              "properties": {
+                "permalink": "stantec",
+                "permalink_aliases": null,
+                "api_path": "organizations/stantec",
+                "web_path": "organization/stantec",
+                "api_url": "https://api.crunchbase.com/v3.1/organizations/stantec",
+                "name": "Stantec",
+                "also_known_as": null,
+                "short_description": "Stantec provides professional consulting services in planning, engineering, architecture, interior design, landscape architecture,",
+                "description": "Stantec provides professional consulting services in planning, engineering, architecture, interior design, landscape architecture, surveying, environmental sciences, project management, and project economics for infrastructure and facilities projects. They support public and private sector clients in a diverse range of markets in the infrastructure and facilities sector at every stage, from initial concept and financial feasibility to project completion and beyond.\r\n\r\nThe Stantec community unites approximately 22,000 employees working in over 400 locations across six continents. Stantec collaborate across disciplines and industries to bring buildings, energy and resource, environmental, and infrastructure projects to life. Stantec work—engineering, architecture, interior design, landscape architecture, surveying, environmental sciences, project management, and project economics, from initial project concept and planning through design, construction, and commissioning—begins at the intersection of community, creativity, and client relationships. \r\n\r\nStantec local strength, knowledge, and relationships, coupled with our world-class expertise, have allowed us to go anywhere to meet our clients' needs in more creative and personalized ways. With a long-term commitment to the people and places we serve, Stantec has the unique ability to connect to projects on a personal level and advance the quality of life in communities across the globe. Stantec trades on the TSX and the NYSE under the symbol STN.",
+                "profile_image_url": "http://public.crunchbase.com/t_api_images/v1459334859/f38lxy1jxcmyntaple8r.png",
+                "primary_role": "company",
+                "role_company": true,
+                "role_investor": false,
+                "role_group": false,
+                "role_school": false,
+                "investor_type": null,
+                "founded_on": "1954-01-01",
+                "founded_on_trust_code": 4,
+                "is_closed": false,
+                "closed_on": null,
+                "closed_on_trust_code": null,
+                "num_employees_min": 10001,
+                "num_employees_max": 1000000,
+                "stock_exchange": "tsx",
+                "stock_symbol": "STN",
+                "total_funding_usd": 0,
+                "number_of_investments": 0,
+                "homepage_url": "http://www.stantec.com",
+                "contact_email": "media@stantec.com",
+                "phone_number": "(866)782-6832",
+                "rank": 83612,
+                "created_at": 1304713366,
+                "updated_at": 1540596509
+              }
+            }
+          }
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/dufresne-henry/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/dufresne-henry/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/dufresne-henry/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/dufresne-henry/images",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/dufresne-henry/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/dufresne-henry/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}

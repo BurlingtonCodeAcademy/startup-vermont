@@ -11,13 +11,13 @@ class Startup extends Component {
         <a href={this.props.website}><img src={this.props.logo_url}></img></a>
         <h1 className="startup-names">{this.props.name.toUpperCase()}</h1>
         <p>
-          <i><strong>{this.props.short_description.toLowerCase()}</strong></i>
+          <i>{this.props.short_description}</i>
           <br />
         </p>
-        <p>
-          {this.props.address.street_1}<br />
-          {this.props.address.street_2}<br />
-          {this.props.address.city}, Vermont
+        <p className="address-info">
+          {/*{this.props.address.street_1}<br />
+          {this.props.address.street_2}<br />*/}
+          {this.props.address.city}
           <br />
         </p>
         <p>

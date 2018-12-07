@@ -1,0 +1,525 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "9d29b09533509bc5a2b2afd88b050a8c",
+    "properties": {
+      "permalink": "vermont-creamery",
+      "permalink_aliases": null,
+      "api_path": "organizations/vermont-creamery",
+      "web_path": "organization/vermont-creamery",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/vermont-creamery",
+      "name": "Vermont Creamery",
+      "also_known_as": null,
+      "short_description": "Vermont Creamery one of the pioneers of the artisan cheese-making movement in the U.S",
+      "description": "Vermont Creamery is one of the pioneers of the artisan cheese-making movement in the U.S. Vermont Creamery has expanded over the years to employ 75 people and support more than 20 farms near its manufacturing plant in Websterville, Vt. Company officials said they promote sustainable agriculture and have won more than 100 national and international awards for their line of cheeses and other dairy products.",
+      "profile_image_url": "http://public.crunchbase.com/t_api_images/v1490955155/mopqfkfstvybeb3wv1on.jpg",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": "1984-01-01",
+      "founded_on_trust_code": 4,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": 101,
+      "num_employees_max": 250,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": "http://www.vermontcreamery.com/",
+      "contact_email": null,
+      "phone_number": "(802)479-9371",
+      "rank": 288050,
+      "created_at": 1490955220,
+      "updated_at": 1523964606
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-creamery/primary_image",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Image",
+          "uuid": "9d29b09533509bc5a2b2afd88b050a8c",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/v1490955155/mopqfkfstvybeb3wv1on.jpg",
+            "asset_url": "http://public.crunchbase.com/t_api_images/v1490955155/mopqfkfstvybeb3wv1on.jpg",
+            "content_type": "jpg",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1490955220,
+            "updated_at": 1523964606
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-creamery/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-creamery/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": []
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-creamery/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-creamery/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-creamery/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-creamery/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-creamery/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-creamery/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-creamery/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "ad1a7271f0db2736ba8603d71e3f260b",
+          "properties": {
+            "name": "HQ",
+            "street_1": "20 Pitman Road",
+            "street_2": null,
+            "postal_code": "05678",
+            "city": "Websterville",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1490955259,
+            "updated_at": 1518483929
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-creamery/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "ad1a7271f0db2736ba8603d71e3f260b",
+          "properties": {
+            "name": "HQ",
+            "street_1": "20 Pitman Road",
+            "street_2": null,
+            "postal_code": "05678",
+            "city": "Websterville",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1490955259,
+            "updated_at": 1518483929
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-creamery/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-creamery/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "14364faa63f90d457b6a7378113364a2",
+            "properties": {
+              "name": "Food and Beverage",
+              "web_path": "category/food-and-beverage/14364faa63f90d457b6a7378113364a2",
+              "category_groups": [
+                "Food and Beverage"
+              ],
+              "created_at": 1457032196,
+              "updated_at": 1518483533
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-creamery/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-creamery/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-creamery/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-creamery/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-creamery/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-creamery/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-creamery/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-creamery/acquired_by",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Acquisition",
+          "uuid": "c9aed528ca33f58b27c87ff79ca5b85a",
+          "properties": {
+            "permalink": "c9aed528ca33f58b27c87ff79ca5b85a",
+            "api_path": "acquisitions/c9aed528ca33f58b27c87ff79ca5b85a",
+            "web_path": "acquisition/c9aed528ca33f58b27c87ff79ca5b85a",
+            "api_url": "https://api.crunchbase.com/v3.1/acquisitions/c9aed528ca33f58b27c87ff79ca5b85a",
+            "price": null,
+            "price_currency_code": null,
+            "price_usd": null,
+            "payment_type": null,
+            "acquisition_type": "acquisition",
+            "acquisition_status": "pending",
+            "disposition_of_acquired": "subsidiary",
+            "announced_on": "2017-03-29",
+            "announced_on_trust_code": 7,
+            "completed_on": null,
+            "completed_on_trust_code": null,
+            "rank": 34720,
+            "created_at": 1490955631,
+            "updated_at": 1518482318
+          },
+          "relationships": {
+            "acquirer": {
+              "type": "Organization",
+              "uuid": "bfcb9e6a9a0a97f1a665e2132af03b1a",
+              "properties": {
+                "permalink": "land-o-lakes",
+                "permalink_aliases": null,
+                "api_path": "organizations/land-o-lakes",
+                "web_path": "organization/land-o-lakes",
+                "api_url": "https://api.crunchbase.com/v3.1/organizations/land-o-lakes",
+                "name": "Land O' Lakes",
+                "also_known_as": null,
+                "short_description": "Land O'Lakes is a member-owned, idea-driven agricultural cooperative that markets our products under a well known family of brands.",
+                "description": "Land O' Lakes Inc. is one of America's premiere member-owned cooperatives. They offer local cooperatives and agricultural producers across the nation an extensive line of agricultural supplies, as well as state-of-the-art production and business services. They also are a leading marketer of dairy-based food products for consumers, foodservice professionals and food manufacturers.",
+                "profile_image_url": "http://public.crunchbase.com/t_api_images/v1454929554/h1wlmphurx4wjvsu7nhz.png",
+                "primary_role": "company",
+                "role_company": true,
+                "role_investor": false,
+                "role_group": false,
+                "role_school": false,
+                "investor_type": null,
+                "founded_on": "1921-07-08",
+                "founded_on_trust_code": 7,
+                "is_closed": false,
+                "closed_on": null,
+                "closed_on_trust_code": null,
+                "num_employees_min": 10001,
+                "num_employees_max": 1000000,
+                "stock_exchange": null,
+                "stock_symbol": null,
+                "total_funding_usd": 0,
+                "number_of_investments": 0,
+                "homepage_url": "http://www.landolakesinc.com/",
+                "contact_email": "communications2@landolakes.com",
+                "phone_number": "+118003289680",
+                "rank": 90050,
+                "created_at": 1286911397,
+                "updated_at": 1530117939
+              }
+            }
+          }
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-creamery/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-creamery/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-creamery/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "9d29b09533509bc5a2b2afd88b050a8c",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "http://www.vermontcreamery.com/",
+              "created_at": 1490955220,
+              "updated_at": 1523964606
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "9d29b09533509bc5a2b2afd88b050a8c",
+            "properties": {
+              "website_type": "facebook",
+              "website_name": "facebook",
+              "url": "https://www.facebook.com/vermontcreamery",
+              "created_at": 1490955220,
+              "updated_at": 1523964606
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "9d29b09533509bc5a2b2afd88b050a8c",
+            "properties": {
+              "website_type": "twitter",
+              "website_name": "twitter",
+              "url": "https://twitter.com/VermontCreamery",
+              "created_at": 1490955220,
+              "updated_at": 1523964606
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "9d29b09533509bc5a2b2afd88b050a8c",
+            "properties": {
+              "website_type": "linkedin",
+              "website_name": "linkedin",
+              "url": "https://www.linkedin.com/company-beta/2312427/?pathWildcard=2312427",
+              "created_at": 1490955220,
+              "updated_at": 1523964606
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-creamery/images",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Image",
+            "uuid": "9d29b09533509bc5a2b2afd88b050a8c",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/v1490955155/mopqfkfstvybeb3wv1on.jpg",
+              "asset_url": "http://public.crunchbase.com/t_api_images/v1490955155/mopqfkfstvybeb3wv1on.jpg",
+              "content_type": "jpg",
+              "height": null,
+              "width": null,
+              "filesize": null,
+              "created_at": 1490955220,
+              "updated_at": 1523964606
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-creamery/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-creamery/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": [
+          {
+            "type": "News",
+            "uuid": "22c16b2a12cd41f78d86c6ad807ebd90",
+            "properties": {
+              "title": "Business people: Sunday, July 29",
+              "author": "Pioneer Press",
+              "posted_on": "2018-07-28",
+              "posted_on_trust_code": 7,
+              "url": "https://www.twincities.com/2018/07/28/business-people-sunday-july-29/",
+              "created_at": 1532857101,
+              "updated_at": 1532857101
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "06f01291f9f946048a60a0dfe8c2dc8a",
+            "properties": {
+              "title": "Colle McVoy Awarded Vermont Creamery AOR",
+              "author": "Larissa Faw",
+              "posted_on": "2018-07-12",
+              "posted_on_trust_code": 7,
+              "url": "https://www.mediapost.com/publications/article/322171/colle-mcvoy-awarded-vermont-creamery-aor.html",
+              "created_at": 1531657842,
+              "updated_at": 1531657842
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "046fe74e2d4d442199d0cc202ef3c951",
+            "properties": {
+              "title": "Vermont Creamery's Coupole Wins \"Best in Class\"--Ranks in Top 20 at World Championship Cheese Contest",
+              "author": "Vermont Creamery",
+              "posted_on": "2018-03-09",
+              "posted_on_trust_code": 7,
+              "url": "https://www.prnewswire.com/news-releases/vermont-creamerys-coupole-wins-best-in-classranks-in-top-20-at-world-championship-cheese-contest-300611540.html",
+              "created_at": 1520652977,
+              "updated_at": 1520652977
+            }
+          }
+        ]
+      }
+    }
+  }
+}

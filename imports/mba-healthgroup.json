@@ -1,0 +1,509 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "798d94fad572640340fd7e846944b05f",
+    "properties": {
+      "permalink": "mba-healthgroup",
+      "permalink_aliases": null,
+      "api_path": "organizations/mba-healthgroup",
+      "web_path": "organization/mba-healthgroup",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/mba-healthgroup",
+      "name": "MBA HealthGroup",
+      "also_known_as": null,
+      "short_description": "Revenue Cycle Management, Healthcare IT Products and Services",
+      "description": null,
+      "profile_image_url": null,
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": "1990-07-01",
+      "founded_on_trust_code": 7,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": 51,
+      "num_employees_max": 100,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": "http://www.mbahealthgroup.com",
+      "contact_email": null,
+      "phone_number": "8026608782",
+      "rank": 210687,
+      "created_at": 1450468592,
+      "updated_at": 1523964113
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mba-healthgroup/primary_image",
+          "sort_order": "not_ordered"
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mba-healthgroup/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mba-healthgroup/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "38cd56e84e3e9cc24148e294c07c6797",
+            "properties": {
+              "title": "President",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1450469321,
+              "updated_at": 1518484981
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "0b941189ac6b5c33f2bb202e9bbf6d2b",
+                "properties": {
+                  "permalink": "nate-bechtel",
+                  "permalink_aliases": null,
+                  "api_path": "people/nate-bechtel",
+                  "web_path": "person/nate-bechtel",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/nate-bechtel",
+                  "first_name": "Nate",
+                  "last_name": "Bechtel",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": null,
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 296090,
+                  "created_at": 1450468724,
+                  "updated_at": 1518478493
+                }
+              }
+            }
+          }
+        ]
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mba-healthgroup/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "38cd56e84e3e9cc24148e294c07c6797",
+            "properties": {
+              "title": "President",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1450469321,
+              "updated_at": 1518484981
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "0b941189ac6b5c33f2bb202e9bbf6d2b",
+                "properties": {
+                  "permalink": "nate-bechtel",
+                  "permalink_aliases": null,
+                  "api_path": "people/nate-bechtel",
+                  "web_path": "person/nate-bechtel",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/nate-bechtel",
+                  "first_name": "Nate",
+                  "last_name": "Bechtel",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": null,
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 296090,
+                  "created_at": 1450468724,
+                  "updated_at": 1518478493
+                }
+              }
+            }
+          }
+        ]
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mba-healthgroup/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "3b88cd23f61230b9524622c658a98255",
+            "properties": {
+              "title": "CEO",
+              "started_on": "2010-01-01",
+              "started_on_trust_code": 7,
+              "ended_on": null,
+              "ended_on_trust_code": 0,
+              "is_current": false,
+              "job_type": "employee",
+              "created_at": 1450469146,
+              "updated_at": 1518484994
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "cd94c1ff32eb666bccf8b9d6466e30a9",
+                "properties": {
+                  "permalink": "ethan-bechtel",
+                  "permalink_aliases": null,
+                  "api_path": "people/ethan-bechtel",
+                  "web_path": "person/ethan-bechtel",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/ethan-bechtel",
+                  "first_name": "Ethan",
+                  "last_name": "Bechtel",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1470750079/lzokxj9roo5um2ogkco9.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 77085,
+                  "created_at": 1450469147,
+                  "updated_at": 1518479790
+                }
+              }
+            }
+          }
+        ]
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mba-healthgroup/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mba-healthgroup/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mba-healthgroup/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mba-healthgroup/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mba-healthgroup/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "3f7208d866419a4e4c3d1970b00bd222",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "55 Community Drive",
+            "street_2": "Suite 201",
+            "postal_code": "05403",
+            "city": "South Burlington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1470689861,
+            "updated_at": 1518483695
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mba-healthgroup/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "3f7208d866419a4e4c3d1970b00bd222",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "55 Community Drive",
+            "street_2": "Suite 201",
+            "postal_code": "05403",
+            "city": "South Burlington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1470689861,
+            "updated_at": 1518483695
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mba-healthgroup/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mba-healthgroup/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "3f21415b57846be63722eb189190b7cd",
+            "properties": {
+              "name": "Health Care",
+              "web_path": "category/health-care/3f21415b57846be63722eb189190b7cd",
+              "category_groups": [
+                "Health Care"
+              ],
+              "created_at": 1397980726,
+              "updated_at": 1518483550
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mba-healthgroup/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mba-healthgroup/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mba-healthgroup/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mba-healthgroup/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mba-healthgroup/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mba-healthgroup/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mba-healthgroup/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mba-healthgroup/acquired_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mba-healthgroup/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mba-healthgroup/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mba-healthgroup/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "798d94fad572640340fd7e846944b05f",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "http://www.mbahealthgroup.com",
+              "created_at": 1450468592,
+              "updated_at": 1523964113
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "798d94fad572640340fd7e846944b05f",
+            "properties": {
+              "website_type": "facebook",
+              "website_name": "facebook",
+              "url": "https://www.facebook.com/mbahealth",
+              "created_at": 1450468592,
+              "updated_at": 1523964113
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "798d94fad572640340fd7e846944b05f",
+            "properties": {
+              "website_type": "twitter",
+              "website_name": "twitter",
+              "url": "https://www.twitter.com/mbahealthgroup",
+              "created_at": 1450468592,
+              "updated_at": 1523964113
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mba-healthgroup/images",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mba-healthgroup/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mba-healthgroup/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}

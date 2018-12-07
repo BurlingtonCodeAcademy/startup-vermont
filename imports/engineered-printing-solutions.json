@@ -1,0 +1,571 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "f228090b85e18accbdebdb9be79be322",
+    "properties": {
+      "permalink": "engineered-printing-solutions",
+      "permalink_aliases": null,
+      "api_path": "organizations/engineered-printing-solutions",
+      "web_path": "organization/engineered-printing-solutions",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/engineered-printing-solutions",
+      "name": "Engineered Printing Solutions",
+      "also_known_as": null,
+      "short_description": "Engineered Printing Solutions is a leading provider of product printing equipment in North America.",
+      "description": "Engineered Printing Solutions (\"EPS\"), a leading provider of product printing equipment in North America. \r\n\r\nEPS has built a successful business through supplying customised and bespoke printing solutions to a wide variety of market sectors including promotional, packaging, medical, automotive, apparel, appliances, sports equipment and toys.  One of its focuses has been to develop flexible and cost effective digital inkjet solutions. In 2015 EPS generated $14m of revenue and today employs 60 staff.",
+      "profile_image_url": "http://public.crunchbase.com/t_api_images/v1467438618/cwlkg5q1da1z9uqrapkq.png",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": "1985-01-01",
+      "founded_on_trust_code": 4,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": 51,
+      "num_employees_max": 100,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": "http://www.epsvt.com",
+      "contact_email": "info@epsvt.com",
+      "phone_number": "8023620844",
+      "rank": 357710,
+      "created_at": 1467438149,
+      "updated_at": 1540591360
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/engineered-printing-solutions/primary_image",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Image",
+          "uuid": "f228090b85e18accbdebdb9be79be322",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/v1467438618/cwlkg5q1da1z9uqrapkq.png",
+            "asset_url": "http://public.crunchbase.com/t_api_images/v1467438618/cwlkg5q1da1z9uqrapkq.png",
+            "content_type": "png",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1467438149,
+            "updated_at": 1540591360
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/engineered-printing-solutions/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/engineered-printing-solutions/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "2209932bfcec44ade70bdb2e5e067520",
+            "properties": {
+              "title": "President & Chief Executive Officer",
+              "started_on": "2016-07-01",
+              "started_on_trust_code": 6,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1475846146,
+              "updated_at": 1518484870
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "925dd7691f3bf257c7b5e147b60282c2",
+                "properties": {
+                  "permalink": "julian-joffe",
+                  "permalink_aliases": null,
+                  "api_path": "people/julian-joffe",
+                  "web_path": "person/julian-joffe",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/julian-joffe",
+                  "first_name": "Julian",
+                  "last_name": "Joffe",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": null,
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 318325,
+                  "created_at": 1475846091,
+                  "updated_at": 1518479848
+                }
+              }
+            }
+          }
+        ]
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/engineered-printing-solutions/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "2209932bfcec44ade70bdb2e5e067520",
+            "properties": {
+              "title": "President & Chief Executive Officer",
+              "started_on": "2016-07-01",
+              "started_on_trust_code": 6,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1475846146,
+              "updated_at": 1518484870
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "925dd7691f3bf257c7b5e147b60282c2",
+                "properties": {
+                  "permalink": "julian-joffe",
+                  "permalink_aliases": null,
+                  "api_path": "people/julian-joffe",
+                  "web_path": "person/julian-joffe",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/julian-joffe",
+                  "first_name": "Julian",
+                  "last_name": "Joffe",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": null,
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 318325,
+                  "created_at": 1475846091,
+                  "updated_at": 1518479848
+                }
+              }
+            }
+          }
+        ]
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/engineered-printing-solutions/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/engineered-printing-solutions/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/engineered-printing-solutions/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/engineered-printing-solutions/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/engineered-printing-solutions/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/engineered-printing-solutions/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "b337d8af99aebfacfa81c2fa6759c881",
+          "properties": {
+            "name": "HQ",
+            "street_1": "201 Tennis Way",
+            "street_2": null,
+            "postal_code": "05253",
+            "city": "East Dorset",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1467438508,
+            "updated_at": 1518483941
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/engineered-printing-solutions/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "b337d8af99aebfacfa81c2fa6759c881",
+          "properties": {
+            "name": "HQ",
+            "street_1": "201 Tennis Way",
+            "street_2": null,
+            "postal_code": "05253",
+            "city": "East Dorset",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1467438508,
+            "updated_at": 1518483941
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/engineered-printing-solutions/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/engineered-printing-solutions/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "cdb5753f53c4c62c2afd1e8d9c58cbf3",
+            "properties": {
+              "name": "Machinery Manufacturing",
+              "web_path": "category/machinery-manufacturing/cdb5753f53c4c62c2afd1e8d9c58cbf3",
+              "category_groups": [
+                "Manufacturing"
+              ],
+              "created_at": 1465509044,
+              "updated_at": 1518483551
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/engineered-printing-solutions/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/engineered-printing-solutions/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/engineered-printing-solutions/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/engineered-printing-solutions/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/engineered-printing-solutions/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/engineered-printing-solutions/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/engineered-printing-solutions/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/engineered-printing-solutions/acquired_by",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Acquisition",
+          "uuid": "8a96df461728eda5c1493bcc7bd7272b",
+          "properties": {
+            "permalink": "8a96df461728eda5c1493bcc7bd7272b",
+            "api_path": "acquisitions/8a96df461728eda5c1493bcc7bd7272b",
+            "web_path": "acquisition/8a96df461728eda5c1493bcc7bd7272b",
+            "api_url": "https://api.crunchbase.com/v3.1/acquisitions/8a96df461728eda5c1493bcc7bd7272b",
+            "price": null,
+            "price_currency_code": null,
+            "price_usd": null,
+            "payment_type": null,
+            "acquisition_type": "acquisition",
+            "acquisition_status": "complete",
+            "disposition_of_acquired": null,
+            "announced_on": "2016-07-01",
+            "announced_on_trust_code": 7,
+            "completed_on": null,
+            "completed_on_trust_code": null,
+            "rank": 34569,
+            "created_at": 1467438990,
+            "updated_at": 1518479723
+          },
+          "relationships": {
+            "acquirer": {
+              "type": "Organization",
+              "uuid": "bd33d68df81fafe56f2fb8df82a78b43",
+              "properties": {
+                "permalink": "xaar",
+                "permalink_aliases": null,
+                "api_path": "organizations/xaar",
+                "web_path": "organization/xaar",
+                "api_url": "https://api.crunchbase.com/v3.1/organizations/xaar",
+                "name": "Xaar plc",
+                "also_known_as": null,
+                "short_description": "Xaar plc is a manufacturer of industrial inkjet printheads with leading brand products.",
+                "description": "Xaar is a world leader in the development of digital inkjet technology and an award-winning manufacturer of piezoelectric drop-on-demand industrial inkjet printheads.\r\n\r\nXaar design and manufacture our printheads in Huntingdon, UK and Järfälla, Sweden, exporting over 90% of our production to customers around the world. The UK plant produces the Xaar 1003 product range whilst the Swedish plant produces the Xaar Proton, Xaar 500 and the Xaar 128 printheads for the wide-format graphics and coding and marking markets.\r\n\r\nIt also develops and sell ink systems, electronics and fluid optimisation services to accelerate inkjet system development and adoption.",
+                "profile_image_url": "http://public.crunchbase.com/t_api_images/v1467439193/m5w030wgcrfoivzv19ty.png",
+                "primary_role": "company",
+                "role_company": true,
+                "role_investor": false,
+                "role_group": false,
+                "role_school": false,
+                "investor_type": null,
+                "founded_on": "1990-01-01",
+                "founded_on_trust_code": 4,
+                "is_closed": false,
+                "closed_on": null,
+                "closed_on_trust_code": null,
+                "num_employees_min": 501,
+                "num_employees_max": 1000,
+                "stock_exchange": "lon",
+                "stock_symbol": "XAR",
+                "total_funding_usd": 0,
+                "number_of_investments": 0,
+                "homepage_url": "http://www.xaar.com/",
+                "contact_email": null,
+                "phone_number": "44 12 2342 3663",
+                "rank": 186520,
+                "created_at": 1392735654,
+                "updated_at": 1523966101
+              }
+            }
+          }
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/engineered-printing-solutions/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/engineered-printing-solutions/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/engineered-printing-solutions/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "f228090b85e18accbdebdb9be79be322",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "http://www.epsvt.com",
+              "created_at": 1467438149,
+              "updated_at": 1540591360
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "f228090b85e18accbdebdb9be79be322",
+            "properties": {
+              "website_type": "facebook",
+              "website_name": "facebook",
+              "url": "https://www.facebook.com/epsvt",
+              "created_at": 1467438149,
+              "updated_at": 1540591360
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "f228090b85e18accbdebdb9be79be322",
+            "properties": {
+              "website_type": "twitter",
+              "website_name": "twitter",
+              "url": "https://twitter.com/EPS_VT",
+              "created_at": 1467438149,
+              "updated_at": 1540591360
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "f228090b85e18accbdebdb9be79be322",
+            "properties": {
+              "website_type": "linkedin",
+              "website_name": "linkedin",
+              "url": "https://www.linkedin.com/company/engineered-printing-solutions",
+              "created_at": 1467438149,
+              "updated_at": 1540591360
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/engineered-printing-solutions/images",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Image",
+            "uuid": "f228090b85e18accbdebdb9be79be322",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/v1467438618/cwlkg5q1da1z9uqrapkq.png",
+              "asset_url": "http://public.crunchbase.com/t_api_images/v1467438618/cwlkg5q1da1z9uqrapkq.png",
+              "content_type": "png",
+              "height": null,
+              "width": null,
+              "filesize": null,
+              "created_at": 1467438149,
+              "updated_at": 1540591360
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/engineered-printing-solutions/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/engineered-printing-solutions/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}

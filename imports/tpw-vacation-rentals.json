@@ -1,0 +1,449 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "e239d93327434861945929e9fbc72157",
+    "properties": {
+      "permalink": "tpw-vacation-rentals",
+      "permalink_aliases": null,
+      "api_path": "organizations/tpw-vacation-rentals",
+      "web_path": "organization/tpw-vacation-rentals",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/tpw-vacation-rentals",
+      "name": "TPW Vacation Rentals",
+      "also_known_as": null,
+      "short_description": "TPW Vacation Rentals  is vacation home rental services provider.",
+      "description": "TPW Vacation Rentals  is vacation home rental services provider.",
+      "profile_image_url": null,
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": "1987-01-01",
+      "founded_on_trust_code": 4,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": null,
+      "num_employees_max": null,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": "http://www.tpwrealestate.com/",
+      "contact_email": null,
+      "phone_number": null,
+      "rank": 404072,
+      "created_at": 1517587777,
+      "updated_at": 1532622940
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tpw-vacation-rentals/primary_image",
+          "sort_order": "not_ordered"
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tpw-vacation-rentals/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tpw-vacation-rentals/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": []
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tpw-vacation-rentals/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tpw-vacation-rentals/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tpw-vacation-rentals/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tpw-vacation-rentals/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tpw-vacation-rentals/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tpw-vacation-rentals/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tpw-vacation-rentals/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "4db59183790e4af29bdbd212feac621e",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "32 Route 30",
+            "street_2": null,
+            "postal_code": "05340",
+            "city": "Bondville",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1517587777,
+            "updated_at": 1518474649
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tpw-vacation-rentals/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "4db59183790e4af29bdbd212feac621e",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "32 Route 30",
+            "street_2": null,
+            "postal_code": "05340",
+            "city": "Bondville",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1517587777,
+            "updated_at": 1518474649
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tpw-vacation-rentals/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tpw-vacation-rentals/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "817e5e50a6ca547ef59695afb880a818",
+            "properties": {
+              "name": "Rental Property",
+              "web_path": "category/rental-property/817e5e50a6ca547ef59695afb880a818",
+              "category_groups": [
+                "Real Estate"
+              ],
+              "created_at": 1457032197,
+              "updated_at": 1518483551
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "a326e225acb8f9c0abfe609a82b71965",
+            "properties": {
+              "name": "Real Estate",
+              "web_path": "category/real-estate/a326e225acb8f9c0abfe609a82b71965",
+              "category_groups": [
+                "Real Estate"
+              ],
+              "created_at": 1397980726,
+              "updated_at": 1518483551
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "c8e6b95f80d9bf15ab7c37a0e8f052c7",
+            "properties": {
+              "name": "Property Management",
+              "web_path": "category/property-management/c8e6b95f80d9bf15ab7c37a0e8f052c7",
+              "category_groups": [
+                "Real Estate"
+              ],
+              "created_at": 1397980728,
+              "updated_at": 1518483551
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tpw-vacation-rentals/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tpw-vacation-rentals/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tpw-vacation-rentals/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tpw-vacation-rentals/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tpw-vacation-rentals/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tpw-vacation-rentals/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tpw-vacation-rentals/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tpw-vacation-rentals/acquired_by",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Acquisition",
+          "uuid": "07ab5dee9c4e4e57bb8966af4dd98147",
+          "properties": {
+            "permalink": "07ab5dee9c4e4e57bb8966af4dd98147",
+            "api_path": "acquisitions/07ab5dee9c4e4e57bb8966af4dd98147",
+            "web_path": "acquisition/07ab5dee9c4e4e57bb8966af4dd98147",
+            "api_url": "https://api.crunchbase.com/v3.1/acquisitions/07ab5dee9c4e4e57bb8966af4dd98147",
+            "price": null,
+            "price_currency_code": null,
+            "price_usd": null,
+            "payment_type": null,
+            "acquisition_type": "acquisition",
+            "acquisition_status": "complete",
+            "disposition_of_acquired": "subsidiary",
+            "announced_on": "2016-05-19",
+            "announced_on_trust_code": 7,
+            "completed_on": null,
+            "completed_on_trust_code": null,
+            "rank": 20075,
+            "created_at": 1517587777,
+            "updated_at": 1518474649
+          },
+          "relationships": {
+            "acquirer": {
+              "type": "Organization",
+              "uuid": "945fbf6e9d0e870838d186d447190367",
+              "properties": {
+                "permalink": "vacasa",
+                "permalink_aliases": null,
+                "api_path": "organizations/vacasa",
+                "web_path": "organization/vacasa",
+                "api_url": "https://api.crunchbase.com/v3.1/organizations/vacasa",
+                "name": "Vacasa",
+                "also_known_as": null,
+                "short_description": "Vacasa is the largest U.S. vacation rental management company and currently manages more than 10,000 vacation homes around the world.",
+                "description": "Vacasa is the largest U.S. full service vacation rental company. Leveraging industry-leading technology, Vacasa drives revenue for homeowners and provides unforgettable experiences for guests. Founded in 2009 and based in Portland, Oregon, Vacasa manages a growing portfolio of more than 10,000 vacation homes in the U.S.; Europe; Central and South America; and South Africa. In nine years, Vacasa has grown from two to more than 2,500 employees, has been honored as the Oregon Better Business Bureau Large Business of the Year and was ranked ninth on the Inc. 5000 Fastest-Growing Companies list. For more information, visit https://www.vacasa.com/.",
+                "profile_image_url": "http://public.crunchbase.com/t_api_images/tkovvxuynkyoxjuyjkd5",
+                "primary_role": "company",
+                "role_company": true,
+                "role_investor": false,
+                "role_group": false,
+                "role_school": false,
+                "investor_type": null,
+                "founded_on": "2009-01-01",
+                "founded_on_trust_code": 4,
+                "is_closed": false,
+                "closed_on": null,
+                "closed_on_trust_code": null,
+                "num_employees_min": 1001,
+                "num_employees_max": 5000,
+                "stock_exchange": null,
+                "stock_symbol": null,
+                "total_funding_usd": 207500000,
+                "number_of_investments": 0,
+                "homepage_url": "https://www.vacasa.com",
+                "contact_email": "info@vacasa.com",
+                "phone_number": "(503) 345-9399",
+                "rank": 683,
+                "created_at": 1394524132,
+                "updated_at": 1543567823
+              }
+            }
+          }
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tpw-vacation-rentals/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tpw-vacation-rentals/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tpw-vacation-rentals/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "e239d93327434861945929e9fbc72157",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "http://www.tpwrealestate.com/",
+              "created_at": 1517587777,
+              "updated_at": 1532622940
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tpw-vacation-rentals/images",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tpw-vacation-rentals/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/tpw-vacation-rentals/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}
