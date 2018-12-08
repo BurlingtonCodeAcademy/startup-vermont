@@ -39,7 +39,7 @@
       "homepage_url": null,
       "contact_email": null,
       "phone_number": null,
-      "rank": 479132,
+      "rank": 479137,
       "created_at": 1475053654,
       "updated_at": 1518479015
     },
@@ -80,7 +80,7 @@
               "born_on_trust_code": null,
               "died_on": null,
               "died_on_trust_code": null,
-              "rank": 135676,
+              "rank": 135680,
               "created_at": 1468466574,
               "updated_at": 1518479328
             }
@@ -148,7 +148,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 135676,
+                  "rank": 135680,
                   "created_at": 1468466574,
                   "updated_at": 1518479328
                 }

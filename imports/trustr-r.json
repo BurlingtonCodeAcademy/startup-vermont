@@ -41,7 +41,7 @@
       "homepage_url": "http://www.trustr.us",
       "contact_email": "arthur@trustr.us",
       "phone_number": null,
-      "rank": 72056,
+      "rank": 72063,
       "created_at": 1501597939,
       "updated_at": 1540599438
     },
@@ -96,7 +96,7 @@
               "born_on_trust_code": 7,
               "died_on": null,
               "died_on_trust_code": null,
-              "rank": 433538,
+              "rank": 433539,
               "created_at": 1501599292,
               "updated_at": 1518479739
             }
@@ -121,7 +121,7 @@
               "born_on_trust_code": 7,
               "died_on": null,
               "died_on_trust_code": null,
-              "rank": 517094,
+              "rank": 517096,
               "created_at": 1501600003,
               "updated_at": 1518479764
             }
@@ -146,7 +146,7 @@
               "born_on_trust_code": 7,
               "died_on": null,
               "died_on_trust_code": null,
-              "rank": 210545,
+              "rank": 210550,
               "created_at": 1501599653,
               "updated_at": 1518479736
             }
@@ -196,7 +196,7 @@
                   "born_on_trust_code": 7,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 433538,
+                  "rank": 433539,
                   "created_at": 1501599292,
                   "updated_at": 1518479739
                 }
@@ -238,7 +238,7 @@
                   "born_on_trust_code": 7,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 517094,
+                  "rank": 517096,
                   "created_at": 1501600003,
                   "updated_at": 1518479764
                 }
@@ -280,7 +280,7 @@
                   "born_on_trust_code": 7,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 210545,
+                  "rank": 210550,
                   "created_at": 1501599653,
                   "updated_at": 1518479736
                 }
@@ -332,7 +332,7 @@
                   "born_on_trust_code": 7,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 433538,
+                  "rank": 433539,
                   "created_at": 1501599292,
                   "updated_at": 1518479739
                 }
@@ -374,7 +374,7 @@
                   "born_on_trust_code": 7,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 517094,
+                  "rank": 517096,
                   "created_at": 1501600003,
                   "updated_at": 1518479764
                 }
@@ -416,7 +416,7 @@
                   "born_on_trust_code": 7,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 210545,
+                  "rank": 210550,
                   "created_at": 1501599653,
                   "updated_at": 1518479736
                 }
@@ -468,7 +468,7 @@
                   "born_on_trust_code": 7,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 644938,
+                  "rank": 644977,
                   "created_at": 1501600078,
                   "updated_at": 1518479008
                 }
@@ -688,7 +688,7 @@
               "pre_money_valuation": 750000,
               "pre_money_valuation_currency_code": "USD",
               "pre_money_valuation_usd": 750000,
-              "rank": 115143,
+              "rank": 140463,
               "created_at": 1501598939,
               "updated_at": 1539702359
             }

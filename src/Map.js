@@ -26,7 +26,7 @@ class Map extends Component {
   };
 
   createMarkerLayer = async()=>{
-    await this.props.startups.forEach(startup => {
+    this.props.startups.forEach(startup => {
       let address = startup.address.street_1
       let city = startup.address.city
       if (address == null){

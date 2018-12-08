@@ -39,7 +39,7 @@
       "homepage_url": "http://www1.marathon-health.com/",
       "contact_email": "info@marathon-health.com",
       "phone_number": "(802)857-0400",
-      "rank": 18677,
+      "rank": 18680,
       "created_at": 1468391757,
       "updated_at": 1540594026
     },
@@ -94,7 +94,7 @@
               "born_on_trust_code": null,
               "died_on": null,
               "died_on_trust_code": null,
-              "rank": 514613,
+              "rank": 514608,
               "created_at": 1498640012,
               "updated_at": 1518478975
             }
@@ -181,7 +181,7 @@
               "homepage_url": "http://www.EideardVC.com",
               "contact_email": null,
               "phone_number": null,
-              "rank": 312813,
+              "rank": 312817,
               "created_at": 1478184233,
               "updated_at": 1518475286
             }
@@ -223,7 +223,7 @@
               "homepage_url": "http://www.goldmansachs.com/",
               "contact_email": "gs-investor-relations@gs.com",
               "phone_number": null,
-              "rank": 329,
+              "rank": 326,
               "created_at": 1181925921,
               "updated_at": 1530082465
             }
@@ -448,7 +448,7 @@
               "pre_money_valuation": null,
               "pre_money_valuation_currency_code": null,
               "pre_money_valuation_usd": null,
-              "rank": 74676,
+              "rank": 169441,
               "created_at": 1468391801,
               "updated_at": 1518479499
             },
@@ -505,7 +505,7 @@
                         "homepage_url": "http://www.goldmansachs.com/",
                         "contact_email": "gs-investor-relations@gs.com",
                         "phone_number": null,
-                        "rank": 329,
+                        "rank": 326,
                         "created_at": 1181925921,
                         "updated_at": 1530082465
                       }
@@ -540,7 +540,7 @@
               "pre_money_valuation": null,
               "pre_money_valuation_currency_code": null,
               "pre_money_valuation_usd": null,
-              "rank": 86318,
+              "rank": 231309,
               "created_at": 1479842329,
               "updated_at": 1518479645
             },
@@ -596,7 +596,7 @@
                         "homepage_url": "http://www.EideardVC.com",
                         "contact_email": null,
                         "phone_number": null,
-                        "rank": 312813,
+                        "rank": 312817,
                         "created_at": 1478184233,
                         "updated_at": 1518475286
                       }
@@ -687,7 +687,7 @@
                         "homepage_url": "http://www.EideardVC.com",
                         "contact_email": null,
                         "phone_number": null,
-                        "rank": 312813,
+                        "rank": 312817,
                         "created_at": 1478184233,
                         "updated_at": 1518475286
                       }

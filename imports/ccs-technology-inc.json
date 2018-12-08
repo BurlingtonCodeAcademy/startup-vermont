@@ -39,7 +39,7 @@
       "homepage_url": null,
       "contact_email": null,
       "phone_number": null,
-      "rank": 561363,
+      "rank": 561365,
       "created_at": 1505819827,
       "updated_at": 1518480073
     },
@@ -334,7 +334,7 @@
             "announced_on_trust_code": 7,
             "completed_on": null,
             "completed_on_trust_code": null,
-            "rank": 41009,
+            "rank": 57133,
             "created_at": 1505820003,
             "updated_at": 1518479809
           },
@@ -375,7 +375,7 @@
                 "homepage_url": "http://www.brooks.com",
                 "contact_email": "webmaster@brooks.com",
                 "phone_number": "1(978) 262-2400",
-                "rank": 60869,
+                "rank": 60876,
                 "created_at": 1228003889,
                 "updated_at": 1533530476
               }

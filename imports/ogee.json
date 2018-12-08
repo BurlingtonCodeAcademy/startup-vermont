@@ -39,7 +39,7 @@
       "homepage_url": "https://ogee.com",
       "contact_email": "support@ogee.com",
       "phone_number": "1(888)376-8037",
-      "rank": 40276,
+      "rank": 40279,
       "created_at": 1499937982,
       "updated_at": 1540594611
     },
@@ -94,7 +94,7 @@
               "born_on_trust_code": null,
               "died_on": null,
               "died_on_trust_code": null,
-              "rank": 149350,
+              "rank": 149356,
               "created_at": 1537270485,
               "updated_at": 1537270504
             }
@@ -144,7 +144,7 @@
               "born_on_trust_code": null,
               "died_on": null,
               "died_on_trust_code": null,
-              "rank": 78160,
+              "rank": 78163,
               "created_at": 1537270372,
               "updated_at": 1537270385
             }
@@ -194,7 +194,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 78160,
+                  "rank": 78163,
                   "created_at": 1537270372,
                   "updated_at": 1537270385
                 }
@@ -278,7 +278,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 149350,
+                  "rank": 149356,
                   "created_at": 1537270485,
                   "updated_at": 1537270504
                 }
@@ -330,7 +330,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 78160,
+                  "rank": 78163,
                   "created_at": 1537270372,
                   "updated_at": 1537270385
                 }
@@ -414,7 +414,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 149350,
+                  "rank": 149356,
                   "created_at": 1537270485,
                   "updated_at": 1537270504
                 }
@@ -528,7 +528,7 @@
               "homepage_url": "http://www.freshtrackscap.com",
               "contact_email": "hkillary@freshtrackscap.com",
               "phone_number": "(802)923-1500",
-              "rank": 101396,
+              "rank": 101409,
               "created_at": 1228252602,
               "updated_at": 1540591983
             }
@@ -740,7 +740,7 @@
               "pre_money_valuation": null,
               "pre_money_valuation_currency_code": null,
               "pre_money_valuation_usd": null,
-              "rank": 177853,
+              "rank": 123889,
               "created_at": 1499938169,
               "updated_at": 1518479016
             },
@@ -796,7 +796,7 @@
                         "homepage_url": "http://www.freshtrackscap.com",
                         "contact_email": "hkillary@freshtrackscap.com",
                         "phone_number": "(802)923-1500",
-                        "rank": 101396,
+                        "rank": 101409,
                         "created_at": 1228252602,
                         "updated_at": 1540591983
                       }
@@ -857,7 +857,7 @@
               "pre_money_valuation": null,
               "pre_money_valuation_currency_code": null,
               "pre_money_valuation_usd": null,
-              "rank": 19674,
+              "rank": 19748,
               "created_at": 1537775947,
               "updated_at": 1537775947
             }

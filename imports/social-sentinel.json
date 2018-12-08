@@ -94,7 +94,7 @@
               "born_on_trust_code": null,
               "died_on": null,
               "died_on_trust_code": null,
-              "rank": 146613,
+              "rank": 146619,
               "created_at": 1392988057,
               "updated_at": 1518479472
             }
@@ -144,7 +144,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 501828,
+                  "rank": 501847,
                   "created_at": 1376329891,
                   "updated_at": 1518479161
                 }
@@ -186,7 +186,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 199342,
+                  "rank": 199346,
                   "created_at": 1392989725,
                   "updated_at": 1518479474
                 }
@@ -228,7 +228,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 379771,
+                  "rank": 379773,
                   "created_at": 1213092073,
                   "updated_at": 1518480028
                 }
@@ -312,7 +312,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 146613,
+                  "rank": 146619,
                   "created_at": 1392988057,
                   "updated_at": 1518479472
                 }
@@ -354,7 +354,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 513047,
+                  "rank": 513053,
                   "created_at": 1392990154,
                   "updated_at": 1518479829
                 }
@@ -406,7 +406,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 501828,
+                  "rank": 501847,
                   "created_at": 1376329891,
                   "updated_at": 1518479161
                 }
@@ -448,7 +448,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 199342,
+                  "rank": 199346,
                   "created_at": 1392989725,
                   "updated_at": 1518479474
                 }
@@ -490,7 +490,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 379771,
+                  "rank": 379773,
                   "created_at": 1213092073,
                   "updated_at": 1518480028
                 }
@@ -574,7 +574,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 146613,
+                  "rank": 146619,
                   "created_at": 1392988057,
                   "updated_at": 1518479472
                 }
@@ -616,7 +616,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 513047,
+                  "rank": 513053,
                   "created_at": 1392990154,
                   "updated_at": 1518479829
                 }
@@ -658,7 +658,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 314505,
+                  "rank": 314508,
                   "created_at": 1542745101,
                   "updated_at": 1542745115
                 }
@@ -729,7 +729,7 @@
               "homepage_url": "http://www.freshtrackscap.com",
               "contact_email": "hkillary@freshtrackscap.com",
               "phone_number": "(802)923-1500",
-              "rank": 101396,
+              "rank": 101409,
               "created_at": 1228252602,
               "updated_at": 1540591983
             }
@@ -770,7 +770,7 @@
               "homepage_url": null,
               "contact_email": null,
               "phone_number": null,
-              "rank": 54268,
+              "rank": 54271,
               "created_at": 1506577957,
               "updated_at": 1518479735
             }
@@ -818,7 +818,7 @@
               "homepage_url": "http://www.lererhippeau.com",
               "contact_email": "contact@lererhippeau.com",
               "phone_number": "(646) 237 4837",
-              "rank": 44728,
+              "rank": 44733,
               "created_at": 1268356038,
               "updated_at": 1540593583
             }
@@ -1017,7 +1017,7 @@
               "pre_money_valuation": null,
               "pre_money_valuation_currency_code": null,
               "pre_money_valuation_usd": null,
-              "rank": 124658,
+              "rank": 113081,
               "created_at": 1485267139,
               "updated_at": 1518479554
             },
@@ -1080,7 +1080,7 @@
                         "homepage_url": "http://www.lererhippeau.com",
                         "contact_email": "contact@lererhippeau.com",
                         "phone_number": "(646) 237 4837",
-                        "rank": 44728,
+                        "rank": 44733,
                         "created_at": 1268356038,
                         "updated_at": 1540593583
                       }
@@ -1138,7 +1138,7 @@
                         "homepage_url": "http://www.freshtrackscap.com",
                         "contact_email": "hkillary@freshtrackscap.com",
                         "phone_number": "(802)923-1500",
-                        "rank": 101396,
+                        "rank": 101409,
                         "created_at": 1228252602,
                         "updated_at": 1540591983
                       }
@@ -1173,7 +1173,7 @@
               "pre_money_valuation": null,
               "pre_money_valuation_currency_code": null,
               "pre_money_valuation_usd": null,
-              "rank": 211594,
+              "rank": 84772,
               "created_at": 1500973279,
               "updated_at": 1518478664
             },
@@ -1229,7 +1229,7 @@
                         "homepage_url": null,
                         "contact_email": null,
                         "phone_number": null,
-                        "rank": 54268,
+                        "rank": 54271,
                         "created_at": 1506577957,
                         "updated_at": 1518479735
                       }
@@ -1257,7 +1257,7 @@
                           "born_on_trust_code": null,
                           "died_on": null,
                           "died_on_trust_code": null,
-                          "rank": 707,
+                          "rank": 709,
                           "created_at": 1327357660,
                           "updated_at": 1518479465
                         }
@@ -1292,7 +1292,7 @@
               "pre_money_valuation": null,
               "pre_money_valuation_currency_code": null,
               "pre_money_valuation_usd": null,
-              "rank": 172937,
+              "rank": 231589,
               "created_at": 1502688387,
               "updated_at": 1518478789
             }

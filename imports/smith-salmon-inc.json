@@ -41,7 +41,7 @@
       "homepage_url": "http://www.smithandsalmon.com",
       "contact_email": "info@smithandsalmon.com",
       "phone_number": null,
-      "rank": 547267,
+      "rank": 547269,
       "created_at": 1535987861,
       "updated_at": 1540596286
     },
@@ -98,7 +98,7 @@
               "born_on_trust_code": null,
               "died_on": null,
               "died_on_trust_code": null,
-              "rank": 330327,
+              "rank": 330329,
               "created_at": 1535987861,
               "updated_at": 1536078826
             }
@@ -175,7 +175,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 330327,
+                  "rank": 330329,
                   "created_at": 1535987861,
                   "updated_at": 1536078826
                 }
@@ -229,7 +229,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 330327,
+                  "rank": 330329,
                   "created_at": 1535987861,
                   "updated_at": 1536078826
                 }

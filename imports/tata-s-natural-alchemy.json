@@ -43,7 +43,7 @@
       "homepage_url": "http://www.tataharperskincare.com/",
       "contact_email": "info@tataharper.com",
       "phone_number": "(802) 349-3500",
-      "rank": 79530,
+      "rank": 79542,
       "created_at": 1436241831,
       "updated_at": 1540599339
     },
@@ -98,7 +98,7 @@
               "born_on_trust_code": null,
               "died_on": null,
               "died_on_trust_code": null,
-              "rank": 57300,
+              "rank": 57303,
               "created_at": 1485514616,
               "updated_at": 1518477595
             }
@@ -148,7 +148,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 57300,
+                  "rank": 57303,
                   "created_at": 1485514616,
                   "updated_at": 1518477595
                 }
@@ -200,7 +200,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 57300,
+                  "rank": 57303,
                   "created_at": 1485514616,
                   "updated_at": 1518477595
                 }
@@ -271,7 +271,7 @@
               "homepage_url": "http://www.acginvestors.com",
               "contact_email": "info@acginvestors.com",
               "phone_number": "(212) 940-9631",
-              "rank": 71832,
+              "rank": 71840,
               "created_at": 1389876207,
               "updated_at": 1540588968
             }
@@ -483,7 +483,7 @@
               "pre_money_valuation": null,
               "pre_money_valuation_currency_code": null,
               "pre_money_valuation_usd": null,
-              "rank": 80264,
+              "rank": 80173,
               "created_at": 1436241972,
               "updated_at": 1518479204
             },
@@ -539,7 +539,7 @@
                         "homepage_url": "http://www.acginvestors.com",
                         "contact_email": "info@acginvestors.com",
                         "phone_number": "(212) 940-9631",
-                        "rank": 71832,
+                        "rank": 71840,
                         "created_at": 1389876207,
                         "updated_at": 1540588968
                       }

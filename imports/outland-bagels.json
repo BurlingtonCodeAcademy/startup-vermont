@@ -39,7 +39,7 @@
       "homepage_url": null,
       "contact_email": null,
       "phone_number": null,
-      "rank": 682907,
+      "rank": 682908,
       "created_at": 1538653110,
       "updated_at": 1538653110
     },
@@ -319,7 +319,7 @@
             "announced_on_trust_code": 7,
             "completed_on": null,
             "completed_on_trust_code": null,
-            "rank": 3504,
+            "rank": 3499,
             "created_at": 1538653289,
             "updated_at": 1538653289
           },
@@ -358,7 +358,7 @@
                 "homepage_url": "http://www.brueggers.com",
                 "contact_email": null,
                 "phone_number": null,
-                "rank": 186124,
+                "rank": 186132,
                 "created_at": 1501797420,
                 "updated_at": 1538652658
               }

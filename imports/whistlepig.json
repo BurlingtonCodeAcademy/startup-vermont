@@ -39,7 +39,7 @@
       "homepage_url": "http://whistlepigwhiskey.com/",
       "contact_email": "marketing@whistlepigrye.com",
       "phone_number": "(802)897-7700",
-      "rank": 40314,
+      "rank": 40317,
       "created_at": 1494307253,
       "updated_at": 1540600141
     },
@@ -94,7 +94,7 @@
               "born_on_trust_code": null,
               "died_on": null,
               "died_on_trust_code": null,
-              "rank": 305975,
+              "rank": 305977,
               "created_at": 1494319390,
               "updated_at": 1518535847
             }
@@ -144,7 +144,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 295205,
+                  "rank": 295206,
                   "created_at": 1494319871,
                   "updated_at": 1518479234
                 }
@@ -186,7 +186,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 305975,
+                  "rank": 305977,
                   "created_at": 1494319390,
                   "updated_at": 1518535847
                 }
@@ -280,7 +280,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 295205,
+                  "rank": 295206,
                   "created_at": 1494319871,
                   "updated_at": 1518479234
                 }
@@ -322,7 +322,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 305975,
+                  "rank": 305977,
                   "created_at": 1494319390,
                   "updated_at": 1518535847
                 }
@@ -438,7 +438,7 @@
               "homepage_url": "http://www.jpmorganchase.com",
               "contact_email": null,
               "phone_number": "(212) 270-0589",
-              "rank": 9197,
+              "rank": 9201,
               "created_at": 1286152881,
               "updated_at": 1540395567
             }
@@ -650,7 +650,7 @@
               "pre_money_valuation": null,
               "pre_money_valuation_currency_code": null,
               "pre_money_valuation_usd": null,
-              "rank": 211970,
+              "rank": 85148,
               "created_at": 1494307285,
               "updated_at": 1518478050
             },
@@ -709,7 +709,7 @@
                         "homepage_url": "http://www.jpmorganchase.com",
                         "contact_email": null,
                         "phone_number": "(212) 270-0589",
-                        "rank": 9197,
+                        "rank": 9201,
                         "created_at": 1286152881,
                         "updated_at": 1540395567
                       }

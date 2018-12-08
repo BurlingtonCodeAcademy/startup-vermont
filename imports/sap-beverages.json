@@ -43,7 +43,7 @@
       "homepage_url": "http://www.sapvt.com",
       "contact_email": "info@sapvt.com",
       "phone_number": "802-578-8242",
-      "rank": 177468,
+      "rank": 177476,
       "created_at": 1536076708,
       "updated_at": 1540595994
     },
@@ -100,7 +100,7 @@
               "born_on_trust_code": null,
               "died_on": null,
               "died_on_trust_code": null,
-              "rank": 330327,
+              "rank": 330329,
               "created_at": 1535987861,
               "updated_at": 1536078826
             }
@@ -177,7 +177,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 330327,
+                  "rank": 330329,
                   "created_at": 1535987861,
                   "updated_at": 1536078826
                 }
@@ -231,7 +231,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 330327,
+                  "rank": 330329,
                   "created_at": 1535987861,
                   "updated_at": 1536078826
                 }
@@ -459,7 +459,7 @@
               "pre_money_valuation": null,
               "pre_money_valuation_currency_code": null,
               "pre_money_valuation_usd": null,
-              "rank": 42057,
+              "rank": 42109,
               "created_at": 1536076708,
               "updated_at": 1536076708
             }

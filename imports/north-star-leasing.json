@@ -39,7 +39,7 @@
       "homepage_url": "http://www.northstarleasing.com/",
       "contact_email": "info@northstarleasing.com",
       "phone_number": null,
-      "rank": 245118,
+      "rank": 245122,
       "created_at": 1517983479,
       "updated_at": 1540594793
     },
@@ -118,7 +118,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 664484,
+                  "rank": 664486,
                   "created_at": 1530856944,
                   "updated_at": 1536380420
                 }
@@ -170,7 +170,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 664484,
+                  "rank": 664486,
                   "created_at": 1530856944,
                   "updated_at": 1536380420
                 }
@@ -222,7 +222,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 664484,
+                  "rank": 664486,
                   "created_at": 1530856944,
                   "updated_at": 1536380420
                 }
@@ -316,7 +316,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 314716,
+                  "rank": 314718,
                   "created_at": 1422041256,
                   "updated_at": 1518479646
                 }
@@ -358,7 +358,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 144726,
+                  "rank": 144732,
                   "created_at": 1422039315,
                   "updated_at": 1518478106
                 }
@@ -597,7 +597,7 @@
               "pre_money_valuation": null,
               "pre_money_valuation_currency_code": null,
               "pre_money_valuation_usd": null,
-              "rank": 55475,
+              "rank": 55459,
               "created_at": 1517983750,
               "updated_at": 1518473401
             },
@@ -679,7 +679,7 @@
                           "born_on_trust_code": null,
                           "died_on": null,
                           "died_on_trust_code": null,
-                          "rank": 314716,
+                          "rank": 314718,
                           "created_at": 1422041256,
                           "updated_at": 1518479646
                         }
@@ -729,7 +729,7 @@
                           "born_on_trust_code": null,
                           "died_on": null,
                           "died_on_trust_code": null,
-                          "rank": 144726,
+                          "rank": 144732,
                           "created_at": 1422039315,
                           "updated_at": 1518478106
                         }

@@ -39,7 +39,7 @@
       "homepage_url": null,
       "contact_email": null,
       "phone_number": null,
-      "rank": 537047,
+      "rank": 537049,
       "created_at": 1476964705,
       "updated_at": 1518478414
     },
@@ -294,7 +294,7 @@
                   "pre_money_valuation": null,
                   "pre_money_valuation_currency_code": null,
                   "pre_money_valuation_usd": null,
-                  "rank": 87230,
+                  "rank": 124142,
                   "created_at": 1496376425,
                   "updated_at": 1518479707
                 },
@@ -420,7 +420,7 @@
                   "pre_money_valuation": null,
                   "pre_money_valuation_currency_code": null,
                   "pre_money_valuation_usd": null,
-                  "rank": 79693,
+                  "rank": 209783,
                   "created_at": 1419395609,
                   "updated_at": 1518479247
                 },
@@ -461,7 +461,7 @@
                       "homepage_url": "http://www.vermillion.com",
                       "contact_email": "info@vermillion.com",
                       "phone_number": "512-519-0400",
-                      "rank": 22661,
+                      "rank": 22665,
                       "created_at": 1366773487,
                       "updated_at": 1540599741
                     }
@@ -505,7 +505,7 @@
                   "homepage_url": "http://www.vermillion.com",
                   "contact_email": "info@vermillion.com",
                   "phone_number": "512-519-0400",
-                  "rank": 22661,
+                  "rank": 22665,
                   "created_at": 1366773487,
                   "updated_at": 1540599741
                 }

@@ -39,7 +39,7 @@
       "homepage_url": "http://www.llines.com/",
       "contact_email": "sales@llines.com",
       "phone_number": "+44 (0)1264 782 226",
-      "rank": 243053,
+      "rank": 243057,
       "created_at": 1539346484,
       "updated_at": 1540593941
     },
@@ -161,7 +161,7 @@
             "homepage_url": "https://www.lifelinesneuro.com/",
             "contact_email": null,
             "phone_number": "866-889-6505",
-            "rank": 383723,
+            "rank": 383727,
             "created_at": 1539346740,
             "updated_at": 1539346740
           }
@@ -364,7 +364,7 @@
               "announced_on_trust_code": 7,
               "completed_on": null,
               "completed_on_trust_code": null,
-              "rank": 3286,
+              "rank": 3288,
               "created_at": 1539346871,
               "updated_at": 1539346871
             },
@@ -403,7 +403,7 @@
                   "homepage_url": "http://www.incereb.com/",
                   "contact_email": "info@incereb.com",
                   "phone_number": null,
-                  "rank": 70428,
+                  "rank": 70437,
                   "created_at": 1417067815,
                   "updated_at": 1540592842
                 }

@@ -39,7 +39,7 @@
       "homepage_url": "http://www.benchmark-space.com",
       "contact_email": "rmcdevitt@benchmark-space.com",
       "phone_number": "(802)999-8211",
-      "rank": 24652,
+      "rank": 24656,
       "created_at": 1505765545,
       "updated_at": 1543999330
     },
@@ -94,7 +94,7 @@
               "born_on_trust_code": null,
               "died_on": null,
               "died_on_trust_code": null,
-              "rank": 242560,
+              "rank": 242566,
               "created_at": 1505766073,
               "updated_at": 1531386212
             }
@@ -119,7 +119,7 @@
               "born_on_trust_code": null,
               "died_on": null,
               "died_on_trust_code": null,
-              "rank": 311409,
+              "rank": 311410,
               "created_at": 1505765684,
               "updated_at": 1531386111
             }
@@ -169,7 +169,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 242560,
+                  "rank": 242566,
                   "created_at": 1505766073,
                   "updated_at": 1531386212
                 }
@@ -211,7 +211,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 716773,
+                  "rank": 716833,
                   "created_at": 1507242958,
                   "updated_at": 1518479252
                 }
@@ -253,7 +253,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 534845,
+                  "rank": 534864,
                   "created_at": 1507243501,
                   "updated_at": 1518479319
                 }
@@ -295,7 +295,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 311409,
+                  "rank": 311410,
                   "created_at": 1505765684,
                   "updated_at": 1531386111
                 }
@@ -347,7 +347,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 242560,
+                  "rank": 242566,
                   "created_at": 1505766073,
                   "updated_at": 1531386212
                 }
@@ -389,7 +389,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 716773,
+                  "rank": 716833,
                   "created_at": 1507242958,
                   "updated_at": 1518479252
                 }
@@ -431,7 +431,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 534845,
+                  "rank": 534864,
                   "created_at": 1507243501,
                   "updated_at": 1518479319
                 }
@@ -473,7 +473,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 311409,
+                  "rank": 311410,
                   "created_at": 1505765684,
                   "updated_at": 1531386111
                 }
@@ -576,7 +576,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 387206,
+                  "rank": 387207,
                   "created_at": 1377795192,
                   "updated_at": 1518478745
                 }
@@ -844,7 +844,7 @@
               "pre_money_valuation": null,
               "pre_money_valuation_currency_code": null,
               "pre_money_valuation_usd": null,
-              "rank": 209589,
+              "rank": 197932,
               "created_at": 1505766978,
               "updated_at": 1518475877
             },

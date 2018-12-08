@@ -39,7 +39,7 @@
       "homepage_url": "http://thinkmd.org",
       "contact_email": "bfinette@thinkmd.org",
       "phone_number": null,
-      "rank": 48737,
+      "rank": 48742,
       "created_at": 1433504562,
       "updated_at": 1540599252
     },
@@ -94,7 +94,7 @@
               "born_on_trust_code": null,
               "died_on": null,
               "died_on_trust_code": null,
-              "rank": 303772,
+              "rank": 303773,
               "created_at": 1433504809,
               "updated_at": 1518479104
             }
@@ -169,7 +169,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 303772,
+                  "rank": 303773,
                   "created_at": 1433504809,
                   "updated_at": 1518479104
                 }
@@ -305,7 +305,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 303772,
+                  "rank": 303773,
                   "created_at": 1433504809,
                   "updated_at": 1518479104
                 }
@@ -460,7 +460,7 @@
               "homepage_url": "http://www.freshtrackscap.com",
               "contact_email": "hkillary@freshtrackscap.com",
               "phone_number": "(802)923-1500",
-              "rank": 101396,
+              "rank": 101409,
               "created_at": 1228252602,
               "updated_at": 1540591983
             }
@@ -499,7 +499,7 @@
               "homepage_url": "http://dai.com",
               "contact_email": null,
               "phone_number": "7323585068",
-              "rank": 166895,
+              "rank": 166905,
               "created_at": 1369862286,
               "updated_at": 1523961343
             }
@@ -713,7 +713,7 @@
               "pre_money_valuation": null,
               "pre_money_valuation_currency_code": null,
               "pre_money_valuation_usd": null,
-              "rank": 213986,
+              "rank": 125841,
               "created_at": 1487219942,
               "updated_at": 1518478951
             },
@@ -769,7 +769,7 @@
                         "homepage_url": "http://www.freshtrackscap.com",
                         "contact_email": "hkillary@freshtrackscap.com",
                         "phone_number": "(802)923-1500",
-                        "rank": 101396,
+                        "rank": 101409,
                         "created_at": 1228252602,
                         "updated_at": 1540591983
                       }
@@ -825,7 +825,7 @@
                         "homepage_url": "http://dai.com",
                         "contact_email": null,
                         "phone_number": "7323585068",
-                        "rank": 166895,
+                        "rank": 166905,
                         "created_at": 1369862286,
                         "updated_at": 1523961343
                       }
@@ -860,7 +860,7 @@
               "pre_money_valuation": null,
               "pre_money_valuation_currency_code": null,
               "pre_money_valuation_usd": null,
-              "rank": 148751,
+              "rank": 75874,
               "created_at": 1463392120,
               "updated_at": 1518477957
             }
@@ -889,7 +889,7 @@
               "pre_money_valuation": null,
               "pre_money_valuation_currency_code": null,
               "pre_money_valuation_usd": null,
-              "rank": 118379,
+              "rank": 233367,
               "created_at": 1436357554,
               "updated_at": 1518479041
             }

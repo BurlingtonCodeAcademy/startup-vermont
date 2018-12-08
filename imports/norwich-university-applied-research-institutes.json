@@ -39,7 +39,7 @@
       "homepage_url": "https://nuari.net/",
       "contact_email": "nuariinfo@norwich.edu",
       "phone_number": "(802) 485-2213",
-      "rank": 99435,
+      "rank": 99446,
       "created_at": 1510374302,
       "updated_at": 1518479372
     },
@@ -94,7 +94,7 @@
               "born_on_trust_code": null,
               "died_on": null,
               "died_on_trust_code": null,
-              "rank": 758853,
+              "rank": 758801,
               "created_at": 1510554245,
               "updated_at": 1536371736
             }
@@ -144,7 +144,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 758853,
+                  "rank": 758801,
                   "created_at": 1510554245,
                   "updated_at": 1536371736
                 }
@@ -196,7 +196,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 758853,
+                  "rank": 758801,
                   "created_at": 1510554245,
                   "updated_at": 1536371736
                 }
@@ -492,7 +492,7 @@
               "pre_money_valuation": null,
               "pre_money_valuation_currency_code": null,
               "pre_money_valuation_usd": null,
-              "rank": 61822,
+              "rank": 61794,
               "created_at": 1510374302,
               "updated_at": 1518478952
             },

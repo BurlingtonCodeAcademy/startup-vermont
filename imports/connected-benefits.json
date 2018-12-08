@@ -39,7 +39,7 @@
       "homepage_url": "http://connectedbenefits.com",
       "contact_email": null,
       "phone_number": "(800) 853-1488",
-      "rank": 37747,
+      "rank": 37757,
       "created_at": 1443384864,
       "updated_at": 1523954119
     },
@@ -94,7 +94,7 @@
               "born_on_trust_code": 7,
               "died_on": null,
               "died_on_trust_code": null,
-              "rank": 33058,
+              "rank": 33066,
               "created_at": 1390487824,
               "updated_at": 1518478822
             }
@@ -144,7 +144,7 @@
                   "born_on_trust_code": 7,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 33058,
+                  "rank": 33066,
                   "created_at": 1390487824,
                   "updated_at": 1518478822
                 }
@@ -196,7 +196,7 @@
                   "born_on_trust_code": 7,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 33058,
+                  "rank": 33066,
                   "created_at": 1390487824,
                   "updated_at": 1518478822
                 }
@@ -294,7 +294,7 @@
               "born_on_trust_code": 7,
               "died_on": null,
               "died_on_trust_code": null,
-              "rank": 33058,
+              "rank": 33066,
               "created_at": 1390487824,
               "updated_at": 1518478822
             }
@@ -492,7 +492,7 @@
               "pre_money_valuation": null,
               "pre_money_valuation_currency_code": null,
               "pre_money_valuation_usd": null,
-              "rank": 184406,
+              "rank": 144951,
               "created_at": 1443386239,
               "updated_at": 1518478104
             }
@@ -521,7 +521,7 @@
               "pre_money_valuation": null,
               "pre_money_valuation_currency_code": null,
               "pre_money_valuation_usd": null,
-              "rank": 136959,
+              "rank": 161719,
               "created_at": 1443386132,
               "updated_at": 1518474576
             },
@@ -561,7 +561,7 @@
                         "born_on_trust_code": 7,
                         "died_on": null,
                         "died_on_trust_code": null,
-                        "rank": 33058,
+                        "rank": 33066,
                         "created_at": 1390487824,
                         "updated_at": 1518478822
                       }
@@ -618,7 +618,7 @@
             "announced_on_trust_code": 7,
             "completed_on": null,
             "completed_on_trust_code": null,
-            "rank": 78189,
+            "rank": 76730,
             "created_at": 1469255638,
             "updated_at": 1518479626
           },

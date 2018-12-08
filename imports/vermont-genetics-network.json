@@ -39,7 +39,7 @@
       "homepage_url": "http://vgn.uvm.edu/",
       "contact_email": "vgn@uvm.edu",
       "phone_number": "(802) 656-9119",
-      "rank": 73131,
+      "rank": 73138,
       "created_at": 1434171033,
       "updated_at": 1518479178
     },
@@ -118,7 +118,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 706711,
+                  "rank": 706811,
                   "created_at": 1434171663,
                   "updated_at": 1518479882
                 }
@@ -170,7 +170,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 706711,
+                  "rank": 706811,
                   "created_at": 1434171663,
                   "updated_at": 1518479882
                 }
@@ -293,7 +293,7 @@
             "homepage_url": "http://www.uvm.edu/",
             "contact_email": null,
             "phone_number": "(802) 656-3131",
-            "rank": 19773,
+            "rank": 19775,
             "created_at": 1368127020,
             "updated_at": 1528716131
           }
@@ -512,7 +512,7 @@
               "pre_money_valuation": null,
               "pre_money_valuation_currency_code": null,
               "pre_money_valuation_usd": null,
-              "rank": 213685,
+              "rank": 237678,
               "created_at": 1434171428,
               "updated_at": 1518483553
             },

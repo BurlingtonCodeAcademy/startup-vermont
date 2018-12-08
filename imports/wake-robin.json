@@ -118,7 +118,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 430284,
+                  "rank": 430285,
                   "created_at": 1521447669,
                   "updated_at": 1536370965
                 }
@@ -170,7 +170,7 @@
                   "born_on_trust_code": null,
                   "died_on": null,
                   "died_on_trust_code": null,
-                  "rank": 430284,
+                  "rank": 430285,
                   "created_at": 1521447669,
                   "updated_at": 1536370965
                 }
@@ -394,7 +394,7 @@
                   "pre_money_valuation": null,
                   "pre_money_valuation_currency_code": null,
                   "pre_money_valuation_usd": null,
-                  "rank": 62203,
+                  "rank": 62285,
                   "created_at": 1506579162,
                   "updated_at": 1518478690
                 },
@@ -433,7 +433,7 @@
                       "homepage_url": "http://www.ziegler.com/",
                       "contact_email": null,
                       "phone_number": "(800) 366-8899",
-                      "rank": 14379,
+                      "rank": 14385,
                       "created_at": 1367571760,
                       "updated_at": 1544006986
                     }
@@ -461,7 +461,7 @@
                     "born_on_trust_code": null,
                     "died_on": null,
                     "died_on_trust_code": null,
-                    "rank": 430284,
+                    "rank": 430285,
                     "created_at": 1521447669,
                     "updated_at": 1536370965
                   }
@@ -501,7 +501,7 @@
                   "homepage_url": "http://www.ziegler.com/",
                   "contact_email": null,
                   "phone_number": "(800) 366-8899",
-                  "rank": 14379,
+                  "rank": 14385,
                   "created_at": 1367571760,
                   "updated_at": 1544006986
                 }

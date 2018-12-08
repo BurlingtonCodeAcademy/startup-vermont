@@ -39,7 +39,7 @@
       "homepage_url": null,
       "contact_email": null,
       "phone_number": null,
-      "rank": 667239,
+      "rank": 667242,
       "created_at": 1509539305,
       "updated_at": 1518480120
     },
@@ -319,7 +319,7 @@
             "announced_on_trust_code": 7,
             "completed_on": null,
             "completed_on_trust_code": null,
-            "rank": 64973,
+            "rank": 66677,
             "created_at": 1509539447,
             "updated_at": 1518478502
           },
@@ -358,7 +358,7 @@
                 "homepage_url": "http://unfi.com",
                 "contact_email": null,
                 "phone_number": "+1 401-528-8634",
-                "rank": 54791,
+                "rank": 54796,
                 "created_at": 1403865971,
                 "updated_at": 1518478065
               }
