@@ -39,6 +39,8 @@ class App extends Component {
           <div id="startup-map">
             <Map startups={this.state.startups}/>
           </div>
+          <div id="startup-info">
+          startup info here</div>
 
         </div>
       </div>

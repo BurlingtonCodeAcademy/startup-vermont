@@ -27,9 +27,11 @@
   justify-content: center;
   position: fixed;
   grid-template-columns: 400px 2fr;
+  grid-template-rows: 50% 50%;
   grid-template-areas:
-    "list map";
-}
+    "list map"
+    "list info";
+} 
 
 #startup-list {
   grid-area: list;
@@ -42,9 +44,29 @@
 
 #startup-map {
   grid-area: map;
-  height: 50%;
+  height: 100%;
   margin-top: 50px;
   padding: 0px;
   overflow: auto;
   border-bottom: gray solid 10px;
+}
+
+#startup-info {
+  grid-area: info;
+  height: 100%;
+  margin-top: 100px;
+  padding: 0px;
+  overflow: auto;
+}
+
+@media screen and (max-width: 800px) {
+  #grid-container {
+    grid-template-columns: 100%;
+    grid-template-rows: 30% 35% auto;
+    grid-template-areas:
+      "map"
+      "list"
+      "info";
+
+  } 
 }
