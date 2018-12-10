@@ -12,7 +12,7 @@ class Company {
         this.website = properties.homepage_url;
         this.logo_url = properties.profile_image_url;
         this.apiPath = properties.api_path;
-        
+
     }
 
     fromOrganizationDetails(organizationDetails) {
@@ -24,7 +24,7 @@ class Company {
 
         this.num_employees_min = properties.num_employees_min
         this.num_employees_max = properties.num_employees_max
-        
+
         this.founded_year = moment(properties.founded_on).year
 
         this.total_funding_usd = properties.total_funding_usd
@@ -32,9 +32,27 @@ class Company {
 
         // TODO
         //this.categories = []
-        // this.categories = organizationDetails.relationships.categories.items[0].properties.category_groups[0];
-        // this.categories.append(organizationDetails.properties.)
 
+        let industryArray = []
+        let items = organizationDetails.relationships.categories.items
+        items.forEach((item) => {
+            if (item.properties) {
+                industryArray.push(item.properties.name)
+                if (item.properties.category_groups !== null) {
+                    for (let group of item.properties.category_groups) {
+                        industryArray.push(group)
+                    }
+                }
+            }
+        })
+        this.categories = [...new Set(industryArray)]
+  /*      
+                this.categories = organizationDetails.relationships.categories.items.map(item => {            
+                    return item.properties.category_groups
+                });
+        
+     this.categories.append(organizationDetails.properties.)
+*/
 
     }
 

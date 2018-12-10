@@ -57,7 +57,7 @@ class Map extends Component {
   }
 
   render() {
-    this.createMarkerLayer();
+    //this.createMarkerLayer();
     return (
       <div ref={this.mapRef} id="map" className="map" />
     )

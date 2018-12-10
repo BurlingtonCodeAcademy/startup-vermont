@@ -4,29 +4,27 @@ import Tag from './Tag.js'
 
 
 class Startup extends Component {
+  
   render() {
 
     return (
-      <div className="startup-info">
-        <a href={this.props.website}><img alt={this.props.name + " logo"} src={this.props.logo_url}></img></a>
+      <div className="startup-info" onClick={()=>this.props.updateState(this.props)}>
+        <a href={this.props.website}><img src={this.props.logo_url} alt="logo"></img></a>
         <h1 className="startup-names">{this.props.name.toUpperCase()}</h1>
         <p>
           <i>{this.props.short_description}</i>
           <br />
         </p>
         <p className="address-info">
-          {/*{this.props.address.street_1}<br />
-          {this.props.address.street_2}<br />*/}
           {this.props.address.city}
           <br />
         </p>
-        <p>
+        <div className="category-container">
           {this.props.categories && this.props.categories.map(tag => {
-            console.log('tag:' + tag)
-            return <Tag tag={tag} />
+            return <Tag key={tag} tag={tag} />
           })}
           <br />
-        </p>
+        </div>
       </div>
     )
   }

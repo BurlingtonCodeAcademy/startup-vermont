@@ -23,22 +23,30 @@ p {
 
   box-sizing: border-box;
 }
+.category-container {
+  display: flex;
+  word-break: keep-all;
+  white-space: nowrap;
+  flex-wrap: wrap;
+}
+
 .address-info {
   font-size: 12px;
 }
 .industry {
+  font-size: 9px;
   border: green solid 2px;
-  border-radius: 20px;
-  padding: 3px;
+  border-radius: 5%;
+  padding: 0px;
   color: white;
   background-color: green;
-  display: inline;
-  line-height: 2;
+  line-height: 1;
+  height: 20px;
+  margin-top: 5px;
 }
 img {
   width: 75px;
   float: right;
   overflow: hidden;
   mix-blend-mode: multiply;
-
 }
