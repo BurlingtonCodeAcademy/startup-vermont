@@ -1,3 +1,5 @@
+"use strict;"
+
 require('dotenv').config();
 const moment = require('moment')
 
@@ -16,11 +18,17 @@ const fetch = require('node-fetch');
 const fs = require('fs');
 const path = require('path');
 
+const crunchKey = process.env.CRUNCH_KEY
 const dbUrl = process.env.MONGO_URI || process.env.MONGOLAB_MAUVE_URI || `mongodb://localhost:27017/startup-vt`
-
 let store = new CompanyStore(dbUrl);
 
 importAll();
+
+function summariesUrl(pageNumber) {
+  return `https://api.crunchbase.com/v3.1/organizations?locations=vermont&page=${pageNumber}&items_per_page=200&user_key=${crunchKey}`
+}
+// let odmUrl = `https://api.crunchbase.com/v3.1/odm-organizations?locations=vermont&page=${pageNumber}&items_per_page=200&user_key=${crunchKey}`
+
 
 async function importAll() {
 
@@ -35,29 +43,30 @@ async function importAll() {
     }
   }
 
-  let pageNumber = 1
-  let crunchKey = process.env.CRUNCH_KEY
-  let crunchUrl = `https://api.crunchbase.com/v3.1/organizations?locations=vermont&page=${pageNumber}&items_per_page=200&user_key=${crunchKey}`
-  let odmUrl = `https://api.crunchbase.com/v3.1/odm-organizations?locations=vermont&page=${pageNumber}&items_per_page=200&user_key=${crunchKey}`
+  let pageNumber = 1;
+  let summaries = [];
+  let keepFetching = true;
+  while (keepFetching) {
+    let response = await fetch(summariesUrl(pageNumber))
+    let payload = await response.json()
+    console.log(payload)
 
-  let response = await fetch(crunchUrl)
-  let payload = await response.json()
-
-  if (!payload || !payload.metadata) {
-    console.error('No metadata :-( ')
-    process.exit(1);
+    if (!payload || !payload.metadata) {
+      console.error('No metadata :-( ')
+      keepFetching = false;
+    }
+    else if (pageNumber === payload.data.paging.number_of_pages) {
+      keepFetching = false;
+    }
+    else {
+      summaries = summaries.concat(payload.data.items)
+    }
+    pageNumber += 1;
   }
 
-  fs.writeFile(path.join(importsDir, 'organizationSummaries.json'),
-    JSON.stringify(payload, null, 2),
-    (err) => {
-      if (err) {
-        console.log(err);
-        process.exit(1);
-      }
-    });
+  writeJson(path.join(importsDir, `summaries.json`), summaries)
 
-  for (let organizationSummary of payload.data.items) {
+  for (let organizationSummary of summaries) {
     if (!organizationSummary.properties) {
       return console.log(organizationSummary.name + ' No properties value')
     }
@@ -69,13 +78,21 @@ async function importAll() {
       importDetails(company, crunchKey, importsDir, organizationSummary);
     }, 1000);
   }
-  // })
 }
 
-function read(path) {
+function readJson(path) {
   return new Promise(function (resolve, reject) {
     fs.readFile(path, (err, data) => {
-      err ? reject(err) : resolve(data);
+      err ? reject(err) : resolve(JSON.parse(data));
+    });
+  });
+}
+
+function writeJson(path, data) {
+  console.log('writing')
+  return new Promise(function (resolve, reject) {
+    fs.writeFile(path, JSON.stringify(data, null, 2), err => {
+      err ? reject(err) : resolve();
     });
   });
 }
@@ -84,17 +101,15 @@ async function importDetails(company, crunchKey, importsDir, organizationSummary
   const slug = organizationSummary.properties.permalink;
   const detailsFile = path.join(importsDir, `${slug}.json`);
 
-  let details = null;
   if (fs.existsSync(detailsFile)) {
-    let contents = await read(detailsFile)
-    details = JSON.parse(contents);
+    let details = await readJson(detailsFile)
     let cacheUpdated = details.data.properties.updated_at
     let summaryEntryUpdated = organizationSummary.properties.updated_at
 
     // console.log({slug, summaryEntryUpdated, cacheUpdated})  // for debugging
 
     if (summaryEntryUpdated == cacheUpdated) {
-      console.log(`Using ${slug}`)
+      console.log(`Using ${slug}.json`)
 
       company.fromOrganizationDetails(details.data);
       await store.add(company);
@@ -113,11 +128,7 @@ async function importDetails(company, crunchKey, importsDir, organizationSummary
   if (!companyDetails.data || !companyDetails.data.properties || !companyDetails.data.relationships || moment(companyDetails.data.properties.founded_on) < moment('2000-01-01')) {
     return;
   }
-  fs.writeFile(detailsFile, JSON.stringify(companyDetails, null, 2), err => {
-    if (err) {
-      console.log(err);
-    }
-  });
+  writeJson(detailsFile, companyDetails);
 
   company.fromOrganizationDetails(companyDetails.data);
   await store.add(company);
