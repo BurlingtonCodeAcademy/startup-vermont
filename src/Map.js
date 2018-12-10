@@ -38,7 +38,7 @@ class Map extends Component {
         // console.log(osmUrl)     
         fetch(osmUrl)
           .then((response) => {
-            console.log(response.headers);
+            //console.log(response.headers);
             // console.log(response.body)
             return response.json();
           })

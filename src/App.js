@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 //import logo from './logo.svg';
 import Startup from './Startup.js';
 import Map from './Map.js';
-import Profile from './Profile.js'
+import Profile from './Profile.js';
 import './App.css';
+
 
 
 
