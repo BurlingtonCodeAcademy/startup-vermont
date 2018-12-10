@@ -9,7 +9,7 @@ class Startup extends Component {
 
     return (
       <div className="startup-info" onClick={()=>this.props.updateState(this.props)}>
-        <a href={this.props.website}><img src={this.props.logo_url} alt="logo"></img></a>
+        <a href={this.props.website}><img className="logo" src={this.props.logo_url} alt="logo"></img></a>
         <h1 className="startup-names">{this.props.name.toUpperCase()}</h1>
         <p>
           <i>{this.props.short_description}</i>

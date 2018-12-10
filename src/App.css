@@ -26,8 +26,8 @@
   width: 100%;
   justify-content: center;
   position: fixed;
-  grid-template-columns: 400px 2fr;
-  grid-template-rows: 50% 50%;
+  grid-template-columns: 500px 2fr;
+  grid-template-rows: 40% 60%;
   grid-template-areas:
     "list map"
     "list info";
@@ -47,16 +47,16 @@
   height: 100%;
   margin-top: 50px;
   padding: 0px;
-  overflow: hidden;
+  overflow: auto;
   border-bottom: gray solid 10px;
 }
 
 #startup-info {
   grid-area: info;
   height: 100%;
-  margin-top: 100px;
+  margin-top: 80px;
   padding: 0px;
-  overflow: auto;
+  overflow: scroll;
 }
 
 @media screen and (max-width: 800px) {

@@ -7,9 +7,10 @@
   margin: 15px;
 
 }
-.startup-info:hover {
+.startup-info:hover, .startup-info:active {
   background-color: lightgray;
 }
+
 
 .startup-names {
   font-size: 18px;
@@ -44,7 +45,7 @@ p {
   height: 20px;
   margin-top: 5px;
 }
-img {
+.logo {
   width: 75px;
   float: right;
   overflow: hidden;

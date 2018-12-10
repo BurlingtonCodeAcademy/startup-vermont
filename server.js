@@ -60,16 +60,7 @@ async function startups() {
   let results = [];
   // todo: use CompanyStore and Company objects
   await cursor.forEach(startup => {
-    results.push({
-      name: startup.name, 
-      address: startup.address, 
-      city: startup.city,
-      short_description: startup.short_description, 
-      categories: startup.categories, 
-      website: startup.website, 
-      logo_url: startup.logo_url,
-      _id: startup._id
-    });
+    results.push(startup);
       
   });
   function byName(a,b) {

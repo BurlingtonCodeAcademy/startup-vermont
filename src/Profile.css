@@ -1,0 +1,46 @@
+.profile {
+  display: grid;
+  grid-template-areas: 
+    "name logo"
+    "location description"
+    "info info";
+  justify-items: start;
+  align-items: start;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  padding: 0px 15px;
+  margin: 20px;
+}
+
+.title {
+  grid-area: name;
+  align-self: center;
+  justify-self: start;
+  font-size: 40px;
+  color: green;
+  padding: 10px;
+}
+
+.location {
+  grid-area: location;
+
+}
+.logo-profile {
+  grid-area: logo;
+  align-self: start;
+  justify-self: center;
+  height: 80px;
+  mix-blend-mode: multiply;
+  padding: 10px;
+
+}
+
+.description {
+  justify-self: start;
+  grid-area: description;
+}
+.info-profile {
+  grid-area: info;
+  
+}

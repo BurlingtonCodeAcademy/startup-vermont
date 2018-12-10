@@ -24,6 +24,7 @@ class App extends Component {
   updateState = startup => {
     //console.log(event);
     this.setState({current: startup})
+    
   }
 
  
