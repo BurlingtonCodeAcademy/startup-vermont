@@ -39,9 +39,9 @@
       "homepage_url": "http://www1.marathon-health.com/",
       "contact_email": "info@marathon-health.com",
       "phone_number": "(802)857-0400",
-      "rank": 18680,
+      "rank": 18525,
       "created_at": 1468391757,
-      "updated_at": 1540594026
+      "updated_at": 1544418188
     },
     "relationships": {
       "primary_image": {
@@ -62,7 +62,7 @@
             "width": null,
             "filesize": null,
             "created_at": 1468391757,
-            "updated_at": 1540594026
+            "updated_at": 1544418188
           }
         }
       },
@@ -94,7 +94,7 @@
               "born_on_trust_code": null,
               "died_on": null,
               "died_on_trust_code": null,
-              "rank": 514608,
+              "rank": 514606,
               "created_at": 1498640012,
               "updated_at": 1518478975
             }
@@ -181,7 +181,7 @@
               "homepage_url": "http://www.EideardVC.com",
               "contact_email": null,
               "phone_number": null,
-              "rank": 312817,
+              "rank": 316887,
               "created_at": 1478184233,
               "updated_at": 1518475286
             }
@@ -223,7 +223,7 @@
               "homepage_url": "http://www.goldmansachs.com/",
               "contact_email": "gs-investor-relations@gs.com",
               "phone_number": null,
-              "rank": 326,
+              "rank": 293,
               "created_at": 1181925921,
               "updated_at": 1530082465
             }
@@ -448,7 +448,7 @@
               "pre_money_valuation": null,
               "pre_money_valuation_currency_code": null,
               "pre_money_valuation_usd": null,
-              "rank": 169441,
+              "rank": 114017,
               "created_at": 1468391801,
               "updated_at": 1518479499
             },
@@ -505,7 +505,7 @@
                         "homepage_url": "http://www.goldmansachs.com/",
                         "contact_email": "gs-investor-relations@gs.com",
                         "phone_number": null,
-                        "rank": 326,
+                        "rank": 293,
                         "created_at": 1181925921,
                         "updated_at": 1530082465
                       }
@@ -540,7 +540,7 @@
               "pre_money_valuation": null,
               "pre_money_valuation_currency_code": null,
               "pre_money_valuation_usd": null,
-              "rank": 231309,
+              "rank": 85597,
               "created_at": 1479842329,
               "updated_at": 1518479645
             },
@@ -596,7 +596,7 @@
                         "homepage_url": "http://www.EideardVC.com",
                         "contact_email": null,
                         "phone_number": null,
-                        "rank": 312817,
+                        "rank": 316887,
                         "created_at": 1478184233,
                         "updated_at": 1518475286
                       }
@@ -631,7 +631,7 @@
               "pre_money_valuation": null,
               "pre_money_valuation_currency_code": null,
               "pre_money_valuation_usd": null,
-              "rank": 70632,
+              "rank": 102431,
               "created_at": 1479842192,
               "updated_at": 1518478767
             },
@@ -687,7 +687,7 @@
                         "homepage_url": "http://www.EideardVC.com",
                         "contact_email": null,
                         "phone_number": null,
-                        "rank": 312817,
+                        "rank": 316887,
                         "created_at": 1478184233,
                         "updated_at": 1518475286
                       }
@@ -759,7 +759,7 @@
               "website_name": "homepage",
               "url": "http://www1.marathon-health.com/",
               "created_at": 1468391757,
-              "updated_at": 1540594026
+              "updated_at": 1544418188
             }
           },
           {
@@ -770,7 +770,7 @@
               "website_name": "facebook",
               "url": "https://www.facebook.com/pages/Marathon-Health/223581985626",
               "created_at": 1468391757,
-              "updated_at": 1540594026
+              "updated_at": 1544418188
             }
           },
           {
@@ -781,7 +781,7 @@
               "website_name": "twitter",
               "url": "https://twitter.com/marathonhealth",
               "created_at": 1468391757,
-              "updated_at": 1540594026
+              "updated_at": 1544418188
             }
           },
           {
@@ -792,7 +792,7 @@
               "website_name": "linkedin",
               "url": "https://www.linkedin.com/company/marathon-health",
               "created_at": 1468391757,
-              "updated_at": 1540594026
+              "updated_at": 1544418188
             }
           }
         ]
@@ -816,7 +816,7 @@
               "width": null,
               "filesize": null,
               "created_at": 1468391757,
-              "updated_at": 1540594026
+              "updated_at": 1544418188
             }
           }
         ]

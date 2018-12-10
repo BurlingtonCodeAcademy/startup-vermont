@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 //import logo from './logo.svg';
 import Startup from './Startup.js';
-import Map from './Map.js';
+import StartupsMap from './BigMap.js';
 import Profile from './Profile.js';
 import './App.css';
 
@@ -45,7 +45,7 @@ class App extends Component {
             })}
           </div>
           <div id="startup-map">
-            <Map startups={this.state.startups}/>
+            <StartupsMap startups={this.state.startups}/>
           </div>
           <div id="startup-info">
             <Profile startup={this.state.current}/>
