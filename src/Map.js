@@ -54,11 +54,6 @@ class Map extends Component {
           .catch((error) => console.log(error));
       
     })
-
-    //console.log(markerLayer)
-    // var markerGroup = Leaflet.layerGroup(markerLayer);
-    // console.log(markerGroup)
-    // Leaflet.layerGroup(markerGroup).addLayer(polyline).addTo(this.map);
   }
 
   render() {

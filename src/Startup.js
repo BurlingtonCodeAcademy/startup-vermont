@@ -8,7 +8,7 @@ class Startup extends Component {
 
     return (
       <div className="startup-info">
-        <a href={this.props.website}><img src={this.props.logo_url}></img></a>
+        <a href={this.props.website}><img alt={this.props.name + " logo"} src={this.props.logo_url}></img></a>
         <h1 className="startup-names">{this.props.name.toUpperCase()}</h1>
         <p>
           <i>{this.props.short_description}</i>

@@ -35,7 +35,7 @@ async function importAll() {
     }
   }
 
-  let pageNumber = 1
+  let pageNumber = 2
   let crunchKey = process.env.CRUNCH_KEY
   let crunchUrl = `https://api.crunchbase.com/v3.1/organizations?locations=vermont&page=${pageNumber}&items_per_page=200&user_key=${crunchKey}`
   let odmUrl = `https://api.crunchbase.com/v3.1/odm-organizations?locations=vermont&page=${pageNumber}&items_per_page=200&user_key=${crunchKey}`
@@ -51,10 +51,6 @@ async function importAll() {
       }
       // console.log({ received: payload.metadata })
 
-      let itemsRemoved = 0
-      let objectsArray = []
-      
-
       fs.writeFile(path.join(importsDir, 'organizationSummaries.json'),
         JSON.stringify(payload, null, 2),
         (err) => {
@@ -66,7 +62,6 @@ async function importAll() {
 
       for (let organizationSummary of payload.data.items) {
         if (!organizationSummary.properties) {
-          itemsRemoved++
           return console.log(organizationSummary.name + ' No properties value')
         }
 
@@ -74,13 +69,13 @@ async function importAll() {
         company.fromOrganizationSummary(organizationSummary);
 
         setTimeout(()=>{
-          importDetails(company, crunchKey, importsDir, organizationSummary, objectsArray);
+          importDetails(company, crunchKey, importsDir, organizationSummary);
         }, 1000);
       }
     })
 }
 
-function importDetails(company, crunchKey, importsDir, organizationSummary, objectsArray) {
+function importDetails(company, crunchKey, importsDir, organizationSummary) {
   console.log(`https://api.crunchbase.com/v3.1/` + company.apiPath + `?user_key=${crunchKey}`);
   fetch(`https://api.crunchbase.com/v3.1/` + company.apiPath + `?user_key=${crunchKey}`)
     .then((response) => {
@@ -88,9 +83,7 @@ function importDetails(company, crunchKey, importsDir, organizationSummary, obje
     })
     .then((companyInfo) => {
       if (!companyInfo.data || !companyInfo.data.properties || !companyInfo.data.relationships || moment(companyInfo.data.properties.founded_on) < moment('2000-01-01')) {
-        itemsRemoved++;
-        // return console.log(itemsRemoved + ' No properties value')
-        next;
+        return
       }
       fs.writeFile(path.join(importsDir, `${organizationSummary.properties.permalink}.json`), JSON.stringify(companyInfo, null, 2), err => {
         if (err) {
@@ -98,10 +91,8 @@ function importDetails(company, crunchKey, importsDir, organizationSummary, obje
         }
       });
       company.fromOrganizationDetails(companyInfo.data);
-      objectsArray.push(company);
-      console.log(company);
+
       addCompany(company);
-      // console.log(objectsArray)
     });
 }
 
