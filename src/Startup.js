@@ -4,10 +4,11 @@ import Tag from './Tag.js'
 
 
 class Startup extends Component {
+  
   render() {
 
     return (
-      <div className="startup-info">
+      <div className="startup-info" onClick={this.props.updateState}>
         <a href={this.props.website}><img src={this.props.logo_url}></img></a>
         <h1 className="startup-names">{this.props.name.toUpperCase()}</h1>
         <p>

@@ -32,7 +32,7 @@ class Company {
 
         // TODO
         //this.categories = []
-        this.categories = organizationDetails.relationships.categories.items[0].properties.category_groups[0];
+        this.categories = organizationDetails.relationships.categories.items.map(item => {item.properties.category_groups});
         // this.categories.append(organizationDetails.properties.)
 
 

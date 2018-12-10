@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 //import logo from './logo.svg';
 import Startup from './Startup.js';
 import Map from './Map.js';
+import Profile from './Profile.js'
 import './App.css';
 
 
@@ -10,7 +11,8 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      startups: []
+      startups: [],
+      current: ""
     };
   }
   componentDidMount() {
@@ -19,6 +21,12 @@ class App extends Component {
       .then(data => this.setState({ startups: data }))
       .catch(() => this.setState({ status: "Failed to fetch content" }));
   }
+  updateState = event => {
+    //console.log(event);
+    //this.setState({current: event})
+  }
+
+ 
 
   render() {
     return (
@@ -31,16 +39,18 @@ class App extends Component {
           <h1>Startups in VT:</h1>
             {this.state.startups.map(startup => {
               //console.log(startup);
-              let result = <Startup key={startup._id} {...startup} />
+              let result = <Startup key={startup._id} {...startup} updateState = {this.updateState}/>
               return result;
             })}
           </div>
-
           <div id="startup-map">
             <Map startups={this.state.startups}/>
           </div>
           <div id="startup-info">
-          startup info here</div>
+            <Profile />
+          startup info here
+
+          </div>
 
         </div>
       </div>

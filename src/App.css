@@ -47,7 +47,7 @@
   height: 100%;
   margin-top: 50px;
   padding: 0px;
-  overflow: auto;
+  overflow: hidden;
   border-bottom: gray solid 10px;
 }
 
