@@ -12,7 +12,7 @@ class App extends Component {
     super();
     this.state = {
       startups: [],
-      current: ""
+      current: null
     };
   }
   componentDidMount() {
@@ -21,9 +21,9 @@ class App extends Component {
       .then(data => this.setState({ startups: data }))
       .catch(() => this.setState({ status: "Failed to fetch content" }));
   }
-  updateState = event => {
+  updateState = startup => {
     //console.log(event);
-    //this.setState({current: event})
+    this.setState({current: startup})
   }
 
  
@@ -47,9 +47,7 @@ class App extends Component {
             <Map startups={this.state.startups}/>
           </div>
           <div id="startup-info">
-            <Profile />
-          startup info here
-
+            <Profile startup={this.state.current}/>
           </div>
 
         </div>

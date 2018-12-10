@@ -1,17 +1,31 @@
 import React, { Component } from 'react';
-//import './Profile.css';
+import './Profile.css';
 
 
 class Profile extends Component {
-  
+
   render() {
-    return(
-      <div className="profile">
-        {this.props.name}
-        <a href={this.props.website}><img src={this.props.logo_url}></img></a>
-      </div>
-    )
+    if (this.props.startup) {
+      return (
+        <div className="profile">
+        <div className="title">
+        {this.props.startup.name}
+        </div>
+        <div>{this.props.startup.address.city}
+        </div>
+        <div>
+          {this.props.startup.short_description}
+        </div>
+        </div>
+      )
+    } else {
+      return (
+        <div>
+          Startup Info Here if no startup clicked
+        </div>
+      )
+    }
   }
 }
 
-  export default Profile;
+export default Profile;
