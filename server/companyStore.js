@@ -49,6 +49,13 @@ class CompanyStore {
     (await this.collection()).drop()
   }
 
+  async add(company) {
+    let collection = await this.collection()
+    console.log("Inserting " + company.name)
+    // todo: validate company type and fields?
+    collection.insertOne(company)
+  }
+
 }
 
 module.exports = CompanyStore;

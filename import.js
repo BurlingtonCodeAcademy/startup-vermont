@@ -40,78 +40,85 @@ async function importAll() {
   let crunchUrl = `https://api.crunchbase.com/v3.1/organizations?locations=vermont&page=${pageNumber}&items_per_page=200&user_key=${crunchKey}`
   let odmUrl = `https://api.crunchbase.com/v3.1/odm-organizations?locations=vermont&page=${pageNumber}&items_per_page=200&user_key=${crunchKey}`
 
-  fetch(crunchUrl)
-    .then((response) => {
-      return response.json()
-    })
-    .then((payload) => {
-      if (!payload || !payload.metadata) {
-        console.error('No metadata :-( ')
+  let response = await fetch(crunchUrl)
+  let payload = await response.json()
+
+  if (!payload || !payload.metadata) {
+    console.error('No metadata :-( ')
+    process.exit(1);
+  }
+
+  fs.writeFile(path.join(importsDir, 'organizationSummaries.json'),
+    JSON.stringify(payload, null, 2),
+    (err) => {
+      if (err) {
+        console.log(err);
         process.exit(1);
       }
-      // console.log({ received: payload.metadata })
-
-      let itemsRemoved = 0
-      let objectsArray = []
-      
-
-      fs.writeFile(path.join(importsDir, 'organizationSummaries.json'),
-        JSON.stringify(payload, null, 2),
-        (err) => {
-          if (err) {
-            console.log(err);
-            process.exit(1);
-          }
-        });
-
-      for (let organizationSummary of payload.data.items) {
-        if (!organizationSummary.properties) {
-          itemsRemoved++
-          return console.log(organizationSummary.name + ' No properties value')
-        }
-
-        let company = new Company()
-        company.fromOrganizationSummary(organizationSummary);
-
-        setTimeout(()=>{
-          importDetails(company, crunchKey, importsDir, organizationSummary, objectsArray);
-        }, 1000);
-      }
-    })
-}
-
-function importDetails(company, crunchKey, importsDir, organizationSummary, objectsArray) {
-  console.log(`https://api.crunchbase.com/v3.1/` + company.apiPath + `?user_key=${crunchKey}`);
-  fetch(`https://api.crunchbase.com/v3.1/` + company.apiPath + `?user_key=${crunchKey}`)
-    .then((response) => {
-      return response.json();
-    })
-    .then((companyInfo) => {
-      if (!companyInfo.data || !companyInfo.data.properties || !companyInfo.data.relationships || moment(companyInfo.data.properties.founded_on) < moment('2000-01-01')) {
-        itemsRemoved++;
-        // return console.log(itemsRemoved + ' No properties value')
-        next;
-      }
-      fs.writeFile(path.join(importsDir, `${organizationSummary.properties.permalink}.json`), JSON.stringify(companyInfo, null, 2), err => {
-        if (err) {
-          console.log(err);
-        }
-      });
-      company.fromOrganizationDetails(companyInfo.data);
-      objectsArray.push(company);
-      console.log(company);
-      addCompany(company);
-      // console.log(objectsArray)
     });
+
+  for (let organizationSummary of payload.data.items) {
+    if (!organizationSummary.properties) {
+      return console.log(organizationSummary.name + ' No properties value')
+    }
+
+    let company = new Company()
+    company.fromOrganizationSummary(organizationSummary);
+
+    setTimeout(() => {
+      importDetails(company, crunchKey, importsDir, organizationSummary);
+    }, 1000);
+  }
+  // })
 }
 
-async function addCompany(companyObject) {
-  let collection = await companies()
-  console.log("inserting " + companyObject.name)
-  collection.insertOne(companyObject)
+function read(path) {
+  return new Promise(function(resolve, reject){
+    fs.readFile(path, (err, data) => {
+        err ? reject(err) : resolve(data);
+    });
+  });
 }
 
+async function importDetails(company, crunchKey, importsDir, organizationSummary) {
+  const slug = organizationSummary.properties.permalink;
+  const detailsFile = path.join(importsDir, `${slug}.json`);
 
-async function companies() {
-  return await store.collection();
+  let details = null;
+  if (fs.existsSync(detailsFile)) {
+    let contents = await read(detailsFile)
+    details = JSON.parse(contents);
+    let cacheUpdated = details.data.properties.updated_at
+    let summaryEntryUpdated = organizationSummary.properties.updated_at
+
+    // console.log({slug, summaryEntryUpdated, cacheUpdated})  // for debugging
+
+    if (summaryEntryUpdated == cacheUpdated) {
+      console.log(`Using ${slug}`)
+
+      company.fromOrganizationDetails(details.data);
+      await store.add(company);
+      return;
+
+    } else {
+      console.log(`Updating ${slug}`)
+    }
+  } else {
+    console.log(`Fetching ${slug}`)
+  }
+
+  console.log(`https://api.crunchbase.com/v3.1/` + company.apiPath + `?user_key=${crunchKey}`);
+  let response = await fetch(`https://api.crunchbase.com/v3.1/` + company.apiPath + `?user_key=${crunchKey}`)
+  let companyDetails = await response.json();
+  if (!companyDetails.data || !companyDetails.data.properties || !companyDetails.data.relationships || moment(companyDetails.data.properties.founded_on) < moment('2000-01-01')) {
+    return;
+  }
+  fs.writeFile(detailsFile, JSON.stringify(companyDetails, null, 2), err => {
+    if (err) {
+      console.log(err);
+    }
+  });
+  
+  company.fromOrganizationDetails(companyDetails.data);
+  await store.add(company);
 }
