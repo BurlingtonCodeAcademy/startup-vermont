@@ -83,5 +83,5 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 * Crunchbase API: https://data.crunchbase.com/docs/using-the-api
-* [MongoDB Docs](https://docs.mongodb.com/manual)
+* [MongoDB Manual](https://docs.mongodb.com/manual)
 * MongoDB NodeJS [Driver Docs](http://mongodb.github.io/node-mongodb-native/3.1/) and [Driver API Docs](http://mongodb.github.io/node-mongodb-native/3.1/api/)
