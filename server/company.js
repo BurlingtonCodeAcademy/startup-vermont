@@ -2,11 +2,12 @@ const assert = require('assert')
 const moment = require('moment')
 
 class Company {
-
-    // constructor(summary, details) {
-    //     this.fromOrganizationSummary(summary)
-    //     this.fromOrganizationDetails(details)
-    // }
+    static fromCrunchBase(summary, details) {
+        let company = new Company()
+        company.fromOrganizationSummary(summary);
+        company.fromOrganizationDetails(details);
+        return company;
+    }
 
     // geoLocate() {
     //     let latlon = fetch(something)
