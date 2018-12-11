@@ -96,7 +96,7 @@ async function importDetails(company, crunchKey, importsDir, organizationSummary
     if (summaryEntryUpdated == cacheUpdated) {
       console.log(`Using ${slug}`)
 
-      company.fromOrganizationDetails(details.data);
+      await company.fromOrganizationDetails(details.data);
       await store.add(company);
       return;
 
@@ -119,6 +119,6 @@ async function importDetails(company, crunchKey, importsDir, organizationSummary
     }
   });
 
-  company.fromOrganizationDetails(companyDetails.data);
+  await company.fromOrganizationDetails(companyDetails.data);
   await store.add(company);
 }

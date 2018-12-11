@@ -24,36 +24,40 @@ class App extends Component {
   }
   updateState = startup => {
     //console.log(event);
-    this.setState({current: startup})
+    this.setState({ current: startup })
   }
 
- 
+
 
   render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          startup-vermont
+    if (this.state.startups.length > 0) {
+      return (
+        <div className="App">
+          <header className="App-header">
+            startup-vermont
         </header>
-        <div id="grid-container">
-          <div id="startup-list">
-          <h1>Startups in VT:</h1>
-            {this.state.startups.map(startup => {
-              //console.log(startup);
-              let result = <Startup key={startup._id} {...startup} updateState = {this.updateState}/>
-              return result;
-            })}
-          </div>
-          <div id="startup-map">
-            <StartupsMap startups={this.state.startups}/>
-          </div>
-          <div id="startup-info">
-            <Profile startup={this.state.current}/>
-          </div>
+          <div id="grid-container">
+            <div id="startup-list">
+              <h1>Startups in VT:</h1>
+              {this.state.startups.map(startup => {
+                //console.log(startup);
+                let result = <Startup key={startup._id} {...startup} updateState={this.updateState} />
+                return result;
+              })}
+            </div>
+            <div id="startup-map">
+              <StartupsMap startups={this.state.startups} />
+            </div>
+            <div id="startup-info">
+              <Profile startup={this.state.current} />
+            </div>
 
+          </div>
         </div>
-      </div>
-    );
+      );
+    } else {
+      return <div></div>
+    }
   }
 }
 
