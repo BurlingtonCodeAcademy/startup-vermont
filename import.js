@@ -1,17 +1,16 @@
-"use strict;"
-
-require('dotenv').config();
-const moment = require('moment')
-
 /*
  TODO:
-  pagination
-  use cache
+  use cache for summaries
   deal with duplicates in a smart way
   categories
   deal with bogus addresses
   layering (or something) so bogus data doesn't overwrite corrections on the next import
 */
+
+"use strict";
+
+require('dotenv').config();
+const moment = require('moment')
 const CompanyStore = require('./server/companyStore')
 const Company = require('./server/company')
 const fetch = require('node-fetch');
@@ -27,7 +26,6 @@ importAll();
 function summariesUrl(pageNumber) {
   return `https://api.crunchbase.com/v3.1/organizations?locations=vermont&page=${pageNumber}&items_per_page=200&user_key=${crunchKey}`
 }
-// let odmUrl = `https://api.crunchbase.com/v3.1/odm-organizations?locations=vermont&page=${pageNumber}&items_per_page=200&user_key=${crunchKey}`
 
 
 async function importAll() {
@@ -35,48 +33,35 @@ async function importAll() {
   await store.deleteAll();
 
   const importsDir = './imports';
-  try {
-    fs.mkdirSync(importsDir)
-  } catch (err) {
-    if (err.code !== 'EEXIST') {
-      throw err;
-    }
-  }
+  createDir(importsDir);
 
-  let pageNumber = 1;
-  let summaries = [];
-  let keepFetching = true;
-  while (keepFetching) {
-    let response = await fetch(summariesUrl(pageNumber))
-    let payload = await response.json()
-    console.log(payload)
+  let summaries = await fetchAllSummaries();
 
-    if (!payload || !payload.metadata) {
-      console.error('No metadata :-( ')
-      keepFetching = false;
-    }
-    else if (pageNumber === payload.data.paging.number_of_pages) {
-      keepFetching = false;
-    }
-    else {
-      summaries = summaries.concat(payload.data.items)
-    }
-    pageNumber += 1;
-  }
+  writeJson(path.join(importsDir, `_summaries.json`), summaries)
 
-  writeJson(path.join(importsDir, `summaries.json`), summaries)
+  for (let summary of summaries) {
 
-  for (let organizationSummary of summaries) {
-    if (!organizationSummary.properties) {
-      return console.log(organizationSummary.name + ' No properties value')
+    if (!summary.properties) {  // sanity check
+      return console.log(summary.name + ' No properties value')
     }
 
     let company = new Company()
-    company.fromOrganizationSummary(organizationSummary);
+    company.fromOrganizationSummary(summary);
 
     setTimeout(() => {
-      importDetails(company, crunchKey, importsDir, organizationSummary);
+      importDetails(company, crunchKey, importsDir, summary);
     }, 1000);
+  }
+}
+
+function createDir(dir) {
+  try {
+    fs.mkdirSync(dir);
+  }
+  catch (err) {
+    if (err.code !== 'EEXIST') {
+      throw err;
+    }
   }
 }
 
@@ -89,7 +74,6 @@ function readJson(path) {
 }
 
 function writeJson(path, data) {
-  console.log('writing')
   return new Promise(function (resolve, reject) {
     fs.writeFile(path, JSON.stringify(data, null, 2), err => {
       err ? reject(err) : resolve();
@@ -97,6 +81,32 @@ function writeJson(path, data) {
   });
 }
 
+async function fetchAllSummaries() {
+  let pageNumber = 1;
+  let summaries = [];
+  let keepFetching = true;
+  while (keepFetching) {
+    const url = summariesUrl(pageNumber);
+    let response = await fetch(url)
+    let payload = await response.json()
+
+    if (!payload || !payload.metadata || payload.data.items.length === 0) {
+      console.error(`No payload for page ${pageNumber}`)
+      keepFetching = false;
+      break;
+    }
+    else if (pageNumber >= payload.data.paging.number_of_pages) {
+      keepFetching = false;
+    }
+
+    summaries = summaries.concat(payload.data.items)
+
+    pageNumber += 1;
+  }
+  return summaries;
+}
+
+// TODO: refactor
 async function importDetails(company, crunchKey, importsDir, organizationSummary) {
   const slug = organizationSummary.properties.permalink;
   const detailsFile = path.join(importsDir, `${slug}.json`);
@@ -132,4 +142,5 @@ async function importDetails(company, crunchKey, importsDir, organizationSummary
 
   company.fromOrganizationDetails(companyDetails.data);
   await store.add(company);
+  return;
 }

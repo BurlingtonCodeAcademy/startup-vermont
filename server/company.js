@@ -3,6 +3,17 @@ const moment = require('moment')
 
 class Company {
 
+    // constructor(summary, details) {
+    //     this.fromOrganizationSummary(summary)
+    //     this.fromOrganizationDetails(details)
+    // }
+
+    // geoLocate() {
+    //     let latlon = fetch(something)
+    //     this.latitude = latlon[0]
+    //     this.longitude = latlon[1]
+    // }
+
     fromOrganizationSummary(organizationSummary) {
         this.crunchbaseUuid = organizationSummary.uuid;
         let properties = organizationSummary.properties;
@@ -12,7 +23,6 @@ class Company {
         this.website = properties.homepage_url;
         this.logo_url = properties.profile_image_url;
         this.apiPath = properties.api_path;
-
     }
 
     fromOrganizationDetails(organizationDetails) {

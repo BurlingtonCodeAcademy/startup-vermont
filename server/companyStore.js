@@ -13,6 +13,7 @@ class CompanyStore {
         this.dbUrl = dbUrl;
         this.dbClient = null;
         this.dbName = 'startup-vt';
+        this.collectionName = 'companies';
     }
 
   // Open (or reuse) a connection to the database and 
@@ -35,7 +36,7 @@ class CompanyStore {
   async collection() {
     const client = await this.client();
     const db = client.db(this.dbName);
-    const collection = db.collection('companies');
+    const collection = db.collection(this.collectionName);
     return collection;
   }
 
