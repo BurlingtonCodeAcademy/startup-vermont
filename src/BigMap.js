@@ -37,7 +37,6 @@ class StartupsMap extends Component {
 
     if (this.state.markers.length > 0) {
       return (
-
         <Map id='map' ref={this.mapRef} center={center} zoom={this.zoomLevel} zoomControl={false}>
           <TileLayer
             attribution='Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
