@@ -73,9 +73,9 @@ async function importAll() {
 }
 
 function read(path) {
-  return new Promise(function(resolve, reject){
+  return new Promise(function (resolve, reject) {
     fs.readFile(path, (err, data) => {
-        err ? reject(err) : resolve(data);
+      err ? reject(err) : resolve(data);
     });
   });
 }
@@ -118,7 +118,7 @@ async function importDetails(company, crunchKey, importsDir, organizationSummary
       console.log(err);
     }
   });
-  
+
   company.fromOrganizationDetails(companyDetails.data);
   await store.add(company);
 }

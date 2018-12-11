@@ -1,0 +1,441 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "22541d4f5e3bd14f9961f8772dd3f1b6",
+    "properties": {
+      "permalink": "ccs-technology-inc",
+      "permalink_aliases": null,
+      "api_path": "organizations/ccs-technology-inc",
+      "web_path": "organization/ccs-technology-inc",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/ccs-technology-inc",
+      "name": "CCS Technology, Inc.",
+      "also_known_as": null,
+      "short_description": "CCS Technology, Inc. is a supplier of 300 mm automation test and certification software.",
+      "description": "CCS Technology, Inc. is a supplier of 300 mm test automation software for the semiconductor industry. As a pioneer in 300 mm test software, CCS Technology offers a suite of test products based on SEMI standards, International Sematech/Selete operational scenarios and factory-specific requirements.",
+      "profile_image_url": null,
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": null,
+      "founded_on_trust_code": null,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": null,
+      "num_employees_max": null,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": null,
+      "contact_email": null,
+      "phone_number": null,
+      "rank": 561365,
+      "created_at": 1505819827,
+      "updated_at": 1518480073
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ccs-technology-inc/primary_image",
+          "sort_order": "not_ordered"
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ccs-technology-inc/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ccs-technology-inc/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": []
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ccs-technology-inc/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ccs-technology-inc/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ccs-technology-inc/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ccs-technology-inc/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ccs-technology-inc/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ccs-technology-inc/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ccs-technology-inc/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "c18bd888341360c95c2c100fdf847a58",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": null,
+            "street_2": null,
+            "postal_code": null,
+            "city": "Williston",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1505819851,
+            "updated_at": 1518483970
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ccs-technology-inc/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "c18bd888341360c95c2c100fdf847a58",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": null,
+            "street_2": null,
+            "postal_code": null,
+            "city": "Williston",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1505819851,
+            "updated_at": 1518483970
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ccs-technology-inc/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ccs-technology-inc/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "20cd907ad9d629168fe3e2ea07ae915e",
+            "properties": {
+              "name": "Semiconductor",
+              "web_path": "category/semiconductor/20cd907ad9d629168fe3e2ea07ae915e",
+              "category_groups": [
+                "Hardware",
+                "Science and Engineering"
+              ],
+              "created_at": 1457032188,
+              "updated_at": 1518483535
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "c08b5441a05b9777b7a6012728caddd9",
+            "properties": {
+              "name": "Software",
+              "web_path": "category/software/c08b5441a05b9777b7a6012728caddd9",
+              "category_groups": [
+                "Software"
+              ],
+              "created_at": 1397980727,
+              "updated_at": 1518483551
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "f9e277008504b2036b23606fb32d1449",
+            "properties": {
+              "name": "Industrial Automation",
+              "web_path": "category/industrial-automation/f9e277008504b2036b23606fb32d1449",
+              "category_groups": [
+                "Manufacturing",
+                "Science and Engineering"
+              ],
+              "created_at": 1397980727,
+              "updated_at": 1518483551
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ccs-technology-inc/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ccs-technology-inc/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ccs-technology-inc/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ccs-technology-inc/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ccs-technology-inc/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ccs-technology-inc/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ccs-technology-inc/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ccs-technology-inc/acquired_by",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Acquisition",
+          "uuid": "f2d2926b6a14a4fbed92e588d8e1bca7",
+          "properties": {
+            "permalink": "f2d2926b6a14a4fbed92e588d8e1bca7",
+            "api_path": "acquisitions/f2d2926b6a14a4fbed92e588d8e1bca7",
+            "web_path": "acquisition/f2d2926b6a14a4fbed92e588d8e1bca7",
+            "api_url": "https://api.crunchbase.com/v3.1/acquisitions/f2d2926b6a14a4fbed92e588d8e1bca7",
+            "price": 5400000,
+            "price_currency_code": "USD",
+            "price_usd": 5400000,
+            "payment_type": "cash_and_stock",
+            "acquisition_type": "acquisition",
+            "acquisition_status": "complete",
+            "disposition_of_acquired": null,
+            "announced_on": "2001-06-26",
+            "announced_on_trust_code": 7,
+            "completed_on": null,
+            "completed_on_trust_code": null,
+            "rank": 57133,
+            "created_at": 1505820003,
+            "updated_at": 1518479809
+          },
+          "relationships": {
+            "acquirer": {
+              "type": "Organization",
+              "uuid": "42ed6d0f99c8e238c887fd4b95336e1c",
+              "properties": {
+                "permalink": "brooks-automation",
+                "permalink_aliases": [
+                  "brooks-life-science-systems"
+                ],
+                "api_path": "organizations/brooks-automation",
+                "web_path": "organization/brooks-automation",
+                "api_url": "https://api.crunchbase.com/v3.1/organizations/brooks-automation",
+                "name": "Brooks Automation",
+                "also_known_as": null,
+                "short_description": "Brooks Automation provides automation, vacuum, and instrumentation solutions to the worldwide semiconductor manufacturing industry.",
+                "description": "Brooks Automation, Inc. provides automation, and vacuum and instrumentation solutions primarily to the semiconductor manufacturing industry worldwide. It operates in three segments: Automation Systems, Critical Components, and Global Customer Operations. The Automation Systems segment provides automation products for vacuum and atmospheric equipment, as well as mini-environment products, calibration and alignment products, and high-precision airflow controls primarily for the semiconductor and electronics industries. \r\n\r\nThe companyâ€™s competitors in the vacuum cryogenic pumps market include SHI and Genesis. Its competitors in the vacuum measurement market include MKS Instruments and Inficon. It also identifies competition from Applied Materials, Novellus, KLA-Tencor, and TEL. Brooks Automation, Inc. was founded in 1978.",
+                "profile_image_url": "http://public.crunchbase.com/t_api_images/v1403086864/vkeikxhdrouwdexwvwei.png",
+                "primary_role": "company",
+                "role_company": true,
+                "role_investor": true,
+                "role_group": false,
+                "role_school": false,
+                "investor_type": null,
+                "founded_on": "1978-01-01",
+                "founded_on_trust_code": 4,
+                "is_closed": false,
+                "closed_on": null,
+                "closed_on_trust_code": null,
+                "num_employees_min": 1001,
+                "num_employees_max": 5000,
+                "stock_exchange": "nasdaq",
+                "stock_symbol": "BRKS",
+                "total_funding_usd": 0,
+                "number_of_investments": 1,
+                "homepage_url": "http://www.brooks.com",
+                "contact_email": "webmaster@brooks.com",
+                "phone_number": "1(978) 262-2400",
+                "rank": 60876,
+                "created_at": 1228003889,
+                "updated_at": 1533530476
+              }
+            }
+          }
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ccs-technology-inc/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ccs-technology-inc/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ccs-technology-inc/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ccs-technology-inc/images",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ccs-technology-inc/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/ccs-technology-inc/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}

@@ -1,0 +1,402 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "46229b2cd9d6442a9ea18b8f9e0da298",
+    "properties": {
+      "permalink": "kria-botanicals",
+      "permalink_aliases": null,
+      "api_path": "organizations/kria-botanicals",
+      "web_path": "organization/kria-botanicals",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/kria-botanicals",
+      "name": "Kria Botanicals",
+      "also_known_as": null,
+      "short_description": "Kria Botanicals is an extraction service and Vermont-grown CBD oil producer.",
+      "description": "Kria Botanicals is an extraction service and Vermont-grown CBD oil producer. They produce premium quality, full-spectrum CBD oil using CO2 extraction. Their KB Raw oil is never winterized or touched by ethanol, producing the highest quality raw CBD oil on the market. Their THC-free full spectrum oils are formulated to Their customers’ needs based on terpene and cannabinoid preference.",
+      "profile_image_url": "http://public.crunchbase.com/t_api_images/ukkyshabtjjlcgjs1l0v",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": null,
+      "founded_on_trust_code": null,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": null,
+      "num_employees_max": null,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": "https://www.kriabotanicals.com/",
+      "contact_email": null,
+      "phone_number": "(802) 343-2627",
+      "rank": 421983,
+      "created_at": 1537507176,
+      "updated_at": 1537507176
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kria-botanicals/primary_image",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Image",
+          "uuid": "46229b2cd9d6442a9ea18b8f9e0da298",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/ukkyshabtjjlcgjs1l0v",
+            "asset_url": "http://public.crunchbase.com/t_api_images/ukkyshabtjjlcgjs1l0v",
+            "content_type": "ukkyshabtjjlcgjs1l0v",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1537507176,
+            "updated_at": 1537507176
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kria-botanicals/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kria-botanicals/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": []
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kria-botanicals/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kria-botanicals/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kria-botanicals/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kria-botanicals/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kria-botanicals/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kria-botanicals/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kria-botanicals/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "55a49b26adaf49cf812b6f32dbe5ae21",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "57 Commerce Street",
+            "street_2": "Suite 6",
+            "postal_code": "05403",
+            "city": "South Burlington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1537507176,
+            "updated_at": 1537507176
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kria-botanicals/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "55a49b26adaf49cf812b6f32dbe5ae21",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "57 Commerce Street",
+            "street_2": "Suite 6",
+            "postal_code": "05403",
+            "city": "South Burlington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1537507176,
+            "updated_at": 1537507176
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kria-botanicals/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kria-botanicals/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "0ae5c1be64b1a9fe6c76076285d2380f",
+            "properties": {
+              "name": "Pharmaceutical",
+              "web_path": "category/pharmaceutical/0ae5c1be64b1a9fe6c76076285d2380f",
+              "category_groups": [
+                "Health Care"
+              ],
+              "created_at": 1457032193,
+              "updated_at": 1518483531
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "16ad1d6cc7eeb6b5701d32c79a19dfae",
+            "properties": {
+              "name": "Biopharma",
+              "web_path": "category/biopharma/16ad1d6cc7eeb6b5701d32c79a19dfae",
+              "category_groups": [
+                "Biotechnology",
+                "Health Care",
+                "Science and Engineering"
+              ],
+              "created_at": 1457032199,
+              "updated_at": 1518483534
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kria-botanicals/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kria-botanicals/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kria-botanicals/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kria-botanicals/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kria-botanicals/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kria-botanicals/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kria-botanicals/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kria-botanicals/acquired_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kria-botanicals/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kria-botanicals/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kria-botanicals/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "46229b2cd9d6442a9ea18b8f9e0da298",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "https://www.kriabotanicals.com/",
+              "created_at": 1537507176,
+              "updated_at": 1537507176
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kria-botanicals/images",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Image",
+            "uuid": "46229b2cd9d6442a9ea18b8f9e0da298",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/ukkyshabtjjlcgjs1l0v",
+              "asset_url": "http://public.crunchbase.com/t_api_images/ukkyshabtjjlcgjs1l0v",
+              "content_type": "ukkyshabtjjlcgjs1l0v",
+              "height": null,
+              "width": null,
+              "filesize": null,
+              "created_at": 1537507176,
+              "updated_at": 1537507176
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kria-botanicals/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/kria-botanicals/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}

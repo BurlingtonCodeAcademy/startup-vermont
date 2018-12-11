@@ -1,0 +1,939 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "4fb4ef589a37ccf91f7406cd2ef0598f",
+    "properties": {
+      "permalink": "atheric-pharmaceutical",
+      "permalink_aliases": null,
+      "api_path": "organizations/atheric-pharmaceutical",
+      "web_path": "organization/atheric-pharmaceutical",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/atheric-pharmaceutical",
+      "name": "Atheric Pharmaceutical",
+      "also_known_as": null,
+      "short_description": "Atheric Pharmaceutical LLC (\"Atheric(tm)\") is a biopharmaceutical company focused on the rapid development and commercialization.",
+      "description": "Atheric™ Pharmaceutical LLC is a biopharmaceutical company focused on the rapid development and commercialization of re-purposed drugs to prevent and treat Zika and other Flavivirus disease.  Atheric's lead drug products are reformulated broad spectrum antiviral drugs that inhibit autophagy-dependent viral replication as well as other anti-viral pathways.  Atheric is committed to providing broad-spectrum medical countermeasures for Zika and other neglected tropical diseases.",
+      "profile_image_url": "http://public.crunchbase.com/t_api_images/v1473942940/lm1blehc9cip1tvuxbuh.png",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": "2013-01-01",
+      "founded_on_trust_code": 4,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": 1,
+      "num_employees_max": 10,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 100000,
+      "number_of_investments": 0,
+      "homepage_url": "http://www.atheric.com/",
+      "contact_email": "robert.malone@atheric.com",
+      "phone_number": "+114349790090",
+      "rank": 80751,
+      "created_at": 1473943008,
+      "updated_at": 1540589823
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/atheric-pharmaceutical/primary_image",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Image",
+          "uuid": "4fb4ef589a37ccf91f7406cd2ef0598f",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/v1473942940/lm1blehc9cip1tvuxbuh.png",
+            "asset_url": "http://public.crunchbase.com/t_api_images/v1473942940/lm1blehc9cip1tvuxbuh.png",
+            "content_type": "png",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1473943008,
+            "updated_at": 1540589823
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/atheric-pharmaceutical/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Person",
+            "uuid": "c305323f0535415890ab52265dbe654d",
+            "properties": {
+              "permalink": "jeffrey-difrancesco",
+              "permalink_aliases": null,
+              "api_path": "people/jeffrey-difrancesco",
+              "web_path": "person/jeffrey-difrancesco",
+              "api_url": "https://api.crunchbase.com/v3.1/people/jeffrey-difrancesco",
+              "first_name": "Jeffrey",
+              "last_name": "DiFrancesco",
+              "gender": "Male",
+              "also_known_as": null,
+              "bio": null,
+              "profile_image_url": "http://public.crunchbase.com/t_api_images/mptyv4mdxrzbtzpixptq",
+              "role_investor": false,
+              "born_on": null,
+              "born_on_trust_code": null,
+              "died_on": null,
+              "died_on_trust_code": null,
+              "rank": 223668,
+              "created_at": 1510469114,
+              "updated_at": 1538742818
+            }
+          }
+        ]
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 5,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/atheric-pharmaceutical/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "5577d9f0c3a2477ba0dca54dde3e7372",
+            "properties": {
+              "title": "CEO",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1510468586,
+              "updated_at": 1518480286
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "682b6594c0b84fa983cbe8e128d3350d",
+                "properties": {
+                  "permalink": "robert-w-malone",
+                  "permalink_aliases": null,
+                  "api_path": "people/robert-w-malone",
+                  "web_path": "person/robert-w-malone",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/robert-w-malone",
+                  "first_name": "Robert W.",
+                  "last_name": "Malone",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Robert W. Malone, M.D., M.Sci.  CEO, CSO,  co-founder and board of manager member of Atheric Pharmaceutical, LLC. Dr. Malone has extensive research and development experience in the areas of clinical trials, vaccines, gene therapy, bio-defense, and immunology.  He has over twenty years of management and leadership experience in the academia, pharmaceutical and biotechnology industries.  His FDA, HHS, and DoD agency knowledge is extensive.  Dr. Malone is an internationally recognized scientist and is known as one of the original inventors of “DNA Vaccination.”  Dr. Malone holds numerous fundamental domestic and foreign patents in the fields of gene delivery, delivery formulations, and vaccines.  He has over fifty peer-reviewed publications, has been an invited speaker at over thirty-five conferences, has chaired numerous conferences and he has sat on numerous study sections.  Dr. Malone is in the Harvard Medical School Global Clinical Scholars Program in 2015-2016.  \n\nIn August 2014, colleagues at the Department of Defense/Defense Threat Reduction Agency asked Dr. Malone to step in and help NewLink manage the Ebola project and develop the contracts necessary to move the \"orphan\" PHAC/rVSV ZEBOV vaccine forward quickly.  Dr. Malone got the project on track, recruited our client Focus Clinical Trials to team with USAMRIID/WRAIR to develop the immunoassays, put WHO leadership in touch with Pentagon leadership to expedite the initial WRAIR clinical trials, recruited the government of Norway to help fund the clinical research, used social media (LinkedIn) to recruit Merck Vaccines to join the project, recruited a management team, and lead the development of the BARDA and DTRA contracts - yielding over 200M$ in resources.  Those were frightening times, but now we have a remarkably effective vaccine, developed in record time.\n\nDr. Malone was CEO and co-founder of RW Malone MD, LLC, a very successful consulting and development firm focused on clinical trials and USG medical countermeasure proposal capture and management.  As a capture and proposal manager, Dr. Malone has an extraordinary funding record.  In the past five years, he has been involved in ten billion dollars of successful government contracts and awards.  A link to the PDF list of those awards, as well as details of his role in capturing those awards can be found below.\n\n",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/ektm4inxotts2omd1gfp",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 474695,
+                  "created_at": 1510468586,
+                  "updated_at": 1536375029
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "59d961fae4fd420084adb6d141ce38f1",
+            "properties": {
+              "title": "Co-Founder",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1510469114,
+              "updated_at": 1518480287
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "c305323f0535415890ab52265dbe654d",
+                "properties": {
+                  "permalink": "jeffrey-difrancesco",
+                  "permalink_aliases": null,
+                  "api_path": "people/jeffrey-difrancesco",
+                  "web_path": "person/jeffrey-difrancesco",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/jeffrey-difrancesco",
+                  "first_name": "Jeffrey",
+                  "last_name": "DiFrancesco",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/mptyv4mdxrzbtzpixptq",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 223668,
+                  "created_at": 1510469114,
+                  "updated_at": 1538742818
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "959339f8283e4d34b294f2ac9c771a79",
+            "properties": {
+              "title": "Senior International Consultant",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1510468946,
+              "updated_at": 1518480286
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "8eef395a4e0b439f828d5c0ac0fad1f3",
+                "properties": {
+                  "permalink": "diego-mezzogiorno",
+                  "permalink_aliases": null,
+                  "api_path": "people/diego-mezzogiorno",
+                  "web_path": "person/diego-mezzogiorno",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/diego-mezzogiorno",
+                  "first_name": "Diego",
+                  "last_name": "Mezzogiorno",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Diego Mezzogiorno, \"Specialist in International Affairs, Vice-President of the Chamber of Commerce and Industry Italy-South of Brazil. He worked with the World Bank through the Secretariat of Economic Development of the State of Santa Catarina in Brazil.  Currently works on the technology and energy sector as a consultant to the UN in the UNDP (United Nations Development Programme) bringing renewable energies to the countryside.\n\n",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/aaxbmwk0jszukkc1skwv",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 459272,
+                  "created_at": 1510468946,
+                  "updated_at": 1536378228
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "ef7326710d7b4ea1945004daaf24c5fd",
+            "properties": {
+              "title": "Business Development",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1510468837,
+              "updated_at": 1518480286
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "8be553e935cf4005923e324f6a9dd1db",
+                "properties": {
+                  "permalink": "patricia-hommel",
+                  "permalink_aliases": null,
+                  "api_path": "people/patricia-hommel",
+                  "web_path": "person/patricia-hommel",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/patricia-hommel",
+                  "first_name": "Patricia",
+                  "last_name": "Hommel",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": "Patricia Hommel, Business Development.  Ms. Hommel is experienced in both private and government sectors.  She managed the business development program at the Chesapeake Innovation Center (CIC), America’s first business accelerator for government and homeland/national security initiatives, created to connect innovation with Homeland Security and Intelligence Community.   Ms. Hommel scouted technology innovations and solutions for NSA, Northrop Grumman, Boeing and ARINC, and then prepared selected companies to meet with these CIC partners to expedite business alliances, procurement and funding opportunities.  Ms. Hommel was Business Development Manager for a marketing and financial firm where she strengthened and increased the client base and revenues.  She also managed client business initiatives to identify and develop opportunities and build strategic alliances such as assisting small businesses in getting on the GSA schedule. While developing a technology project for managing assets, she was chosen by Virginia’s Center for Innovative Technology as an emerging technology company.\n",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/ezqd8spvtmagg7vibfxt",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 661511,
+                  "created_at": 1510468837,
+                  "updated_at": 1536378115
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "fbe9a0a9935648f0a6388f972b15af04",
+            "properties": {
+              "title": "Vice President",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1510468768,
+              "updated_at": 1518480286
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "ff403ce0d8e449b3bf2be888ee0cf7f9",
+                "properties": {
+                  "permalink": "jill-glasspool",
+                  "permalink_aliases": null,
+                  "api_path": "people/jill-glasspool",
+                  "web_path": "person/jill-glasspool",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/jill-glasspool",
+                  "first_name": "Jill",
+                  "last_name": "Glasspool",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": " Jill Glasspool Vice President, Pre-clinical research and External Relations and board of manager member. Dr. Glasspool is an entrepreneurial executive. She is a co-founder of two biotech companies that have gone public and has held key early management positions in those companies, as well as others. She has a successful track record of leading bench and discovery research, protocol development, clinical research and clinical trials management. Her experience in preclinical, regulatory, and clinical project management, with particular depth in public policy and federal regulatory affairs is extensive.  Dr. Glasspool has held supervisory and management positions in the biotechnology industry as well as academia. Significant expertise with federal contracting, grants, proposal development, business-to-business solutions, international NGO health related research and development allowed her to help build RW Malone MD, LLC into a successful venture, one that has been able to procure almost 10 billion in federal contracting dollars for clients.  She is skilled in fostering a culture of innovative problem solving.  \n\nDr. Glasspool’s scientific expertise includes clinical development, public administration, regulatory affairs, project management, cell based influenza, biodefense, vaccines, gene delivery and transfer, tissue and cell culture, DNA vaccination and other related scientific research.  She has an extensive peer reviewed publication record, attended the University of California, San Diego and the University of California, Davis and most recently received postgraduate training as a Harvard Medical School Global Clinical Scholar in 2015-2016.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/dh1swmp7rkucks13rqmk",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 683349,
+                  "created_at": 1510468768,
+                  "updated_at": 1536370700
+                }
+              }
+            }
+          }
+        ]
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 5,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/atheric-pharmaceutical/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "5577d9f0c3a2477ba0dca54dde3e7372",
+            "properties": {
+              "title": "CEO",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1510468586,
+              "updated_at": 1518480286
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "682b6594c0b84fa983cbe8e128d3350d",
+                "properties": {
+                  "permalink": "robert-w-malone",
+                  "permalink_aliases": null,
+                  "api_path": "people/robert-w-malone",
+                  "web_path": "person/robert-w-malone",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/robert-w-malone",
+                  "first_name": "Robert W.",
+                  "last_name": "Malone",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Robert W. Malone, M.D., M.Sci.  CEO, CSO,  co-founder and board of manager member of Atheric Pharmaceutical, LLC. Dr. Malone has extensive research and development experience in the areas of clinical trials, vaccines, gene therapy, bio-defense, and immunology.  He has over twenty years of management and leadership experience in the academia, pharmaceutical and biotechnology industries.  His FDA, HHS, and DoD agency knowledge is extensive.  Dr. Malone is an internationally recognized scientist and is known as one of the original inventors of “DNA Vaccination.”  Dr. Malone holds numerous fundamental domestic and foreign patents in the fields of gene delivery, delivery formulations, and vaccines.  He has over fifty peer-reviewed publications, has been an invited speaker at over thirty-five conferences, has chaired numerous conferences and he has sat on numerous study sections.  Dr. Malone is in the Harvard Medical School Global Clinical Scholars Program in 2015-2016.  \n\nIn August 2014, colleagues at the Department of Defense/Defense Threat Reduction Agency asked Dr. Malone to step in and help NewLink manage the Ebola project and develop the contracts necessary to move the \"orphan\" PHAC/rVSV ZEBOV vaccine forward quickly.  Dr. Malone got the project on track, recruited our client Focus Clinical Trials to team with USAMRIID/WRAIR to develop the immunoassays, put WHO leadership in touch with Pentagon leadership to expedite the initial WRAIR clinical trials, recruited the government of Norway to help fund the clinical research, used social media (LinkedIn) to recruit Merck Vaccines to join the project, recruited a management team, and lead the development of the BARDA and DTRA contracts - yielding over 200M$ in resources.  Those were frightening times, but now we have a remarkably effective vaccine, developed in record time.\n\nDr. Malone was CEO and co-founder of RW Malone MD, LLC, a very successful consulting and development firm focused on clinical trials and USG medical countermeasure proposal capture and management.  As a capture and proposal manager, Dr. Malone has an extraordinary funding record.  In the past five years, he has been involved in ten billion dollars of successful government contracts and awards.  A link to the PDF list of those awards, as well as details of his role in capturing those awards can be found below.\n\n",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/ektm4inxotts2omd1gfp",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 474695,
+                  "created_at": 1510468586,
+                  "updated_at": 1536375029
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "59d961fae4fd420084adb6d141ce38f1",
+            "properties": {
+              "title": "Co-Founder",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1510469114,
+              "updated_at": 1518480287
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "c305323f0535415890ab52265dbe654d",
+                "properties": {
+                  "permalink": "jeffrey-difrancesco",
+                  "permalink_aliases": null,
+                  "api_path": "people/jeffrey-difrancesco",
+                  "web_path": "person/jeffrey-difrancesco",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/jeffrey-difrancesco",
+                  "first_name": "Jeffrey",
+                  "last_name": "DiFrancesco",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/mptyv4mdxrzbtzpixptq",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 223668,
+                  "created_at": 1510469114,
+                  "updated_at": 1538742818
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "959339f8283e4d34b294f2ac9c771a79",
+            "properties": {
+              "title": "Senior International Consultant",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1510468946,
+              "updated_at": 1518480286
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "8eef395a4e0b439f828d5c0ac0fad1f3",
+                "properties": {
+                  "permalink": "diego-mezzogiorno",
+                  "permalink_aliases": null,
+                  "api_path": "people/diego-mezzogiorno",
+                  "web_path": "person/diego-mezzogiorno",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/diego-mezzogiorno",
+                  "first_name": "Diego",
+                  "last_name": "Mezzogiorno",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Diego Mezzogiorno, \"Specialist in International Affairs, Vice-President of the Chamber of Commerce and Industry Italy-South of Brazil. He worked with the World Bank through the Secretariat of Economic Development of the State of Santa Catarina in Brazil.  Currently works on the technology and energy sector as a consultant to the UN in the UNDP (United Nations Development Programme) bringing renewable energies to the countryside.\n\n",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/aaxbmwk0jszukkc1skwv",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 459272,
+                  "created_at": 1510468946,
+                  "updated_at": 1536378228
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "ef7326710d7b4ea1945004daaf24c5fd",
+            "properties": {
+              "title": "Business Development",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1510468837,
+              "updated_at": 1518480286
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "8be553e935cf4005923e324f6a9dd1db",
+                "properties": {
+                  "permalink": "patricia-hommel",
+                  "permalink_aliases": null,
+                  "api_path": "people/patricia-hommel",
+                  "web_path": "person/patricia-hommel",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/patricia-hommel",
+                  "first_name": "Patricia",
+                  "last_name": "Hommel",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": "Patricia Hommel, Business Development.  Ms. Hommel is experienced in both private and government sectors.  She managed the business development program at the Chesapeake Innovation Center (CIC), America’s first business accelerator for government and homeland/national security initiatives, created to connect innovation with Homeland Security and Intelligence Community.   Ms. Hommel scouted technology innovations and solutions for NSA, Northrop Grumman, Boeing and ARINC, and then prepared selected companies to meet with these CIC partners to expedite business alliances, procurement and funding opportunities.  Ms. Hommel was Business Development Manager for a marketing and financial firm where she strengthened and increased the client base and revenues.  She also managed client business initiatives to identify and develop opportunities and build strategic alliances such as assisting small businesses in getting on the GSA schedule. While developing a technology project for managing assets, she was chosen by Virginia’s Center for Innovative Technology as an emerging technology company.\n",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/ezqd8spvtmagg7vibfxt",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 661511,
+                  "created_at": 1510468837,
+                  "updated_at": 1536378115
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "fbe9a0a9935648f0a6388f972b15af04",
+            "properties": {
+              "title": "Vice President",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1510468768,
+              "updated_at": 1518480286
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "ff403ce0d8e449b3bf2be888ee0cf7f9",
+                "properties": {
+                  "permalink": "jill-glasspool",
+                  "permalink_aliases": null,
+                  "api_path": "people/jill-glasspool",
+                  "web_path": "person/jill-glasspool",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/jill-glasspool",
+                  "first_name": "Jill",
+                  "last_name": "Glasspool",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": " Jill Glasspool Vice President, Pre-clinical research and External Relations and board of manager member. Dr. Glasspool is an entrepreneurial executive. She is a co-founder of two biotech companies that have gone public and has held key early management positions in those companies, as well as others. She has a successful track record of leading bench and discovery research, protocol development, clinical research and clinical trials management. Her experience in preclinical, regulatory, and clinical project management, with particular depth in public policy and federal regulatory affairs is extensive.  Dr. Glasspool has held supervisory and management positions in the biotechnology industry as well as academia. Significant expertise with federal contracting, grants, proposal development, business-to-business solutions, international NGO health related research and development allowed her to help build RW Malone MD, LLC into a successful venture, one that has been able to procure almost 10 billion in federal contracting dollars for clients.  She is skilled in fostering a culture of innovative problem solving.  \n\nDr. Glasspool’s scientific expertise includes clinical development, public administration, regulatory affairs, project management, cell based influenza, biodefense, vaccines, gene delivery and transfer, tissue and cell culture, DNA vaccination and other related scientific research.  She has an extensive peer reviewed publication record, attended the University of California, San Diego and the University of California, Davis and most recently received postgraduate training as a Harvard Medical School Global Clinical Scholar in 2015-2016.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/dh1swmp7rkucks13rqmk",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 683349,
+                  "created_at": 1510468768,
+                  "updated_at": 1536370700
+                }
+              }
+            }
+          }
+        ]
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/atheric-pharmaceutical/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/atheric-pharmaceutical/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/atheric-pharmaceutical/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/atheric-pharmaceutical/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/atheric-pharmaceutical/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/atheric-pharmaceutical/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "1f09696dcedda627df5214fdab643f16",
+          "properties": {
+            "name": "Headquarter",
+            "street_1": "2981 Zion Rd",
+            "street_2": null,
+            "postal_code": "22974",
+            "city": "Troy",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1473943143,
+            "updated_at": 1518483617
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/atheric-pharmaceutical/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "1f09696dcedda627df5214fdab643f16",
+          "properties": {
+            "name": "Headquarter",
+            "street_1": "2981 Zion Rd",
+            "street_2": null,
+            "postal_code": "22974",
+            "city": "Troy",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1473943143,
+            "updated_at": 1518483617
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/atheric-pharmaceutical/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/atheric-pharmaceutical/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "0ae5c1be64b1a9fe6c76076285d2380f",
+            "properties": {
+              "name": "Pharmaceutical",
+              "web_path": "category/pharmaceutical/0ae5c1be64b1a9fe6c76076285d2380f",
+              "category_groups": [
+                "Health Care"
+              ],
+              "created_at": 1457032193,
+              "updated_at": 1518483531
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "16ad1d6cc7eeb6b5701d32c79a19dfae",
+            "properties": {
+              "name": "Biopharma",
+              "web_path": "category/biopharma/16ad1d6cc7eeb6b5701d32c79a19dfae",
+              "category_groups": [
+                "Biotechnology",
+                "Health Care",
+                "Science and Engineering"
+              ],
+              "created_at": 1457032199,
+              "updated_at": 1518483534
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "8e444f222d1219a1d6d01d1952887a83",
+            "properties": {
+              "name": "Clinical Trials",
+              "web_path": "category/clinical-trials/8e444f222d1219a1d6d01d1952887a83",
+              "category_groups": [
+                "Health Care"
+              ],
+              "created_at": 1397980727,
+              "updated_at": 1518483551
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "9126275dd470152402f493d481721a6e",
+            "properties": {
+              "name": "Medical",
+              "web_path": "category/medical/9126275dd470152402f493d481721a6e",
+              "category_groups": [
+                "Health Care"
+              ],
+              "created_at": 1397980726,
+              "updated_at": 1518483551
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/atheric-pharmaceutical/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/atheric-pharmaceutical/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/atheric-pharmaceutical/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/atheric-pharmaceutical/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/atheric-pharmaceutical/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": [
+          {
+            "type": "FundingRound",
+            "uuid": "d468b8a7e225954c104c9046aa52a1b1",
+            "properties": {
+              "permalink": "d468b8a7e225954c104c9046aa52a1b1",
+              "api_path": "funding-rounds/d468b8a7e225954c104c9046aa52a1b1",
+              "web_path": "funding-round/d468b8a7e225954c104c9046aa52a1b1",
+              "api_url": "https://api.crunchbase.com/v3.1/funding-rounds/d468b8a7e225954c104c9046aa52a1b1",
+              "funding_type": "seed",
+              "series": null,
+              "series_qualifier": null,
+              "announced_on": "2016-09-07",
+              "announced_on_trust_code": 7,
+              "closed_on": null,
+              "closed_on_trust_code": null,
+              "money_raised": 100000,
+              "money_raised_currency_code": "USD",
+              "money_raised_usd": 100000,
+              "target_money_raised": null,
+              "target_money_raised_currency_code": null,
+              "target_money_raised_usd": null,
+              "pre_money_valuation": null,
+              "pre_money_valuation_currency_code": null,
+              "pre_money_valuation_usd": null,
+              "rank": 108401,
+              "created_at": 1473943363,
+              "updated_at": 1518479103
+            }
+          }
+        ]
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/atheric-pharmaceutical/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/atheric-pharmaceutical/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/atheric-pharmaceutical/acquired_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/atheric-pharmaceutical/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/atheric-pharmaceutical/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/atheric-pharmaceutical/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "4fb4ef589a37ccf91f7406cd2ef0598f",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "http://www.atheric.com/",
+              "created_at": 1473943008,
+              "updated_at": 1540589823
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "4fb4ef589a37ccf91f7406cd2ef0598f",
+            "properties": {
+              "website_type": "facebook",
+              "website_name": "facebook",
+              "url": "https://www.facebook.com/atheric/",
+              "created_at": 1473943008,
+              "updated_at": 1540589823
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "4fb4ef589a37ccf91f7406cd2ef0598f",
+            "properties": {
+              "website_type": "twitter",
+              "website_name": "twitter",
+              "url": "https://www.twitter.com/halt_zika",
+              "created_at": 1473943008,
+              "updated_at": 1540589823
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "4fb4ef589a37ccf91f7406cd2ef0598f",
+            "properties": {
+              "website_type": "linkedin",
+              "website_name": "linkedin",
+              "url": "https://www.linkedin.com/company/atheric-pharmaceutical-llc",
+              "created_at": 1473943008,
+              "updated_at": 1540589823
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/atheric-pharmaceutical/images",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Image",
+            "uuid": "4fb4ef589a37ccf91f7406cd2ef0598f",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/v1473942940/lm1blehc9cip1tvuxbuh.png",
+              "asset_url": "http://public.crunchbase.com/t_api_images/v1473942940/lm1blehc9cip1tvuxbuh.png",
+              "content_type": "png",
+              "height": null,
+              "width": null,
+              "filesize": null,
+              "created_at": 1473943008,
+              "updated_at": 1540589823
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/atheric-pharmaceutical/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/atheric-pharmaceutical/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}

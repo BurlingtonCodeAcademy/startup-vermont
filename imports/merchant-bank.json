@@ -1,0 +1,546 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "f624bf80cd3fc7e2937032040acd117a",
+    "properties": {
+      "permalink": "merchant-bank",
+      "permalink_aliases": null,
+      "api_path": "organizations/merchant-bank",
+      "web_path": "organization/merchant-bank",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/merchant-bank",
+      "name": "Merchant Bank",
+      "also_known_as": null,
+      "short_description": "merchant bank is a financial institution that provides capital to companies in the form of share ownership instead of loans.",
+      "description": null,
+      "profile_image_url": null,
+      "primary_role": "investor",
+      "role_company": false,
+      "role_investor": true,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": [
+        "venture_capital"
+      ],
+      "founded_on": null,
+      "founded_on_trust_code": null,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": 251,
+      "num_employees_max": 500,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 1,
+      "homepage_url": null,
+      "contact_email": null,
+      "phone_number": null,
+      "rank": 673047,
+      "created_at": 1441357058,
+      "updated_at": 1533990494
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merchant-bank/primary_image",
+          "sort_order": "not_ordered"
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merchant-bank/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merchant-bank/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": []
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merchant-bank/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merchant-bank/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "b3cca87dadd1c77f86a704be2f9189fb",
+            "properties": {
+              "title": "Team Member",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": 0,
+              "is_current": false,
+              "job_type": "employee",
+              "created_at": 1464256685,
+              "updated_at": 1518485581
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "3ead90e19d9eb302a5c7c0e1305ce741",
+                "properties": {
+                  "permalink": "joe-aragona",
+                  "permalink_aliases": null,
+                  "api_path": "people/joe-aragona",
+                  "web_path": "person/joe-aragona",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/joe-aragona",
+                  "first_name": "Joe",
+                  "last_name": "Aragona",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Joe Aragona is a founder and General Partner of Austin Ventures. AV has over $3 billion under management and is the most active venture and growth equity firm in Texas and among the most established in the nation. \r\n\r\nSince joining AV in 1982, Joe has focused on information technology and growth equity investing and has worked with software, communications, semiconductor and service companies. Prior to joining Austin Ventures, Joe earned both his MBA and bachelor's degree from Harvard University and worked in the Merchant Banking Group of the Bank of Boston and Chemical Bank.\r\n\r\nJoe was a member of the Board of Directors of the National Venture Capital Association (NVCA) from 1999 - 2006, chaired its Research Committee, and served as Chairman of the Board. Joe is also a member of the Board of Directors of Casa Montessori, an early childhood development center.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1397182319/ca16358459b2ad967357e6ba33833313.jpg",
+                  "role_investor": true,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 21976,
+                  "created_at": 1202546417,
+                  "updated_at": 1518480072
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "e889aa6cb897e179dddcb39fbf35bab5",
+            "properties": {
+              "title": "Member",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": 0,
+              "is_current": false,
+              "job_type": "employee",
+              "created_at": 1441357058,
+              "updated_at": 1518485851
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "c42f7cb05447d544d1b4c2b9d4b5c6d4",
+                "properties": {
+                  "permalink": "daniel-couvreur",
+                  "permalink_aliases": null,
+                  "api_path": "people/daniel-couvreur",
+                  "web_path": "person/daniel-couvreur",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/daniel-couvreur",
+                  "first_name": "Daniel",
+                  "last_name": "Couvreur",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Daniel J. Couvreur is an international banking executive with more than 30 years of experience working at NIBC Bank, KBC Bank and Citibank. Most recently, he led the activities of NIBC Belgium for ten years and was a member of the management team at Merchant Bank. At KBC,Couvreur was the director general of investment banking. He spent the first seventeen years of his career at Citibank, working both in Brussels and London in various senior client and product roles.\r\n\r\nCouvreur has previous board experience at various companies including Easdaq, B.I.A.C. (Brussels Airport), at real estate and fund management companies and as trustee of the Belgian Governance Body (Guberna). Currently Couvreur is also a senior board advisor to NIBC Bank, a member of the NIBC Advisory Board, consultant to Varadero Capital and a director of the conference board’s M&A Council\r\n\r\nCouvreur holds a Master’s degree and a Licentiaat Doctorandus in monetary and international economics from the Catholic University of Louvain as well as a post university degree in European studies.Couvreur is fluent in English, Dutch and French and is married with three adult children.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1455645598/r6dibs4ivwthbco6qvig.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 66392,
+                  "created_at": 1441356415,
+                  "updated_at": 1518475097
+                }
+              }
+            }
+          }
+        ]
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merchant-bank/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merchant-bank/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merchant-bank/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merchant-bank/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merchant-bank/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "f02b5194a74d04c0a1f0d0f0a8b4fff5",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "P.O. Box 1009",
+            "street_2": null,
+            "postal_code": "05402",
+            "city": "Burlington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1474956133,
+            "updated_at": 1518484071
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merchant-bank/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "f02b5194a74d04c0a1f0d0f0a8b4fff5",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "P.O. Box 1009",
+            "street_2": null,
+            "postal_code": "05402",
+            "city": "Burlington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1474956133,
+            "updated_at": 1518484071
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merchant-bank/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merchant-bank/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merchant-bank/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merchant-bank/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merchant-bank/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merchant-bank/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merchant-bank/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merchant-bank/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": [
+          {
+            "type": "Investment",
+            "uuid": "db7f61bddc9219120a3f47381bcc0d9f",
+            "properties": {
+              "money_invested": null,
+              "money_invested_currency_code": null,
+              "money_invested_usd": null,
+              "is_lead_investor": false,
+              "announced_on": "2000-06-01",
+              "announced_on_trust_code": 7,
+              "created_at": 1458360868,
+              "updated_at": 1518483358
+            },
+            "relationships": {
+              "funding_round": {
+                "type": "FundingRound",
+                "uuid": "4ed407d064c73161d1d1d4b9a662d8a2",
+                "properties": {
+                  "permalink": "4ed407d064c73161d1d1d4b9a662d8a2",
+                  "api_path": "funding-rounds/4ed407d064c73161d1d1d4b9a662d8a2",
+                  "web_path": "funding-round/4ed407d064c73161d1d1d4b9a662d8a2",
+                  "api_url": "https://api.crunchbase.com/v3.1/funding-rounds/4ed407d064c73161d1d1d4b9a662d8a2",
+                  "funding_type": "venture",
+                  "series": "C",
+                  "series_qualifier": null,
+                  "announced_on": "2000-06-01",
+                  "announced_on_trust_code": 7,
+                  "closed_on": null,
+                  "closed_on_trust_code": null,
+                  "money_raised": 50000000,
+                  "money_raised_currency_code": "USD",
+                  "money_raised_usd": 50000000,
+                  "target_money_raised": null,
+                  "target_money_raised_currency_code": null,
+                  "target_money_raised_usd": null,
+                  "pre_money_valuation": null,
+                  "pre_money_valuation_currency_code": null,
+                  "pre_money_valuation_usd": null,
+                  "rank": 195688,
+                  "created_at": 1458360710,
+                  "updated_at": 1518479574
+                },
+                "relationships": {
+                  "funded_organization": {
+                    "type": "Organization",
+                    "uuid": "7604e719af78358b9fb2d03ad75b9c32",
+                    "properties": {
+                      "permalink": "luxn",
+                      "permalink_aliases": null,
+                      "api_path": "organizations/luxn",
+                      "web_path": "organization/luxn",
+                      "api_url": "https://api.crunchbase.com/v3.1/organizations/luxn",
+                      "name": "LuxN",
+                      "also_known_as": null,
+                      "short_description": "LuxN provides intelligent optical access and transport solutions for metropolitan service providers and major enterprises.",
+                      "description": "LuxN provides intelligent optical access and transport solutions for metropolitan service providers and major enterprises. Supporting both CWDM and DWDM, LuxN's carrier-class, OSMINE-certified systems offer manageability and service level assurance for critical applications. LuxN's protocol-independent solutions enable delivery of high-bandwidth data, storage, video, and voice services for a diversified customer base including ILECs, CLECs, MSOs, utilities, municipalities, and storage providers. An ISO 9001 certified company, LuxN has a diverse base of customers and distribution partners spanning the North American, Asia-Pacific, and European regions.",
+                      "profile_image_url": "http://public.crunchbase.com/t_api_images/v1458360631/gg2u4qlnrwjslkzvdodr.png",
+                      "primary_role": "company",
+                      "role_company": true,
+                      "role_investor": false,
+                      "role_group": false,
+                      "role_school": false,
+                      "investor_type": null,
+                      "founded_on": "1999-01-01",
+                      "founded_on_trust_code": 4,
+                      "is_closed": false,
+                      "closed_on": null,
+                      "closed_on_trust_code": null,
+                      "num_employees_min": 251,
+                      "num_employees_max": 500,
+                      "stock_exchange": null,
+                      "stock_symbol": null,
+                      "total_funding_usd": 105000000,
+                      "number_of_investments": 0,
+                      "homepage_url": "http://www.luxn.com/",
+                      "contact_email": "webmaster@zhone.com",
+                      "phone_number": "5107777102",
+                      "rank": 324234,
+                      "created_at": 1439727631,
+                      "updated_at": 1523967067
+                    }
+                  }
+                }
+              },
+              "partners": [],
+              "invested_in": {
+                "type": "Organization",
+                "uuid": "7604e719af78358b9fb2d03ad75b9c32",
+                "properties": {
+                  "permalink": "luxn",
+                  "permalink_aliases": null,
+                  "api_path": "organizations/luxn",
+                  "web_path": "organization/luxn",
+                  "api_url": "https://api.crunchbase.com/v3.1/organizations/luxn",
+                  "name": "LuxN",
+                  "also_known_as": null,
+                  "short_description": "LuxN provides intelligent optical access and transport solutions for metropolitan service providers and major enterprises.",
+                  "description": "LuxN provides intelligent optical access and transport solutions for metropolitan service providers and major enterprises. Supporting both CWDM and DWDM, LuxN's carrier-class, OSMINE-certified systems offer manageability and service level assurance for critical applications. LuxN's protocol-independent solutions enable delivery of high-bandwidth data, storage, video, and voice services for a diversified customer base including ILECs, CLECs, MSOs, utilities, municipalities, and storage providers. An ISO 9001 certified company, LuxN has a diverse base of customers and distribution partners spanning the North American, Asia-Pacific, and European regions.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1458360631/gg2u4qlnrwjslkzvdodr.png",
+                  "primary_role": "company",
+                  "role_company": true,
+                  "role_investor": false,
+                  "role_group": false,
+                  "role_school": false,
+                  "investor_type": null,
+                  "founded_on": "1999-01-01",
+                  "founded_on_trust_code": 4,
+                  "is_closed": false,
+                  "closed_on": null,
+                  "closed_on_trust_code": null,
+                  "num_employees_min": 251,
+                  "num_employees_max": 500,
+                  "stock_exchange": null,
+                  "stock_symbol": null,
+                  "total_funding_usd": 105000000,
+                  "number_of_investments": 0,
+                  "homepage_url": "http://www.luxn.com/",
+                  "contact_email": "webmaster@zhone.com",
+                  "phone_number": "5107777102",
+                  "rank": 324234,
+                  "created_at": 1439727631,
+                  "updated_at": 1523967067
+                }
+              }
+            }
+          }
+        ]
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merchant-bank/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merchant-bank/acquired_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merchant-bank/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merchant-bank/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merchant-bank/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merchant-bank/images",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merchant-bank/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/merchant-bank/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}

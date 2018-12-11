@@ -1,0 +1,589 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "7649a441a60b246d3480cc791c1534a8",
+    "properties": {
+      "permalink": "birchview-fund",
+      "permalink_aliases": null,
+      "api_path": "organizations/birchview-fund",
+      "web_path": "organization/birchview-fund",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/birchview-fund",
+      "name": "Birchview Fund",
+      "also_known_as": null,
+      "short_description": "Birchview Fund LLC",
+      "description": null,
+      "profile_image_url": null,
+      "primary_role": "investor",
+      "role_company": false,
+      "role_investor": true,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": null,
+      "founded_on_trust_code": null,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": null,
+      "num_employees_max": null,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 2,
+      "homepage_url": null,
+      "contact_email": null,
+      "phone_number": null,
+      "rank": 537049,
+      "created_at": 1476964705,
+      "updated_at": 1518478414
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/birchview-fund/primary_image",
+          "sort_order": "not_ordered"
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/birchview-fund/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/birchview-fund/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": []
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/birchview-fund/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/birchview-fund/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/birchview-fund/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/birchview-fund/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/birchview-fund/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/birchview-fund/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/birchview-fund/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "615984ebb0560df58b752811ff19e6b3",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "688 Pine Street",
+            "street_2": null,
+            "postal_code": null,
+            "city": "Burlington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1476964791,
+            "updated_at": 1518483761
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/birchview-fund/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "615984ebb0560df58b752811ff19e6b3",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "688 Pine Street",
+            "street_2": null,
+            "postal_code": null,
+            "city": "Burlington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1476964791,
+            "updated_at": 1518483761
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/birchview-fund/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/birchview-fund/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/birchview-fund/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/birchview-fund/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/birchview-fund/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/birchview-fund/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/birchview-fund/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/birchview-fund/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": [
+          {
+            "type": "Investment",
+            "uuid": "155e5026981cfe3253dade2e76786417",
+            "properties": {
+              "money_invested": null,
+              "money_invested_currency_code": null,
+              "money_invested_usd": null,
+              "is_lead_investor": false,
+              "announced_on": "2017-06-01",
+              "announced_on_trust_code": 7,
+              "created_at": 1496376710,
+              "updated_at": 1518483093
+            },
+            "relationships": {
+              "funding_round": {
+                "type": "FundingRound",
+                "uuid": "1aab538fbab040b6cfe5f811c71fa913",
+                "properties": {
+                  "permalink": "1aab538fbab040b6cfe5f811c71fa913",
+                  "api_path": "funding-rounds/1aab538fbab040b6cfe5f811c71fa913",
+                  "web_path": "funding-round/1aab538fbab040b6cfe5f811c71fa913",
+                  "api_url": "https://api.crunchbase.com/v3.1/funding-rounds/1aab538fbab040b6cfe5f811c71fa913",
+                  "funding_type": "venture",
+                  "series": "C",
+                  "series_qualifier": null,
+                  "announced_on": "2017-06-01",
+                  "announced_on_trust_code": 7,
+                  "closed_on": null,
+                  "closed_on_trust_code": null,
+                  "money_raised": 26600000,
+                  "money_raised_currency_code": "USD",
+                  "money_raised_usd": 26600000,
+                  "target_money_raised": null,
+                  "target_money_raised_currency_code": null,
+                  "target_money_raised_usd": null,
+                  "pre_money_valuation": null,
+                  "pre_money_valuation_currency_code": null,
+                  "pre_money_valuation_usd": null,
+                  "rank": 124142,
+                  "created_at": 1496376425,
+                  "updated_at": 1518479707
+                },
+                "relationships": {
+                  "funded_organization": {
+                    "type": "Organization",
+                    "uuid": "a4c8748321d1f7088ae870957d1d4c0a",
+                    "properties": {
+                      "permalink": "monteris-medical",
+                      "permalink_aliases": null,
+                      "api_path": "organizations/monteris-medical",
+                      "web_path": "organization/monteris-medical",
+                      "api_url": "https://api.crunchbase.com/v3.1/organizations/monteris-medical",
+                      "name": "Monteris Medical",
+                      "also_known_as": null,
+                      "short_description": "Monteris Medical is a medical device venture developing new technologies for the treatment of cancer.",
+                      "description": "Monteris Medical Inc. is a medical device venture dedicated to developing new technologies for the treatment of cancers.",
+                      "profile_image_url": "http://public.crunchbase.com/t_api_images/v1397195313/316809f0873a8c46dadb4a181ef43569.jpg",
+                      "primary_role": "company",
+                      "role_company": true,
+                      "role_investor": false,
+                      "role_group": false,
+                      "role_school": false,
+                      "investor_type": null,
+                      "founded_on": "1999-01-01",
+                      "founded_on_trust_code": 4,
+                      "is_closed": false,
+                      "closed_on": null,
+                      "closed_on_trust_code": null,
+                      "num_employees_min": 11,
+                      "num_employees_max": 50,
+                      "stock_exchange": null,
+                      "stock_symbol": null,
+                      "total_funding_usd": 120899027,
+                      "number_of_investments": 0,
+                      "homepage_url": "http://www.monteris.com/",
+                      "contact_email": "info@monteris.com",
+                      "phone_number": "(866) 799-7655",
+                      "rank": 7896,
+                      "created_at": 1310149673,
+                      "updated_at": 1540594565
+                    }
+                  }
+                }
+              },
+              "partners": [],
+              "invested_in": {
+                "type": "Organization",
+                "uuid": "a4c8748321d1f7088ae870957d1d4c0a",
+                "properties": {
+                  "permalink": "monteris-medical",
+                  "permalink_aliases": null,
+                  "api_path": "organizations/monteris-medical",
+                  "web_path": "organization/monteris-medical",
+                  "api_url": "https://api.crunchbase.com/v3.1/organizations/monteris-medical",
+                  "name": "Monteris Medical",
+                  "also_known_as": null,
+                  "short_description": "Monteris Medical is a medical device venture developing new technologies for the treatment of cancer.",
+                  "description": "Monteris Medical Inc. is a medical device venture dedicated to developing new technologies for the treatment of cancers.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1397195313/316809f0873a8c46dadb4a181ef43569.jpg",
+                  "primary_role": "company",
+                  "role_company": true,
+                  "role_investor": false,
+                  "role_group": false,
+                  "role_school": false,
+                  "investor_type": null,
+                  "founded_on": "1999-01-01",
+                  "founded_on_trust_code": 4,
+                  "is_closed": false,
+                  "closed_on": null,
+                  "closed_on_trust_code": null,
+                  "num_employees_min": 11,
+                  "num_employees_max": 50,
+                  "stock_exchange": null,
+                  "stock_symbol": null,
+                  "total_funding_usd": 120899027,
+                  "number_of_investments": 0,
+                  "homepage_url": "http://www.monteris.com/",
+                  "contact_email": "info@monteris.com",
+                  "phone_number": "(866) 799-7655",
+                  "rank": 7896,
+                  "created_at": 1310149673,
+                  "updated_at": 1540594565
+                }
+              }
+            }
+          },
+          {
+            "type": "Investment",
+            "uuid": "2bbbd462f953e95ea18a283184a1e478",
+            "properties": {
+              "money_invested": null,
+              "money_invested_currency_code": null,
+              "money_invested_usd": null,
+              "is_lead_investor": false,
+              "announced_on": "2014-12-23",
+              "announced_on_trust_code": 7,
+              "created_at": 1476964705,
+              "updated_at": 1518483121
+            },
+            "relationships": {
+              "funding_round": {
+                "type": "FundingRound",
+                "uuid": "5d11c2fca2533ecb458e671a38bf08ee",
+                "properties": {
+                  "permalink": "5d11c2fca2533ecb458e671a38bf08ee",
+                  "api_path": "funding-rounds/5d11c2fca2533ecb458e671a38bf08ee",
+                  "web_path": "funding-round/5d11c2fca2533ecb458e671a38bf08ee",
+                  "api_url": "https://api.crunchbase.com/v3.1/funding-rounds/5d11c2fca2533ecb458e671a38bf08ee",
+                  "funding_type": "post_ipo_equity",
+                  "series": null,
+                  "series_qualifier": null,
+                  "announced_on": "2014-12-23",
+                  "announced_on_trust_code": 7,
+                  "closed_on": null,
+                  "closed_on_trust_code": null,
+                  "money_raised": 10500000,
+                  "money_raised_currency_code": "USD",
+                  "money_raised_usd": 10500000,
+                  "target_money_raised": null,
+                  "target_money_raised_currency_code": null,
+                  "target_money_raised_usd": null,
+                  "pre_money_valuation": null,
+                  "pre_money_valuation_currency_code": null,
+                  "pre_money_valuation_usd": null,
+                  "rank": 209783,
+                  "created_at": 1419395609,
+                  "updated_at": 1518479247
+                },
+                "relationships": {
+                  "funded_organization": {
+                    "type": "Organization",
+                    "uuid": "de9b414baa8822ef8db455b466e0be7b",
+                    "properties": {
+                      "permalink": "vermillion-inc",
+                      "permalink_aliases": [
+                        "vermillion-inc-2"
+                      ],
+                      "api_path": "organizations/vermillion-inc",
+                      "web_path": "organization/vermillion-inc",
+                      "api_url": "https://api.crunchbase.com/v3.1/organizations/vermillion-inc",
+                      "name": "Vermillion",
+                      "also_known_as": null,
+                      "short_description": "Vermillion develops and commercializes diagnostic tests that address unmet needs in gynecologic oncology and women’s health.",
+                      "description": "We will develop and commercialize high-value, multi-marker, diagnostic tests which address unmet needs in gynecologic oncology and women’s health. We will accomplish our mission through internal development, targeted acquisitions, and collaborations with leading scientific and clinical institutions. Our global commercial efforts will include direct marketing and sales activities as well as partnerships with leading companies in women’s health.",
+                      "profile_image_url": "http://public.crunchbase.com/t_api_images/v1397186089/49288b6f9a2b15e64ce90673acb5a77c.png",
+                      "primary_role": "company",
+                      "role_company": true,
+                      "role_investor": false,
+                      "role_group": false,
+                      "role_school": false,
+                      "investor_type": null,
+                      "founded_on": "1993-01-01",
+                      "founded_on_trust_code": 4,
+                      "is_closed": false,
+                      "closed_on": null,
+                      "closed_on_trust_code": null,
+                      "num_employees_min": 11,
+                      "num_employees_max": 50,
+                      "stock_exchange": "nasdaq",
+                      "stock_symbol": "VRML",
+                      "total_funding_usd": 89992358,
+                      "number_of_investments": 0,
+                      "homepage_url": "http://www.vermillion.com",
+                      "contact_email": "info@vermillion.com",
+                      "phone_number": "512-519-0400",
+                      "rank": 22665,
+                      "created_at": 1366773487,
+                      "updated_at": 1540599741
+                    }
+                  }
+                }
+              },
+              "partners": [],
+              "invested_in": {
+                "type": "Organization",
+                "uuid": "de9b414baa8822ef8db455b466e0be7b",
+                "properties": {
+                  "permalink": "vermillion-inc",
+                  "permalink_aliases": [
+                    "vermillion-inc-2"
+                  ],
+                  "api_path": "organizations/vermillion-inc",
+                  "web_path": "organization/vermillion-inc",
+                  "api_url": "https://api.crunchbase.com/v3.1/organizations/vermillion-inc",
+                  "name": "Vermillion",
+                  "also_known_as": null,
+                  "short_description": "Vermillion develops and commercializes diagnostic tests that address unmet needs in gynecologic oncology and women’s health.",
+                  "description": "We will develop and commercialize high-value, multi-marker, diagnostic tests which address unmet needs in gynecologic oncology and women’s health. We will accomplish our mission through internal development, targeted acquisitions, and collaborations with leading scientific and clinical institutions. Our global commercial efforts will include direct marketing and sales activities as well as partnerships with leading companies in women’s health.",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1397186089/49288b6f9a2b15e64ce90673acb5a77c.png",
+                  "primary_role": "company",
+                  "role_company": true,
+                  "role_investor": false,
+                  "role_group": false,
+                  "role_school": false,
+                  "investor_type": null,
+                  "founded_on": "1993-01-01",
+                  "founded_on_trust_code": 4,
+                  "is_closed": false,
+                  "closed_on": null,
+                  "closed_on_trust_code": null,
+                  "num_employees_min": 11,
+                  "num_employees_max": 50,
+                  "stock_exchange": "nasdaq",
+                  "stock_symbol": "VRML",
+                  "total_funding_usd": 89992358,
+                  "number_of_investments": 0,
+                  "homepage_url": "http://www.vermillion.com",
+                  "contact_email": "info@vermillion.com",
+                  "phone_number": "512-519-0400",
+                  "rank": 22665,
+                  "created_at": 1366773487,
+                  "updated_at": 1540599741
+                }
+              }
+            }
+          }
+        ]
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/birchview-fund/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/birchview-fund/acquired_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/birchview-fund/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/birchview-fund/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/birchview-fund/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/birchview-fund/images",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/birchview-fund/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/birchview-fund/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}

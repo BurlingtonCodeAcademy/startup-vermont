@@ -1,0 +1,500 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "6719c1afd7929e36378575c09d8143ce",
+    "properties": {
+      "permalink": "blodgett",
+      "permalink_aliases": null,
+      "api_path": "organizations/blodgett",
+      "web_path": "organization/blodgett",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/blodgett",
+      "name": "Blodgett",
+      "also_known_as": null,
+      "short_description": "Blodgett is a foodservice equipment manufacturer.",
+      "description": "Blodgett is manufactures commercial cooking products.",
+      "profile_image_url": "http://public.crunchbase.com/t_api_images/v1497006512/xoppzkcexdmyo4dfszdt.png",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": null,
+      "founded_on_trust_code": null,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": 10001,
+      "num_employees_max": 1000000,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": "http://www.blodgett.com/",
+      "contact_email": "sales@blodgett.com",
+      "phone_number": "(802)658-6600",
+      "rank": 266553,
+      "created_at": 1497006528,
+      "updated_at": 1540590090
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/blodgett/primary_image",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Image",
+          "uuid": "6719c1afd7929e36378575c09d8143ce",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/v1497006512/xoppzkcexdmyo4dfszdt.png",
+            "asset_url": "http://public.crunchbase.com/t_api_images/v1497006512/xoppzkcexdmyo4dfszdt.png",
+            "content_type": "png",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1497006528,
+            "updated_at": 1540590090
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/blodgett/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/blodgett/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": []
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/blodgett/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/blodgett/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/blodgett/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/blodgett/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/blodgett/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/blodgett/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/blodgett/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "78fe4e1c26a91080624d893d6d85fcc3",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "44 Lakeside Avenue",
+            "street_2": null,
+            "postal_code": "05401",
+            "city": "Burlington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1497006814,
+            "updated_at": 1518483818
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/blodgett/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "78fe4e1c26a91080624d893d6d85fcc3",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "44 Lakeside Avenue",
+            "street_2": null,
+            "postal_code": "05401",
+            "city": "Burlington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1497006814,
+            "updated_at": 1518483818
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/blodgett/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/blodgett/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "14364faa63f90d457b6a7378113364a2",
+            "properties": {
+              "name": "Food and Beverage",
+              "web_path": "category/food-and-beverage/14364faa63f90d457b6a7378113364a2",
+              "category_groups": [
+                "Food and Beverage"
+              ],
+              "created_at": 1457032196,
+              "updated_at": 1518483533
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "cdb5753f53c4c62c2afd1e8d9c58cbf3",
+            "properties": {
+              "name": "Machinery Manufacturing",
+              "web_path": "category/machinery-manufacturing/cdb5753f53c4c62c2afd1e8d9c58cbf3",
+              "category_groups": [
+                "Manufacturing"
+              ],
+              "created_at": 1465509044,
+              "updated_at": 1518483551
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/blodgett/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/blodgett/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/blodgett/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/blodgett/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/blodgett/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/blodgett/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/blodgett/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/blodgett/acquired_by",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Acquisition",
+          "uuid": "908fa0df10708d2a61439b9e2e9c4651",
+          "properties": {
+            "permalink": "908fa0df10708d2a61439b9e2e9c4651",
+            "api_path": "acquisitions/908fa0df10708d2a61439b9e2e9c4651",
+            "web_path": "acquisition/908fa0df10708d2a61439b9e2e9c4651",
+            "api_url": "https://api.crunchbase.com/v3.1/acquisitions/908fa0df10708d2a61439b9e2e9c4651",
+            "price": 95000000,
+            "price_currency_code": "USD",
+            "price_usd": 95000000,
+            "payment_type": "cash",
+            "acquisition_type": "acquisition",
+            "acquisition_status": "complete",
+            "disposition_of_acquired": "subsidiary",
+            "announced_on": "2001-08-31",
+            "announced_on_trust_code": 7,
+            "completed_on": null,
+            "completed_on_trust_code": null,
+            "rank": 71389,
+            "created_at": 1497007135,
+            "updated_at": 1518479771
+          },
+          "relationships": {
+            "acquirer": {
+              "type": "Organization",
+              "uuid": "3ba3cc8aae67c189ebf893d492b3f291",
+              "properties": {
+                "permalink": "the-middleby-corp",
+                "permalink_aliases": [
+                  "the-middleby-corporation"
+                ],
+                "api_path": "organizations/the-middleby-corp",
+                "web_path": "organization/the-middleby-corp",
+                "api_url": "https://api.crunchbase.com/v3.1/organizations/the-middleby-corp",
+                "name": "The Middleby Corp",
+                "also_known_as": null,
+                "short_description": "The Middleby Corporation (Nasdaq:MIDD) is a global leader in the foodservice and food processing equipment industry.",
+                "description": "The Middleby Corporation (Nasdaq:MIDD) is a global leader in the foodservice and food processing equipment industry. The company, through its subsidiaries, engages in the design, manufacture, and sale of commercial foodservice and food processing equipment. The company’s Commercial Foodservice Equipment group manufactures cooking equipment for restaurants and institutional kitchens. Its Food Processing Equipment group manufactures food preparation, cooking, packaging, and food safety equipment for the food processing industry. Middleby has received numerous prestigious awards and recognitions including \"Forbes Best Small Company\", \"Business Week Hot Growth Company\", \"Fortune Fastest Growing Company\", \"Crain’s Chicago Business, Fast Fifty\". The Middleby Corporation was founded in 1888 and is based in Elgin, Illinois",
+                "profile_image_url": "http://public.crunchbase.com/t_api_images/libdtm3xbxnprnwh3fzq",
+                "primary_role": "company",
+                "role_company": true,
+                "role_investor": false,
+                "role_group": false,
+                "role_school": false,
+                "investor_type": null,
+                "founded_on": "1888-01-01",
+                "founded_on_trust_code": 4,
+                "is_closed": false,
+                "closed_on": null,
+                "closed_on_trust_code": null,
+                "num_employees_min": 10001,
+                "num_employees_max": 1000000,
+                "stock_exchange": "nasdaq",
+                "stock_symbol": "MIDD",
+                "total_funding_usd": 0,
+                "number_of_investments": 0,
+                "homepage_url": "http://www.middleby.com",
+                "contact_email": "sales@middleby.com",
+                "phone_number": "(847) 429-7509",
+                "rank": 61015,
+                "created_at": 1390485573,
+                "updated_at": 1540593674
+              }
+            }
+          }
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/blodgett/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/blodgett/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/blodgett/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "6719c1afd7929e36378575c09d8143ce",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "http://www.blodgett.com/",
+              "created_at": 1497006528,
+              "updated_at": 1540590090
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "6719c1afd7929e36378575c09d8143ce",
+            "properties": {
+              "website_type": "facebook",
+              "website_name": "facebook",
+              "url": "https://www.facebook.com/blodgettovenco/",
+              "created_at": 1497006528,
+              "updated_at": 1540590090
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "6719c1afd7929e36378575c09d8143ce",
+            "properties": {
+              "website_type": "twitter",
+              "website_name": "twitter",
+              "url": "https://twitter.com/BlodgettOvenCo",
+              "created_at": 1497006528,
+              "updated_at": 1540590090
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "6719c1afd7929e36378575c09d8143ce",
+            "properties": {
+              "website_type": "linkedin",
+              "website_name": "linkedin",
+              "url": "https://www.linkedin.com/company-beta/513250/",
+              "created_at": 1497006528,
+              "updated_at": 1540590090
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/blodgett/images",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Image",
+            "uuid": "6719c1afd7929e36378575c09d8143ce",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/v1497006512/xoppzkcexdmyo4dfszdt.png",
+              "asset_url": "http://public.crunchbase.com/t_api_images/v1497006512/xoppzkcexdmyo4dfszdt.png",
+              "content_type": "png",
+              "height": null,
+              "width": null,
+              "filesize": null,
+              "created_at": 1497006528,
+              "updated_at": 1540590090
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/blodgett/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/blodgett/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}

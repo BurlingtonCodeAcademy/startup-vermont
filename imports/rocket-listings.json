@@ -1,0 +1,588 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "bd0d0929946888b3d90e60622c2882c3",
+    "properties": {
+      "permalink": "rocket-listings",
+      "permalink_aliases": null,
+      "api_path": "organizations/rocket-listings",
+      "web_path": "organization/rocket-listings",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/rocket-listings",
+      "name": "Rocket Listings",
+      "also_known_as": null,
+      "short_description": "Rocket Listings is a mix of Craigslist and Facebook launching in Vermont.",
+      "description": "You can instantly search over 50,000 listings from thousands of trusted, non-anonymous sellers. You view every listing and communicate with every seller and buyer, from one page. You can create custom filters and alerts with one click and find what you're looking for first.\r\n\r\nRocket integrates with 50 local Facebook resale groups to make every listing available in one place, so most of the listings were originally posted in a local Facebook group. Of course, you can easily create listings. Coming soon, they're adding auto-posting to Facebook groups and to Craigslist, hashtags for categories, $ for price, plus lots more.\r\n\r\nThousands of Vermonters have created and joined Facebook groups to buy and sell stuff, so not everyone uses Craigslist. Unfortunately, Facebook isn't built for buying and selling stuff and people get frustrated all the time.",
+      "profile_image_url": "http://public.crunchbase.com/t_api_images/v1428848903/biupyik2r21qgnuwtw69.png",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": "2012-05-05",
+      "founded_on_trust_code": 7,
+      "is_closed": true,
+      "closed_on": null,
+      "closed_on_trust_code": 0,
+      "num_employees_min": 1,
+      "num_employees_max": 10,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 25000,
+      "number_of_investments": 0,
+      "homepage_url": "https://www.rocketlistings.com",
+      "contact_email": "brian@rocketlistings.com",
+      "phone_number": null,
+      "rank": 111464,
+      "created_at": 1428848938,
+      "updated_at": 1540596082
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/rocket-listings/primary_image",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Image",
+          "uuid": "bd0d0929946888b3d90e60622c2882c3",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/v1428848903/biupyik2r21qgnuwtw69.png",
+            "asset_url": "http://public.crunchbase.com/t_api_images/v1428848903/biupyik2r21qgnuwtw69.png",
+            "content_type": "png",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1428848938,
+            "updated_at": 1540596082
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/rocket-listings/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Person",
+            "uuid": "73fdb4e61bdab37f2862b371eff61516",
+            "properties": {
+              "permalink": "teddy-knox",
+              "permalink_aliases": null,
+              "api_path": "people/teddy-knox",
+              "web_path": "person/teddy-knox",
+              "api_url": "https://api.crunchbase.com/v3.1/people/teddy-knox",
+              "first_name": "Teddy",
+              "last_name": "Knox",
+              "gender": "Male",
+              "also_known_as": null,
+              "bio": "Founder at Rocket Listings",
+              "profile_image_url": "http://public.crunchbase.com/t_api_images/v1428921966/ussiyrokq8rlrevumstr.jpg",
+              "role_investor": false,
+              "born_on": null,
+              "born_on_trust_code": null,
+              "died_on": null,
+              "died_on_trust_code": null,
+              "rank": 525301,
+              "created_at": 1428921979,
+              "updated_at": 1518480915
+            }
+          }
+        ]
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/rocket-listings/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "2b8e592cd24a59a55a26733c720ed57f",
+            "properties": {
+              "title": "Founder",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1428921979,
+              "updated_at": 1518484912
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "73fdb4e61bdab37f2862b371eff61516",
+                "properties": {
+                  "permalink": "teddy-knox",
+                  "permalink_aliases": null,
+                  "api_path": "people/teddy-knox",
+                  "web_path": "person/teddy-knox",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/teddy-knox",
+                  "first_name": "Teddy",
+                  "last_name": "Knox",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Founder at Rocket Listings",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1428921966/ussiyrokq8rlrevumstr.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 525301,
+                  "created_at": 1428921979,
+                  "updated_at": 1518480915
+                }
+              }
+            }
+          }
+        ]
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/rocket-listings/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "2b8e592cd24a59a55a26733c720ed57f",
+            "properties": {
+              "title": "Founder",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1428921979,
+              "updated_at": 1518484912
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "73fdb4e61bdab37f2862b371eff61516",
+                "properties": {
+                  "permalink": "teddy-knox",
+                  "permalink_aliases": null,
+                  "api_path": "people/teddy-knox",
+                  "web_path": "person/teddy-knox",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/teddy-knox",
+                  "first_name": "Teddy",
+                  "last_name": "Knox",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": "Founder at Rocket Listings",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1428921966/ussiyrokq8rlrevumstr.jpg",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 525301,
+                  "created_at": 1428921979,
+                  "updated_at": 1518480915
+                }
+              }
+            }
+          }
+        ]
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/rocket-listings/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/rocket-listings/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/rocket-listings/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/rocket-listings/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/rocket-listings/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/rocket-listings/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "611b7c35b05b3a6ad0f4c8c8e5173ec2",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": null,
+            "street_2": null,
+            "postal_code": null,
+            "city": "Burlington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1428921754,
+            "updated_at": 1518483760
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/rocket-listings/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "611b7c35b05b3a6ad0f4c8c8e5173ec2",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": null,
+            "street_2": null,
+            "postal_code": null,
+            "city": "Burlington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1428921754,
+            "updated_at": 1518483760
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/rocket-listings/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/rocket-listings/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "275ddcbc27deff4f4e506dc26ebf9570",
+            "properties": {
+              "name": "E-Commerce",
+              "web_path": "category/e-commerce/275ddcbc27deff4f4e506dc26ebf9570",
+              "category_groups": [
+                "Commerce and Shopping"
+              ],
+              "created_at": 1397980726,
+              "updated_at": 1518483536
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "4824f20ff433e03897d87be1126eb82c",
+            "properties": {
+              "name": "Classifieds",
+              "web_path": "category/classifieds/4824f20ff433e03897d87be1126eb82c",
+              "category_groups": [
+                "Commerce and Shopping"
+              ],
+              "created_at": 1397980728,
+              "updated_at": 1518483550
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "d38b3f26abc46f7bb29db952021a1b14",
+            "properties": {
+              "name": "Enterprise Software",
+              "web_path": "category/enterprise-software/d38b3f26abc46f7bb29db952021a1b14",
+              "category_groups": [
+                "Software"
+              ],
+              "created_at": 1397980726,
+              "updated_at": 1518483551
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/rocket-listings/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/rocket-listings/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/rocket-listings/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/rocket-listings/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/rocket-listings/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": [
+          {
+            "type": "FundingRound",
+            "uuid": "33311de7f966311265ac56c03357b900",
+            "properties": {
+              "permalink": "33311de7f966311265ac56c03357b900",
+              "api_path": "funding-rounds/33311de7f966311265ac56c03357b900",
+              "web_path": "funding-round/33311de7f966311265ac56c03357b900",
+              "api_url": "https://api.crunchbase.com/v3.1/funding-rounds/33311de7f966311265ac56c03357b900",
+              "funding_type": "seed",
+              "series": null,
+              "series_qualifier": null,
+              "announced_on": "2012-05-10",
+              "announced_on_trust_code": 7,
+              "closed_on": null,
+              "closed_on_trust_code": null,
+              "money_raised": 25000,
+              "money_raised_currency_code": "USD",
+              "money_raised_usd": 25000,
+              "target_money_raised": null,
+              "target_money_raised_currency_code": null,
+              "target_money_raised_usd": null,
+              "pre_money_valuation": null,
+              "pre_money_valuation_currency_code": null,
+              "pre_money_valuation_usd": null,
+              "rank": 154182,
+              "created_at": 1428921827,
+              "updated_at": 1518482359
+            }
+          }
+        ]
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/rocket-listings/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/rocket-listings/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/rocket-listings/acquired_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/rocket-listings/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/rocket-listings/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/rocket-listings/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "bd0d0929946888b3d90e60622c2882c3",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "https://www.rocketlistings.com",
+              "created_at": 1428848938,
+              "updated_at": 1540596082
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "bd0d0929946888b3d90e60622c2882c3",
+            "properties": {
+              "website_type": "facebook",
+              "website_name": "facebook",
+              "url": "https://www.facebook.com/RocketListings",
+              "created_at": 1428848938,
+              "updated_at": 1540596082
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "bd0d0929946888b3d90e60622c2882c3",
+            "properties": {
+              "website_type": "twitter",
+              "website_name": "twitter",
+              "url": "https://twitter.com/rocket_listings",
+              "created_at": 1428848938,
+              "updated_at": 1540596082
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "bd0d0929946888b3d90e60622c2882c3",
+            "properties": {
+              "website_type": "linkedin",
+              "website_name": "linkedin",
+              "url": "https://www.linkedin.com/company/rocket-listings",
+              "created_at": 1428848938,
+              "updated_at": 1540596082
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/rocket-listings/images",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Image",
+            "uuid": "bd0d0929946888b3d90e60622c2882c3",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/v1428848903/biupyik2r21qgnuwtw69.png",
+              "asset_url": "http://public.crunchbase.com/t_api_images/v1428848903/biupyik2r21qgnuwtw69.png",
+              "content_type": "png",
+              "height": null,
+              "width": null,
+              "filesize": null,
+              "created_at": 1428848938,
+              "updated_at": 1540596082
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/rocket-listings/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/rocket-listings/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}

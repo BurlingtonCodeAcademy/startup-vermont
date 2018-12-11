@@ -1,0 +1,506 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "e5bbd89d21ec4d3297ccba1a72238c51",
+    "properties": {
+      "permalink": "staticworx",
+      "permalink_aliases": null,
+      "api_path": "organizations/staticworx",
+      "web_path": "organization/staticworx",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/staticworx",
+      "name": "Staticworx",
+      "also_known_as": null,
+      "short_description": "Staticworx produces design-centric ESD flooring that prevents static discharge from harming sensitive electronic components.",
+      "description": "Staticworx, North America's leading producer of comprehensive flooring products and services, protects worksites with static-free solutions. They are the industry's most cost-effective manufacturer, warehouses on both coasts, and logistics partners that help to save time and money and streamline communications. Perhaps their greatest advantage is their knowledge base, which allows them to educate customers and serve as sophisticated problem-solvers, not cookie-cutter salesmen. Among the courses they provide are AIA continuing education.",
+      "profile_image_url": "http://public.crunchbase.com/t_api_images/dzrjzudupx6rst0bt4zn",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": null,
+      "founded_on_trust_code": null,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": 1,
+      "num_employees_max": 10,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": "https://www.staticworx.com/",
+      "contact_email": "info@staticworx.com",
+      "phone_number": "+1 617-923-2000",
+      "rank": 500633,
+      "created_at": 1524048399,
+      "updated_at": 1540596601
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/staticworx/primary_image",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Image",
+          "uuid": "e5bbd89d21ec4d3297ccba1a72238c51",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/dzrjzudupx6rst0bt4zn",
+            "asset_url": "http://public.crunchbase.com/t_api_images/dzrjzudupx6rst0bt4zn",
+            "content_type": "dzrjzudupx6rst0bt4zn",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1524048399,
+            "updated_at": 1540596601
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/staticworx/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/staticworx/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "23c102560c854f77a0158d11bb4a174f",
+            "properties": {
+              "title": "President & CEO",
+              "started_on": "2006-09-01",
+              "started_on_trust_code": 6,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1524048399,
+              "updated_at": 1524048399
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "d7feec605fb647be92d1caf733c2fba3",
+                "properties": {
+                  "permalink": "dave-long-fba3",
+                  "permalink_aliases": null,
+                  "api_path": "people/dave-long-fba3",
+                  "web_path": "person/dave-long-fba3",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/dave-long-fba3",
+                  "first_name": "Dave",
+                  "last_name": "Long",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/qkzr39qnzkfrhapisujw",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 727389,
+                  "created_at": 1524048399,
+                  "updated_at": 1536359819
+                }
+              }
+            }
+          }
+        ]
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/staticworx/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "23c102560c854f77a0158d11bb4a174f",
+            "properties": {
+              "title": "President & CEO",
+              "started_on": "2006-09-01",
+              "started_on_trust_code": 6,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1524048399,
+              "updated_at": 1524048399
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "d7feec605fb647be92d1caf733c2fba3",
+                "properties": {
+                  "permalink": "dave-long-fba3",
+                  "permalink_aliases": null,
+                  "api_path": "people/dave-long-fba3",
+                  "web_path": "person/dave-long-fba3",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/dave-long-fba3",
+                  "first_name": "Dave",
+                  "last_name": "Long",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/qkzr39qnzkfrhapisujw",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 727389,
+                  "created_at": 1524048399,
+                  "updated_at": 1536359819
+                }
+              }
+            }
+          }
+        ]
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/staticworx/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/staticworx/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/staticworx/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/staticworx/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/staticworx/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/staticworx/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "94095e2b0eb94f3d981bb282fe7e8a76",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "4706 Waterbury Stowe Road",
+            "street_2": null,
+            "postal_code": "05677",
+            "city": "Waterbury Center",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1524048399,
+            "updated_at": 1524048399
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/staticworx/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "94095e2b0eb94f3d981bb282fe7e8a76",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "4706 Waterbury Stowe Road",
+            "street_2": null,
+            "postal_code": "05677",
+            "city": "Waterbury Center",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1524048399,
+            "updated_at": 1524048399
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/staticworx/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/staticworx/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "e4d83fbb33f0a6f01399a68245e8f8ac",
+            "properties": {
+              "name": "Construction",
+              "web_path": "category/construction/e4d83fbb33f0a6f01399a68245e8f8ac",
+              "category_groups": [
+                "Real Estate"
+              ],
+              "created_at": 1397980727,
+              "updated_at": 1518483551
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/staticworx/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/staticworx/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/staticworx/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/staticworx/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/staticworx/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/staticworx/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/staticworx/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/staticworx/acquired_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/staticworx/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/staticworx/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/staticworx/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "e5bbd89d21ec4d3297ccba1a72238c51",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "https://www.staticworx.com/",
+              "created_at": 1524048399,
+              "updated_at": 1540596601
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "e5bbd89d21ec4d3297ccba1a72238c51",
+            "properties": {
+              "website_type": "facebook",
+              "website_name": "facebook",
+              "url": "https://www.facebook.com/staticworx/",
+              "created_at": 1524048399,
+              "updated_at": 1540596601
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "e5bbd89d21ec4d3297ccba1a72238c51",
+            "properties": {
+              "website_type": "twitter",
+              "website_name": "twitter",
+              "url": "https://twitter.com/staticworx",
+              "created_at": 1524048399,
+              "updated_at": 1540596601
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "e5bbd89d21ec4d3297ccba1a72238c51",
+            "properties": {
+              "website_type": "linkedin",
+              "website_name": "linkedin",
+              "url": "https://www.linkedin.com/company/staticworx/",
+              "created_at": 1524048399,
+              "updated_at": 1540596601
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/staticworx/images",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Image",
+            "uuid": "e5bbd89d21ec4d3297ccba1a72238c51",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/dzrjzudupx6rst0bt4zn",
+              "asset_url": "http://public.crunchbase.com/t_api_images/dzrjzudupx6rst0bt4zn",
+              "content_type": "dzrjzudupx6rst0bt4zn",
+              "height": null,
+              "width": null,
+              "filesize": null,
+              "created_at": 1524048399,
+              "updated_at": 1540596601
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/staticworx/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/staticworx/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}

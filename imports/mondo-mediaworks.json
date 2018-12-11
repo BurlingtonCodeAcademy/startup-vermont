@@ -1,0 +1,591 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "91a67faa69504d908465c9ac93d9a17c",
+    "properties": {
+      "permalink": "mondo-mediaworks",
+      "permalink_aliases": null,
+      "api_path": "organizations/mondo-mediaworks",
+      "web_path": "organization/mondo-mediaworks",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/mondo-mediaworks",
+      "name": "Mondo Mediaworks",
+      "also_known_as": null,
+      "short_description": "Mondo Mediaworks, Inc. is a Vermont-based digital marketing agency. ",
+      "description": "Mondo Mediaworks, Inc. is a Vermont-based digital marketing agency. What sets us apart from other marketing agencies? They excel at engaging your soon-to-be customers during their research phase online. They produce award-winning content that is both useful and entertaining — whether it’s videos, PR, SEO, digital advertising, blogs, social media, email or website development — and serve it directly to a qualified audience. And these days, odds are that the majority of that audience is doing their research on phones and tablets; that’s why they design great content that works across all devices.",
+      "profile_image_url": "http://public.crunchbase.com/t_api_images/oixel0jxp3cr4qqxkuqd",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": "2010-01-01",
+      "founded_on_trust_code": 4,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": 11,
+      "num_employees_max": 50,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": "https://www.mondomediaworks.com/",
+      "contact_email": null,
+      "phone_number": "+1 802-451-0431",
+      "rank": 464512,
+      "created_at": 1526966315,
+      "updated_at": 1526966315
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mondo-mediaworks/primary_image",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Image",
+          "uuid": "91a67faa69504d908465c9ac93d9a17c",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/oixel0jxp3cr4qqxkuqd",
+            "asset_url": "http://public.crunchbase.com/t_api_images/oixel0jxp3cr4qqxkuqd",
+            "content_type": "oixel0jxp3cr4qqxkuqd",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1526966315,
+            "updated_at": 1526966315
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mondo-mediaworks/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mondo-mediaworks/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "5acf0efae50d47a8ab394ee4877e554b",
+            "properties": {
+              "title": "CEO",
+              "started_on": "2017-07-01",
+              "started_on_trust_code": 6,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1526966422,
+              "updated_at": 1540579974
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "40c26bb332ad4b5e936b8b2ae689900e",
+                "properties": {
+                  "permalink": "luke-q-stafford",
+                  "permalink_aliases": null,
+                  "api_path": "people/luke-q-stafford",
+                  "web_path": "person/luke-q-stafford",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/luke-q-stafford",
+                  "first_name": "Luke",
+                  "last_name": "Q. Stafford",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/j3wl4vjamaqkrjxoikuw",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 620073,
+                  "created_at": 1526966422,
+                  "updated_at": 1536372429
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "e7920f1a54ff46e2aba7a37017205b96",
+            "properties": {
+              "title": "COO",
+              "started_on": "2017-05-01",
+              "started_on_trust_code": 6,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1526967302,
+              "updated_at": 1540580099
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "dec5eb7c295e464cae0ec253d9f08ada",
+                "properties": {
+                  "permalink": "nick-betit",
+                  "permalink_aliases": null,
+                  "api_path": "people/nick-betit",
+                  "web_path": "person/nick-betit",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/nick-betit",
+                  "first_name": "Nick",
+                  "last_name": "Betit",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/rrkvmgismn5uop1ty8zz",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 540909,
+                  "created_at": 1526967302,
+                  "updated_at": 1536359999
+                }
+              }
+            }
+          }
+        ]
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mondo-mediaworks/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "5acf0efae50d47a8ab394ee4877e554b",
+            "properties": {
+              "title": "CEO",
+              "started_on": "2017-07-01",
+              "started_on_trust_code": 6,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1526966422,
+              "updated_at": 1540579974
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "40c26bb332ad4b5e936b8b2ae689900e",
+                "properties": {
+                  "permalink": "luke-q-stafford",
+                  "permalink_aliases": null,
+                  "api_path": "people/luke-q-stafford",
+                  "web_path": "person/luke-q-stafford",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/luke-q-stafford",
+                  "first_name": "Luke",
+                  "last_name": "Q. Stafford",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/j3wl4vjamaqkrjxoikuw",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 620073,
+                  "created_at": 1526966422,
+                  "updated_at": 1536372429
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "e7920f1a54ff46e2aba7a37017205b96",
+            "properties": {
+              "title": "COO",
+              "started_on": "2017-05-01",
+              "started_on_trust_code": 6,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1526967302,
+              "updated_at": 1540580099
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "dec5eb7c295e464cae0ec253d9f08ada",
+                "properties": {
+                  "permalink": "nick-betit",
+                  "permalink_aliases": null,
+                  "api_path": "people/nick-betit",
+                  "web_path": "person/nick-betit",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/nick-betit",
+                  "first_name": "Nick",
+                  "last_name": "Betit",
+                  "gender": "Male",
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/rrkvmgismn5uop1ty8zz",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 540909,
+                  "created_at": 1526967302,
+                  "updated_at": 1536359999
+                }
+              }
+            }
+          }
+        ]
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mondo-mediaworks/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mondo-mediaworks/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mondo-mediaworks/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mondo-mediaworks/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mondo-mediaworks/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mondo-mediaworks/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "cb06fe607732472ba2db64b05498c59f",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "74 Cotton Mill Hill, #A-251",
+            "street_2": null,
+            "postal_code": "05301",
+            "city": "Brattleboro",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1526966315,
+            "updated_at": 1526966315
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mondo-mediaworks/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "cb06fe607732472ba2db64b05498c59f",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "74 Cotton Mill Hill, #A-251",
+            "street_2": null,
+            "postal_code": "05301",
+            "city": "Brattleboro",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1526966315,
+            "updated_at": 1526966315
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mondo-mediaworks/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mondo-mediaworks/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "6cb685372de1b0412ee5451ff81bccab",
+            "properties": {
+              "name": "Advertising",
+              "web_path": "category/advertising/6cb685372de1b0412ee5451ff81bccab",
+              "category_groups": [
+                "Advertising",
+                "Sales and Marketing"
+              ],
+              "created_at": 1397980727,
+              "updated_at": 1518483550
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mondo-mediaworks/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mondo-mediaworks/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mondo-mediaworks/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mondo-mediaworks/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mondo-mediaworks/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mondo-mediaworks/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mondo-mediaworks/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mondo-mediaworks/acquired_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mondo-mediaworks/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mondo-mediaworks/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mondo-mediaworks/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "91a67faa69504d908465c9ac93d9a17c",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "https://www.mondomediaworks.com/",
+              "created_at": 1526966315,
+              "updated_at": 1526966315
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "91a67faa69504d908465c9ac93d9a17c",
+            "properties": {
+              "website_type": "facebook",
+              "website_name": "facebook",
+              "url": "https://www.facebook.com/mondo.mediaworks.vt",
+              "created_at": 1526966315,
+              "updated_at": 1526966315
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "91a67faa69504d908465c9ac93d9a17c",
+            "properties": {
+              "website_type": "twitter",
+              "website_name": "twitter",
+              "url": "https://twitter.com/mondomediaworks",
+              "created_at": 1526966315,
+              "updated_at": 1526966315
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "91a67faa69504d908465c9ac93d9a17c",
+            "properties": {
+              "website_type": "linkedin",
+              "website_name": "linkedin",
+              "url": "https://www.linkedin.com/company/mondo-mediaworks/",
+              "created_at": 1526966315,
+              "updated_at": 1526966315
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mondo-mediaworks/images",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Image",
+            "uuid": "91a67faa69504d908465c9ac93d9a17c",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/oixel0jxp3cr4qqxkuqd",
+              "asset_url": "http://public.crunchbase.com/t_api_images/oixel0jxp3cr4qqxkuqd",
+              "content_type": "oixel0jxp3cr4qqxkuqd",
+              "height": null,
+              "width": null,
+              "filesize": null,
+              "created_at": 1526966315,
+              "updated_at": 1526966315
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mondo-mediaworks/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/mondo-mediaworks/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}

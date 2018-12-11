@@ -1,0 +1,436 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "f782b36560a687e0b711ca69a5a34b6a",
+    "properties": {
+      "permalink": "avalon-medical-corp",
+      "permalink_aliases": null,
+      "api_path": "organizations/avalon-medical-corp",
+      "web_path": "organization/avalon-medical-corp",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/avalon-medical-corp",
+      "name": "Avalon Medical corp.",
+      "also_known_as": null,
+      "short_description": "Avalon Medical corp. is a medical device company that distributes the Filshie Clip System, a device used for female sterilization.",
+      "description": "Avalon Medical Corporation is a medical device company that distributes the Filshie Clip System, a device used for female sterilization. The device includes single-use titanium clips lined with silicone rubber, reusable handles, and applicators for the laparoscopic surgery used in the procedure.",
+      "profile_image_url": null,
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": null,
+      "founded_on_trust_code": null,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": null,
+      "num_employees_max": null,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": "http://www.avalon-medical.com/",
+      "contact_email": null,
+      "phone_number": "(888)872-2547",
+      "rank": 627218,
+      "created_at": 1497680924,
+      "updated_at": 1518480131
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/avalon-medical-corp/primary_image",
+          "sort_order": "not_ordered"
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/avalon-medical-corp/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/avalon-medical-corp/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": []
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/avalon-medical-corp/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/avalon-medical-corp/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/avalon-medical-corp/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/avalon-medical-corp/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/avalon-medical-corp/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/avalon-medical-corp/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/avalon-medical-corp/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "f4287039a29dcea7dca3839e7d956aa8",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "185 Allen Brook Lane",
+            "street_2": null,
+            "postal_code": "05495",
+            "city": "Williston",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1497681006,
+            "updated_at": 1518484078
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/avalon-medical-corp/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "f4287039a29dcea7dca3839e7d956aa8",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "185 Allen Brook Lane",
+            "street_2": null,
+            "postal_code": "05495",
+            "city": "Williston",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1497681006,
+            "updated_at": 1518484078
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/avalon-medical-corp/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/avalon-medical-corp/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "37b8e1daddd22bebaa159fadd061282c",
+            "properties": {
+              "name": "Medical Device",
+              "web_path": "category/medical-device/37b8e1daddd22bebaa159fadd061282c",
+              "category_groups": [
+                "Health Care"
+              ],
+              "created_at": 1457032184,
+              "updated_at": 1518483538
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "3f21415b57846be63722eb189190b7cd",
+            "properties": {
+              "name": "Health Care",
+              "web_path": "category/health-care/3f21415b57846be63722eb189190b7cd",
+              "category_groups": [
+                "Health Care"
+              ],
+              "created_at": 1397980726,
+              "updated_at": 1518483550
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/avalon-medical-corp/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/avalon-medical-corp/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/avalon-medical-corp/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/avalon-medical-corp/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/avalon-medical-corp/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/avalon-medical-corp/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/avalon-medical-corp/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/avalon-medical-corp/acquired_by",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Acquisition",
+          "uuid": "dba34bbe190bb3cb529d468de42f8d2e",
+          "properties": {
+            "permalink": "dba34bbe190bb3cb529d468de42f8d2e",
+            "api_path": "acquisitions/dba34bbe190bb3cb529d468de42f8d2e",
+            "web_path": "acquisition/dba34bbe190bb3cb529d468de42f8d2e",
+            "api_url": "https://api.crunchbase.com/v3.1/acquisitions/dba34bbe190bb3cb529d468de42f8d2e",
+            "price": 10000000,
+            "price_currency_code": "USD",
+            "price_usd": 10000000,
+            "payment_type": "cash",
+            "acquisition_type": "acquisition",
+            "acquisition_status": "complete",
+            "disposition_of_acquired": "combined",
+            "announced_on": "2003-10-28",
+            "announced_on_trust_code": 7,
+            "completed_on": null,
+            "completed_on_trust_code": null,
+            "rank": 27321,
+            "created_at": 1497681074,
+            "updated_at": 1518478612
+          },
+          "relationships": {
+            "acquirer": {
+              "type": "Organization",
+              "uuid": "1b2b7523d8a11430564b5eedf501a1de",
+              "properties": {
+                "permalink": "coopersurgical-inc",
+                "permalink_aliases": null,
+                "api_path": "organizations/coopersurgical-inc",
+                "web_path": "organization/coopersurgical-inc",
+                "api_url": "https://api.crunchbase.com/v3.1/organizations/coopersurgical-inc",
+                "name": "CooperSurgical",
+                "also_known_as": null,
+                "short_description": "CooperSurgical offers a full portfolio of medical and surgical products and brands for women's health care that ob/gyns and other clinician.",
+                "description": "CooperSurgical offers a full portfolio of medical and surgical products and brands for women's health care that ob/gyns and other clinician.",
+                "profile_image_url": "http://public.crunchbase.com/t_api_images/v1466148506/zxcpivdujobxuddkoeuh.png",
+                "primary_role": "company",
+                "role_company": true,
+                "role_investor": false,
+                "role_group": false,
+                "role_school": false,
+                "investor_type": null,
+                "founded_on": "1990-01-01",
+                "founded_on_trust_code": 4,
+                "is_closed": false,
+                "closed_on": null,
+                "closed_on_trust_code": null,
+                "num_employees_min": 501,
+                "num_employees_max": 1000,
+                "stock_exchange": null,
+                "stock_symbol": null,
+                "total_funding_usd": 0,
+                "number_of_investments": 0,
+                "homepage_url": "http://www.coopersurgical.com/",
+                "contact_email": "orders@coopersurgical.com",
+                "phone_number": "(800)243-2974",
+                "rank": 91394,
+                "created_at": 1386090756,
+                "updated_at": 1540590671
+              }
+            }
+          }
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/avalon-medical-corp/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/avalon-medical-corp/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/avalon-medical-corp/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "f782b36560a687e0b711ca69a5a34b6a",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "http://www.avalon-medical.com/",
+              "created_at": 1497680924,
+              "updated_at": 1518480131
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/avalon-medical-corp/images",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/avalon-medical-corp/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/avalon-medical-corp/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}

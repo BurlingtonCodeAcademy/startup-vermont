@@ -1,0 +1,727 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "4eea6b5de7cb91e1a0ce7069a4bc11d5",
+    "properties": {
+      "permalink": "vermont-genetics-network",
+      "permalink_aliases": null,
+      "api_path": "organizations/vermont-genetics-network",
+      "web_path": "organization/vermont-genetics-network",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/vermont-genetics-network",
+      "name": "Vermont Genetics Network",
+      "also_known_as": null,
+      "short_description": "The Vermont Genetics Network(VGN) is the Vermont IDeA Network for Biomedical Research Excellence .",
+      "description": "The Vermont Genetics Network (VGN) is funded by a five-year, $16.5 million award from the National Center for Research Resources (NCRR), and is part of a National Institutes of Health (NIH) initiative called IDeA Networks of Biomedical Research Excellence (INBRE). Under the direction of Dr. Judith Van Houten, the VGN, which links scientists at Castleton State College, Johnson State College, Middlebury College, Norwich University and St. Michael's College to resources at UVM, is designed to provide funding for research, equipment and technology necessary to enhance competitiveness for national funding for genetics research. Other aims of the project include increasing the number of undergraduates who go on to biomedical careers from the baccalaureate colleges, to provide and support bioinformatics capability in the state, and to increase the diversity of biomedical scientists.",
+      "profile_image_url": "http://public.crunchbase.com/t_api_images/v1434171022/jfbvy9wvmaiko2gnophu.png",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": "2001-01-01",
+      "founded_on_trust_code": 4,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": 11,
+      "num_employees_max": 50,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 17800000,
+      "number_of_investments": 0,
+      "homepage_url": "http://vgn.uvm.edu/",
+      "contact_email": "vgn@uvm.edu",
+      "phone_number": "(802) 656-9119",
+      "rank": 73138,
+      "created_at": 1434171033,
+      "updated_at": 1518479178
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-genetics-network/primary_image",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Image",
+          "uuid": "4eea6b5de7cb91e1a0ce7069a4bc11d5",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/v1434171022/jfbvy9wvmaiko2gnophu.png",
+            "asset_url": "http://public.crunchbase.com/t_api_images/v1434171022/jfbvy9wvmaiko2gnophu.png",
+            "content_type": "png",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1434171033,
+            "updated_at": 1518479178
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-genetics-network/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-genetics-network/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "b7ba88f57d8b82a96a2c157c85e3939d",
+            "properties": {
+              "title": "Director",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1434171663,
+              "updated_at": 1518485600
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "52449d166e3e066e0e9ef456d9a8c779",
+                "properties": {
+                  "permalink": "judith-van-houten",
+                  "permalink_aliases": null,
+                  "api_path": "people/judith-van-houten",
+                  "web_path": "person/judith-van-houten",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/judith-van-houten",
+                  "first_name": "Judith Van",
+                  "last_name": "Houten",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1434171647/lj4ztkxjyui8by3gye9j.png",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 706811,
+                  "created_at": 1434171663,
+                  "updated_at": 1518479882
+                }
+              }
+            }
+          }
+        ]
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-genetics-network/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "b7ba88f57d8b82a96a2c157c85e3939d",
+            "properties": {
+              "title": "Director",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "is_current": true,
+              "job_type": "employee",
+              "created_at": 1434171663,
+              "updated_at": 1518485600
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "52449d166e3e066e0e9ef456d9a8c779",
+                "properties": {
+                  "permalink": "judith-van-houten",
+                  "permalink_aliases": null,
+                  "api_path": "people/judith-van-houten",
+                  "web_path": "person/judith-van-houten",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/judith-van-houten",
+                  "first_name": "Judith Van",
+                  "last_name": "Houten",
+                  "gender": "Female",
+                  "also_known_as": null,
+                  "bio": null,
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/v1434171647/lj4ztkxjyui8by3gye9j.png",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 706811,
+                  "created_at": 1434171663,
+                  "updated_at": 1518479882
+                }
+              }
+            }
+          }
+        ]
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-genetics-network/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-genetics-network/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-genetics-network/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "uuid": "0ab984e97413addd0b097fd5fdef4150",
+            "properties": {
+              "permalink": "national-institutes-of-health",
+              "permalink_aliases": null,
+              "api_path": "organizations/national-institutes-of-health",
+              "web_path": "organization/national-institutes-of-health",
+              "api_url": "https://api.crunchbase.com/v3.1/organizations/national-institutes-of-health",
+              "name": "National Institutes of Health",
+              "also_known_as": [
+                "NIH"
+              ],
+              "short_description": "National Institutes of Health is a biomedical research facility in the United States that focuses on biomedical and health-related research.",
+              "description": "National Institutes of Health is a biomedical research facility in the United States. It is affiliated to the United States Department of Health and Human Services. It is the primary agency of the United States government responsible for biomedical and health-related research. It conducts its own scientific research through its Intramural Research Program (IRP) and provides major biomedical research funding to non-NIH research facilities through its Extramural Research Program.\r\n\r\n\r\nNational Institutes of Health has 1,200 principal investigators and more than 4,000 postdoctoral fellows in basic, translational, and clinical research. It comprises 27 separate institutes and centers that conduct research in different disciplines of biomedical science.\r\n\r\n\r\nWith scientific accomplishments such as the discovery of fluoride to prevent tooth decay, the use of lithium to manage bipolar disorder, the creation of vaccines against hepatitis, Haemophilus influenzae (HIB) and human papillomavirus, National Institutes of Health has many agencies under its control.\r\n\r\n\r\nNational Institutes of Health was established in 1887. It is based in Bethesda, Maryland.",
+              "profile_image_url": "http://public.crunchbase.com/t_api_images/v1479301412/qdfrsmsuqu8m22jaaoor.png",
+              "primary_role": "company",
+              "role_company": false,
+              "role_investor": true,
+              "role_group": false,
+              "role_school": false,
+              "investor_type": [
+                "entrepreneurship_program"
+              ],
+              "founded_on": "1887-01-01",
+              "founded_on_trust_code": 7,
+              "is_closed": false,
+              "closed_on": null,
+              "closed_on_trust_code": null,
+              "num_employees_min": 10001,
+              "num_employees_max": 1000000,
+              "stock_exchange": null,
+              "stock_symbol": null,
+              "total_funding_usd": 5000000,
+              "number_of_investments": 293,
+              "homepage_url": "http://www.nih.gov",
+              "contact_email": "NIHinfo@od.nih.gov",
+              "phone_number": "844.517.3111",
+              "rank": 3,
+              "created_at": 1304677855,
+              "updated_at": 1543419132
+            }
+          }
+        ]
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-genetics-network/owned_by",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Organization",
+          "uuid": "c2cdd4ca8b3f1a8042a6cbef0195c27d",
+          "properties": {
+            "permalink": "university-of-vermont",
+            "permalink_aliases": [
+              "university-of-vermont-burlington"
+            ],
+            "api_path": "organizations/university-of-vermont",
+            "web_path": "organization/university-of-vermont",
+            "api_url": "https://api.crunchbase.com/v3.1/organizations/university-of-vermont",
+            "name": "University of Vermont",
+            "also_known_as": null,
+            "short_description": "The University of Vermont is a public research university based in the United States.",
+            "description": "The University of Vermont is a public research university based in the United States. Founded in 1791, UVM is among the oldest universities in the United States and the fifth college established in New England after Harvard, Yale, Dartmouth, and Brown. It offers courses in business, social sciences, science, and medicine.\r\n\r\n\r\nThe schools and colleges of the university include School of Business Administration, College of Agriculture and Life Sciences, College of Arts and Sciences, College of Communication, College of Medicine, College of Engineering and Mathematics, Graduate College, College of Nursing and Health Sciences, College of Education and Social Services, and School of Natural Resources.\r\n\r\n\r\nThe university's 451-acre (1.83 km2) campus is located in Burlington. Features of the UVM campus include the historic University Green, the Dudley H. Davis Center - the first student center in the nation to receive U.S. Green Building Council LEED Gold certification - the Fleming Museum of Art, and the Gutterson/Patrick athletic complex, home to UVM's Division I athletic teams. The largest hospital complex in Vermont, Fletcher Allen Health Care, has its primary facility adjacent to the UVM campus and is affiliated with the UVM College of Medicine.",
+            "profile_image_url": "http://public.crunchbase.com/t_api_images/v1414812447/bmdp56g3qgaaljfup13b.webp",
+            "primary_role": "school",
+            "role_company": false,
+            "role_investor": false,
+            "role_group": false,
+            "role_school": true,
+            "investor_type": null,
+            "founded_on": "1791-01-01",
+            "founded_on_trust_code": 4,
+            "is_closed": false,
+            "closed_on": null,
+            "closed_on_trust_code": null,
+            "num_employees_min": null,
+            "num_employees_max": null,
+            "stock_exchange": null,
+            "stock_symbol": null,
+            "total_funding_usd": 14100000,
+            "number_of_investments": 0,
+            "homepage_url": "http://www.uvm.edu/",
+            "contact_email": null,
+            "phone_number": "(802) 656-3131",
+            "rank": 19775,
+            "created_at": 1368127020,
+            "updated_at": 1528716131
+          }
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-genetics-network/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-genetics-network/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "6a7de5d654973cf4912f1256de312f92",
+          "properties": {
+            "name": "Headquartes",
+            "street_1": "University of Vermont",
+            "street_2": "120A Marsh Life Science Building",
+            "postal_code": "05405",
+            "city": "Burlington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1434171360,
+            "updated_at": 1518483780
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-genetics-network/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "6a7de5d654973cf4912f1256de312f92",
+          "properties": {
+            "name": "Headquartes",
+            "street_1": "University of Vermont",
+            "street_2": "120A Marsh Life Science Building",
+            "postal_code": "05405",
+            "city": "Burlington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1434171360,
+            "updated_at": 1518483780
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-genetics-network/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-genetics-network/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "025caab73e5498f0061c73e7af159cd1",
+            "properties": {
+              "name": "Education",
+              "web_path": "category/education/025caab73e5498f0061c73e7af159cd1",
+              "category_groups": [
+                "Education"
+              ],
+              "created_at": 1397980727,
+              "updated_at": 1518483550
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "3ced088e84de330f443a1aa6cd3cc29f",
+            "properties": {
+              "name": "Higher Education",
+              "web_path": "category/higher-education/3ced088e84de330f443a1aa6cd3cc29f",
+              "category_groups": [
+                "Education"
+              ],
+              "created_at": 1457032197,
+              "updated_at": 1518483549
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "47b7f337c81cbb9ee4d208022a0dd60f",
+            "properties": {
+              "name": "Genetics",
+              "web_path": "category/genetics/47b7f337c81cbb9ee4d208022a0dd60f",
+              "category_groups": [
+                "Biotechnology",
+                "Health Care"
+              ],
+              "created_at": 1397980727,
+              "updated_at": 1518483550
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "ac057a31756a62be16770fee94b6aeca",
+            "properties": {
+              "name": "Bioinformatics",
+              "web_path": "category/bioinformatics/ac057a31756a62be16770fee94b6aeca",
+              "category_groups": [
+                "Biotechnology",
+                "Data and Analytics",
+                "Science and Engineering"
+              ],
+              "created_at": 1397980728,
+              "updated_at": 1518483551
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-genetics-network/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-genetics-network/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-genetics-network/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-genetics-network/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-genetics-network/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": [
+          {
+            "type": "FundingRound",
+            "uuid": "eb7d77973db4e8f9c65be19809718e1e",
+            "properties": {
+              "permalink": "eb7d77973db4e8f9c65be19809718e1e",
+              "api_path": "funding-rounds/eb7d77973db4e8f9c65be19809718e1e",
+              "web_path": "funding-round/eb7d77973db4e8f9c65be19809718e1e",
+              "api_url": "https://api.crunchbase.com/v3.1/funding-rounds/eb7d77973db4e8f9c65be19809718e1e",
+              "funding_type": "grant",
+              "series": null,
+              "series_qualifier": null,
+              "announced_on": "2015-06-12",
+              "announced_on_trust_code": 7,
+              "closed_on": null,
+              "closed_on_trust_code": null,
+              "money_raised": 17800000,
+              "money_raised_currency_code": "USD",
+              "money_raised_usd": 17800000,
+              "target_money_raised": null,
+              "target_money_raised_currency_code": null,
+              "target_money_raised_usd": null,
+              "pre_money_valuation": null,
+              "pre_money_valuation_currency_code": null,
+              "pre_money_valuation_usd": null,
+              "rank": 237678,
+              "created_at": 1434171428,
+              "updated_at": 1518483553
+            },
+            "relationships": {
+              "investments": [
+                {
+                  "type": "Investment",
+                  "uuid": "adcf9da44bb02ed9c47c405696f46672",
+                  "properties": {
+                    "money_invested": null,
+                    "money_invested_currency_code": null,
+                    "money_invested_usd": null,
+                    "is_lead_investor": false,
+                    "announced_on": "2015-06-12",
+                    "announced_on_trust_code": 7,
+                    "created_at": 1476709411,
+                    "updated_at": 1518483298
+                  },
+                  "relationships": {
+                    "investors": {
+                      "type": "Organization",
+                      "uuid": "0ab984e97413addd0b097fd5fdef4150",
+                      "properties": {
+                        "permalink": "national-institutes-of-health",
+                        "permalink_aliases": null,
+                        "api_path": "organizations/national-institutes-of-health",
+                        "web_path": "organization/national-institutes-of-health",
+                        "api_url": "https://api.crunchbase.com/v3.1/organizations/national-institutes-of-health",
+                        "name": "National Institutes of Health",
+                        "also_known_as": [
+                          "NIH"
+                        ],
+                        "short_description": "National Institutes of Health is a biomedical research facility in the United States that focuses on biomedical and health-related research.",
+                        "description": "National Institutes of Health is a biomedical research facility in the United States. It is affiliated to the United States Department of Health and Human Services. It is the primary agency of the United States government responsible for biomedical and health-related research. It conducts its own scientific research through its Intramural Research Program (IRP) and provides major biomedical research funding to non-NIH research facilities through its Extramural Research Program.\r\n\r\n\r\nNational Institutes of Health has 1,200 principal investigators and more than 4,000 postdoctoral fellows in basic, translational, and clinical research. It comprises 27 separate institutes and centers that conduct research in different disciplines of biomedical science.\r\n\r\n\r\nWith scientific accomplishments such as the discovery of fluoride to prevent tooth decay, the use of lithium to manage bipolar disorder, the creation of vaccines against hepatitis, Haemophilus influenzae (HIB) and human papillomavirus, National Institutes of Health has many agencies under its control.\r\n\r\n\r\nNational Institutes of Health was established in 1887. It is based in Bethesda, Maryland.",
+                        "profile_image_url": "http://public.crunchbase.com/t_api_images/v1479301412/qdfrsmsuqu8m22jaaoor.png",
+                        "primary_role": "company",
+                        "role_company": false,
+                        "role_investor": true,
+                        "role_group": false,
+                        "role_school": false,
+                        "investor_type": [
+                          "entrepreneurship_program"
+                        ],
+                        "founded_on": "1887-01-01",
+                        "founded_on_trust_code": 7,
+                        "is_closed": false,
+                        "closed_on": null,
+                        "closed_on_trust_code": null,
+                        "num_employees_min": 10001,
+                        "num_employees_max": 1000000,
+                        "stock_exchange": null,
+                        "stock_symbol": null,
+                        "total_funding_usd": 5000000,
+                        "number_of_investments": 293,
+                        "homepage_url": "http://www.nih.gov",
+                        "contact_email": "NIHinfo@od.nih.gov",
+                        "phone_number": "844.517.3111",
+                        "rank": 3,
+                        "created_at": 1304677855,
+                        "updated_at": 1543419132
+                      }
+                    },
+                    "partners": []
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-genetics-network/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-genetics-network/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-genetics-network/acquired_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-genetics-network/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-genetics-network/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-genetics-network/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "4eea6b5de7cb91e1a0ce7069a4bc11d5",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "http://vgn.uvm.edu/",
+              "created_at": 1434171033,
+              "updated_at": 1518479178
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "4eea6b5de7cb91e1a0ce7069a4bc11d5",
+            "properties": {
+              "website_type": "facebook",
+              "website_name": "facebook",
+              "url": "https://www.facebook.com/VTGeneticsNetwork/timeline?ref=page_internal",
+              "created_at": 1434171033,
+              "updated_at": 1518479178
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "4eea6b5de7cb91e1a0ce7069a4bc11d5",
+            "properties": {
+              "website_type": "twitter",
+              "website_name": "twitter",
+              "url": "https://www.twitter.com/uvmvermont",
+              "created_at": 1434171033,
+              "updated_at": 1518479178
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "4eea6b5de7cb91e1a0ce7069a4bc11d5",
+            "properties": {
+              "website_type": "linkedin",
+              "website_name": "linkedin",
+              "url": "https://www.linkedin.com/company/vermont-genetics-network",
+              "created_at": 1434171033,
+              "updated_at": 1518479178
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-genetics-network/images",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Image",
+            "uuid": "4eea6b5de7cb91e1a0ce7069a4bc11d5",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/v1434171022/jfbvy9wvmaiko2gnophu.png",
+              "asset_url": "http://public.crunchbase.com/t_api_images/v1434171022/jfbvy9wvmaiko2gnophu.png",
+              "content_type": "png",
+              "height": null,
+              "width": null,
+              "filesize": null,
+              "created_at": 1434171033,
+              "updated_at": 1518479178
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-genetics-network/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/vermont-genetics-network/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}

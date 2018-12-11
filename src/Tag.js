@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './Tag.css';
 
 class Tag extends Component {
-
   render() {
     //console.log("tag js" + this.props.tag)
 

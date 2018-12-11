@@ -1,0 +1,543 @@
+{
+  "metadata": {
+    "version": 31,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "2f05157b3d60ab530805710c16bd813d",
+    "properties": {
+      "permalink": "itech-us",
+      "permalink_aliases": null,
+      "api_path": "organizations/itech-us",
+      "web_path": "organization/itech-us",
+      "api_url": "https://api.crunchbase.com/v3.1/organizations/itech-us",
+      "name": "iTech US",
+      "also_known_as": null,
+      "short_description": "iTech US is a software consulting, mobile development, and business process outsourcing company.",
+      "description": "iTech is a 1,200-employee software consulting, mobile development, and business process outsourcing company with headquarters in the US and principle locations in Canada and India. Following our core principles of transparency, competency, and quality commitment, iTech provides custom software and data solutions to medium and large enterprises throughout North America.",
+      "profile_image_url": "http://public.crunchbase.com/t_api_images/v1506492754/gtpvuzy1xehnsn7e6e5a.png",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": false,
+      "role_group": false,
+      "role_school": false,
+      "investor_type": null,
+      "founded_on": "2001-01-01",
+      "founded_on_trust_code": 4,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": null,
+      "num_employees_min": 1001,
+      "num_employees_max": 5000,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": "https://www.itechus.com/",
+      "contact_email": "info@itechus.com",
+      "phone_number": "(802)383-1500",
+      "rank": 126344,
+      "created_at": 1506492795,
+      "updated_at": 1540593120
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/itech-us/primary_image",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Image",
+          "uuid": "2f05157b3d60ab530805710c16bd813d",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/v1506492754/gtpvuzy1xehnsn7e6e5a.png",
+            "asset_url": "http://public.crunchbase.com/t_api_images/v1506492754/gtpvuzy1xehnsn7e6e5a.png",
+            "content_type": "png",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1506492795,
+            "updated_at": 1540593120
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/itech-us/founders",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "featured_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/itech-us/featured_team",
+          "sort_order": "employee_featured_order ASC"
+        },
+        "items": []
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/itech-us/current_team",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/itech-us/past_team",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "786513540de34cbe9ee4892af44a885d",
+            "properties": {
+              "title": "Director of Marketing (interim)",
+              "started_on": "2016-03-01",
+              "started_on_trust_code": 6,
+              "ended_on": "2017-09-01",
+              "ended_on_trust_code": 6,
+              "is_current": false,
+              "job_type": "employee",
+              "created_at": 1517351373,
+              "updated_at": 1518481373
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "6a00ab302b8a28fb776a3589dee1529a",
+                "properties": {
+                  "permalink": "adam-rizzieri",
+                  "permalink_aliases": null,
+                  "api_path": "people/adam-rizzieri",
+                  "web_path": "person/adam-rizzieri",
+                  "api_url": "https://api.crunchbase.com/v3.1/people/adam-rizzieri",
+                  "first_name": "Adam",
+                  "last_name": "Rizzieri",
+                  "gender": "Male",
+                  "also_known_as": [
+                    "S. Adam Rizzieri"
+                  ],
+                  "bio": "Adam is an online marketing and advertising executive that leverages technology, relational intelligence & networks, creativity, and analytics to make data driven decisions that yield positive results. \n\nPreviously, Rizzieri managed a $250,000,000 partner marketing program for a top online subscription-based product company where he worked with high budget Pay-Per-Click search and Email marketers among a handful of highly trafficked, brand-name websites to optimize their EPCs (earnings per click) in line with company needs specific to profitability and sales volume. Prior to that, Adam worked as a marketing consultant and served on the start-up team of a now publicly traded commercial energy brokerage firm. With over a decade of experience in online marketing, Adam was one of the first media buyers on Facebook and also among the first to work in the SAG-AFTRA New Media (WebTV) industry, serving the online commercial and content needs of major Hollywood studios.\n\nAdam holds a BA from Southern Methodist University and a MS in International Marketing Management from Boston University.\n",
+                  "profile_image_url": "http://public.crunchbase.com/t_api_images/qyavoiuncwbijwtahobp",
+                  "role_investor": false,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": null,
+                  "rank": 70965,
+                  "created_at": 1457127809,
+                  "updated_at": 1518479197
+                }
+              }
+            }
+          }
+        ]
+      },
+      "board_members_and_advisors": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/itech-us/board_members_and_advisors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/itech-us/investors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/itech-us/owned_by",
+          "sort_order": "not_ordered"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/itech-us/sub_organizations",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "offices": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/itech-us/offices",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "85fa83522ee39fd8bd8a7bae799a3605",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "20 Kimball Avenue",
+            "street_2": null,
+            "postal_code": "05403",
+            "city": "South Burlington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1506492983,
+            "updated_at": 1518483842
+          }
+        }
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/itech-us/headquarters",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "85fa83522ee39fd8bd8a7bae799a3605",
+          "properties": {
+            "name": "Headquarters",
+            "street_1": "20 Kimball Avenue",
+            "street_2": null,
+            "postal_code": "05403",
+            "city": "South Burlington",
+            "region": "Vermont",
+            "country": "United States",
+            "city_web_path": "",
+            "region_code2": null,
+            "region_web_path": "",
+            "country_code2": null,
+            "country_code3": null,
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1506492983,
+            "updated_at": 1518483842
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/itech-us/products",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "categories": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/itech-us/categories",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "uuid": "c08b5441a05b9777b7a6012728caddd9",
+            "properties": {
+              "name": "Software",
+              "web_path": "category/software/c08b5441a05b9777b7a6012728caddd9",
+              "category_groups": [
+                "Software"
+              ],
+              "created_at": 1397980727,
+              "updated_at": 1518483551
+            }
+          },
+          {
+            "type": "Category",
+            "uuid": "dbca89faf0835438b4add3fdeceb78e7",
+            "properties": {
+              "name": "Information Technology",
+              "web_path": "category/information-technology/dbca89faf0835438b4add3fdeceb78e7",
+              "category_groups": [
+                "Information Technology"
+              ],
+              "created_at": 1397980726,
+              "updated_at": 1518483551
+            }
+          }
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/itech-us/competitors",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/itech-us/customers",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "memberships": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/itech-us/memberships",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/itech-us/members",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/itech-us/funding_rounds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/itech-us/investments",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/itech-us/acquisitions",
+          "sort_order": "announced_on__value DESC"
+        },
+        "items": []
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/itech-us/acquired_by",
+          "sort_order": "not_ordered"
+        },
+        "item": {
+          "type": "Acquisition",
+          "uuid": "7ced6471bf37427c18acdcc1458477b4",
+          "properties": {
+            "permalink": "7ced6471bf37427c18acdcc1458477b4",
+            "api_path": "acquisitions/7ced6471bf37427c18acdcc1458477b4",
+            "web_path": "acquisition/7ced6471bf37427c18acdcc1458477b4",
+            "api_url": "https://api.crunchbase.com/v3.1/acquisitions/7ced6471bf37427c18acdcc1458477b4",
+            "price": null,
+            "price_currency_code": null,
+            "price_usd": null,
+            "payment_type": null,
+            "acquisition_type": "acquisition",
+            "acquisition_status": "complete",
+            "disposition_of_acquired": "subsidiary",
+            "announced_on": "2017-09-25",
+            "announced_on_trust_code": 7,
+            "completed_on": null,
+            "completed_on_trust_code": null,
+            "rank": 36387,
+            "created_at": 1506492795,
+            "updated_at": 1518478641
+          },
+          "relationships": {
+            "acquirer": {
+              "type": "Organization",
+              "uuid": "1a6a205ce82565ad0cec9613d85e7a0e",
+              "properties": {
+                "permalink": "sharedlabs",
+                "permalink_aliases": null,
+                "api_path": "organizations/sharedlabs",
+                "web_path": "organization/sharedlabs",
+                "api_url": "https://api.crunchbase.com/v3.1/organizations/sharedlabs",
+                "name": "SharedLabs",
+                "also_known_as": null,
+                "short_description": "SharedLabs is support, manage, repair, or improve software, applications, and ecommerce systems.",
+                "description": "SharedLabs was formed to create business value through technical excellence and innovative solutions. \r\n\r\nFocused on digital enablement, we create, support, manage, repair, or improve software, applications, and ecommerce systems, which drive today’s digital world. Offering software, managed, and cloud services to enterprise software companies, and large global enterprise companies across the banking & financial services, payments, insurance, telecommunications, retail, technology and media industries.",
+                "profile_image_url": "http://public.crunchbase.com/t_api_images/v1506492562/fglojzxrb7hfxggxqsxy.png",
+                "primary_role": "company",
+                "role_company": true,
+                "role_investor": false,
+                "role_group": false,
+                "role_school": false,
+                "investor_type": null,
+                "founded_on": "1999-01-01",
+                "founded_on_trust_code": 4,
+                "is_closed": false,
+                "closed_on": null,
+                "closed_on_trust_code": null,
+                "num_employees_min": 501,
+                "num_employees_max": 1000,
+                "stock_exchange": null,
+                "stock_symbol": null,
+                "total_funding_usd": 0,
+                "number_of_investments": 0,
+                "homepage_url": "https://www.sharedlabs.com/",
+                "contact_email": "info@sharedlabs.com",
+                "phone_number": "(800)960-0149",
+                "rank": 114241,
+                "created_at": 1506492568,
+                "updated_at": 1540596134
+              }
+            }
+          }
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/itech-us/ipo",
+          "sort_order": "not_ordered"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/itech-us/funds",
+          "sort_order": "announced_on DESC"
+        },
+        "items": []
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/itech-us/websites",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Website",
+            "uuid": "2f05157b3d60ab530805710c16bd813d",
+            "properties": {
+              "website_type": "homepage",
+              "website_name": "homepage",
+              "url": "https://www.itechus.com/",
+              "created_at": 1506492795,
+              "updated_at": 1540593120
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "2f05157b3d60ab530805710c16bd813d",
+            "properties": {
+              "website_type": "facebook",
+              "website_name": "facebook",
+              "url": "https://www.facebook.com/itechus",
+              "created_at": 1506492795,
+              "updated_at": 1540593120
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "2f05157b3d60ab530805710c16bd813d",
+            "properties": {
+              "website_type": "twitter",
+              "website_name": "twitter",
+              "url": "https://www.twitter.com/itechus",
+              "created_at": 1506492795,
+              "updated_at": 1540593120
+            }
+          },
+          {
+            "type": "Website",
+            "uuid": "2f05157b3d60ab530805710c16bd813d",
+            "properties": {
+              "website_type": "linkedin",
+              "website_name": "linkedin",
+              "url": "https://www.linkedin.com/company/150419/",
+              "created_at": 1506492795,
+              "updated_at": 1540593120
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/itech-us/images",
+          "sort_order": "not_ordered"
+        },
+        "items": [
+          {
+            "type": "Image",
+            "uuid": "2f05157b3d60ab530805710c16bd813d",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/v1506492754/gtpvuzy1xehnsn7e6e5a.png",
+              "asset_url": "http://public.crunchbase.com/t_api_images/v1506492754/gtpvuzy1xehnsn7e6e5a.png",
+              "content_type": "png",
+              "height": null,
+              "width": null,
+              "filesize": null,
+              "created_at": 1506492795,
+              "updated_at": 1540593120
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/itech-us/videos",
+          "sort_order": "not_ordered"
+        },
+        "items": []
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v3.1/organizations/itech-us/news",
+          "sort_order": "posted_on DESC"
+        },
+        "items": []
+      }
+    }
+  }
+}
