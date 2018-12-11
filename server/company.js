@@ -2,6 +2,18 @@ const assert = require('assert')
 const moment = require('moment')
 
 class Company {
+    static fromCrunchBase(summary, details) {
+        let company = new Company()
+        company.fromOrganizationSummary(summary);
+        company.fromOrganizationDetails(details);
+        return company;
+    }
+
+    // geoLocate() {
+    //     let latlon = fetch(something)
+    //     this.latitude = latlon[0]
+    //     this.longitude = latlon[1]
+    // }
 
     fromOrganizationSummary(organizationSummary) {
         this.crunchbaseUuid = organizationSummary.uuid;
@@ -12,7 +24,6 @@ class Company {
         this.website = properties.homepage_url;
         this.logo_url = properties.profile_image_url;
         this.apiPath = properties.api_path;
-
     }
 
     fromOrganizationDetails(organizationDetails) {
