@@ -4,7 +4,7 @@
     "name name"
     "location location"
     "description description"
-    "info founders" 
+    "info funding" 
     "logo logo";
   grid-template-columns: auto auto;
   grid-template-rows: auto;
@@ -61,8 +61,8 @@
   align-self: start;
   justify-content: start;
 }
-.founders {
-  grid-area: founders;
+.funding {
+  grid-area: funding;
   background: lightgrey;
   border-radius: 5px;
   padding: 15px;
@@ -71,4 +71,8 @@
   justify-self: start;
   align-self: start;
   justify-content: start;
+}
+
+.totals {
+  padding: 10px;
 }

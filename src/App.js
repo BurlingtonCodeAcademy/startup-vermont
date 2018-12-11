@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Startup from './Startup.js';
 import StartupsMap from './BigMap.js';
 import Profile from './Profile.js';
+import Totals from './Totals.js'
 import './App.css';
 
 
@@ -24,11 +25,11 @@ class App extends Component {
   }
   updateState = startup => {
     //console.log(event);
-    this.setState({current: startup})
-    
+    this.setState({ current: startup })
+
   }
 
- 
+
 
   render() {
     return (
@@ -38,18 +39,20 @@ class App extends Component {
         </header>
         <div id="grid-container">
           <div id="startup-list">
-          <h1>Startups in VT:</h1>
+            <h1>Startups in VT:</h1>
             {this.state.startups.map(startup => {
               //console.log(startup);
-              let result = <Startup key={startup._id} {...startup} updateState = {this.updateState}/>
+              let result = <Startup key={startup._id} {...startup} updateState={this.updateState} />
               return result;
             })}
           </div>
           <div id="startup-map">
-            <StartupsMap startups={this.state.startups}/>
+            <StartupsMap startups={this.state.startups} />
           </div>
-          <div id="startup-info">
-            <Profile startup={this.state.current}/>
+
+
+          <div id="startup-info"> 
+          <Profile startup={this.state.current} totalNumberStartups = {this.state.startups.length} />
           </div>
 
         </div>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Map, Marker, Popup, TileLayer, GeoJSON } from 'react-leaflet'
+import { Map, Marker, Popup, TileLayer, GeoJSON, ZoomControl } from 'react-leaflet'
 import './Map.css';
 import Leaflet from "leaflet";
 import vermonts_border from "./border.js";
@@ -52,11 +52,12 @@ class StartupsMap extends Component {
     let polygon = <GeoJSON data={vermonts_border} color="green" />
     return (
 
-      <Map id='map' ref={this.mapRef} center={center} zoom={this.zoomLevel}>
+      <Map id='map' ref={this.mapRef} center={center} zoom={this.zoomLevel} zoomControl={false}>
         <TileLayer
           attribution='Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
           url='https://{s}.tile.openstreetmap.se/hydda/full/{z}/{x}/{y}.png'
         />
+        <ZoomControl position="bottomleft" />
         {polygon}
       </Map>
     )
