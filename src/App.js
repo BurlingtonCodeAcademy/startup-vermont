@@ -14,7 +14,8 @@ class App extends Component {
     super();
     this.state = {
       startups: [],
-      current: null
+      current: null,
+      totalFunding: 20
     };
   }
   componentDidMount() {
@@ -22,20 +23,44 @@ class App extends Component {
       .then(response => response.json())
       .then(data => this.setState({ startups: data }))
       .catch(() => this.setState({ status: "Failed to fetch content" }));
+    //this.setState({ totalFunding: this.calcTotalFunding})  
+    console.log('startups', this.state.startups)
+    this.setState({ totalFunding: this.calcTotalFunding() })
   }
-  updateState = startup => {
+
+  updateState = (startup) => {
     //console.log(event);
     this.setState({ current: startup })
+  }
+  calcTotalFunding = () => {
+    console.log('startups2', this.state.startups)
+    let fundingArray = this.state.startups.map(company => company.total_funding);
+    let sum = 0;
+    for (let i = 0; i < fundingArray.length; i++) {
+      sum += fundingArray[i]
+    }
+    console.log('sum: ', sum)
 
+    //let fundingArray = this.state.startups.map(company => company.total_funding_usd);
+    //fundingArray.filter(funds => funds > 0)
+    //console.log("funding array is")
+    //console.log(fundingArray)
+
+    //let total = fundingArray.reduce((accumulator, currVal)=>accumulator+currVal);
+    //console.log(total)
+
+    //this is a test
+    return sum;
+    //this.setState({ totalFunding: total})
   }
 
-
-
   render() {
+
     return (
       <div className="App">
         <header className="App-header">
           startup-vermont
+          <Totals totalNumberStartups={this.state.startups.length} totalFunding={this.state.totalFunding} />
         </header>
         <div id="grid-container">
           <div id="startup-list">
@@ -51,8 +76,8 @@ class App extends Component {
           </div>
 
 
-          <div id="startup-info"> 
-          <Profile startup={this.state.current} totalNumberStartups = {this.state.startups.length} />
+          <div id="startup-info">
+            <Profile startup={this.state.current} />
           </div>
 
         </div>
