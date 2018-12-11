@@ -36,7 +36,7 @@ class Profile extends Component {
             Founders: {this.props.startup.founders[0]? this.props.startup.founders.map(founder => founder.properties.first_name +" "+founder.properties.last_name +' |  ' + '\n'): "Not reported"} <br />
           </div>
 
-          {this.props.startup.logo_url && <a href={this.props.website}><img className="logo-profile" src={this.props.startup.logo_url} alt="logo"></img></a> || <br />}
+          {/*this.props.startup.logo_url && <a href={this.props.website}><img className="logo-profile" src={this.props.startup.logo_url} alt="logo"></img></a> || <br />*/}
 
 
         </div>
