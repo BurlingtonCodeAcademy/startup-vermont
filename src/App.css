@@ -35,7 +35,7 @@
 
 #startup-list {
   grid-area: list;
-  height: calc(100vh - 60px);
+  height: calc(100vh - 80px);
   border-right: solid 1px gray;
   padding: 10px;
   margin-bottom: 50px;
@@ -70,7 +70,7 @@
 @media screen and (max-width: 800px) {
   #grid-container {
     grid-template-columns: auto auto;
-    grid-template-rows: 300px auto;
+    grid-template-rows: auto auto;
     grid-template-areas:
       "map map"
       "list list";
@@ -78,16 +78,20 @@
   #startup-info {
     border-bottom: gray solid 10px;
     border-right: gray solid 1px;
-    margin-bottom: 10px;
+    margin: 0px;
     width: 60vw;
     height: 300px;
     justify-self: start;
   }
   #startup-map {
     border-bottom: gray solid 10px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     z-index: 1;
     height: 300px;
+  }
+  #startup-list {
+    margin: 0px;
+    height: calc(100vh - 400px)
   }
 }
 
