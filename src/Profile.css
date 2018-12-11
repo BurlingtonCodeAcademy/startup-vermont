@@ -1,0 +1,78 @@
+.profile {
+  display: grid;
+  grid-template-areas: 
+    "name name"
+    "location location"
+    "description description"
+    "info funding" 
+    "logo logo";
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  padding: 0px;
+  margin: 20px;
+  overflow: auto;
+}
+
+.title {
+  grid-area: name;
+  align-self: center;
+  justify-self: center;
+  font-size: 34px;
+  color: green;
+
+}
+
+.location {
+  grid-area: location;
+  align-self: center;
+  justify-self: center;
+}
+.logo-profile {
+  grid-area: logo;
+  align-self: start;
+  justify-self: center;
+  width: 100px;
+  mix-blend-mode: multiply;
+}
+
+
+.description {
+  grid-area: description;
+  background: green;
+  color: white;
+  font-style: italic;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+  padding: 10px;
+  margin: 10px;
+  align-self: start;
+  justify-self: center;
+}
+
+.info-profile {
+  grid-area: info;
+  background: lightgrey;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+  position: relative;
+  justify-self: end;
+  align-self: start;
+  justify-content: start;
+}
+.funding {
+  grid-area: funding;
+  background: lightgrey;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+  position: relative;
+  justify-self: start;
+  align-self: start;
+  justify-content: start;
+}
+
+.totals {
+  padding: 10px;
+}

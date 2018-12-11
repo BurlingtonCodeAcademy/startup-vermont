@@ -5,7 +5,7 @@
 .App-header {
   min-height: 50px;
   position: fixed;
-  width: 100%;
+  width: 100vw;
   top: 0;
   display: flex;
   flex-direction: column;
@@ -23,14 +23,13 @@
 
 #grid-container {
   display: grid;
-  width: 100%;
+  width: 100vw;
   justify-content: center;
   position: fixed;
-  grid-template-columns: 400px 2fr;
-  grid-template-rows: 50% 50%;
+  margin-top: 50px;
+  grid-template-columns: 450px calc(100vw - 450px);
   grid-template-areas:
-    "list map"
-    "list info";
+    "list map";
 } 
 
 #startup-list {
@@ -38,35 +37,55 @@
   height: 100vh;
   border-right: solid 1px gray;
   padding: 10px;
-  margin-top: 50px;
   overflow: scroll;
 }
 
 #startup-map {
   grid-area: map;
-  height: 100%;
-  margin-top: 50px;
+  height: calc(100vh - 50px);
+  width: 100%;
   padding: 0px;
+  margin: 0px;
   overflow: hidden;
   border-bottom: gray solid 10px;
+  z-index: 0;
 }
 
 #startup-info {
-  grid-area: info;
-  height: 100%;
-  margin-top: 100px;
+  grid-area: map;
+  position: absolute;
+  height: auto;
+  width: 100%;
   padding: 0px;
   overflow: auto;
+  z-index: 10;
+  background-color: rgba(255, 255, 255, .6);
+  border-bottom: gray solid 1px;
+  justify-self: center;
+  align-self: start;
 }
+
 
 @media screen and (max-width: 800px) {
   #grid-container {
-    grid-template-columns: 100%;
-    grid-template-rows: 30% 35% auto;
+    grid-template-columns: auto auto;
+    grid-template-rows: 300px auto;
     grid-template-areas:
-      "map"
-      "list"
-      "info";
-
+      "map map"
+      "list list";
   } 
+  #startup-info {
+    border-bottom: gray solid 10px;
+    border-right: gray solid 1px;
+    margin-bottom: 10px;
+    width: 60vw;
+    height: 300px;
+    justify-self: start;
+  }
+  #startup-map {
+    border-bottom: gray solid 10px;
+    margin-bottom: 10px;
+    z-index: 1;
+    height: 300px;
+  }
 }

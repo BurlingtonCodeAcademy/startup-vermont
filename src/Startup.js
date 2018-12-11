@@ -11,7 +11,7 @@ class Startup extends Component {
       >
         <a href={this.props.website}>
           {this.props.logo_url &&
-            <img src={this.props.logo_url} alt="logo" />
+            <img className="logo" src={this.props.logo_url} alt="logo" />
           }
         </a>
 

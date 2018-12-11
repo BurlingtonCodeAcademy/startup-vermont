@@ -47,10 +47,9 @@ class Company {
         this.num_employees_max = properties.num_employees_max
 
         this.founded_on = (properties.founded_on === null ? properties.founded_on : moment(properties.founded_on).format('YYYY'))
-
         this.total_funding_usd = properties.total_funding_usd
         this.founders = organizationDetails.relationships.founders.items
-
+        this.funding_rounds = organizationDetails.relationships.funding_rounds.items;
         // TODO
         // Refactor
         let industryArray = []

@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import { Map, Marker, Popup, TileLayer, GeoJSON } from 'react-leaflet'
+import { Map, Marker, Popup, TileLayer, GeoJSON, ZoomControl } from 'react-leaflet'
 import './Map.css';
 import vermonts_border from "./border.js";
 
@@ -38,11 +38,12 @@ class StartupsMap extends Component {
     if (this.state.markers.length > 0) {
       return (
 
-        <Map id='map' ref={this.mapRef} center={center} zoom={this.zoomLevel} >
+        <Map id='map' ref={this.mapRef} center={center} zoom={this.zoomLevel} zoomControl={false}>
           <TileLayer
             attribution='Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
             url='https://{s}.tile.openstreetmap.se/hydda/full/{z}/{x}/{y}.png'
           />
+          <ZoomControl position="bottomleft" />
           {polygon}
           <Fragment>
             {this.state.markers.map(marker => {
@@ -57,11 +58,12 @@ class StartupsMap extends Component {
       )
     } else {
       return (
-        <Map id='map' ref={this.mapRef} center={center} zoom={this.zoomLevel} >
+        <Map id='map' ref={this.mapRef} center={center} zoom={this.zoomLevel} zoomControl={false}>
           <TileLayer
             attribution='Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
             url='https://{s}.tile.openstreetmap.se/hydda/full/{z}/{x}/{y}.png'
           />
+          <ZoomControl position="bottomleft" />
           {polygon}
         </Map>
       )
