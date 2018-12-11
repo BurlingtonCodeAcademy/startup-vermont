@@ -50,4 +50,7 @@ p {
   float: right;
   overflow: hidden;
   mix-blend-mode: multiply;
+  position: relative;
+  z-index: 0;
 }
+

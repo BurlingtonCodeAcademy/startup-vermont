@@ -1,46 +1,74 @@
 .profile {
   display: grid;
   grid-template-areas: 
-    "name logo"
-    "location description"
-    "info info";
-  justify-items: start;
-  align-items: start;
-  width: 100%;
-  grid-template-columns: 1fr 1fr;
+    "name name"
+    "location location"
+    "description description"
+    "info founders" 
+    "logo logo";
+  grid-template-columns: auto auto;
   grid-template-rows: auto;
-  padding: 0px 15px;
+  padding: 0px;
   margin: 20px;
+  overflow: auto;
 }
 
 .title {
   grid-area: name;
   align-self: center;
-  justify-self: start;
-  font-size: 40px;
+  justify-self: center;
+  font-size: 34px;
   color: green;
-  padding: 10px;
+
 }
 
 .location {
   grid-area: location;
-
+  align-self: center;
+  justify-self: center;
 }
 .logo-profile {
   grid-area: logo;
   align-self: start;
   justify-self: center;
-  height: 80px;
+  width: 100px;
   mix-blend-mode: multiply;
-  padding: 10px;
-
 }
+
 
 .description {
-  justify-self: start;
   grid-area: description;
+  background: green;
+  color: white;
+  font-style: italic;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+  padding: 10px;
+  margin: 10px;
+  align-self: start;
+  justify-self: center;
 }
+
 .info-profile {
   grid-area: info;
-  
+  background: lightgrey;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+  position: relative;
+  justify-self: end;
+  align-self: start;
+  justify-content: start;
+}
+.founders {
+  grid-area: founders;
+  background: lightgrey;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+  position: relative;
+  justify-self: start;
+  align-self: start;
+  justify-content: start;
 }

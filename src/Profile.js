@@ -9,7 +9,7 @@ class Profile extends Component {
     if (this.props.startup) {
       return (
         <div className="profile">
-          <a href={this.props.website}><img className="logo-profile" src={this.props.startup.logo_url} alt="logo"></img></a>
+
           <div className="title"><b>
             {this.props.startup.name}</b>
           </div>
@@ -23,15 +23,20 @@ class Profile extends Component {
 
           <br />
           <div className="description">
-            <i>{this.props.startup.short_description}</i>
+            {this.props.startup.short_description}
           </div>
           <br />
 
           <div className="info-profile">
-            {this.props.startup.num_employees_max && "Team size: " + this.props.startup.num_employees_min + " - " + this.props.startup.num_employees_max && <br />}
-            Year founded: {this.props.startup.founded_year || this.props.startup.founded_year} <br />
+          Team size: {this.props.startup.num_employees_max && (this.props.startup.num_employees_min + " - " + this.props.startup.num_employees_max) || "Not reported"} <br />
+            Year founded: {this.props.startup.founded_year || "Not reported"} <br />
             Funding: {this.props.startup.total_funding_usd || "Not reported"}
           </div>
+          <div className="founders">
+            Founders: {this.props.startup.founders[0]? this.props.startup.founders.map(founder => founder.properties.first_name +" "+founder.properties.last_name +' |  ' + '\n'): "Not reported"} <br />
+          </div>
+
+          {this.props.startup.logo_url && <a href={this.props.website}><img className="logo-profile" src={this.props.startup.logo_url} alt="logo"></img></a> || <br />}
 
 
         </div>
