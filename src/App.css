@@ -8,13 +8,14 @@
   width: 100vw;
   top: 0;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   font-size: calc(10px + 2vmin);
   background-color: green;
   color: white;
-  font-size: 36px;
+  font-size: 26px;
+  z-index: 15;
 }
 
 .App-link {
@@ -26,28 +27,28 @@
   width: 100vw;
   justify-content: center;
   position: fixed;
-  margin-top: 50px;
-  grid-template-columns: 450px calc(100vw - 450px);
+  margin-top: 60px;
+  grid-template-columns: 30em calc(100vw - 30em);
   grid-template-areas:
     "list map";
 } 
 
 #startup-list {
   grid-area: list;
-  height: 100vh;
+  height: calc(100vh - 60px);
   border-right: solid 1px gray;
   padding: 10px;
+  margin-bottom: 50px;
   overflow: scroll;
 }
 
 #startup-map {
   grid-area: map;
-  height: calc(100vh - 50px);
+  height: calc(100vh - 60px);
   width: 100%;
   padding: 0px;
   margin: 0px;
   overflow: hidden;
-  border-bottom: gray solid 10px;
   z-index: 0;
 }
 
@@ -88,4 +89,16 @@
     z-index: 1;
     height: 300px;
   }
+}
+
+@media screen and (max-width: 500px) {
+  .App-header{
+    font-size: 8px;
+  }
+  h1 {
+    font-size: 18px;
+  }
+ #grid-container {
+  margin-top: 40px;
+ }
 }
