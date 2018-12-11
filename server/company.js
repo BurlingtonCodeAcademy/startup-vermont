@@ -4,8 +4,20 @@ const moment = require('moment')
 const fetch = require('node-fetch');
 
 class Company {
+    static async fromCrunchBase(summary, details) {
+        let company = new Company()
+        company.fromOrganizationSummary(summary);
+        await company.fromOrganizationDetails(details);
+        return company;
+    }
 
-    async getLatlong(address, city, name) {
+    // geoLocate() {
+    //     let latlon = fetch(something)
+    //     this.latitude = latlon[0]
+    //     this.longitude = latlon[1]
+    // }
+
+    async getLatlong(address, city) {
         if (address) {
             address = address.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, "").split(' ').join('%20')
             city = city.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, "").split(' ').join('%20')
@@ -33,7 +45,6 @@ class Company {
         this.website = properties.homepage_url;
         this.logo_url = properties.profile_image_url;
         this.apiPath = properties.api_path;
-
     }
 
     async fromOrganizationDetails(organizationDetails) {
@@ -68,8 +79,7 @@ class Company {
 
         let address = organizationDetails.relationships.offices.item.properties.street_1
         let city = organizationDetails.relationships.offices.item.properties.city
-        let name = properties.name
-        this.latlong = await this.getLatlong(address, city, name)
+        this.latlong = await this.getLatlong(address, city)
     }
 
 }
