@@ -18,7 +18,8 @@
     "start": "node server.js",
     "dev": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --modulePaths=src,server",
+    "test-server": "ava server/**/*.test.js",
     "eject": "react-scripts eject",
     "heroku-postbuild": "npm install --only=dev && npm install && npm run build",
     "seed": "node seed.js",
@@ -33,5 +34,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "ava": "^0.25.0"
+  }
 }
