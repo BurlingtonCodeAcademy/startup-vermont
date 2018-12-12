@@ -58,13 +58,12 @@
   width: 30vw;
   height: auto;
   padding: 0px;
+  margin: 40px 0px 10px 40px;
   overflow: auto;
   z-index: 10;
   background-color: rgba(255, 255, 255, .6);
-  border: gray solid 1px;
-  border-left: gray solid 0px;
   justify-self: start;
-  align-self: center;
+  align-self: start;
 }
 
 
