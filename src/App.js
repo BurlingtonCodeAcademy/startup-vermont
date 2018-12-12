@@ -25,6 +25,8 @@ class App extends Component {
     this.secretPassword = 'launchvt';
   }
   componentDidMount() {
+    this.hydrateStateWithLocalStorage();
+
     fetch(`/startups`)
       .then(response => response.json())
       .then(data => {
@@ -33,6 +35,21 @@ class App extends Component {
       })
       .catch(() => this.setState({ status: "Failed to fetch content" }));
 
+  }
+  componentWillUnmount(){
+    window.removeEventListener(
+      "beforeunload",
+      this.saveStateToLocalStorage.bind(this)
+    );
+    this.saveStateToLocalStorage();
+
+  }
+  saveStateToLocalStorage() {
+    // for every item in React state
+    for (let key in this.state) {
+      // save to localStorage
+      localStorage.setItem(key, JSON.stringify(this.state[key]));
+    }
   }
 
   updateState = (startup) => {
@@ -57,7 +74,9 @@ class App extends Component {
     const { username, password } = this.state;
     if (this.state.password === this.secretPassword) {
       this.setState({ isLoggedIn: true });
-      //localStorage.set
+      localStorage.setItem('isLoggedIn', true)
+      localStorage.setItem('username', username)
+
       alert("Welcome!")
     }
     console.log(this.state.isLoggedIn)
@@ -67,12 +86,39 @@ class App extends Component {
     this.setState({ notStartups: [...this.state.notStartups, startup] }) 
     console.log('not startups :', this.state.notStartups)
   }
+logout(){
+  localStorage.clear();
+  document.location.reload()
+}
+
+hydrateStateWithLocalStorage() {
+  // for all items in state
+  for (let key in this.state) {
+    // if the key exists in localStorage
+    if (localStorage.hasOwnProperty(key)) {
+      // get the key's value from localStorage
+      let value = localStorage.getItem(key);
+
+      // parse the localStorage string and setState
+      try {
+        value = JSON.parse(value);
+        this.setState({ [key]: value });
+      } catch (e) {
+        // handle empty string
+        this.setState({ [key]: value });
+      }
+    }
+  }
+}
+
+
   render() {
     let loginForm;
     if (this.state.isLoggedIn === false) {
       loginForm = <Login onChange={this.handleFormChange} onSubmit={this.handleFormSubmit} />
     } else if (this.state.isLoggedIn === true) {
-      loginForm = <p>Welcome, {this.state.username}!</p>
+      loginForm = <p>Welcome, {this.state.username}! &nbsp;<button id="logout-button" onClick={this.logout}>logout</button></p>
+      
     }
     return (
       <div className="App">

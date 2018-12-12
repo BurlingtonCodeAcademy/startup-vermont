@@ -22,10 +22,10 @@ class Startup extends Component {
     }
 
     return (
-      <div id="startup-container">
-        <div className="startup-button">
+      <div id="startup-container">  
+        <div>
           {curatorButton}
-        </div>
+          </div>   
         <div className="startup-info" onClick={() => this.props.updateState(this.props.startup)}>
           <a href={this.props.startup.website}>
             {this.props.startup.logo_url &&
