@@ -20,6 +20,9 @@
     "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test-server": "ava server/**/*.test.js",
+    "test-acceptance": "cypress run",
+    "cypress": "cypress open",
     "eject": "react-scripts eject",
     "heroku-postbuild": "npm install --only=dev && npm install && npm run build",
     "seed": "node seed.js",
@@ -34,5 +37,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "cypress": "^3.1.3"
+  }
 }
