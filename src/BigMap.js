@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import { Map, Marker, Popup, TileLayer, GeoJSON, ZoomControl } from 'react-leaflet'
 import './Map.css';
+import L from 'leaflet';
 import vermonts_border from "./border.js";
 
 class StartupsMap extends Component {
@@ -36,6 +37,17 @@ class StartupsMap extends Component {
     const center = this.center
     let polygon = <GeoJSON data={vermonts_border} style={{ fillColor: '#048229', fillOpacity: '0.0005', color: '#048229' }} />
 
+    const myIcon = L.icon({
+      iconUrl: require('./uparrow.png'),
+      iconSize: [15, 20],
+      iconAnchor: [8, 0],
+      popupAnchor: [0, 0],
+      shadowUrl: null,
+      shadowSize: null,
+      shadowAnchor: null,
+      className: 'myMarkers'
+  });
+
     return (
       <Map id='map' ref={this.mapRef} center={center} zoom={this.zoomLevel} zoomControl={false}>
         <TileLayer
@@ -47,8 +59,8 @@ class StartupsMap extends Component {
         <Fragment>
           {this.state.markers.map(marker => {
             return (
-              <Marker key={marker.key} position={marker.position[0]}>
-                <Popup>{marker.content}</Popup>
+              <Marker icon={myIcon} key={marker.key} position={marker.position[0]}>
+                <Popup className="pop-ups">{marker.content}</Popup>
               </Marker>
             )
           })}

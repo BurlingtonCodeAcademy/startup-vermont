@@ -93,6 +93,9 @@
     margin: 0px;
     height: calc(100vh - 400px)
   }
+  .App-header{
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 500px) {

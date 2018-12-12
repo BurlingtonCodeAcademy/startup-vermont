@@ -15,50 +15,42 @@ class App extends Component {
     this.state = {
       startups: [],
       current: null,
-      totalFunding: 20
+      totalFunding: '?'
     };
   }
   componentDidMount() {
+    let fetchedData;
     fetch(`/startups`)
       .then(response => response.json())
-      .then(data => this.setState({ startups: data }))
+      .then(data => {
+        this.setState({ startups: data })
+        this.setState({ totalFunding: this.calcTotalFunding(data) })
+      })
       .catch(() => this.setState({ status: "Failed to fetch content" }));
-    //this.setState({ totalFunding: this.calcTotalFunding})  
-    console.log('startups', this.state.startups)
-    this.setState({ totalFunding: this.calcTotalFunding() })
+    
   }
 
   updateState = (startup) => {
-    //console.log(event);
     this.setState({ current: startup })
   }
-  calcTotalFunding = () => {
-    console.log('startups2', this.state.startups)
-    let fundingArray = this.state.startups.map(company => company.total_funding);
+
+  calcTotalFunding = (data) => {
+    let fundingArray = data.map(company => company.total_funding_usd).filter(funds => funds > 0);
     let sum = 0;
     for (let i = 0; i < fundingArray.length; i++) {
       sum += fundingArray[i]
+      console.log('sum: ', sum)
     }
-    console.log('sum: ', sum)
-
-    //let fundingArray = this.state.startups.map(company => company.total_funding_usd);
-    //fundingArray.filter(funds => funds > 0)
-    //console.log("funding array is")
-    //console.log(fundingArray)
-
-    //let total = fundingArray.reduce((accumulator, currVal)=>accumulator+currVal);
-    //console.log(total)
-
-    //this is a test
+    console.log('# companies: ', fundingArray.length)
     return sum;
-    //this.setState({ totalFunding: total})
   }
 
   render() {
-      return (
-        <div className="App">
-          <header className="App-header">
-            startup-vermont
+    console.log({render: this.state.startups})
+    return (
+      <div className="App">
+        <header className="App-header">
+          startup-vermont
           <Totals totalNumberStartups={this.state.startups.length} totalFunding={this.state.totalFunding} />
           </header>
           <div id="grid-container">
