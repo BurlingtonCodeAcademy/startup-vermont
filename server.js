@@ -14,7 +14,7 @@ app.use(express.static('build'))
 
 app.get('/startups', async (request, response, closeConnection) => {
   const results = await startups();
-  console.log({ results });
+  console.log(`Sending ${results.length} results`);
   response.send(results);
   closeConnection();
 })
