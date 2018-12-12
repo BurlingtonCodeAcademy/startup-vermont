@@ -1,30 +1,33 @@
 import React, { Component } from 'react';
 import Modal from 'react-bootstrap/lib/Modal';
 import Button from 'react-bootstrap/lib/Button';
-import './Curator.css';
 
-class Curator extends React.Component {
+class Curator extends Component {
 	constructor(props, context) {
 		super(props, context);
-
-		this.handleHide = this.handleHide.bind(this);
 
 		this.state = {
 			show: false
 		};
 	}
-	handleHide() {
+	handleHide = () => {
 		this.setState({ show: false });
 	}
+
+	close = () => {
+		this.setState({ showModal: false });
+	};
+	open = () => {
+		this.setState({ showModal: true });
+	};
 
 	render() {
 		return (
 			<div className="modal-container" style={{ height: 200 }}>
 				<Button
-					bsStyle="submit"
 					bsStyle="primary"
 					bsSize="large"
-					onCLick={() => this.setState({ show: true })}
+					onClick={() => this.setState({ show: true })}
 				>
 					Launch Curator Login
 				</Button>
@@ -47,7 +50,16 @@ class Curator extends React.Component {
 						</div>
 					</Modal.Body>
 					<Modal.Footer>
-						<Button bsStyle="submit" onClick={this.handleHide}>
+						<Button type="submit" bsStyle="primary" onClick={() => {
+							this.handleHide()
+							let username = document.getElementById('username').value
+							let password = document.getElementById('username').value
+							fetch('/user', {
+                method: 'POST',
+                username: username,
+                password: password
+            })
+						}}>
 							Submit
 						</Button>
 					</Modal.Footer>
@@ -55,12 +67,6 @@ class Curator extends React.Component {
 			</div>
 		);
 	}
-	close = () => {
-		this.setState({ showModal: false });
-	};
-	open = () => {
-		this.setState({ showModal: true });
-	};
 }
 
 export default Curator;
