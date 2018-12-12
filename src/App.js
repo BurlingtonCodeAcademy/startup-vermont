@@ -19,7 +19,6 @@ class App extends Component {
     };
   }
   componentDidMount() {
-    let fetchedData;
     fetch(`/startups`)
       .then(response => response.json())
       .then(data => {

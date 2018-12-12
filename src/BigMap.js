@@ -9,7 +9,7 @@ class StartupsMap extends Component {
     super(props);
     this.center = [44, -72.7317];
     this.zoomLevel = 7.5
-    this.statups = []
+    this.startups = []
     this.state = {
       markers: []
     }
@@ -38,10 +38,10 @@ class StartupsMap extends Component {
     let polygon = <GeoJSON data={vermonts_border} style={{ fillColor: '#048229', fillOpacity: '0.0005', color: '#048229' }} />
 
     const myIcon = L.icon({
-      iconUrl: require('./uparrow.png'),
+      iconUrl: require('./Map_pin_icon.svg'),
       iconSize: [15, 20],
-      iconAnchor: [8, 0],
-      popupAnchor: [0, 0],
+      iconAnchor: [0, 20],
+      popupAnchor: [8, -20],
       shadowUrl: null,
       shadowSize: null,
       shadowAnchor: null,
@@ -54,7 +54,7 @@ class StartupsMap extends Component {
           attribution='Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
           url='https://{s}.tile.openstreetmap.se/hydda/full/{z}/{x}/{y}.png'
         />
-        <ZoomControl position="bottomleft" />
+        <ZoomControl position="bottomright" />
         {polygon}
         <Fragment>
           {this.state.markers.map(marker => {
