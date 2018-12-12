@@ -98,12 +98,7 @@ class Company {
 
         let address = organizationDetails.relationships.offices.item.properties.street_1
         let city = organizationDetails.relationships.offices.item.properties.city
-<<<<<<< HEAD
-        let name = properties.name
-        this.latlong = await this.getLatlong(address, city, name)
-=======
         this.latlong = await this.getLatlong(address, city)
->>>>>>> 36a2d7616dbcee70fcc4be73ce3b645a50f9580e
     }
 
 }

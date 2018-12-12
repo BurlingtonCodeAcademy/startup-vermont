@@ -28,13 +28,8 @@ class App extends Component {
       .catch(() => this.setState({ status: "Failed to fetch content" }));
     
   }
-<<<<<<< HEAD
-  updateState = startup => {
-    //console.log(event);
-=======
 
   updateState = (startup) => {
->>>>>>> 36a2d7616dbcee70fcc4be73ce3b645a50f9580e
     this.setState({ current: startup })
   }
 
@@ -50,26 +45,6 @@ class App extends Component {
   }
 
   render() {
-<<<<<<< HEAD
-    if (this.state.startups.length > 0) {
-      return (
-        <div className="App">
-          <header className="App-header">
-            startup-vermont
-        </header>
-        <div id="grid-container">
-          <div id="startup-list">
-            <h1>Startups in VT:</h1>
-            {this.state.startups.map(startup => {
-              //console.log(startup);
-              let result = <Startup key={startup._id} {...startup} updateState={this.updateState} />
-              return result;
-            })}
-          </div>
-          <div id="startup-map">
-            <StartupsMap startups={this.state.startups} />
-          </div>
-=======
     console.log({render: this.state.startups})
     return (
       <div className="App">
@@ -89,7 +64,6 @@ class App extends Component {
             <div id="startup-map">
               <StartupsMap startups={this.state.startups} />
             </div>
->>>>>>> 36a2d7616dbcee70fcc4be73ce3b645a50f9580e
 
 
             <div id="startup-info">
@@ -99,12 +73,6 @@ class App extends Component {
           </div>
         </div>
       );
-<<<<<<< HEAD
-    } else {
-      return <div></div>
-    }
-=======
->>>>>>> 36a2d7616dbcee70fcc4be73ce3b645a50f9580e
   }
 }
 
