@@ -4,9 +4,11 @@ const express = require('express')
 const app = express()
 const port = process.env.PORT || 5000
 const MongoClient = require('mongodb').MongoClient;
-const dbName = 'startup-vt';
 
-const dbUrl = process.env.MONGO_URI || process.env.MONGOLAB_MAUVE_URI || `mongodb://localhost:27017/${dbName}`
+const dbUrl = process.env.MONGO_URI || process.env.MONGOLAB_MAUVE_URI || `mongodb://localhost:27017/startup-vt`
+
+const dbArray = dbUrl.split('/');
+const dbName = dbArray[dbArray.length - 1]
 
 let connection = null;
 
