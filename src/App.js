@@ -55,7 +55,6 @@ class App extends Component {
   }
 
   render() {
-    if (this.state.startups.length > 0) {
       return (
         <div className="App">
           <header className="App-header">
@@ -83,9 +82,6 @@ class App extends Component {
           </div>
         </div>
       );
-    } else {
-      return <div></div>
-    }
   }
 }
 
