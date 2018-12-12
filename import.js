@@ -45,8 +45,8 @@ async function importAll() {
     console.log(`=== ${summary.properties.name}`);
     let details = await getDetails(summary);
     if (details) {
-      let company = Company.fromCrunchBase(summary, details.data);
-      console.log("\tinserting " + company.name);
+      let company = await Company.fromCrunchBase(summary, details.data);
+      console.log("\tinserting " + company.name)
       await store.add(company);
     }
   }

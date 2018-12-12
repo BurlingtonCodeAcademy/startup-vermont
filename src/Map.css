@@ -4,3 +4,10 @@
   align-self: start;
   position: relative;
 }
+
+.leaflet-popup-content-wrapper {
+  background-color: green;
+  color: white;
+  height: 200px;
+  width: 200px;
+}

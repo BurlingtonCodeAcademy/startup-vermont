@@ -19,7 +19,6 @@ class App extends Component {
     };
   }
   componentDidMount() {
-    let fetchedData;
     fetch(`/startups`)
       .then(response => response.json())
       .then(data => {
@@ -52,28 +51,28 @@ class App extends Component {
         <header className="App-header">
           startup-vermont
           <Totals totalNumberStartups={this.state.startups.length} totalFunding={this.state.totalFunding} />
-        </header>
-        <div id="grid-container">
-          <div id="startup-list">
-            <h1>Startups in VT:</h1>
-            {this.state.startups.map(startup => {
-              //console.log(startup);
-              let result = <Startup key={startup._id} {...startup} updateState={this.updateState} />
-              return result;
-            })}
-          </div>
-          <div id="startup-map">
-            <StartupsMap startups={this.state.startups} />
-          </div>
+          </header>
+          <div id="grid-container">
+            <div id="startup-list">
+              <h1>Startups in VT:</h1>
+              {this.state.startups.map(startup => {
+                //console.log(startup);
+                let result = <Startup key={startup._id} {...startup} updateState={this.updateState} />
+                return result;
+              })}
+            </div>
+            <div id="startup-map">
+              <StartupsMap startups={this.state.startups} />
+            </div>
 
 
-          <div id="startup-info">
-            <Profile startup={this.state.current} />
-          </div>
+            <div id="startup-info">
+              <Profile startup={this.state.current} />
+            </div>
 
+          </div>
         </div>
-      </div>
-    );
+      );
   }
 }
 
