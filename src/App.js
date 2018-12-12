@@ -79,21 +79,24 @@ class App extends Component {
             <h1>Startups in VT:</h1>
             {this.state.startups.map(startup => {
               //console.log(startup);
-              let result = <Startup key={startup._id} {...startup} updateState={this.updateState} />
+              let result = <Startup isLoggedIn={this.state.isLoggedIn} key={startup._id} {...startup} updateState={this.updateState} />
               return result;
             })}
           </div>
+
           <div id="startup-map">
             <StartupsMap startups={this.state.startups} />
           </div>
-        </div>
 
         <div id="startup-info">
           <Profile startup={this.state.current} />
         </div>
+
         <div class="login-bar">
           {loginForm}
         </div>
+
+      </div>
       </div>
 
     );

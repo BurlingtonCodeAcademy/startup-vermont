@@ -23,7 +23,7 @@ const crunchKey = process.env.CRUNCH_KEY;
 let deploymentENV = process.argv.slice(2)
 
 let dbUrl
-if (deploymentENV === 'dev') {
+if (deploymentENV == 'dev') {
   dbUrl = process.env.MONGO_URI || `mongodb://localhost:27017/startup-vt`
 } else {
   dbUrl = process.env.MONGOLAB_MAUVE_URI

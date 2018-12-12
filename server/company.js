@@ -26,7 +26,7 @@ class Company {
             // console.log(osmUrl)  
 
             let response = await fetch(osmUrl).catch(error => console.log(error))
-            if (response) {
+            if (response.length>0) {
                 let payload = await response.json()
 
                 if (!payload[0]) { return null }
