@@ -20,14 +20,15 @@ const path = require("path");
 
 const crunchKey = process.env.CRUNCH_KEY;
 
+let deploymentENV = process.argv.slice(2)
+
 let dbUrl
-if (process.argv.slice(2) === 'dev') {
-  console.log('DEV')
+if (deploymentENV === 'dev') {
   dbUrl = process.env.MONGO_URI || `mongodb://localhost:27017/startup-vt`
 } else {
   dbUrl = process.env.MONGOLAB_MAUVE_URI
 }
-console.log(dbUrl)
+
 let store = new CompanyStore(dbUrl);
 const importsDir = "./imports";
 
