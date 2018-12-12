@@ -36,25 +36,6 @@ class Company {
         }
     }
 
-    async getLatlong(address, city, name) {
-        if (address) {
-            address = address.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, "").split(' ').join('%20')
-            city = city.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, "").split(' ').join('%20')
-
-            let osmUrl = "https://nominatim.openstreetmap.org/search?q=" + address + "%20" + city + "%20vermont&format=json"
-            // console.log(osmUrl)  
-
-            let response = await fetch(osmUrl).catch(error => console.log(error))
-            if (response) {
-                let payload = await response.json()
-
-                if (!payload[0]) { return null }
-                let latlong = [payload[0].lat, payload[0].lon]
-                return latlong
-            }
-        }
-    }
-
     fromOrganizationSummary(organizationSummary) {
         this.crunchbaseUuid = organizationSummary.uuid;
         let properties = organizationSummary.properties;

@@ -19,10 +19,16 @@ const fs = require("fs");
 const path = require("path");
 
 const crunchKey = process.env.CRUNCH_KEY;
-const dbUrl =
-  process.env.MONGO_URI ||
-  process.env.MONGOLAB_MAUVE_URI ||
-  `mongodb://localhost:27017/startup-vt`;
+
+let deploymentENV = process.argv.slice(2)
+
+let dbUrl
+if (deploymentENV === 'dev') {
+  dbUrl = process.env.MONGO_URI || `mongodb://localhost:27017/startup-vt`
+} else {
+  dbUrl = process.env.MONGOLAB_MAUVE_URI
+}
+
 let store = new CompanyStore(dbUrl);
 const importsDir = "./imports";
 
