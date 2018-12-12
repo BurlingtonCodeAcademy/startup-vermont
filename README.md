@@ -1,4 +1,5 @@
 # startup-vermont
+
 track and visualize startup activity in Vermont
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -42,11 +43,13 @@ From the project directory, you can run:
 |---|---|
 | `npm start` | Runs the app in production mode.<br> Open <http://localhost:5000> to view it in the browser. This page will **not** automatically reload when edits are made. You may need to run `npm run build` after making a change. |
 |`npm run dev` | Runs the app in development mode. <br> Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload if you make edits. <br> You will also see any lint errors in the console. <br> You must run the server too! Launch `npm start` in a separate terminal. |
-| `npm test` | Launches the test runner in the interactive watch mode.<br> See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information. |
+| `npm test` (or `npm run test`) | Launches the Jest (client-side!) test runner in the interactive watch mode.<br> See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information. |
+| `npm test-server` | Runs the Ava (server-side!) test suite |
+| `npm test-acceptance` | Runs the Cypress (end-to-end!) test suite in headless mode |
+| `npx cypress open` | Opens the Cypress (end-to-end!) test runner in a window |
 | `npm run build` | Builds the app for production to the `build` folder.<br> It correctly bundles React in production mode and optimizes the build for the best performance. See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information. |
+|`npm run import` | import data from Crunchbase into your local Mongo database |
 |`npm run eject` | don't run this! [read here](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#npm-run-eject) for more info |
-|`npm run import` | import data from Crunchbase... work in progress |
-|`npm run seed` | import data from local seed JSON file... work in progress |
 
 
 ## Deployment
