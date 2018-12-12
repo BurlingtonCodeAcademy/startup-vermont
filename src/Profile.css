@@ -8,9 +8,11 @@
     "logo logo";
   grid-template-columns: auto auto;
   grid-template-rows: auto;
-  padding: 0px;
-  margin: 20px;
+  padding: 20px;
+  margin: 0px;
   overflow: auto;
+  border-radius: 5px;
+  border: 1px gray solid;
 }
 
 .title {

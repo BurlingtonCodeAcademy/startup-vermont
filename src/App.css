@@ -55,14 +55,14 @@
 #startup-info {
   grid-area: map;
   position: absolute;
+  width: 30vw;
   height: auto;
-  width: 100%;
   padding: 0px;
+  margin: 40px 0px 10px 40px;
   overflow: auto;
   z-index: 10;
   background-color: rgba(255, 255, 255, .6);
-  border-bottom: gray solid 1px;
-  justify-self: center;
+  justify-self: start;
   align-self: start;
 }
 
@@ -74,6 +74,7 @@
     grid-template-areas:
       "map map"
       "list list";
+      margin-top: 40px
   } 
   #startup-info {
     border-bottom: gray solid 10px;
@@ -94,7 +95,7 @@
     height: calc(100vh - 400px)
   }
   .App-header{
-    font-size: 18px;
+    font-size: 15px;
   }
 }
 
