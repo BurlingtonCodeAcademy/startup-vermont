@@ -26,7 +26,7 @@ class StartupsMap extends Component {
     })
     this.setState({ markers: markers })
   }
-
+  
   componentWillReceiveProps(nextProps) {
     this.startups = nextProps.startups
     this.addMarkers()
