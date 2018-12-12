@@ -24,7 +24,6 @@ class App extends Component {
     this.secretPassword = 'launchvt';
   }
   componentDidMount() {
-    let fetchedData;
     fetch(`/startups`)
       .then(response => response.json())
       .then(data => {
@@ -32,7 +31,7 @@ class App extends Component {
         this.setState({ totalFunding: this.calcTotalFunding(data) })
       })
       .catch(() => this.setState({ status: "Failed to fetch content" }));
-    
+
   }
 
   updateState = (startup) => {
@@ -50,23 +49,23 @@ class App extends Component {
     return sum;
   }
   handleFormChange = (event) => {
-    this.setState({[event.target.name]: event.target.value})
+    this.setState({ [event.target.name]: event.target.value })
   }
   handleFormSubmit = (event) => {
     event.preventDefault();
     const { username, password } = this.state;
-    if(this.state.password === this.secretPassword){
-      this.setState({isLoggedIn: true});
+    if (this.state.password === this.secretPassword) {
+      this.setState({ isLoggedIn: true });
       alert("Welcome!")
     }
-  console.log(this.state.isLoggedIn)
+    console.log(this.state.isLoggedIn)
   }
 
   render() {
     let loginForm;
-    if(this.state.isLoggedIn === false){
-      loginForm = <Login onChange={this.handleFormChange} onSubmit={this.handleFormSubmit}/>
-    } else if (this.state.isLoggedIn === true){
+    if (this.state.isLoggedIn === false) {
+      loginForm = <Login onChange={this.handleFormChange} onSubmit={this.handleFormSubmit} />
+    } else if (this.state.isLoggedIn === true) {
       loginForm = <p>Welcome, {this.state.username}!</p>
     }
     return (
@@ -75,7 +74,6 @@ class App extends Component {
           startup-vermont
           <Totals totalNumberStartups={this.state.startups.length} totalFunding={this.state.totalFunding} />
         </header>
-
         <div id="grid-container">
           <div id="startup-list">
             <h1>Startups in VT:</h1>
@@ -87,18 +85,17 @@ class App extends Component {
           </div>
           <div id="startup-map">
             <StartupsMap startups={this.state.startups} />
-
           </div>
+        </div>
 
-          <div id="startup-info">
-            <Profile startup={this.state.current} />
-          </div>
-          <div class="login-bar">
+        <div id="startup-info">
+          <Profile startup={this.state.current} />
+        </div>
+        <div class="login-bar">
           {loginForm}
-          </div>
-
         </div>
       </div>
+
     );
   }
 }

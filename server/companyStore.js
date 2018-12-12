@@ -12,7 +12,8 @@ class CompanyStore {
     constructor(dbUrl) {
         this.dbUrl = dbUrl;
         this.dbClient = null;
-        this.dbName = 'startup-vt';
+        this.dbNameArray = dbUrl.split('/');
+        this.dbName = this.dbNameArray[this.dbNameArray.length - 1];
         this.collectionName = 'companies';
     }
 

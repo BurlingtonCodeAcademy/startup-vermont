@@ -1,11 +1,13 @@
 const assert = require('assert')
 const moment = require('moment')
 
+const fetch = require('node-fetch');
+
 class Company {
-    static fromCrunchBase(summary, details) {
+    static async fromCrunchBase(summary, details) {
         let company = new Company()
         company.fromOrganizationSummary(summary);
-        company.fromOrganizationDetails(details);
+        await company.fromOrganizationDetails(details);
         return company;
     }
 
@@ -14,6 +16,25 @@ class Company {
     //     this.latitude = latlon[0]
     //     this.longitude = latlon[1]
     // }
+
+    async getLatlong(address, city) {
+        if (address) {
+            address = address.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, "").split(' ').join('%20')
+            city = city.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, "").split(' ').join('%20')
+
+            let osmUrl = "https://nominatim.openstreetmap.org/search?q=" + address + "%20" + city + "%20vermont&format=json"
+            // console.log(osmUrl)  
+
+            let response = await fetch(osmUrl).catch(error => console.log(error))
+            if (response) {
+                let payload = await response.json()
+
+                if (!payload[0]) { return null }
+                let latlong = [payload[0].lat, payload[0].lon]
+                return latlong
+            }
+        }
+    }
 
     fromOrganizationSummary(organizationSummary) {
         this.crunchbaseUuid = organizationSummary.uuid;
@@ -26,7 +47,7 @@ class Company {
         this.apiPath = properties.api_path;
     }
 
-    fromOrganizationDetails(organizationDetails) {
+    async fromOrganizationDetails(organizationDetails) {
         assert.equal(organizationDetails.uuid, this.crunchbaseUuid, "UUIDs should match")
         let properties = organizationDetails.properties
 
@@ -41,8 +62,7 @@ class Company {
         this.founders = organizationDetails.relationships.founders.items
         this.funding_rounds = organizationDetails.relationships.funding_rounds.items;
         // TODO
-        //this.categories = []
-
+        // Refactor
         let industryArray = []
         let items = organizationDetails.relationships.categories.items
         items.forEach((item) => {
@@ -56,14 +76,10 @@ class Company {
             }
         })
         this.categories = [...new Set(industryArray)]
-  /*      
-                this.categories = organizationDetails.relationships.categories.items.map(item => {            
-                    return item.properties.category_groups
-                });
-        
-     this.categories.append(organizationDetails.properties.)
-*/
 
+        let address = organizationDetails.relationships.offices.item.properties.street_1
+        let city = organizationDetails.relationships.offices.item.properties.city
+        this.latlong = await this.getLatlong(address, city)
     }
 
 }
