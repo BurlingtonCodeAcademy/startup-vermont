@@ -19,7 +19,8 @@ class App extends Component {
       totalFunding: '?',
       username: '',
       password: '',
-      isLoggedIn: false
+      isLoggedIn: false,
+      notStartups: []
     };
     this.secretPassword = 'launchvt';
   }
@@ -56,11 +57,16 @@ class App extends Component {
     const { username, password } = this.state;
     if (this.state.password === this.secretPassword) {
       this.setState({ isLoggedIn: true });
+      //localStorage.set
       alert("Welcome!")
     }
     console.log(this.state.isLoggedIn)
   }
-
+  // adds startup to 'remove' array
+  tempRemoveStartup = (startup) => {
+    this.setState({ notStartups: [...this.state.notStartups, startup] }) 
+    console.log('not startups :', this.state.notStartups)
+  }
   render() {
     let loginForm;
     if (this.state.isLoggedIn === false) {
@@ -79,7 +85,7 @@ class App extends Component {
             <h1>Startups in VT:</h1>
             {this.state.startups.map(startup => {
               //console.log(startup);
-              let result = <Startup isLoggedIn={this.state.isLoggedIn} key={startup._id} {...startup} updateState={this.updateState} />
+              let result = <Startup isLoggedIn={this.state.isLoggedIn} key={startup._id} startup = {startup} updateState={this.updateState} handleClick={this.tempRemoveStartup}/>
               return result;
             })}
           </div>

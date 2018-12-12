@@ -1,14 +1,12 @@
-.startup-container {
-  display: grid;
-  grid-template-areas: 
-    "button info";
-  grid-template-columns: auto, auto;
+#startup-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
   align-items: center;
-  justify-items: start;
 }
 
 .startup-info {
-  grid-area: info;
   background-color: white;
   border-radius: 5px;
   padding: 10px;
@@ -17,9 +15,7 @@
 }
 
 .startup-button {
-  grid-area: button;
-  align-self: center;
-  justify-self: center;
+  
 }
 
 .startup-info:hover, .startup-info:active {

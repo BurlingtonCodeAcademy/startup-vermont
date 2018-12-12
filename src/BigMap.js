@@ -19,8 +19,8 @@ class StartupsMap extends Component {
     let allstartups = this.startups
     let markers = []
     allstartups.forEach((startup, index) => {
-      console.log('adding marker')
-      console.log(startup)
+      //console.log('adding marker')
+      //console.log(startup)
       if (startup.latlong !== null) {
         let latlong = startup.latlong
         markers.push({ key: `marker${index}`, position: [latlong], content: startup.name })

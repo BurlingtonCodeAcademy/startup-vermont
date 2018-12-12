@@ -5,7 +5,7 @@ class RedButton extends Component {
 
   render() {
     return(
-      <div className="red-button">X</div>
+      <div className="red-button" onClick={()=>this.props.handleClick(this.props.startup)}>X</div>
     )
   }
 }
