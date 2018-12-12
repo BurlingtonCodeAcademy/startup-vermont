@@ -33,7 +33,7 @@ class Profile extends Component {
           </div>
           
           <div className="funding">
-          <b>Funding:</b> {this.props.startup.total_funding_usd || "Not reported"} <br />
+          <b>Funding:</b> {this.props.startup.total_funding_usd.toLocaleString() || "Not reported"} <br />
           {console.log(this.props.startup)}
           </div>
 
