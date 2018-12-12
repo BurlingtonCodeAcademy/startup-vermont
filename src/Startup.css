@@ -1,12 +1,27 @@
+.startup-container {
+  display: grid;
+  grid-template-areas: 
+    "button info";
+  grid-template-columns: auto, auto;
+  align-items: center;
+  justify-items: start;
+}
 
 .startup-info {
+  grid-area: info;
   background-color: white;
   border-radius: 5px;
   padding: 10px;
   text-align: left;
   margin: 15px;
-
 }
+
+.startup-button {
+  grid-area: button;
+  align-self: center;
+  justify-self: center;
+}
+
 .startup-info:hover, .startup-info:active {
   background-color: lightgray;
 }

@@ -3,7 +3,8 @@ import React, { Component } from 'react';
 import Startup from './Startup.js';
 import StartupsMap from './BigMap.js';
 import Profile from './Profile.js';
-import Totals from './Totals.js'
+import Totals from './Totals.js';
+import Login from './Login.js';
 import './App.css';
 
 
@@ -15,8 +16,12 @@ class App extends Component {
     this.state = {
       startups: [],
       current: null,
-      totalFunding: '?'
+      totalFunding: '?',
+      username: '',
+      password: '',
+      isLoggedIn: false
     };
+    this.secretPassword = 'launchvt';
   }
   componentDidMount() {
     let fetchedData;
@@ -44,15 +49,33 @@ class App extends Component {
     console.log('# companies: ', fundingArray.length)
     return sum;
   }
+  handleFormChange = (event) => {
+    this.setState({[event.target.name]: event.target.value})
+  }
+  handleFormSubmit = (event) => {
+    event.preventDefault();
+    const { username, password } = this.state;
+    if(this.state.password === this.secretPassword){
+      this.setState({isLoggedIn: true});
+      alert("Welcome!")
+    }
+  console.log(this.state.isLoggedIn)
+  }
 
   render() {
-    console.log({render: this.state.startups})
+    let loginForm;
+    if(this.state.isLoggedIn === false){
+      loginForm = <Login onChange={this.handleFormChange} onSubmit={this.handleFormSubmit}/>
+    } else if (this.state.isLoggedIn === true){
+      loginForm = <p>Welcome, {this.state.username}!</p>
+    }
     return (
       <div className="App">
         <header className="App-header">
           startup-vermont
           <Totals totalNumberStartups={this.state.startups.length} totalFunding={this.state.totalFunding} />
         </header>
+
         <div id="grid-container">
           <div id="startup-list">
             <h1>Startups in VT:</h1>
@@ -64,11 +87,14 @@ class App extends Component {
           </div>
           <div id="startup-map">
             <StartupsMap startups={this.state.startups} />
-          </div>
 
+          </div>
 
           <div id="startup-info">
             <Profile startup={this.state.current} />
+          </div>
+          <div class="login-bar">
+          {loginForm}
           </div>
 
         </div>

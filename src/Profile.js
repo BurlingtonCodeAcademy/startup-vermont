@@ -5,7 +5,6 @@ import './Profile.css';
 class Profile extends Component {
 
   render() {
-    console.log(this.props)
     if (this.props.startup) {
       return (
         <div className="profile">

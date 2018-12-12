@@ -1,0 +1,9 @@
+.red-button {
+  background-color: darkred;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  color: white;
+  padding: 4px;
+  border-radius: 5px;
+}

@@ -22,6 +22,16 @@
   color: #61dafb;
 }
 
+.login-bar {
+  grid-area: map;
+  position: absolute;
+  height: auto;
+  width: auto;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, .6);
+  z-index: 20;
+  justify-self: end;
+}
 #grid-container {
   display: grid;
   width: 100vw;
