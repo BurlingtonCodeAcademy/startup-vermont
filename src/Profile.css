@@ -8,9 +8,11 @@
     "logo logo";
   grid-template-columns: auto auto;
   grid-template-rows: auto;
-  padding: 0px;
-  margin: 20px;
+  padding: 20px;
+  margin: 0px;
   overflow: auto;
+  border-radius: 5px;
+  border: 1px gray solid;
 }
 
 .title {
@@ -75,4 +77,18 @@
 
 .totals {
   padding: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .title{
+    font-size: 18px;
+  }
+  .location {
+    font-size: 14px;
+  }
+  .info-profile, .funding, .description {
+    font-size: 12px;
+    padding: 5px;
+    margin: 3px;
+  }
 }

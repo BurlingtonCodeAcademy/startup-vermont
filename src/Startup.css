@@ -48,9 +48,24 @@ p {
 .logo {
   width: 75px;
   float: right;
+  margin: 5px;
   overflow: hidden;
   mix-blend-mode: multiply;
   position: relative;
   z-index: 0;
 }
 
+@media screen and (max-width: 500px) {
+  .startup-names{
+    font-size: 12px;
+  }
+  .address-info {
+    font-size: 9px;
+  }
+  p {
+    font-size: 10px;
+  }
+  .industry {
+    font-size: 9px;
+  }
+}

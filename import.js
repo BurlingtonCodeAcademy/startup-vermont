@@ -1,124 +1,185 @@
-require('dotenv').config();
-const moment = require('moment')
-
 /*
  TODO:
-  pagination
-  use cache
+  use cache for summaries
   deal with duplicates in a smart way
   categories
   deal with bogus addresses
   layering (or something) so bogus data doesn't overwrite corrections on the next import
 */
-const CompanyStore = require('./server/companyStore')
-const Company = require('./server/company')
-const fetch = require('node-fetch');
-const fs = require('fs');
-const path = require('path');
 
-const dbUrl = process.env.MONGO_URI || process.env.MONGOLAB_MAUVE_URI || `mongodb://localhost:27017/startup-vt`
+"use strict";
 
+require("dotenv").config();
+const moment = require("moment");
+const assert = require("assert");
+const CompanyStore = require("./server/companyStore");
+const Company = require("./server/company");
+const fetch = require("node-fetch");
+const fs = require("fs");
+const path = require("path");
+
+const crunchKey = process.env.CRUNCH_KEY;
+const dbUrl =
+  process.env.MONGO_URI ||
+  process.env.MONGOLAB_MAUVE_URI ||
+  `mongodb://localhost:27017/startup-vt`;
 let store = new CompanyStore(dbUrl);
+const importsDir = "./imports";
 
 importAll();
 
-async function importAll() {
+function summariesUrl(pageNumber) {
+  return `https://api.crunchbase.com/v3.1/organizations?locations=vermont&page=${pageNumber}&items_per_page=200&user_key=${crunchKey}`;
+}
 
+async function importAll() {
   await store.deleteAll();
 
-  const importsDir = './imports';
+  createDir(importsDir);
+
+  let summaries = await getSummaries();
+  console.log(`Found ${summaries.length} summaries`);
+  for (let summary of summaries) {
+    assert.ok(summary.properties);
+
+    console.log(`=== ${summary.properties.name}`);
+    let details = await getDetails(summary);
+    if (details) {
+      let company = await Company.fromCrunchBase(summary, details.data);
+      console.log("\tinserting " + company.name)
+      await store.add(company);
+    }
+  }
+}
+
+function createDir(dir) {
   try {
-    fs.mkdirSync(importsDir)
+    fs.mkdirSync(dir);
   } catch (err) {
-    if (err.code !== 'EEXIST') {
+    if (err.code !== "EEXIST") {
+      throw err;
+    }
+  }
+}
+
+function readJson(path) {
+  return new Promise(function(resolve, reject) {
+    fs.readFile(path, (err, data) => {
+      err ? reject(err) : resolve(JSON.parse(data));
+    });
+  });
+}
+
+function writeJson(path, data) {
+  return new Promise(function(resolve, reject) {
+    fs.writeFile(path, JSON.stringify(data, null, 2), err => {
+      err ? reject(err) : resolve();
+    });
+  });
+}
+
+async function getSummaries() {
+  let summariesFile = path.join(importsDir, `_summaries.json`);
+  try {
+    let fileStats = fs.statSync(summariesFile);
+    let earlyThisMorning = moment().startOf("day");
+    let fileModified = moment(new Date(fileStats.mtime));
+    let fileChangedToday = fileModified >= earlyThisMorning;
+    //console.log(`Changed today? ${fileChangedToday}  (${fileModified})`);
+    // if the file was already fetched today, use the cached version
+    if (fileChangedToday) {
+      console.log("Using cached summaries");
+      return await readJson(summariesFile);
+    }
+  } catch (err) {
+    // if the file does not exist, that's cool, fall through and fetch it
+    if (err.code !== "ENOENT") {
       throw err;
     }
   }
 
-  let pageNumber = 1
-  let crunchKey = process.env.CRUNCH_KEY
-  let crunchUrl = `https://api.crunchbase.com/v3.1/organizations?locations=vermont&page=${pageNumber}&items_per_page=200&user_key=${crunchKey}`
-  let odmUrl = `https://api.crunchbase.com/v3.1/odm-organizations?locations=vermont&page=${pageNumber}&items_per_page=200&user_key=${crunchKey}`
+  // fetch all Vermont company summaries from Crunchbase API
+  let summaries = await fetchAllSummaries();
+  writeJson(summariesFile, summaries);
+  return summaries;
+}
 
-  let response = await fetch(crunchUrl)
-  let payload = await response.json()
+async function fetchAllSummaries() {
+  let pageNumber = 1;
+  let summaries = [];
+  let keepFetching = true;
+  while (keepFetching) {
+    await sleep(1000);
 
-  if (!payload || !payload.metadata) {
-    console.error('No metadata :-( ')
-    process.exit(1);
-  }
+    const url = summariesUrl(pageNumber);
+    console.log(`Fetching summaries, page ${pageNumber}`);
+    let response = await fetch(url);
+    let payload = await response.json();
 
-  fs.writeFile(path.join(importsDir, 'organizationSummaries.json'),
-    JSON.stringify(payload, null, 2),
-    (err) => {
-      if (err) {
-        console.log(err);
-        process.exit(1);
-      }
-    });
-
-  for (let organizationSummary of payload.data.items) {
-    if (!organizationSummary.properties) {
-      return console.log(organizationSummary.name + ' No properties value')
+    if (!payload || !payload.metadata || payload.data.items.length === 0) {
+      console.error(`No payload for page ${pageNumber}`);
+      keepFetching = false;
+      break;
+    } else if (pageNumber >= payload.data.paging.number_of_pages) {
+      keepFetching = false;
     }
 
-    let company = new Company()
-    company.fromOrganizationSummary(organizationSummary);
-
-    setTimeout(() => {
-      importDetails(company, crunchKey, importsDir, organizationSummary);
-    }, 1000);
+    summaries = summaries.concat(payload.data.items);
+    pageNumber += 1;
   }
-  // })
+  return summaries;
 }
 
-function read(path) {
-  return new Promise(function (resolve, reject) {
-    fs.readFile(path, (err, data) => {
-      err ? reject(err) : resolve(data);
-    });
-  });
+// https://stackoverflow.com/questions/951021/what-is-the-javascript-version-of-sleep/39914235#39914235
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-async function importDetails(company, crunchKey, importsDir, organizationSummary) {
-  const slug = organizationSummary.properties.permalink;
+async function getDetails(summary) {
+  const slug = summary.properties.permalink;
   const detailsFile = path.join(importsDir, `${slug}.json`);
-
   let details = null;
+
   if (fs.existsSync(detailsFile)) {
-    let contents = await read(detailsFile)
-    details = JSON.parse(contents);
-    let cacheUpdated = details.data.properties.updated_at
-    let summaryEntryUpdated = organizationSummary.properties.updated_at
-
-    // console.log({slug, summaryEntryUpdated, cacheUpdated})  // for debugging
-
-    if (summaryEntryUpdated == cacheUpdated) {
-      console.log(`Using ${slug}`)
-
-      await company.fromOrganizationDetails(details.data);
-      await store.add(company);
-      return;
-
-    } else {
-      console.log(`Updating ${slug}`)
+    console.log(`\t${slug} found in cache`);
+    details = await readJson(detailsFile);
+    let cacheUpdated = details.data.properties.updated_at;
+    let summaryEntryUpdated = summary.properties.updated_at;
+    if (summaryEntryUpdated !== cacheUpdated) {
+      console.log(
+        `\t${slug} updated in Crunchbase (${summaryEntryUpdated} vs ${cacheUpdated})`
+      );
+      details = null; // force a re-fetch
     }
-  } else {
-    console.log(`Fetching ${slug}`)
+   
   }
 
-  console.log(`https://api.crunchbase.com/v3.1/` + company.apiPath + `?user_key=${crunchKey}`);
-  let response = await fetch(`https://api.crunchbase.com/v3.1/` + company.apiPath + `?user_key=${crunchKey}`)
-  let companyDetails = await response.json();
-  if (!companyDetails.data || !companyDetails.data.properties || !companyDetails.data.relationships || moment(companyDetails.data.properties.founded_on) < moment('2000-01-01')) {
-    return;
-  }
-  fs.writeFile(detailsFile, JSON.stringify(companyDetails, null, 2), err => {
-    if (err) {
-      console.log(err);
+  if (details === null) {
+    let url = `https://api.crunchbase.com/v3.1/organizations/${slug}?user_key=${crunchKey}`;
+    console.log(`\tfetching ${slug}`);
+    let response = await fetch(url);
+    let details = await response.json();
+    if (!details.data || !details.data.properties) {
+      console.log(`${slug} had bogus data in API call; skipping`);
+      console.log({ details });
+      return null;
     }
-  });
 
-  await company.fromOrganizationDetails(companyDetails.data);
-  await store.add(company);
+    writeJson(detailsFile, details);
+  }
+
+  // move to object?
+  if (details && tooOld(details)) {
+    console.log(
+      `\t${slug} too old; skipping (${details.data.properties.founded_on})`
+    );
+    return null;
+  }
+  return details;
+}
+
+// should "too old" go into the Company object instead?
+function tooOld(details) {
+  // todo: use now minus 20 years, not 2000-01-01
+  return moment(details.data.properties.founded_on) < moment("2000-01-01");
 }

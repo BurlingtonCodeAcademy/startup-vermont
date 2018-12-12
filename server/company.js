@@ -4,6 +4,37 @@ const moment = require('moment')
 const fetch = require('node-fetch');
 
 class Company {
+    static async fromCrunchBase(summary, details) {
+        let company = new Company()
+        company.fromOrganizationSummary(summary);
+        await company.fromOrganizationDetails(details);
+        return company;
+    }
+
+    // geoLocate() {
+    //     let latlon = fetch(something)
+    //     this.latitude = latlon[0]
+    //     this.longitude = latlon[1]
+    // }
+
+    async getLatlong(address, city) {
+        if (address) {
+            address = address.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, "").split(' ').join('%20')
+            city = city.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, "").split(' ').join('%20')
+
+            let osmUrl = "https://nominatim.openstreetmap.org/search?q=" + address + "%20" + city + "%20vermont&format=json"
+            // console.log(osmUrl)  
+
+            let response = await fetch(osmUrl).catch(error => console.log(error))
+            if (response) {
+                let payload = await response.json()
+
+                if (!payload[0]) { return null }
+                let latlong = [payload[0].lat, payload[0].lon]
+                return latlong
+            }
+        }
+    }
 
     async getLatlong(address, city, name) {
         if (address) {
@@ -33,7 +64,6 @@ class Company {
         this.website = properties.homepage_url;
         this.logo_url = properties.profile_image_url;
         this.apiPath = properties.api_path;
-
     }
 
     async fromOrganizationDetails(organizationDetails) {
@@ -68,8 +98,12 @@ class Company {
 
         let address = organizationDetails.relationships.offices.item.properties.street_1
         let city = organizationDetails.relationships.offices.item.properties.city
+<<<<<<< HEAD
         let name = properties.name
         this.latlong = await this.getLatlong(address, city, name)
+=======
+        this.latlong = await this.getLatlong(address, city)
+>>>>>>> 36a2d7616dbcee70fcc4be73ce3b645a50f9580e
     }
 
 }

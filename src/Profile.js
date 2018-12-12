@@ -43,8 +43,7 @@ class Profile extends Component {
       )
     } else {
       return (
-        <div className = 'totals'>
-          <b>Startups in VT: {this.props.totalNumberStartups}</b>
+        <div>
         </div>
       )
     }
