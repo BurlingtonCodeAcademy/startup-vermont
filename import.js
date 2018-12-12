@@ -161,6 +161,7 @@ async function getDetails(summary) {
   }
 
   if (details === null) {
+    await sleep(1000);
     let url = `https://api.crunchbase.com/v3.1/organizations/${slug}?user_key=${crunchKey}`;
     console.log(`\tfetching ${slug}`);
     let response = await fetch(url);

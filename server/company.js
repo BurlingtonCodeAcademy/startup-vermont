@@ -3,6 +3,10 @@ const moment = require('moment')
 
 const fetch = require('node-fetch');
 
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 class Company {
     static async fromCrunchBase(summary, details) {
         let company = new Company()
@@ -18,20 +22,34 @@ class Company {
     // }
 
     async getLatlong(address, city) {
+
+        let responseText;
+
         if (address) {
+            await sleep(1000)
             address = address.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, "").split(' ').join('%20')
             city = city.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, "").split(' ').join('%20')
 
             let osmUrl = "https://nominatim.openstreetmap.org/search?q=" + address + "%20" + city + "%20vermont&format=json"
             // console.log(osmUrl)  
+            let homeUrl = 'https://the-startup-report.herokuapp.com/'
+            try {
+                var response = await fetch(osmUrl, { headers: { Referer: homeUrl } })
 
-            let response = await fetch(osmUrl).catch(error => console.log(error))
-            if (response.length>0) {
-                let payload = await response.json()
-
-                if (!payload[0]) { return null }
-                let latlong = [payload[0].lat, payload[0].lon]
-                return latlong
+                if (response) {
+                    responseText = await response.text()
+                    let payload = JSON.parse(responseText)
+                    if (payload.length > 0) {
+                        if (!payload[0]) { return null }
+                        let latlong = [payload[0].lat, payload[0].lon]
+                        return latlong
+                    }
+                }
+            } catch (err) {
+                console.log(err.message)
+                if (responseText) {
+                    console.log(responseText)
+                }
             }
         }
     }

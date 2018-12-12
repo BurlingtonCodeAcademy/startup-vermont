@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 //import logo from './logo.svg';
 import Startup from './Startup.js';
-import StartupsMap from './BigMap.js';
+import BigMap from './BigMap.js';
 import Profile from './Profile.js';
 import Totals from './Totals.js';
 import Login from './Login.js';
@@ -85,14 +85,14 @@ class App extends Component {
           </div>
 
           <div id="startup-map">
-            <StartupsMap startups={this.state.startups} />
+            <BigMap startups={this.state.startups} />
           </div>
 
         <div id="startup-info">
           <Profile startup={this.state.current} />
         </div>
 
-        <div class="login-bar">
+        <div className="login-bar">
           {loginForm}
         </div>
 
