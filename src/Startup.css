@@ -3,7 +3,7 @@
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .startup-info {
@@ -13,6 +13,7 @@
   text-align: left;
   margin: 15px;
   z-index: 7;
+  width: 100%;
 }
 
 
@@ -69,7 +70,7 @@ p {
   z-index: 0;
 }
 .logo:hover{
-  opacity: .5;
+  border: 1px solid rgb(1, 150, 1);
 }
 
 @media screen and (max-width: 500px) {

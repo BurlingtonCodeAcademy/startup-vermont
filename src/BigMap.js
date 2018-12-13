@@ -2,16 +2,15 @@ import React, { Component, Fragment } from "react";
 import {
   Map,
   Marker,
-  Popup,
   TileLayer,
   GeoJSON,
   ZoomControl
 } from "react-leaflet";
-import "./Map.css";
+import "./BigMap.css";
 import L from "leaflet";
 import vermonts_border from "./border.js";
 
-class StartupsMap extends Component {
+class BigMap extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -80,7 +79,7 @@ class StartupsMap extends Component {
               return (
                 <Marker
                   icon={myIcon}
-                  key={startup.slug}
+                  key={startup._id}
                   position={startup.latlong}
                   onClick={() => {this.props.updateState(startup)}}
                 />
@@ -93,4 +92,4 @@ class StartupsMap extends Component {
   }
 }
 
-export default StartupsMap;
+export default BigMap;
