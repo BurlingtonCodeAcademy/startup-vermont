@@ -14,7 +14,6 @@ class App extends Component {
     this.state = {
       isLoggedIn: false,
       username: '',
-      password: '',
       secretPassword: 'launchvt',
       startups: [],
       current: null,
@@ -92,19 +91,22 @@ class App extends Component {
 
     return sum;
   }
-
+/*
   handleFormChange = (event) => {
     event.preventDefault();
     this.setState({ [event.target.name]: event.target.value })
-  }
-  handleFormSubmit = (event) => {
+  }*/
+  handleLoginSubmit = (event) => {
     event.preventDefault();
-    const { username, password } = this.state;
-    if (this.state.password === this.state.secretPassword) {
-      this.setState({ isLoggedIn: true });
+    const username = event.target.form.elements.username.value
+    const password = event.target.form.elements.password.value
+    if (password === this.state.secretPassword) {
+      this.setState({ isLoggedIn: true, username: username });
       localStorage.setItem('isLoggedIn', true)
       localStorage.setItem('username', username)
       alert(`Welcome ${username}!`)
+    } else {
+      alert('Wrong password')
     }
   }
 
@@ -123,7 +125,6 @@ class App extends Component {
     console.log('logging out')
     this.setState({ isLoggedIn: false });
     localStorage.clear();
-    document.location.reload()
   }
   showAll = () => {
     this.setState({
@@ -181,10 +182,14 @@ class App extends Component {
 
   render() {
     let loginForm;
-    if (this.state.isLoggedIn === false) {
-      loginForm = <Login onChange={this.handleFormChange} onSubmit={this.handleFormSubmit} />
-    } else if (this.state.isLoggedIn === true) {
+    if (this.state.isLoggedIn) {
+
+      // really a logoutForm :-)
       loginForm = <p>Welcome, {this.state.username}! &nbsp;<button id="logout-button" onClick={this.logout}>logout</button></p>
+
+    } else {
+
+      loginForm = <Login onSubmit={this.handleLoginSubmit} />
 
     }
 

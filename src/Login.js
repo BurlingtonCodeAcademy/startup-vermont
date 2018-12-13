@@ -11,7 +11,7 @@ class Login extends Component {
       <input className='login-box' type='text' name="username" placeholder='username' value={this.props.username} onChange={this.props.onChange}/>
     </label>
     <label>
-      <input className='login-box' type='text' name="password" placeholder='password' value={this.props.password} onChange={this.props.onChange}/>
+      <input className='login-box' type='password' name="password" placeholder='password' value={this.props.password} onChange={this.props.onChange}/>
     </label>
     <input type="submit" value="Login" className='login-button' onClick={this.props.onSubmit}/>
     </form>
