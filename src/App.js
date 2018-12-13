@@ -73,7 +73,7 @@ class App extends Component {
   }
   // updates state for currently highlighted startup
   updateState = (startup) => {
-    if (this.state.current === null || startup != this.state.current) {
+    if (this.state.current === null || startup !== this.state.current) {
       this.setState({ current: startup })
     } else {
       this.setState({ current: null })
@@ -98,8 +98,9 @@ class App extends Component {
   }*/
   handleLoginSubmit = (event) => {
     event.preventDefault();
-    const username = event.target.form.elements.username.value
-    const password = event.target.form.elements.password.value
+    const form = event.target.form || event.target;
+    const username = form.elements.username.value
+    const password = form.elements.password.value
     if (password === this.state.secretPassword) {
       this.setState({ isLoggedIn: true, username: username });
       localStorage.setItem('isLoggedIn', true)
@@ -115,7 +116,7 @@ class App extends Component {
     const { startups, notStartups } = this.state;
     this.setState({ notStartups: [...notStartups, startup] })
     localStorage.setItem('notStartups', JSON.stringify(notStartups))
-    let filtered = startups.filter(f => f._id != startup._id);
+    let filtered = startups.filter(f => f._id !== startup._id);
     this.setState({ startups: filtered, filteredStartups: filtered, totalFunding: this.calcTotalFunding(filtered) })
 
     localStorage.setItem('startups', JSON.stringify(startups))
