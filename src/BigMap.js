@@ -6,11 +6,11 @@ import {
   GeoJSON,
   ZoomControl
 } from "react-leaflet";
-import "./Map.css";
+import "./BigMap.css";
 import L from "leaflet";
 import vermonts_border from "./border.js";
 
-class StartupsMap extends Component {
+class BigMap extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -92,4 +92,4 @@ class StartupsMap extends Component {
   }
 }
 
-export default StartupsMap;
+export default BigMap;

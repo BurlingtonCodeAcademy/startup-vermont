@@ -8,8 +8,6 @@ import Login from './Login.js';
 import './App.css';
 
 
-
-
 class App extends Component {
   constructor() {
     super();

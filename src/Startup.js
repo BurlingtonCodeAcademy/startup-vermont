@@ -21,9 +21,7 @@ class Startup extends Component {
     } else {
       curatorButton = <div></div>
     }
-    // if (this.props.startup.logo_urllink.slice(42,46) === 'http') {
-                
-    // }
+    
     return (
       <div id="startup-container">  
         <div>
@@ -53,7 +51,6 @@ class Startup extends Component {
           </div>
         </div>
       </div>
-
     );
   }
 }
