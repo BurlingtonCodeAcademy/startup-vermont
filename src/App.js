@@ -165,11 +165,13 @@ class App extends Component {
     let newList = [];
     let containsTag;
     let searchTerm = e.target.value.toLowerCase();
-
+    
     // searches by name and category
     if (e.target.value !== '') {
       this.state.startups.forEach(item => {
-        containsTag = item.categories.map(cat => cat.toLowerCase()).find(str => str.includes(searchTerm))
+        if(item.categories){
+          containsTag = item.categories.map(cat => cat.toLowerCase()).find(str => str.includes(searchTerm))
+        }
         if (item.name.toLowerCase().includes(searchTerm) || containsTag) {
           newList.push(item)
         }
