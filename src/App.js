@@ -72,7 +72,7 @@ class App extends Component {
       localStorage.setItem(key, JSON.stringify(this.state[key]));
     }
   }
-// updates state for currently highlighted startup
+  // updates state for currently highlighted startup
   updateState = (startup) => {
     if (this.state.current === null || startup != this.state.current) {
       this.setState({ current: startup })
@@ -86,8 +86,8 @@ class App extends Component {
     for (let i = 0; i < fundingArray.length; i++) {
       sum += parseInt(fundingArray[i])
     }
-    
-    this.setState({ fundingArray: fundingArray, totalFunding: sum})
+
+    this.setState({ fundingArray: fundingArray, totalFunding: sum })
     console.log('total funding: ', sum, '#companies: ', fundingArray.length);
 
     return sum;
@@ -115,7 +115,7 @@ class App extends Component {
     localStorage.setItem('notStartups', JSON.stringify(notStartups))
     let filtered = startups.filter(f => f._id != startup._id);
     this.setState({ startups: filtered, filteredStartups: filtered, totalFunding: this.calcTotalFunding(filtered) })
-    
+
     localStorage.setItem('startups', JSON.stringify(startups))
   }
 
@@ -141,8 +141,10 @@ class App extends Component {
     let tagName = e.target.className.substr(e.target.className.indexOf(' ') + 1)
     let filtered = [];
     this.state.filteredStartups.forEach(startup => {
-      if (startup.categories.includes(tagName)) {
-        filtered.push(startup)
+      if (startup.categories) {
+        if (startup.categories.includes(tagName)) {
+          filtered.push(startup)
+        }
       }
     });
     this.setState({ filter: tagName })
@@ -155,7 +157,7 @@ class App extends Component {
     let filtered = [];
     filtered = this.state.startups.filter(startup => startup.total_funding_usd > 0);
     console.log(filtered)
-   this.setState({ filteredStartups: filtered, filter: 'funding' })
+    this.setState({ filteredStartups: filtered, filter: 'funding' })
   }
 
   handleSearch = (e) => {
@@ -188,10 +190,10 @@ class App extends Component {
 
     }
 
-   
+
     return (
       <div className="App">
-        <header  id='App-title' className="App-header">
+        <header id='App-title' className="App-header">
           The Startup Report
           <Totals totalNumberStartups={this.state.startups.length} totalFunding={this.state.totalFunding} fundingArrayLength={this.state.fundingArray.length} />
           <div id="login-bar"> {loginForm} </div>
