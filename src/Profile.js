@@ -47,7 +47,7 @@ class Profile extends Component {
             {console.log(this.props.startup.founders)}
             <b>Founders:</b> {(this.props.startup.founders.length > 0) ?
               (this.props.startup.founders.map(founder => 
-                [founder.first_name, founder.last_name].join(' ')).join(' | ')) : 
+                [founder.properties.first_name, founder.properties.last_name].join(' ')).join(' | ')) : 
               "Not reported"} 
               <br />
           </div>
