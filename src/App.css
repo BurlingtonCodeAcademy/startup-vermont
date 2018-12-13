@@ -124,7 +124,7 @@ button:hover {
     border-right: gray solid 1px;
     margin: 0px;
     width: 60vw;
-    height: 300px;
+    max-height: 300px;
     justify-self: start;
   }
   #startup-map {

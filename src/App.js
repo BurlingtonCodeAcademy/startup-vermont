@@ -6,6 +6,10 @@ import Profile from './Profile.js';
 import Totals from './Totals.js';
 import Login from './Login.js';
 import './App.css';
+//import ReactTooltip from 'react-tooltip'
+
+//import Tooltip from '@material-ui/core/Tooltip';
+
 
 
 class App extends Component {
@@ -22,6 +26,7 @@ class App extends Component {
       filter: '',
       filteredStartups: [],
       totalFunding: '?',
+      fundingArray: []
     };
   }
   componentDidMount() {
@@ -71,7 +76,7 @@ class App extends Component {
       localStorage.setItem(key, JSON.stringify(this.state[key]));
     }
   }
-
+// updates state for currently highlighted startup
   updateState = (startup) => {
     if (this.state.current === null || startup != this.state.current) {
       this.setState({ current: startup })
@@ -79,18 +84,19 @@ class App extends Component {
       this.setState({ current: null })
     }
   }
-
   calcTotalFunding = (data) => {
     let fundingArray = data.map(company => company.total_funding_usd).filter(funds => funds > 0);
     let sum = 0;
     for (let i = 0; i < fundingArray.length; i++) {
       sum += fundingArray[i]
     }
-    console.log('# companies: ', fundingArray.length)
+    
+    this.setState({ fundingArray: fundingArray, totalFunding: sum})
+    console.log('total funding: ', sum, '#companies: ', fundingArray.length);
+
     return sum;
   }
 
-  //todo: move to Login component?
   handleFormChange = (event) => {
     event.preventDefault();
     this.setState({ [event.target.name]: event.target.value })
@@ -105,17 +111,16 @@ class App extends Component {
       alert(`Welcome ${username}!`)
     }
   }
-  // adds startup to 'remove' array
+
+  // adds startup to 'notStartups' array, removes from list, adjusts total # and $
   tempRemoveStartup = (startup) => {
     const { startups, notStartups } = this.state;
-
     this.setState({ notStartups: [...notStartups, startup] })
     localStorage.setItem('notStartups', JSON.stringify(notStartups))
-
     let filtered = startups.filter(f => f._id != startup._id);
-    this.setState({ startups: filtered, filteredStartups: filtered })
+    this.setState({ startups: filtered, filteredStartups: filtered, totalFunding: this.calcTotalFunding(filtered) })
+    
     localStorage.setItem('startups', JSON.stringify(startups))
-
   }
 
   logout = () => {
@@ -164,7 +169,6 @@ class App extends Component {
     } else {
       this.setState({ filter: '', filteredStartups: this.state.startups })
     }
-    
   }
 
 
@@ -180,7 +184,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           startup-vermont
-          <Totals totalNumberStartups={this.state.startups.length} totalFunding={this.state.totalFunding} />
+          <Totals totalNumberStartups={this.state.startups.length} totalFunding={this.state.totalFunding} fundingArrayLength={this.state.fundingArray.length}/>
         </header>
         <div id="grid-container">
           <div id="startup-list">
