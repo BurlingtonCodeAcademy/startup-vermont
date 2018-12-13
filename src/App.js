@@ -27,7 +27,7 @@ class App extends Component {
   componentDidMount() {
     this.hydrateStateWithLocalStorage();
     window.addEventListener('beforeunload', this.saveStateToLocalStorage.bind(this));
-    console.log(localStorage.isLoggedIn)
+    
     if (localStorage.isLoggedIn === 'false') {
       console.log('fetching all data')
       fetch(`/startups`)
@@ -108,11 +108,12 @@ class App extends Component {
     let filtered = this.state.startups.filter(f => f._id != startup._id);
     this.setState({ startups: filtered })
     localStorage.setItem('startups', JSON.stringify(startups))
-    console.log(startups)
 
   }
 
-  logout() {
+  logout=()=> {
+    console.log('logging out')
+    this.setState({ isLoggedIn: false });
     localStorage.clear();
     document.location.reload()
   }
