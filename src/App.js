@@ -5,46 +5,65 @@ import BigMap from './BigMap.js';
 import Profile from './Profile.js';
 import Totals from './Totals.js';
 import Login from './Login.js';
+
 import './App.css';
-
-
 
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
-      startups: [],
-      current: null,
-      totalFunding: '?',
+      isLoggedIn: false,
       username: '',
       password: '',
-      isLoggedIn: false,
-      notStartups: []
+      secretPassword: 'launchvt',
+      startups: [],
+      current: null,
+      notStartups: [],
+      totalFunding: '?',
     };
-    this.secretPassword = 'launchvt';
   }
   componentDidMount() {
     this.hydrateStateWithLocalStorage();
+    window.addEventListener('beforeunload', this.saveStateToLocalStorage.bind(this));
 
-    fetch(`/startups`)
-      .then(response => response.json())
-      .then(data => {
-        this.setState({ startups: data })
-        this.setState({ totalFunding: this.calcTotalFunding(data) })
-      })
-      .catch(() => this.setState({ status: "Failed to fetch content" }));
-
+    if (localStorage.isLoggedIn === 'false') {
+      console.log('fetching all data')
+      fetch(`/startups`)
+        .then(response => response.json())
+        .then(data => {
+          this.setState({ startups: data })
+          this.setState({ totalFunding: this.calcTotalFunding(data) })
+        })
+        .catch(() => this.setState({ status: "Failed to fetch content" }));
+    }
   }
-  componentWillUnmount(){
-    window.removeEventListener(
-      "beforeunload",
-      this.saveStateToLocalStorage.bind(this)
-    );
+  
+  componentWillUnmount() {
+    window.removeEventListener('beforeunload', this.saveStateToLocalStorage.bind(this));
     this.saveStateToLocalStorage();
-
   }
-  saveStateToLocalStorage() {
+
+  hydrateStateWithLocalStorage() {
+    // for all items in state
+    for (let key in this.state) {
+      // if the key exists in localStorage
+      if (localStorage.hasOwnProperty(key)) {
+        // get the key's value from localStorage
+        let value = localStorage.getItem(key);
+        console.log('i am getting')
+        // parse the localStorage string and setState
+        try {
+          value = JSON.parse(value);
+          this.setState({ [key]: value });
+        } catch (e) {
+          // handle empty string
+          this.setState({ [key]: value });
+        }
+      }
+    }
+  }
+  saveStateToLocalStorage = () => {
     // for every item in React state
     for (let key in this.state) {
       // save to localStorage
@@ -53,7 +72,11 @@ class App extends Component {
   }
 
   updateState = (startup) => {
-    this.setState({ current: startup })
+    if(this.state.current === null || this.state.current != startup){
+      this.setState({ current: startup })
+    } else {
+      this.setState({ current: null })
+    }
   }
 
   calcTotalFunding = (data) => {
@@ -61,56 +84,43 @@ class App extends Component {
     let sum = 0;
     for (let i = 0; i < fundingArray.length; i++) {
       sum += fundingArray[i]
-      console.log('sum: ', sum)
     }
     console.log('# companies: ', fundingArray.length)
     return sum;
   }
   handleFormChange = (event) => {
+    event.preventDefault();
     this.setState({ [event.target.name]: event.target.value })
   }
   handleFormSubmit = (event) => {
     event.preventDefault();
     const { username, password } = this.state;
-    if (this.state.password === this.secretPassword) {
+    if (this.state.password === this.state.secretPassword) {
       this.setState({ isLoggedIn: true });
       localStorage.setItem('isLoggedIn', true)
       localStorage.setItem('username', username)
-
-      alert("Welcome!")
+      alert(`Welcome ${username}!`)
     }
-    console.log(this.state.isLoggedIn)
   }
   // adds startup to 'remove' array
   tempRemoveStartup = (startup) => {
-    this.setState({ notStartups: [...this.state.notStartups, startup] }) 
-    console.log('not startups :', this.state.notStartups)
+    const { startups, notStartups } = this.state;
+    
+    this.setState({ notStartups: [...notStartups, startup] })
+    localStorage.setItem('notStartups', JSON.stringify(notStartups))
+
+    let filtered = startups.filter(f => f._id != startup._id);
+    this.setState({ startups: filtered })
+    localStorage.setItem('startups', JSON.stringify(startups))
+
   }
-logout(){
-  localStorage.clear();
-  document.location.reload()
-}
 
-hydrateStateWithLocalStorage() {
-  // for all items in state
-  for (let key in this.state) {
-    // if the key exists in localStorage
-    if (localStorage.hasOwnProperty(key)) {
-      // get the key's value from localStorage
-      let value = localStorage.getItem(key);
-
-      // parse the localStorage string and setState
-      try {
-        value = JSON.parse(value);
-        this.setState({ [key]: value });
-      } catch (e) {
-        // handle empty string
-        this.setState({ [key]: value });
-      }
-    }
+  logout=()=> {
+    console.log('logging out')
+    this.setState({ isLoggedIn: false });
+    localStorage.clear();
+    document.location.reload()
   }
-}
-
 
   render() {
     let loginForm;
@@ -118,7 +128,7 @@ hydrateStateWithLocalStorage() {
       loginForm = <Login onChange={this.handleFormChange} onSubmit={this.handleFormSubmit} />
     } else if (this.state.isLoggedIn === true) {
       loginForm = <p>Welcome, {this.state.username}! &nbsp;<button id="logout-button" onClick={this.logout}>logout</button></p>
-      
+
     }
     return (
       <div className="App">
@@ -131,7 +141,7 @@ hydrateStateWithLocalStorage() {
             <h1>Startups in VT:</h1>
             {this.state.startups.map(startup => {
               //console.log(startup);
-              let result = <Startup isLoggedIn={this.state.isLoggedIn} key={startup._id} startup = {startup} updateState={this.updateState} handleClick={this.tempRemoveStartup}/>
+              let result = <Startup isLoggedIn={this.state.isLoggedIn} key={startup._id} startup={startup} updateState={this.updateState} handleClick={this.tempRemoveStartup} />
               return result;
             })}
           </div>
@@ -140,15 +150,15 @@ hydrateStateWithLocalStorage() {
             <BigMap startups={this.state.startups} />
           </div>
 
-        <div id="startup-info">
-          <Profile startup={this.state.current} />
-        </div>
+          <div id="startup-info">
+            <Profile startup={this.state.current} />
+          </div>
 
-        <div className="login-bar">
-          {loginForm}
-        </div>
+          <div className="login-bar">
+            {loginForm}
+          </div>
 
-      </div>
+        </div>
       </div>
 
     );
