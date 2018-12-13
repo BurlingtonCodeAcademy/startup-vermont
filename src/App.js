@@ -6,9 +6,7 @@ import Profile from './Profile.js';
 import Totals from './Totals.js';
 import Login from './Login.js';
 import './App.css';
-//import ReactTooltip from 'react-tooltip'
 
-//import Tooltip from '@material-ui/core/Tooltip';
 
 
 
