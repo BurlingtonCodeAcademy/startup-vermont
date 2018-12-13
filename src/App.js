@@ -5,29 +5,28 @@ import BigMap from './BigMap.js';
 import Profile from './Profile.js';
 import Totals from './Totals.js';
 import Login from './Login.js';
+
 import './App.css';
-
-
 
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
-      startups: [],
-      current: null,
-      totalFunding: '?',
+      isLoggedIn: false,
       username: '',
       password: '',
-      isLoggedIn: false,
-      notStartups: []
+      secretPassword: 'launchvt',
+      startups: [],
+      current: null,
+      notStartups: [],
+      totalFunding: '?',
     };
-    this.secretPassword = 'launchvt';
   }
   componentDidMount() {
     this.hydrateStateWithLocalStorage();
     window.addEventListener('beforeunload', this.saveStateToLocalStorage.bind(this));
-    
+
     if (localStorage.isLoggedIn === 'false') {
       console.log('fetching all data')
       fetch(`/startups`)
@@ -73,7 +72,11 @@ class App extends Component {
   }
 
   updateState = (startup) => {
-    this.setState({ current: startup })
+    if(this.state.current === null || this.state.current != startup){
+      this.setState({ current: startup })
+    } else {
+      this.setState({ current: null })
+    }
   }
 
   calcTotalFunding = (data) => {
@@ -92,20 +95,21 @@ class App extends Component {
   handleFormSubmit = (event) => {
     event.preventDefault();
     const { username, password } = this.state;
-    if (this.state.password === this.secretPassword) {
+    if (this.state.password === this.state.secretPassword) {
       this.setState({ isLoggedIn: true });
       localStorage.setItem('isLoggedIn', true)
       localStorage.setItem('username', username)
-      alert("Welcome!")
+      alert(`Welcome ${username}!`)
     }
   }
   // adds startup to 'remove' array
   tempRemoveStartup = (startup) => {
     const { startups, notStartups } = this.state;
-    this.setState({ notStartups: [...this.state.notStartups, startup] })
+    
+    this.setState({ notStartups: [...notStartups, startup] })
     localStorage.setItem('notStartups', JSON.stringify(notStartups))
 
-    let filtered = this.state.startups.filter(f => f._id != startup._id);
+    let filtered = startups.filter(f => f._id != startup._id);
     this.setState({ startups: filtered })
     localStorage.setItem('startups', JSON.stringify(startups))
 
@@ -117,8 +121,6 @@ class App extends Component {
     localStorage.clear();
     document.location.reload()
   }
-
-
 
   render() {
     let loginForm;
