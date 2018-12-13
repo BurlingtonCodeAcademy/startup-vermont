@@ -44,9 +44,10 @@ class Profile extends Component {
             "Not reported"} <br />
             <b>Year founded:</b> {this.props.startup.founded_on || 
             "Not reported"} <br />
-            <b>Founders:</b> {this.props.startup.founders[0] ?
+            {console.log(this.props.startup.founders)}
+            <b>Founders:</b> {(this.props.startup.founders.length > 0) ?
               (this.props.startup.founders.map(founder => 
-                founder.properties.first_name + " " + founder.properties.last_name).join(' | ')) : 
+                [founder.first_name, founder.last_name].join(' ')).join(' | ')) : 
               "Not reported"} 
               <br />
           </div>
