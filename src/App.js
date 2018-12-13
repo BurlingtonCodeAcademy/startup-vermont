@@ -5,7 +5,6 @@ import BigMap from './BigMap.js';
 import Profile from './Profile.js';
 import Totals from './Totals.js';
 import Login from './Login.js';
-
 import './App.css';
 
 
@@ -20,6 +19,8 @@ class App extends Component {
       startups: [],
       current: null,
       notStartups: [],
+      filter: null,
+      filteredStartups: [],
       totalFunding: '?',
     };
   }
@@ -33,12 +34,13 @@ class App extends Component {
         .then(response => response.json())
         .then(data => {
           this.setState({ startups: data })
+          this.setState({ filteredStartups: data })
           this.setState({ totalFunding: this.calcTotalFunding(data) })
         })
         .catch(() => this.setState({ status: "Failed to fetch content" }));
     }
   }
-  
+
   componentWillUnmount() {
     window.removeEventListener('beforeunload', this.saveStateToLocalStorage.bind(this));
     this.saveStateToLocalStorage();
@@ -72,7 +74,7 @@ class App extends Component {
   }
 
   updateState = (startup) => {
-    if(this.state.current === null || this.state.current != startup){
+    if (this.state.current === null || startup != this.state.current) {
       this.setState({ current: startup })
     } else {
       this.setState({ current: null })
@@ -88,6 +90,8 @@ class App extends Component {
     console.log('# companies: ', fundingArray.length)
     return sum;
   }
+
+  //todo: move to Login component?
   handleFormChange = (event) => {
     event.preventDefault();
     this.setState({ [event.target.name]: event.target.value })
@@ -105,7 +109,7 @@ class App extends Component {
   // adds startup to 'remove' array
   tempRemoveStartup = (startup) => {
     const { startups, notStartups } = this.state;
-    
+
     this.setState({ notStartups: [...notStartups, startup] })
     localStorage.setItem('notStartups', JSON.stringify(notStartups))
 
@@ -115,11 +119,34 @@ class App extends Component {
 
   }
 
-  logout=()=> {
+  logout = () => {
     console.log('logging out')
     this.setState({ isLoggedIn: false });
     localStorage.clear();
     document.location.reload()
+  }
+  showAll = () => {
+    this.setState({
+      filteredStartups: this.state.startups,
+      filter: null
+    })
+  }
+  filterByTag = (e) => {
+    console.log('clicked', e.target.className)
+    console.log(this.state.filteredStartups)
+    let tagName = e.target.className.substr(e.target.className.indexOf(' ') + 1)
+    let count = 0;
+    let filtered = [];
+    this.state.filteredStartups.forEach(startup => {
+      if (startup.categories.includes(tagName)) {
+        console.log(startup);
+        filtered.push(startup)
+        count++
+      }
+    });
+    console.log(count)
+    this.setState({ filter: tagName})
+    this.setState({ filteredStartups: filtered })
   }
 
   render() {
@@ -138,10 +165,10 @@ class App extends Component {
         </header>
         <div id="grid-container">
           <div id="startup-list">
-            <h1>Startups in VT:</h1>
-            {this.state.startups.map(startup => {
-              //console.log(startup);
-              let result = <Startup isLoggedIn={this.state.isLoggedIn} key={startup._id} startup={startup} updateState={this.updateState} handleClick={this.tempRemoveStartup} />
+            <button id="list-button" onClick={this.showAll}>show all</button>
+            <h1>{this.state.filter ? this.state.filteredStartups.length + ' startups in: ' + this.state.filter : ''}</h1>
+            {this.state.filteredStartups.map(startup => {
+              let result = <Startup isLoggedIn={this.state.isLoggedIn} key={startup._id} startup={startup} startups={this.state.startups} updateState={this.updateState} handleClick={this.tempRemoveStartup} filterByTag={this.filterByTag} />
               return result;
             })}
           </div>

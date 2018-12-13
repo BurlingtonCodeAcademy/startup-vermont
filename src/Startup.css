@@ -12,6 +12,7 @@
   padding: 10px;
   text-align: left;
   margin: 15px;
+  z-index: 7;
 }
 
 
@@ -37,6 +38,7 @@ p {
   word-break: keep-all;
   white-space: nowrap;
   flex-wrap: wrap;
+  z-index: 5;
 }
 
 .address-info {
@@ -53,6 +55,10 @@ p {
   height: 20px;
   margin-top: 5px;
 }
+.industry:hover{
+  background-color: white;
+  color: green;
+}
 .logo {
   width: 75px;
   float: right;
@@ -61,6 +67,9 @@ p {
   mix-blend-mode: multiply;
   position: relative;
   z-index: 0;
+}
+.logo:hover{
+  opacity: .5;
 }
 
 @media screen and (max-width: 500px) {

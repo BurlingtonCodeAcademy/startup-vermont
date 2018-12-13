@@ -9,7 +9,7 @@ class Startup extends Component {
     let categoriesArea;
     if(this.props.startup.categories){
       categoriesArea = this.props.startup.categories.map(tag => {
-        return <Tag key={tag} tag={tag} />;
+        return <Tag key={tag} tag={tag} startups={this.props.startups} filterByTag={this.props.filterByTag}/>;
       })
     } else {
       categoriesArea = <div></div>

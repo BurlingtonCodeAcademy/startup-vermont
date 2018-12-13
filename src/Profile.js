@@ -46,7 +46,6 @@ class Profile extends Component {
               "Not reported" :
               '$' + this.props.startup.total_funding_usd.toLocaleString()
           } <br />
-          {console.log(this.props.startup)}
           </div>
 
 
