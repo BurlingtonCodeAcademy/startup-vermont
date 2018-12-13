@@ -176,11 +176,14 @@ class App extends Component {
       loginForm = <p>Welcome, {this.state.username}! &nbsp;<button id="logout-button" onClick={this.logout}>logout</button></p>
 
     }
+
+   
     return (
       <div className="App">
-        <header className="App-header">
+        <header  id='App-title' className="App-header">
           The Startup Report
           <Totals totalNumberStartups={this.state.startups.length} totalFunding={this.state.totalFunding} />
+          <div id="login-bar"> {loginForm} </div>
         </header>
         <div id="grid-container">
           <div id="startup-list">
@@ -204,10 +207,6 @@ class App extends Component {
             <input type='text' name='search' value={this.props.filter} id="search-form" className="search" placeholder='Search...' onChange={this.handleSearch}></input>
             <button id="list-button" onClick={this.showAll}>show all startups</button>
           </div>
-          <div id="login-bar">
-            {loginForm}
-          </div>
-
         </div>
       </div>
 
