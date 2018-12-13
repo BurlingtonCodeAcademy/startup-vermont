@@ -114,7 +114,7 @@ class App extends Component {
     localStorage.setItem('notStartups', JSON.stringify(notStartups))
 
     let filtered = startups.filter(f => f._id != startup._id);
-    this.setState({ startups: filtered })
+    this.setState({ startups: filtered, filteredStartups: filtered })
     localStorage.setItem('startups', JSON.stringify(startups))
 
   }
