@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./Startup.css";
 import Tag from "./Tag.js";
 import RedButton from "./RedButton.js";
+import vermontLogo from './vermontFavicon.svg'
 
 class Startup extends Component {
 
@@ -20,7 +21,9 @@ class Startup extends Component {
     } else {
       curatorButton = <div></div>
     }
-
+    // if (this.props.startup.logo_urllink.slice(42,46) === 'http') {
+                
+    // }
     return (
       <div id="startup-container">  
         <div>
@@ -28,8 +31,9 @@ class Startup extends Component {
           </div>   
         <div className="startup-info" onClick={() => this.props.updateState(this.props.startup)}>
           <a href={this.props.startup.website}>
-            {this.props.startup.logo_url &&
-              <img className="logo" src={this.props.startup.logo_url} alt="logo" />
+            {this.props.startup.logo_url && this.props.startup.logo_url.slice(42,46) !== 'http'? 
+            <img className="logo" src={this.props.startup.logo_url} alt="logo with link to website" /> :
+            <img className="logo" src={vermontLogo} alt="logo with link to website" />
             }
           </a>
 

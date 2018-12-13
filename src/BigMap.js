@@ -2,7 +2,6 @@ import React, { Component, Fragment } from "react";
 import {
   Map,
   Marker,
-  Popup,
   TileLayer,
   GeoJSON,
   ZoomControl
@@ -80,7 +79,7 @@ class StartupsMap extends Component {
               return (
                 <Marker
                   icon={myIcon}
-                  key={startup.slug}
+                  key={startup._id}
                   position={startup.latlong}
                   onClick={() => {this.props.updateState(startup)}}
                 />

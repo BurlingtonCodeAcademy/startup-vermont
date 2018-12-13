@@ -130,7 +130,8 @@ class App extends Component {
   showAll = () => {
     this.setState({
       filteredStartups: this.state.startups,
-      filter: ''
+      filter: '',
+      current: null
     })
     let searchForm = document.getElementById("search-form");
     console.log(searchForm)
