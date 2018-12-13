@@ -132,6 +132,8 @@ class App extends Component {
     })
   }
   filterByTag = (e) => {
+    e.preventDefault()
+    e.stopPropagation();
     console.log('clicked', e.target.className)
     console.log(this.state.filteredStartups)
     let tagName = e.target.className.substr(e.target.className.indexOf(' ') + 1)
