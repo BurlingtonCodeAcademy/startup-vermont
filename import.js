@@ -18,10 +18,10 @@ const path = require("path");
 const csv = require("csvtojson");
 
 const crunchKey = process.env.CRUNCH_KEY;
-let deploymentENV = process.argv.slice(2)
+let deploymentENV = process.argv.slice(2).toString();
 
 let dbUrl
-if (deploymentENV == 'dev') {
+if (deploymentENV === 'dev') {
   dbUrl = process.env.MONGO_URI || `mongodb://localhost:27017/startup-vt`
 } else if (deploymentENV === 'prod' || deploymentENV === 'production') {
   dbUrl = process.env.PRODUCTION_MONGO_URI
