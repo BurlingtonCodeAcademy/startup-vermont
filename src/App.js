@@ -145,18 +145,22 @@ class App extends Component {
   }
   handleSearch = (e) => {
     let newList = [];
+    let containsTag;
     let searchTerm = e.target.value.toLowerCase();
 
     // searches by name and category
     if (e.target.value !== '') {
       this.state.startups.forEach(item => {
-        if (item.name.toLowerCase().includes(searchTerm) || item.categories.map(cat => cat.toLowerCase()).includes(searchTerm)) {
+        containsTag = item.categories.map(cat => cat.toLowerCase()).find(str => str.includes(searchTerm))
+        if (item.name.toLowerCase().includes(searchTerm) || containsTag) {
           newList.push(item)
         }
       })
       this.setState({ filteredStartups: newList, filter: searchTerm })
 
-    } 
+    } else{
+      this.setState({ filter: '', filteredStartups: this.state.startups})
+    }
 
   }
 
