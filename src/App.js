@@ -19,7 +19,7 @@ class App extends Component {
       startups: [],
       current: null,
       notStartups: [],
-      filter: null,
+      filter: '',
       filteredStartups: [],
       totalFunding: '?',
     };
@@ -53,7 +53,6 @@ class App extends Component {
       if (localStorage.hasOwnProperty(key)) {
         // get the key's value from localStorage
         let value = localStorage.getItem(key);
-        console.log('i am getting')
         // parse the localStorage string and setState
         try {
           value = JSON.parse(value);
@@ -128,27 +127,38 @@ class App extends Component {
   showAll = () => {
     this.setState({
       filteredStartups: this.state.startups,
-      filter: null
+      filter: ''
     })
   }
   filterByTag = (e) => {
     e.preventDefault()
     e.stopPropagation();
-    console.log('clicked', e.target.className)
-    console.log(this.state.filteredStartups)
     let tagName = e.target.className.substr(e.target.className.indexOf(' ') + 1)
-    let count = 0;
     let filtered = [];
     this.state.filteredStartups.forEach(startup => {
       if (startup.categories.includes(tagName)) {
-        console.log(startup);
         filtered.push(startup)
         count++
       }
     });
-    console.log(count)
-    this.setState({ filter: tagName})
+    this.setState({ filter: tagName })
     this.setState({ filteredStartups: filtered })
+  }
+  handleSearch = (e) => {
+    let newList = [];
+    let searchTerm = e.target.value.toLowerCase();
+
+    // searches by name and category
+    if (e.target.value !== '') {
+      this.state.startups.forEach(item => {
+        if (item.name.toLowerCase().includes(searchTerm) || item.categories.map(cat => cat.toLowerCase()).includes(searchTerm)) {
+          newList.push(item)
+        }
+      })
+      this.setState({ filteredStartups: newList, filter: searchTerm })
+
+    } 
+
   }
 
   render() {
@@ -167,8 +177,10 @@ class App extends Component {
         </header>
         <div id="grid-container">
           <div id="startup-list">
-            <button id="list-button" onClick={this.showAll}>show all</button>
+            <input type='text' name='search' value={this.props.filter} className="search" placeholder='Search...' onChange={this.handleSearch}></input>
+            <button id="list-button" onClick={this.showAll}>show all startups</button>
             <h1>{this.state.filter ? this.state.filteredStartups.length + ' startups in: ' + this.state.filter : ''}</h1>
+
             {this.state.filteredStartups.map(startup => {
               let result = <Startup isLoggedIn={this.state.isLoggedIn} key={startup._id} startup={startup} startups={this.state.startups} updateState={this.updateState} handleClick={this.tempRemoveStartup} filterByTag={this.filterByTag} />
               return result;
