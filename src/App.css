@@ -18,7 +18,15 @@
   font-size: 26px;
   z-index: 15;
 }
-
+#logout-button{
+  border: solid white 1px;
+  background-color: green;
+  border-radius: 20px;
+  margin: 3px;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
 button{
   border: solid green 1px;
   background-color: green;
@@ -103,6 +111,7 @@ button:hover {
   z-index: 10;
   justify-self: start;
   align-self: start;
+  
 }
 .startup-list-header{
   font-size: 22px;
@@ -110,7 +119,7 @@ button:hover {
   margin-bottom: 0px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   #grid-container {
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
@@ -121,10 +130,10 @@ button:hover {
   } 
   #startup-info {
     border-bottom: gray solid 10px;
-    border-right: gray solid 1px;
     margin: 0px;
+    margin-top: 30px;
     width: 60vw;
-    max-height: 300px;
+    max-height: calc(300px - 30px);
     justify-self: start;
   }
   #startup-map {

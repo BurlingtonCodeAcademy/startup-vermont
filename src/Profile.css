@@ -23,7 +23,7 @@
   grid-area: name;
   align-self: center;
   justify-self: center;
-  font-size: 60px;
+  font-size: 40px;
   color: black;
 
 }
@@ -88,7 +88,7 @@
 .totals {
   padding: 10px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .title{
     font-size: 18px;
   }
@@ -97,6 +97,19 @@
   }
   .info-profile, .funding, .description {
     font-size: 12px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .title{
+    font-size: 15px;
+  }
+  .location {
+    font-size: 12px;
+  }
+  .info-profile, .funding, .description {
+    font-size: 9px;
+    padding: 3px;
+    margin: 3px;
   }
 }
 @media screen and (max-width: 500px) {
@@ -108,7 +121,7 @@
   }
   .info-profile, .funding, .description {
     font-size: 9px;
-    padding: 5px;
+    padding: 3px;
     margin: 3px;
   }
 }

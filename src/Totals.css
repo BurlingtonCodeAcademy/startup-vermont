@@ -6,12 +6,17 @@
   font-size: 30px;
 }
 
+@media screen and (max-width: 1000px) {
+  .totals{
+    font-size: 28px;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .totals{
     font-size: 16px;
   }
 }
-
 @media screen and (max-width: 500px) {
   .totals{
     font-size: 12px;
