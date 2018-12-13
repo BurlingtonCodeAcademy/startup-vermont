@@ -73,7 +73,6 @@
 
 @media screen and (max-width: 500px) {
   .industry {
-    border: green solid 1px;
     border-radius: 20px;
     margin-right: 5px;
   }
