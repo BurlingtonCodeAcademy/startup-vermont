@@ -148,6 +148,16 @@ class App extends Component {
     this.setState({ filter: tagName })
     this.setState({ filteredStartups: filtered })
   }
+
+  filterByFunding = () => {
+    //e.preventDefault()
+    //e.stopPropagation();
+    let filtered = [];
+    filtered = this.state.startups.filter(startup => startup.total_funding_usd > 0);
+    console.log(filtered)
+   this.setState({ filteredStartups: filtered, filter: 'funding' })
+  }
+
   handleSearch = (e) => {
     let newList = [];
     let containsTag;
@@ -206,6 +216,8 @@ class App extends Component {
           </div>
           <div id="search-bar">
             <input type='text' name='search' value={this.props.filter} id="search-form" className="search" placeholder='Search...' onChange={this.handleSearch}></input>
+            <button id="list-by-funding" onClick={this.filterByFunding}>show me the $</button>
+
             <button id="list-button" onClick={this.showAll}>show all startups</button>
           </div>
         </div>
