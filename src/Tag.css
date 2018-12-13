@@ -1,5 +1,5 @@
 .industry {
-  border: green solid 2px;
+  border: green solid 1px;
   border-radius: 20px;
   padding: 3px;
   margin-right: 5px;
@@ -10,36 +10,66 @@
   text-align: center;
   vertical-align: middle;
 }
+.industry:hover {
+  color: green;
+  border: white solid 1px;
+}
 
-.technology {
+.Software, .Developer, .Web, .Hardware, .Computer, .Design {
   background-color: orange;
-  border: orange solid 2px;
+  border: orange solid 1px;
 }
 
-.education {
+.Internet {
   background-color: teal;
-  border: teal solid 2px;
+  border: teal solid 1px;
 }
-.advertising {
+.Education, .EdTech {
   background-color: fuchsia;
-  border: fuchsia solid 2px;
+  border: fuchsia solid 1px;
 }
-.food {
+.Travel, .Community, .Lifestyle, .Consumer, .Leisure {
   background-color: maroon;
-  border: maroon solid 2px;
+  border: maroon solid 1px;
 }
-.marketing {
+.Finance, .Financial {
   background-color: cornflowerblue;
-  border: cornflowerblue solid 2px;
+  border: cornflowerblue solid 1px;
 }
-.restaurant {
+.Media {
   background-color: purple;
-  border: purple solid 2px;
+  border: purple solid 1px;
 }
-.tourism {
-  background-color: green;
-  border: green solid 2px;
+.Sales, .Marketing, .Advertising {
+  background-color: goldenrod;
+  border: goldenrod solid 1px;
 }
+
+.Sporting, .Sports {
+  background-color: royalblue;
+  border: royalblue solid 1px;
+}
+.Service, .Commerce, .Restaurants, .Food, .Hospitality {
+  background-color: lightskyblue;
+  border: lightskyblue solid 1px;
+}
+.Manufacturing {
+  background-color: brown;
+  border: brown solid 1px;
+}
+.Health, .Health, .Pharmaceutical, .Biopharma, .Biotechnology, .Medical, .Clinical {
+  background-color: red;
+  border: red solid 1px;
+}
+.Consulting {
+  background-color: purple;
+  border: purple solid 1px;
+}
+.Mobile, .iOS, .Platforms, .Apps, .Information {
+  background-color: gray;
+  border: gray solid 1px;
+}
+
 
 @media screen and (max-width: 500px) {
   .industry {

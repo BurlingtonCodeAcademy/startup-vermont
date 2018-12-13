@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-//import './.css';
+import './Login.css';
 
 
 class Login extends Component {
@@ -16,7 +16,7 @@ constructor(props){
     <label>&nbsp; Password: &nbsp;
       <input type='text' name="password" value={this.props.password} onChange={this.props.onChange}/>
     </label>
-    <input type="submit" value="Submit" onClick={this.props.onSubmit}/>
+    <input type="submit" value="Submit" className='button' onClick={this.props.onSubmit}/>
     </form>
     )
   }

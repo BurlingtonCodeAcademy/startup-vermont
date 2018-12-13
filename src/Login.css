@@ -1,0 +1,15 @@
+.button{
+  border: solid green 1px;
+  background-color: green;
+  border-radius: 20px;
+  margin: 3px;
+  color: white;
+  padding: 5px;
+
+}
+
+input {
+  border: 1px solid green;
+  padding: 5px;
+  border-radius: 20px;
+}
