@@ -84,7 +84,7 @@ class App extends Component {
     let fundingArray = data.map(company => company.total_funding_usd).filter(funds => funds > 0);
     let sum = 0;
     for (let i = 0; i < fundingArray.length; i++) {
-      sum += fundingArray[i]
+      sum += parseInt(fundingArray[i])
     }
     
     this.setState({ fundingArray: fundingArray, totalFunding: sum})
