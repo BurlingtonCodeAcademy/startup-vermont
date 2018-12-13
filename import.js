@@ -1,8 +1,6 @@
 /*
  TODO:
-  use cache for summaries
   deal with duplicates in a smart way
-  categories
   deal with bogus addresses
   layering (or something) so bogus data doesn't overwrite corrections on the next import
 */
@@ -17,9 +15,9 @@ const Company = require("./server/company");
 const fetch = require("node-fetch");
 const fs = require("fs");
 const path = require("path");
+const csv = require("csvtojson");
 
 const crunchKey = process.env.CRUNCH_KEY;
-
 let deploymentENV = process.argv.slice(2)
 
 let dbUrl
@@ -28,24 +26,28 @@ if (deploymentENV == 'dev') {
 } else if (deploymentENV === 'prod' || deploymentENV === 'production') {
   dbUrl = process.env.PRODUCTION_MONGO_URI
   if (!dbUrl) {
-    throw("To deploy to production, you must set PRODUCTION_MONGO_URI");
+    throw ("To deploy to production, you must set PRODUCTION_MONGO_URI");
   }
 } else {
   console.log(`Unknown deployment environment "${deploymentENV}"; aborting`);
   process.exit(1);
 }
 
-let store = new CompanyStore(dbUrl);
+const store = new CompanyStore(dbUrl);
 const importsDir = "./imports";
+run();
 
-importAll();
+async function run() {
+  await store.deleteAll();
+  await importFromLaunchVt();
+  await importFromCrunchbase();
+}
 
 function summariesUrl(pageNumber) {
   return `https://api.crunchbase.com/v3.1/organizations?locations=vermont&page=${pageNumber}&items_per_page=200&user_key=${crunchKey}`;
 }
 
-async function importAll() {
-  await store.deleteAll();
+async function importFromCrunchbase() {
 
   createDir(importsDir);
 
@@ -75,7 +77,7 @@ function createDir(dir) {
 }
 
 function readJson(path) {
-  return new Promise(function(resolve, reject) {
+  return new Promise(function (resolve, reject) {
     fs.readFile(path, (err, data) => {
       err ? reject(err) : resolve(JSON.parse(data));
     });
@@ -83,7 +85,7 @@ function readJson(path) {
 }
 
 function writeJson(path, data) {
-  return new Promise(function(resolve, reject) {
+  return new Promise(function (resolve, reject) {
     fs.writeFile(path, JSON.stringify(data, null, 2), err => {
       err ? reject(err) : resolve();
     });
@@ -163,7 +165,7 @@ async function getDetails(summary) {
       );
       details = null; // force a re-fetch
     }
-   
+
   }
 
   if (details === null) {
@@ -195,4 +197,22 @@ async function getDetails(summary) {
 function tooOld(details) {
   // todo: use now minus 20 years, not 2000-01-01
   return moment(details.data.properties.founded_on) < moment("2000-01-01");
+}
+
+async function importFromLaunchVt() {
+  console.log("Importing LaunchVT data...")
+  const csvFile = './imports/launch.csv';
+
+  let json = await csv().fromFile(csvFile);
+
+  for (let row of json) {
+    if (!row['Timestamp']) {
+      continue;
+    }
+    let company = new Company();
+    await company.fromLaunchVt(row)
+    console.log("\tinserting " + company.name)
+    await store.add(company);
+  }
+
 }

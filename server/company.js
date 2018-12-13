@@ -15,11 +15,36 @@ class Company {
         return company;
     }
 
-    // geoLocate() {
-    //     let latlon = fetch(something)
-    //     this.latitude = latlon[0]
-    //     this.longitude = latlon[1]
-    // }
+    async fromLaunchVt(row) {
+        this.modified_at = row['Timestamp']
+        this.name = row['Business name (please include the name you used during LaunchVT if your name has changed)']
+        // 'Is your business still operational?': '',
+        // 'Contact person\'s name': '',
+
+        this.founders = row['Founder\'s names and current email addresses']
+            .split(',')
+            .map((founder_name) => { return { last_name: founder_name } })
+
+        // 'Management team (name and title)': '',
+
+        this.address = { street_1: row['Current location of the business (please list past locations for you business if you have moved)'] }
+        this.num_employees_min = row['Current number of employees (including founders/executives)']
+        this.num_employees_max = row['Current number of employees (including founders/executives)']
+
+        // 'Annual revenue for 2017 (this will be kept confidential and only used to create an aggregate number for all Alumni)': '$4,993,200.00',
+        this.total_funding_usd = row['Total follow on funding after LaunchVT'] // this is a formatted string and will probably break
+
+        // 'List any acceleration or mentorship programs you participated in after LaunchVT': '',
+        // 'List and rank your top three current or past challenges to growing your business in Vermont': '',
+        // 'List and rank the top three things LaunchVT could do to support entrepreneurs during it\'s 8 week program': { '': '' },
+        // 'Which of the services the LaunchVT provided were most valuable to you?': '',
+        // '(Optional) If your business has left Vermont or is considering leaving Vermont, what could LaunchVT do to help you stay in the state?': '',
+        // '(Optional) Please indicate your interest in participating in the following programs that LaunchVT is exploring': { '': '' },
+        // '(Optional) Please share a testimonial quote about LaunchVT that we can use to promote the program': { '': '' } } ]
+
+        this.latlong = await this.getLatlong(this.address.street_1, 'Vermont')
+
+    }
 
     async getLatlong(address, city) {
 
@@ -55,9 +80,9 @@ class Company {
     }
 
     fromOrganizationSummary(organizationSummary) {
+        this.name = properties.name;
         this.crunchbaseUuid = organizationSummary.uuid;
         let properties = organizationSummary.properties;
-        this.name = properties.name;
         this.short_description = properties.short_description;
         this.description = properties.description;
         this.website = properties.homepage_url;
@@ -77,7 +102,7 @@ class Company {
 
         this.founded_on = (properties.founded_on === null ? properties.founded_on : moment(properties.founded_on).format('YYYY'))
         this.total_funding_usd = properties.total_funding_usd
-        this.founders = organizationDetails.relationships.founders.items
+        this.founders = organizationDetails.relationships.founders.items.map(item => item.properties)
         this.funding_rounds = organizationDetails.relationships.funding_rounds.items;
         // TODO
         // Refactor
