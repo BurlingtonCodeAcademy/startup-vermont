@@ -14,21 +14,30 @@ import vermonts_border from "./border.js";
 class StartupsMap extends Component {
   constructor(props) {
     super(props);
-    this.center = [44, -72.7317];
-    this.zoomLevel = 7.5;
-    this.state = { startups: [] };
-  }
-  
-  componentWillReceiveProps(nextProps) {
-    this.setState({ startups: nextProps.startups });
+    this.state = {
+      startups: [],
+      zoomLevel: 7.5,
+      center: [44, -72.7317]
+    };
   }
 
-  markerClicked(event) {
-    console.log({event});
+  componentWillReceiveProps(nextProps) {
+    if (nextProps.current) {
+      this.setState({ startups: [nextProps.current] });
+      if (nextProps.current.latlong) {
+        let [lat, long] = nextProps.current.latlong
+        long = parseFloat(long) - .01
+        this.setState({ zoomLevel: 15, center: [lat, long] })
+      } else {
+        this.setState({ zoomLevel: 7.5, center: [44, -73.9121] })
+      }
+    } else {
+      this.setState({ startups: nextProps.startups, zoomLevel: 7.5, center: [44, -72.7317] });
+    }
   }
 
   render() {
-    const center = this.center;
+    const center = this.state.center;
     let polygon = (
       <GeoJSON
         data={vermonts_border}
@@ -56,7 +65,7 @@ class StartupsMap extends Component {
         id="map"
         ref={this.mapRef}
         center={center}
-        zoom={this.zoomLevel}
+        zoom={this.state.zoomLevel}
         zoomControl={false}
       >
         <TileLayer
@@ -73,7 +82,7 @@ class StartupsMap extends Component {
                   icon={myIcon}
                   key={startup.slug}
                   position={startup.latlong}
-                  onClick={this.markerClicked}
+                  onClick={() => {this.props.updateState(startup)}}
                 />
               );
             }

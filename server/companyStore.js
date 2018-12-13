@@ -31,7 +31,7 @@ class CompanyStore {
     }
   }
 
-  // Get the MongoDB Collection for this record type (facts).
+  // Get the MongoDB Collection for this record type.
   // Must be asynchronous because the database connection
   // might not currently be open.
   async collection() {

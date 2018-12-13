@@ -5,7 +5,12 @@
   margin: 3px;
   color: white;
   padding: 5px;
+  cursor: pointer;
+}
 
+.button:hover {
+  color: green;
+  background-color: white;
 }
 
 input {

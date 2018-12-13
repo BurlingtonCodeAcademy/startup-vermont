@@ -31,7 +31,7 @@ class Profile extends Component {
             (this.props.startup.num_employees_min.toLocaleString() + " - " +
              this.props.startup.num_employees_max.toLocaleString()) || 
             "Not reported"} <br />
-            <b>Year founded:</b> {this.props.startup.founded_year || 
+            <b>Year founded:</b> {this.props.startup.founded_on || 
             "Not reported"} <br />
             <b>Founders:</b> {this.props.startup.founders[0] ?
               (this.props.startup.founders.map(founder => 
