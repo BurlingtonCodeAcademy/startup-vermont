@@ -179,7 +179,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          startup-vermont
+          The Startup Report
           <Totals totalNumberStartups={this.state.startups.length} totalFunding={this.state.totalFunding} />
         </header>
         <div id="grid-container">
@@ -194,7 +194,7 @@ class App extends Component {
           </div>
 
           <div id="startup-map">
-            <BigMap startups={this.state.startups} />
+            <BigMap startups={this.state.filteredStartups} current={this.state.current} updateState={this.updateState} />
           </div>
 
           <div id="startup-info">
