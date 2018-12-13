@@ -41,16 +41,6 @@ button:hover {
   color: #61dafb;
 }
 
-.login-bar {
-  grid-area: map;
-  position: absolute;
-  height: auto;
-  width: auto;
-  padding: 5px;
-  background-color: rgba(255, 255, 255, .6);
-  z-index: 20;
-  justify-self: end;
-}
 #grid-container {
   display: grid;
   width: 100vw;
@@ -80,6 +70,26 @@ button:hover {
   overflow: hidden;
   z-index: 0;
 }
+#login-bar {
+  grid-area: map;
+  position: absolute;
+  height: auto;
+  width: auto;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, .6);
+  z-index: 20;
+  justify-self: end;
+}
+#search-bar{
+  grid-area: list;
+  position: absolute;
+  height: auto;
+  width: 90%;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, .9);
+  z-index: 20;
+  justify-self: center;
+}
 
 #startup-info {
   grid-area: map;
@@ -87,14 +97,18 @@ button:hover {
   width: 30vw;
   height: auto;
   padding: 0px;
-  margin: 40px 0px 10px 40px;
+  margin: 50px 0px 10px 50px;
   overflow: auto;
   z-index: 10;
-  background-color: rgba(255, 255, 255, .6);
+  background-color: rgba(255, 255, 255, .7);
   justify-self: start;
   align-self: start;
 }
-
+.startup-list-header{
+  font-size: 22px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
 
 @media screen and (max-width: 800px) {
   #grid-container {

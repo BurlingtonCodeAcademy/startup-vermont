@@ -129,6 +129,9 @@ class App extends Component {
       filteredStartups: this.state.startups,
       filter: ''
     })
+    let searchForm = document.getElementById("search-form");
+    console.log(searchForm)
+    searchForm.value = "";
   }
   filterByTag = (e) => {
     e.preventDefault()
@@ -158,11 +161,12 @@ class App extends Component {
       })
       this.setState({ filteredStartups: newList, filter: searchTerm })
 
-    } else{
-      this.setState({ filter: '', filteredStartups: this.state.startups})
+    } else {
+      this.setState({ filter: '', filteredStartups: this.state.startups })
     }
-
+    
   }
+
 
   render() {
     let loginForm;
@@ -180,9 +184,8 @@ class App extends Component {
         </header>
         <div id="grid-container">
           <div id="startup-list">
-            <input type='text' name='search' value={this.props.filter} className="search" placeholder='Search...' onChange={this.handleSearch}></input>
-            <button id="list-button" onClick={this.showAll}>show all startups</button>
-            <h1>{this.state.filter ? this.state.filteredStartups.length + ' startups in: ' + this.state.filter : ''}</h1>
+
+            <h1 className='startup-list-header'>{this.state.filter ? this.state.filteredStartups.length + ' startups in: ' + this.state.filter : ''}</h1>
 
             {this.state.filteredStartups.map(startup => {
               let result = <Startup isLoggedIn={this.state.isLoggedIn} key={startup._id} startup={startup} startups={this.state.startups} updateState={this.updateState} handleClick={this.tempRemoveStartup} filterByTag={this.filterByTag} />
@@ -197,8 +200,11 @@ class App extends Component {
           <div id="startup-info">
             <Profile startup={this.state.current} />
           </div>
-
-          <div className="login-bar">
+          <div id="search-bar">
+            <input type='text' name='search' value={this.props.filter} id="search-form" className="search" placeholder='Search...' onChange={this.handleSearch}></input>
+            <button id="list-button" onClick={this.showAll}>show all startups</button>
+          </div>
+          <div id="login-bar">
             {loginForm}
           </div>
 
