@@ -85,6 +85,8 @@ class BigMap extends Component {
                   onClick={() => {this.props.updateState(startup)}}
                 />
               );
+            } else {
+              return undefined;
             }
           })}
         </Fragment>

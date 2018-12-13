@@ -17,7 +17,19 @@ class Profile extends Component {
     } else {
       categoryArea = <div></div>
     }
-      return (
+    let address = this.props.startup.address
+    let team_size;
+    if (this.props.startup.num_employees_max) {
+      if (this.props.startup.num_employees_min === this.props.startup.num_employees_max) {
+        team_size = this.props.startup.num_employees_min.toLocaleString()
+      } else {
+        team_size = this.props.startup.num_employees_min.toLocaleString() + ' - ' + this.props.startup.num_employees_max.toLocaleString()
+      }
+    } else {
+      team_size = "Not reported"
+    }
+
+    return (
         <div className="profile">
 
           <div className="title"><b>
@@ -25,9 +37,9 @@ class Profile extends Component {
           </div>
 
           <div className="location">
-          {(this.props.startup.address.street_1 != null && this.props.startup.address.street_1.toLowerCase() != 'vermont') &&  this.props.startup.address.street_1 + ", "}
-          {(this.props.startup.address.street_2 != null && this.props.startup.address.street_2.toLowerCase() != 'vermont') &&  this.props.startup.address.street_2 + ", "}          
-          {this.props.startup.address.city}, VT
+          {(address.street_1 && address.street_1.toLowerCase() !== 'vermont') &&  address.street_1 + ", "}
+          {(address.street_2 && address.street_2.toLowerCase() !== 'vermont') &&  address.street_2 + ", "}     
+          {address.city}, VT
             <br /> <br />
           </div>
 
@@ -38,10 +50,7 @@ class Profile extends Component {
           <br />
 
           <div className="info-profile">
-          <b>Team size:</b> {this.props.startup.num_employees_max && 
-            (this.props.startup.num_employees_min.toLocaleString() + " - " +
-             this.props.startup.num_employees_max.toLocaleString()) || 
-            "Not reported"} <br />
+          <b>Team size:</b> {team_size} <br />
             <b>Year founded:</b> {this.props.startup.founded_on || 
             "Not reported"} <br />
             {console.log(this.props.startup.founders)}
