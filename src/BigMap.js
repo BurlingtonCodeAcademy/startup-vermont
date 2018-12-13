@@ -66,6 +66,7 @@ class BigMap extends Component {
         center={center}
         zoom={this.state.zoomLevel}
         zoomControl={false}
+        useFlyTo={true}
       >
         <TileLayer
           attribution='Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'

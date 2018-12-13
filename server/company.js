@@ -80,9 +80,9 @@ class Company {
     }
 
     fromOrganizationSummary(organizationSummary) {
+        let properties = organizationSummary.properties;
         this.name = properties.name;
         this.crunchbaseUuid = organizationSummary.uuid;
-        let properties = organizationSummary.properties;
         this.short_description = properties.short_description;
         this.description = properties.description;
         this.website = properties.homepage_url;
