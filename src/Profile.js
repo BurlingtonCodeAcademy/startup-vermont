@@ -1,11 +1,22 @@
 import React, { Component } from 'react';
 import './Profile.css';
+import Tag from './Tag.js'
 
 
 class Profile extends Component {
 
   render() {
+  
+
     if (this.props.startup) {
+      let categoryArea;
+    if(this.props.startup.categories){
+      categoryArea = this.props.startup.categories.map(tag => {
+        return <Tag key={tag} tag={tag} startups={this.props.startups} filterByTag={this.props.filterByTag}/>;
+      })
+    } else {
+      categoryArea = <div></div>
+    }
       return (
         <div className="profile">
 
@@ -33,9 +44,10 @@ class Profile extends Component {
             "Not reported"} <br />
             <b>Year founded:</b> {this.props.startup.founded_on || 
             "Not reported"} <br />
-            <b>Founders:</b> {this.props.startup.founders[0] ?
+            {console.log(this.props.startup.founders)}
+            <b>Founders:</b> {(this.props.startup.founders.length > 0) ?
               (this.props.startup.founders.map(founder => 
-                founder.properties.first_name + " " + founder.properties.last_name).join(' | ')) : 
+                [founder.properties.first_name, founder.properties.last_name].join(' ')).join(' | ')) : 
               "Not reported"} 
               <br />
           </div>
@@ -47,7 +59,10 @@ class Profile extends Component {
               '$' + this.props.startup.total_funding_usd.toLocaleString()
           } <br />
           </div>
+          <div className='profile-categories'>
+          {categoryArea}
 
+          </div>
 
         </div>
       )

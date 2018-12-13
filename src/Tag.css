@@ -11,10 +11,12 @@
   vertical-align: middle;
   cursor: pointer;
 }
+
 .industry:hover {
   color: green;
   border: white solid 1px;
 }
+
 
 .Software, .Developer, .Web, .Hardware, .Computer, .Design {
   background-color: orange;

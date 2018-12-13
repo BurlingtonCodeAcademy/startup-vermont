@@ -8,9 +8,8 @@ class Totals extends Component {
   render() {
     return (
       <div className="totals" data-tip={'*funding reported from ' + this.props.fundingArrayLength + ' startups'}>
-        <b>{this.props.totalNumberStartups}</b><font size="11px">&nbsp;startups&nbsp;</font>
+      <b>{this.props.totalNumberStartups}</b>&nbsp;startups&nbsp;|&nbsp;$<b>{this.props.totalFunding.toLocaleString()}</b>&nbsp;raised*&nbsp;
         <ReactTooltip place="bottom"/>
-        | $<b>{this.props.totalFunding.toLocaleString()}</b><font size="11px">&nbsp;raised*&nbsp; </font>
       </div>
     )
   }

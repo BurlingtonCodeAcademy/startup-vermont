@@ -1,5 +1,5 @@
-.button{
-  border: solid green 1px;
+.login-button{
+  border: solid white 1px;
   background-color: green;
   border-radius: 20px;
   margin: 3px;
@@ -13,8 +13,29 @@
   background-color: white;
 }
 
+.login-button:hover{
+  background-color: white;
+  color: green;
+}
 input {
   border: 1px solid green;
   padding: 5px;
   border-radius: 20px;
+  
+}
+
+.login-box{
+  width: 75px;
+  margin: 3px;
+}
+@media screen and (max-width: 800px) {
+.login-box{
+  width: 50px;
+}
+}
+
+@media screen and (max-width: 500px) {
+  .login-box{
+    width: 30px;
+  }
 }

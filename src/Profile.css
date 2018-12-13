@@ -1,26 +1,30 @@
 .profile {
   display: grid;
   grid-template-areas: 
-    "name name"
-    "location location"
-    "description description"
-    "info funding" 
-    "logo logo";
-  grid-template-columns: auto auto;
+    "name"
+    "location"
+    "description"
+    "info"
+    "funding" 
+    "categories";
+  grid-template-columns: 100%;
   grid-template-rows: auto;
+  justify-items: center;
+  align-items: center;
   padding: 20px;
   margin: 0px;
   overflow: auto;
-  border-radius: 5px;
-  border: 1px gray solid;
+  background-color: rgba(255, 255, 255, .7);
+  height: 100%;
+  border-right: 1px grey solid;
 }
 
 .title {
   grid-area: name;
   align-self: center;
   justify-self: center;
-  font-size: 34px;
-  color: green;
+  font-size: 60px;
+  color: black;
 
 }
 
@@ -28,6 +32,7 @@
   grid-area: location;
   align-self: center;
   justify-self: center;
+  font-size: 20px;
 }
 .logo-profile {
   grid-area: logo;
@@ -37,49 +42,53 @@
   mix-blend-mode: multiply;
 }
 
+.profile-categories{
+  grid-area: categories;
+  display: flex;
+  word-break: keep-all;
+  white-space: nowrap;
+  flex-wrap: wrap;
+  z-index: 5;
+  align-content: center;
+  justify-content: center;
+}
+
 
 .description {
   grid-area: description;
-  background: green;
-  color: white;
+  color: green;
   font-style: italic;
-  border-radius: 5px;
-  padding: 15px;
-  margin: 10px;
-  padding: 10px;
-  margin: 10px;
+  padding: 5px;
   align-self: start;
-  justify-self: center;
+  width: 100%;
+  font-size: 18px;
+  border-bottom: 5px green solid;
+  border-top: 5px green solid;
 }
 
-.info-profile {
-  grid-area: info;
+.info-profile, .funding {
   background: lightgrey;
   border-radius: 5px;
   padding: 15px;
-  margin: 10px;
+  margin: 0px 10px 0px 10px;
   position: relative;
-  justify-self: end;
   align-self: start;
   justify-content: start;
+  font-size: 20px;
+  text-align: left;
+  width: 90%;
 }
 .funding {
   grid-area: funding;
-  background: lightgrey;
-  border-radius: 5px;
-  padding: 15px;
-  margin: 10px;
-  position: relative;
-  justify-self: start;
-  align-self: start;
-  justify-content: start;
+}
+.info-profile{
+  grid-area: info;
 }
 
 .totals {
   padding: 10px;
 }
-
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
   .title{
     font-size: 18px;
   }
@@ -88,6 +97,17 @@
   }
   .info-profile, .funding, .description {
     font-size: 12px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .title{
+    font-size: 12px;
+  }
+  .location {
+    font-size: 8px;
+  }
+  .info-profile, .funding, .description {
+    font-size: 9px;
     padding: 5px;
     margin: 3px;
   }

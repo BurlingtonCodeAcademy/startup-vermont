@@ -187,11 +187,14 @@ class App extends Component {
       loginForm = <p>Welcome, {this.state.username}! &nbsp;<button id="logout-button" onClick={this.logout}>logout</button></p>
 
     }
+
+   
     return (
       <div className="App">
-        <header className="App-header">
+        <header  id='App-title' className="App-header">
           The Startup Report
-          <Totals totalNumberStartups={this.state.startups.length} totalFunding={this.state.totalFunding} fundingArrayLength={this.state.fundingArray.length}/>
+          <Totals totalNumberStartups={this.state.startups.length} totalFunding={this.state.totalFunding} fundingArrayLength={this.state.fundingArray.length} />
+          <div id="login-bar"> {loginForm} </div>
         </header>
         <div id="grid-container">
           <div id="startup-list">
@@ -217,10 +220,6 @@ class App extends Component {
 
             <button id="list-button" onClick={this.showAll}>show all startups</button>
           </div>
-          <div id="login-bar">
-            {loginForm}
-          </div>
-
         </div>
       </div>
 

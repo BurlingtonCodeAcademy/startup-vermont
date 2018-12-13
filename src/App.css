@@ -2,16 +2,17 @@
   text-align: center;
 }
 
+
 .App-header {
-  min-height: 50px;
+  height: 50px;
   position: fixed;
-  width: 100vw;
+  width: calc(100vw - 20px);
   top: 0;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  padding: 10px;
   background-color: green;
   color: white;
   font-size: 26px;
@@ -47,7 +48,7 @@ button:hover {
   width: 100vw;
   justify-content: center;
   position: fixed;
-  margin-top: 60px;
+  margin-top: 70px;
   grid-template-columns: 30em calc(100vw - 30em);
   grid-template-areas:
     "list map";
@@ -55,7 +56,7 @@ button:hover {
 
 #startup-list {
   grid-area: list;
-  height: calc(100vh - 80px);
+  height: calc(100vh - 90px);
   border-right: solid 1px gray;
   padding: 10px;
   margin-bottom: 50px;
@@ -64,7 +65,7 @@ button:hover {
 
 #startup-map {
   grid-area: map;
-  height: calc(100vh - 60px);
+  height: calc(100vh - 70px);
   width: 100%;
   padding: 0px;
   margin: 0px;
@@ -72,21 +73,20 @@ button:hover {
   z-index: 0;
 }
 #login-bar {
-  grid-area: map;
-  position: absolute;
+  font-size: 15px;
+  /* position: absolute; */
   height: auto;
   width: auto;
-  padding: 5px;
-  background-color: rgba(255, 255, 255, .6);
+  /* padding: 5px; */
   z-index: 20;
-  justify-self: end;
+  /* justify-self: end; */
 }
 #search-bar{
   grid-area: list;
   position: absolute;
   height: auto;
   width: 90%;
-  padding: 5px;
+  padding: 10px;
   background-color: rgba(255, 255, 255, .9);
   z-index: 20;
   justify-self: center;
@@ -95,13 +95,12 @@ button:hover {
 #startup-info {
   grid-area: map;
   position: absolute;
-  width: 30vw;
-  height: auto;
+  max-width: 30em;
+  height: calc(100vh - 70px);
   padding: 0px;
-  margin: 50px 0px 10px 50px;
+  margin: 0px;
   overflow: auto;
   z-index: 10;
-  background-color: rgba(255, 255, 255, .7);
   justify-self: start;
   align-self: start;
 }
@@ -138,8 +137,11 @@ button:hover {
     margin: 0px;
     height: calc(100vh - 400px)
   }
+  h1 {
+    font-size: 18px;
+  }
   .App-header{
-    font-size: 15px;
+    font-size: 10px;
   }
 }
 
