@@ -138,7 +138,6 @@ class App extends Component {
     this.state.filteredStartups.forEach(startup => {
       if (startup.categories.includes(tagName)) {
         filtered.push(startup)
-        count++
       }
     });
     this.setState({ filter: tagName })
