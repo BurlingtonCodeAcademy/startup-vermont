@@ -48,7 +48,7 @@ From the project directory, you can run:
 | `npm test-acceptance` | Runs the Cypress (end-to-end!) test suite in headless mode |
 | `npx cypress open` | Opens the Cypress (end-to-end!) test runner in a window |
 | `npm run build` | Builds the app for production to the `build` folder.<br> It correctly bundles React in production mode and optimizes the build for the best performance. See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information. |
-|`npm run import` | import data from Crunchbase into your local Mongo database |
+|`npm run import` | import data from Crunchbase into your local Mongo database -- SEE BELOW |
 |`npm run eject` | don't run this! [read here](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#npm-run-eject) for more info |
 
 
@@ -60,6 +60,16 @@ From the project directory, you can run:
 * to push changes run `git push heroku master`
 * our mLab MongoDB URL is in the MONGOLAB_MAUVE_URI environment var
 * Use `heroku addons:docs mongolab` to view documentation
+
+## Import from Crunchbase
+
+Currently you can import from Curnchbase with the following caveats:
+
+* the import script **drops the `companies` collection** at the start, so make sure you're okay with losing data
+* you must run the script **from a dev workstation**
+* set PRODUCTION_MONGO_URI in your `.env` file (from `MONGOLAB_MAUVE_URI`, see above)
+* the script hangs when it's finished, so get ready to hit <kbd>Ctrl</kbd>-<kbd>C</kbd>
+* run it from the command line, `node import prod`
 
 ## Miscellaneous
 

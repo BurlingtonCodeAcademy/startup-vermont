@@ -25,8 +25,14 @@ let deploymentENV = process.argv.slice(2)
 let dbUrl
 if (deploymentENV == 'dev') {
   dbUrl = process.env.MONGO_URI || `mongodb://localhost:27017/startup-vt`
+} else if (deploymentENV === 'prod' || deploymentENV === 'production') {
+  dbUrl = process.env.PRODUCTION_MONGO_URI
+  if (!dbUrl) {
+    throw("To deploy to production, you must set PRODUCTION_MONGO_URI");
+  }
 } else {
-  dbUrl = process.env.MONGOLAB_MAUVE_URI
+  console.log(`Unknown deployment environment "${deploymentENV}"; aborting`);
+  process.exit(1);
 }
 
 let store = new CompanyStore(dbUrl);
