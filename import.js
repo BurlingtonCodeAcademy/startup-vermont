@@ -22,7 +22,7 @@ let deploymentENV = process.argv.slice(2).toString();
 
 let dbUrl
 if (deploymentENV === 'dev') {
-  dbUrl = process.env.MONGO_URI || `mongodb://localhost:27017/startup-vt`
+  dbUrl = process.env.MONGODB_URI || process.env.MONGO_URI || `mongodb://localhost:27017/startup-vt`
 } else if (deploymentENV === 'prod' || deploymentENV === 'production') {
   dbUrl = process.env.PRODUCTION_MONGO_URI
   if (!dbUrl) {

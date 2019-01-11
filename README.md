@@ -58,7 +58,7 @@ From the project directory, you can run:
 
 * run `git remote add heroku https://git.heroku.com/serene-shelf-38593.git`
 * to push changes run `git push heroku master`
-* our mLab MongoDB URL is in the MONGOLAB_MAUVE_URI environment var
+* our mLab MongoDB URL is in the MONGOLAB_MAUVE_URI environment var (or perhaps MONGODB_URI)
 * Use `heroku addons:docs mongolab` to view documentation
 
 ## Import from Crunchbase
