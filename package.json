@@ -26,7 +26,7 @@
     "test-acceptance": "cypress run",
     "cypress": "cypress open",
     "eject": "react-scripts eject",
-    "heroku-postbuild": "npm install --only=dev && npm install && npm run build",
+    "heroku-postbuild": "npm install --only=dev && npm run build",
     "seed": "node seed.js",
     "import": "node import.js dev"
   },
